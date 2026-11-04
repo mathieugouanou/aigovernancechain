@@ -1,0 +1,354 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: United Kingdom (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20240206-QVRSUzogQVRSUyB3YXMgbWFu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240206
+DTEND;VALUE=DATE:20240207
+SUMMARY:[GB] ATRS: ATRS was mandated across government departments\; the p
+ olicy defines the covered central-government bodies and tools
+DESCRIPTION:Source: https://www.gov.uk/government/publications/algorithmic
+ -transparency-recording-standard-mandatory-scope-and-exemptions-policy/al
+ gorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exempt
+ ions-policy. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.gov.uk/government/publications/algorithmic-transparency-re
+ cording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transp
+ arency-recording-standard-atrs-mandatory-scope-and-exemptions-policy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20240206-UHVibGlzaCB0cmFuc3BhcmVu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240206
+DTEND;VALUE=DATE:20240207
+SUMMARY:[GB] Publish transparency records for in-scope central-government 
+ tools (ATRS ATRS mandatory scope and exemptions policy)
+DESCRIPTION:Obligations: AGC-GB-ATRS-SCOPE. Source: https://www.gov.uk/gov
+ ernment/publications/algorithmic-transparency-recording-standard-mandator
+ y-scope-and-exemptions-policy/algorithmic-transparency-recording-standard
+ -atrs-mandatory-scope-and-exemptions-policy. Draft open data from AI Gove
+ rnance Chain. Not legal advice.
+URL:https://www.gov.uk/government/publications/algorithmic-transparency-re
+ cording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transp
+ arency-recording-standard-atrs-mandatory-scope-and-exemptions-policy
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250117-QWdlLWdhdGUgcHJvdmlkZXIt@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250117
+DTEND;VALUE=DATE:20250118
+SUMMARY:[GB] Age-gate provider-published pornography (Online Safety Act OS
+ A 2023 ss. 79–81)
+DESCRIPTION:Obligations: AGC-GB-OSA-81. Source: https://www.legislation.go
+ v.uk/ukpga/2023/50/section/81. Draft open data from AI Governance Chain. 
+ Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2023/50/section/81
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250131-QUkgQ3liZXIgU2VjdXJpdHkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250131
+DTEND;VALUE=DATE:20250201
+SUMMARY:[GB] AI Cyber Security Code of Practice: Voluntary AI cyber-securi
+ ty code published
+DESCRIPTION:Source: https://www.gov.uk/government/publications/ai-cyber-se
+ curity-code-of-practice. Draft open data from AI Governance Chain. Not le
+ gal advice.
+URL:https://www.gov.uk/government/publications/ai-cyber-security-code-of-p
+ ractice
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250131-VXNlIHRoZSB2b2x1bnRhcnkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250131
+DTEND;VALUE=DATE:20250201
+SUMMARY:[GB] Use the voluntary AI cyber-security baseline (AI Cyber Securi
+ ty Code of Practice AI Cyber Security Code of Practice\, Principles 1–1
+ 3)
+DESCRIPTION:Obligations: AGC-GB-AICSCOP-BASELINE. Source: https://www.gov.
+ uk/government/publications/ai-cyber-security-code-of-practice/code-of-pra
+ ctice-for-the-cyber-security-of-ai. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.gov.uk/government/publications/ai-cyber-security-code-of-p
+ ractice/code-of-practice-for-the-cyber-security-of-ai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250214-QUkgQ3liZXIgU2VjdXJpdHkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250214
+DTEND;VALUE=DATE:20250215
+SUMMARY:[GB] AI Cyber Security Code of Practice: UK AI Safety Institute re
+ named AI Security Institute
+DESCRIPTION:Source: https://www.gov.uk/government/news/tackling-ai-securit
+ y-risks-to-unleash-growth-and-deliver-plan-for-change. Draft open data fr
+ om AI Governance Chain. Not legal advice.
+URL:https://www.gov.uk/government/news/tackling-ai-security-risks-to-unlea
+ sh-growth-and-deliver-plan-for-change
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250317-QXNzZXNzIGFuZCByZWR1Y2Ug@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250317
+DTEND;VALUE=DATE:20250318
+SUMMARY:[GB] Assess and reduce illegal-content risks on in-scope services 
+ (Online Safety Act OSA 2023 ss. 9–10\, 26–27)
+DESCRIPTION:Obligations: AGC-GB-OSA-9-10. Source: https://www.legislation.
+ gov.uk/ukpga/2023/50/section/10. Draft open data from AI Governance Chain
+ . Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2023/50/section/10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250317-T25saW5lIFNhZmV0eSBBY3Q6@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250317
+DTEND;VALUE=DATE:20250318
+SUMMARY:[GB] Online Safety Act: Ofcom began enforcing the illegal-content 
+ duties
+DESCRIPTION:Source: https://www.gov.uk/government/collections/online-safet
+ y-act. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.gov.uk/government/collections/online-safety-act
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250619-VUsgR0RQUiBhdXRvbWF0ZWQg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250619
+DTEND;VALUE=DATE:20250620
+SUMMARY:[GB] UK GDPR automated decision-making: Data (Use and Access) Act 
+ 2025 received Royal Assent
+DESCRIPTION:Source: https://www.legislation.gov.uk/ukpga/2025/18. Draft op
+ en data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2025/18
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250725-QXNzZXNzIGFuZCBtaXRpZ2F0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250725
+DTEND;VALUE=DATE:20250726
+SUMMARY:[GB] Assess and mitigate risks to children (Online Safety Act OSA 
+ 2023 ss. 11–12\, 28–29)
+DESCRIPTION:Obligations: AGC-GB-OSA-11-12. Source: https://www.legislation
+ .gov.uk/ukpga/2023/50/section/12. Draft open data from AI Governance Chai
+ n. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2023/50/section/12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260205-R2l2ZSBwZW9wbGUgc2FmZWd1@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:[GB] Give people safeguards for significant automated decisions (U
+ K GDPR automated decision-making UK GDPR Art. 22C)
+DESCRIPTION:Obligations: AGC-GB-UKGDPR-22C. Source: https://www.legislatio
+ n.gov.uk/ukpga/2025/18/section/80. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2025/18/section/80
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260205-TGF3LWVuZm9yY2VtZW50IGF1@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:[GB] Law-enforcement automated decision-making: New Part 3 law-enf
+ orcement automated-decision provisions came into force
+DESCRIPTION:Source: https://www.legislation.gov.uk/uksi/2026/82/regulation
+ /2. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/uksi/2026/82/regulation/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260205-UmVzdHJpY3Qgc2lnbmlmaWNh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:[GB] Restrict significant automated decisions using special-catego
+ ry data (UK GDPR automated decision-making UK GDPR Arts. 22A–22B)
+DESCRIPTION:Obligations: AGC-GB-UKGDPR-22B. Source: https://www.legislatio
+ n.gov.uk/ukpga/2025/18/section/80. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2025/18/section/80
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260205-U2FmZWd1YXJkIGF1dG9tYXRl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:[GB] Safeguard automated law-enforcement decisions (Law-enforcemen
+ t automated decision-making DPA 2018 ss. 50A–50C)
+DESCRIPTION:Obligations: AGC-GB-DPA18-50B. Source: https://www.legislation
+ .gov.uk/ukpga/2025/18/section/80. Draft open data from AI Governance Chai
+ n. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2025/18/section/80
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260205-VUsgR0RQUiBhdXRvbWF0ZWQg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260205
+DTEND;VALUE=DATE:20260206
+SUMMARY:[GB] UK GDPR automated decision-making: Section 80 automated decis
+ ion-making amendments came into force
+DESCRIPTION:Source: https://www.legislation.gov.uk/uksi/2026/82/regulation
+ /2. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/uksi/2026/82/regulation/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260206-RG8gbm90IGNyZWF0ZSBvciBy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260207
+SUMMARY:[GB] Do not create or request non-consensual purported intimate im
+ ages (Non-consensual purported intimate images DUAA 2025 s. 138 (SOA 2003
+  ss. 66E–66F))
+DESCRIPTION:Obligations: AGC-GB-DUAA-138-66E. Source: https://www.legislat
+ ion.gov.uk/ukpga/2025/18/section/138. Draft open data from AI Governance 
+ Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2025/18/section/138
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260206-Tm9uLWNvbnNlbnN1YWwgcHVy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260207
+SUMMARY:[GB] Non-consensual purported intimate images: Section 138 came in
+ to force
+DESCRIPTION:Source: https://www.legislation.gov.uk/uksi/2026/31/made. Draf
+ t open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/uksi/2026/31/made
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429-SW50aW1hdGUtaW1hZ2UgYW5k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:[GB] Intimate-image and child-abuse-image generator offences: Sect
+ ions 72 and 74 were enacted but were not commenced as of 4 November 2026
+DESCRIPTION:Source: https://www.legislation.gov.uk/ukpga/2026/20/section/7
+ 2. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2026/20/section/72
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260429-T25saW5lIFNhZmV0eSBBY3Q6@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:[GB] Online Safety Act: Crime and Policing Act 2026 section 248 in
+ serted Online Safety Act section 216A
+DESCRIPTION:Source: https://www.legislation.gov.uk/ukpga/2026/20/section/2
+ 48. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2026/20/section/248
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260512-U3RhdHV0b3J5IEFJIGFuZCBB@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:[GB] Statutory AI and ADM code mandate: Regulations requiring the 
+ Commissioner to prepare a statutory AI and ADM code came into force
+DESCRIPTION:Source: https://www.legislation.gov.uk/uksi/2026/425/made. Dra
+ ft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/uksi/2026/425/made
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260513-UmVndWxhdGluZyBmb3IgR3Jv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260513
+DTEND;VALUE=DATE:20260514
+SUMMARY:[GB] Regulating for Growth Bill: King's Speech announced the propo
+ sed Regulating for Growth Bill
+DESCRIPTION:Source: https://www.gov.uk/government/speeches/the-kings-speec
+ h-2026. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.gov.uk/government/speeches/the-kings-speech-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260610-UmVndWxhdGluZyBmb3IgR3Jv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:[GB] Regulating for Growth Bill: Government described statutory AI
+  Growth Labs as dependent on passage of the Bill
+DESCRIPTION:Source: https://www.gov.uk/government/publications/digital-and
+ -technologies-sector-plan-year-one-update/digital-and-technologies-sector
+ -plan-year-one-update. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://www.gov.uk/government/publications/digital-and-technologies-se
+ ctor-plan-year-one-update/digital-and-technologies-sector-plan-year-one-u
+ pdate
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260629-RG8gbm90IG1ha2Ugb3Igc3Vw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:[GB] Do not make or supply purported intimate-image generators (In
+ timate-image and child-abuse-image generator offences CPA 2026 s. 99 (SOA
+  2003 s. 66I))
+DESCRIPTION:Obligations: AGC-GB-CPA26-99-66I. Source: https://www.legislat
+ ion.gov.uk/ukpga/2026/20/section/99. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2026/20/section/99
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260629-SW50aW1hdGUtaW1hZ2UgYW5k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:[GB] Intimate-image and child-abuse-image generator offences: Sect
+ ion 99 came into force in England and Wales
+DESCRIPTION:Source: https://www.legislation.gov.uk/uksi/2026/689/regulatio
+ n/2. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/uksi/2026/689/regulation/2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260708-SUNPIEFJIGFuZCBBRE0gY29k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:[GB] ICO AI and ADM code: ICO listed the code as in drafting and f
+ orecast publication in Q1/Q2 2028\; the code is not yet published
+DESCRIPTION:Source: https://ico.org.uk/about-the-ico/what-we-do/our-plans-
+ for-new-and-updated-codes-of-practice/upcoming-codes-of-practice/. Draft 
+ open data from AI Governance Chain. Not legal advice.
+URL:https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-upda
+ ted-codes-of-practice/upcoming-codes-of-practice/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261231-U2VjcmV0YXJ5IG9mIFN0YXRl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:[GB] Secretary of State progress report on regulations under Onlin
+ e Safety Act section 216A\, unless a draft instrument is laid earlier
+DESCRIPTION:Source: https://www.legislation.gov.uk/ukpga/2026/20/section/2
+ 49. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.legislation.gov.uk/ukpga/2026/20/section/249
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+# .github/workflows/ai-governance.yml
+name: AI governance
+on: [pull_request, push]
+permissions:
+  contents: read
+  security-events: write   # only if upload-sarif is true
+jobs:
+  shield:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: mathieugouanou/aigovernancechain/action@v0.1.0
+        with:
+          file: AI_GOVERNANCE.md
+          fail-on: fail        # fail | warn | never
+          upload-sarif: true
+          evidence: true

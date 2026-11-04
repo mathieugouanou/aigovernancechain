@@ -1,0 +1,27 @@
+name: New regime or instrument
+description: Propose an AI law, regulation or official guidance to add to the Atlas.
+title: "[regime] "
+labels: ["atlas", "new-regime"]
+body:
+  - type: input
+    id: jurisdiction
+    attributes: { label: "Jurisdiction" }
+    validations: { required: true }
+  - type: input
+    id: instrument
+    attributes: { label: "Instrument name and official link" }
+    validations: { required: true }
+  - type: dropdown
+    id: force
+    attributes: { label: "Legal force", options: [binding, framework-no-penalties, voluntary, proposed, treaty] }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: "Who it affects and key dates" }
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      options:
+        - label: I can draft the regime file following atlas/FORMAT.md.
+        - label: I could review it as a named reviewer.

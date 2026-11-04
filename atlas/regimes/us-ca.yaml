@@ -1,0 +1,435 @@
+id: us-ca
+jurisdiction: US-CA
+name: California, United States
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: California AI and automated-decision duties
+  one_liner: California regulates frontier-model safety, generative-AI transparency, child-facing chatbots, privacy-related ADMT, and employment decision systems.
+  who_it_hits: Frontier-model developers; generative-AI providers, hosting platforms and capture-device makers; developers publishing training-data documentation; companion-chatbot operators; CCPA-regulated businesses using ADMT; FEHA-covered employers; and, from 2027, operators of AI chatbots accessible to children and employers using automated decision systems.
+  status_line: Binding requirements are already in force for several covered uses. Major next dates are 2027-01-01 for CATA platform/hosting and ADMT duties, 2027-07-01 for child-safety assessments and companion-chatbot annual reports, and 2028-01-01 for capture-device provenance duties.
+instruments:
+  - id: us-ca-sb53
+    code: SB53
+    title: Transparency in Frontier Artificial Intelligence Act (SB 53), Business and Professions Code §§ 22757.10–22757.19
+    short: TFAIA / SB 53
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53
+    penalties: Civil penalties may reach $1,000,000 per violation for specified violations by a large frontier developer; the Act also provides other enforcement remedies.
+    key_dates:
+      - { date: "2026-01-01", event: SB 53's core frontier-developer duties became operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53 }
+      - { date: "2027-01-01", event: California's technology department begins the statutory review of frontier-model thresholds and OES begins annual public reporting, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53 }
+  - id: us-ca-cata
+    code: CATA
+    title: California AI Transparency Act (SB 942), as amended by AB 853, SB 1000 and AB 2713, Business and Professions Code §§ 22757.1–22757.5
+    short: California AI Transparency Act
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000
+    penalties: Generally $5,000 per violation, with each day treated as a separate violation; specified false claims of assistive-technology exemption carry a $50,000-per-violation penalty until 2029-01-01.
+    key_dates:
+      - { date: "2026-08-02", event: CATA's provider tool and latent-disclosure requirements became operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
+      - { date: "2026-09-30", event: SB 1000 immediately amended CATA, including removing the former monthly-user threshold and manifest-disclosure option, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000 }
+      - { date: "2027-01-01", event: GenAI hosting-platform and large-online-platform duties begin, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
+      - { date: "2028-01-01", event: Capture-device provenance duties begin, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
+      - { date: "2029-01-01", event: Temporary assistive-technology exemption ends, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000 }
+  - id: us-ca-ab2013
+    code: AB2013
+    title: Generative artificial intelligence training-data transparency, Civil Code § 3111
+    short: GenAI training-data documentation
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111.
+    penalties: No standalone dollar penalty is specified in § 3111; other applicable enforcement may apply.
+    key_dates:
+      - { date: "2026-01-01", event: Initial public training-data documentation deadline, source: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111. }
+  - id: us-ca-sb243
+    code: SB243
+    title: Companion chatbots, Business and Professions Code §§ 22601–22606, as amended by SB 1119
+    short: Companion chatbot safeguards
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243
+    penalties: Civil penalties and other remedies are available under the Act; penalties vary with the violation and conduct.
+    key_dates:
+      - { date: "2026-01-01", event: Companion-chatbot disclosure, crisis-protocol and minor-specific duties became operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
+      - { date: "2027-07-01", event: Annual reporting under § 22603 begins for the preceding calendar year, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
+  - id: us-ca-sb1119
+    code: SB1119
+    title: Adam's Law / child-safety requirements for AI chatbots, Business and Professions Code §§ 21810–21819 and amendments to § 22602
+    short: Child-accessible chatbot safety
+    type: statute
+    legal_force: binding
+    status: enacted-not-yet-applicable
+    official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119
+    penalties: Civil penalties may be imposed per affected child for negligent or intentional violations; the statute also provides enforcement remedies.
+    key_dates:
+      - { date: "2027-01-01", event: Age-assurance requirements begin and SB 1119's amendment removing SB 243 § 22602(c) takes effect, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+      - { date: "2027-01-01", event: AB 1405's ordinary effective date triggers SB 1119's alternate § 21814 audit text, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405 }
+      - { date: "2027-07-01", event: Child-safety risk assessments, mitigation and policies under §§ 21812–21813 become operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+      - { date: "2029-01-01", event: Initial independent child-safety audit deadline for operators subject to § 21814, subject to the statute's first-release and small-operator rules, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+  - id: us-ca-bot-act
+    code: BOT
+    title: BOT Act, Business and Professions Code §§ 17940–17943
+    short: BOT Act
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941.
+    penalties: Civil penalties may be sought by the Attorney General or local prosecutors under the Act.
+    key_dates:
+      - { date: "2019-07-01", event: BOT Act disclosure provisions became operative, source: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941. }
+  - id: us-ca-cppa-admt
+    code: CPPA
+    title: CCPA regulations on risk assessments and automated decisionmaking technology, 11 CCR §§ 7000–7222
+    short: CPPA ADMT and risk assessments
+    type: regulation
+    legal_force: binding
+    status: partially-applicable
+    official_url: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf
+    penalties: CCPA administrative fines and statutory remedies may apply; amounts depend on the violation and circumstances.
+    key_dates:
+      - { date: "2026-01-01", event: Risk-assessment regulations apply, source: https://cppa.ca.gov/announcements/2025/20250923.html }
+      - { date: "2027-01-01", event: Covered ADMT consumer-rights provisions become applicable, source: https://cppa.ca.gov/announcements/2025/20250923.html }
+      - { date: "2027-12-31", event: Last date to complete risk assessments for certain covered processing already underway before 2026 and continuing thereafter, source: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
+      - { date: "2028-04-01", event: First risk-assessment information submission and attestation deadline for 2026–2027 assessments, source: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
+  - id: us-ca-crc-ads
+    code: CRCADS
+    title: Civil Rights Council employment discrimination regulations for automated-decision systems, 2 CCR §§ 11008.1, 11009(f), 11013(c)
+    short: Employment ADS regulations
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/06/Final-Text-regulations-automated-employment-decision-systems.pdf
+    penalties: Enforced through the Fair Employment and Housing Act; remedies depend on the case.
+    key_dates:
+      - { date: "2025-10-01", event: Employment ADS regulations took effect, source: https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/ }
+  - id: us-ca-sb947
+    code: SB947
+    title: Workplace automated decision systems, Labor Code §§ 1522, 1524 and 1526.7
+    short: Worker protections for automated decisions
+    type: statute
+    legal_force: binding
+    status: enacted-not-yet-applicable
+    official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947
+    penalties: $500 per violation, with additional statutory enforcement and remedies.
+    key_dates:
+      - { date: "2027-07-01", event: SB 947 workplace ADS prohibitions, notice and corroboration duties become operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947 }
+obligations:
+  - id: AGC-US-CA-SB53-22757-12-A
+    instrument: us-ca-sb53
+    article: BPC § 22757.12(a)–(b)
+    title: Publish and maintain a frontier safety framework
+    plain: A large frontier developer must write, implement, follow and clearly publish a frontier AI framework covering catastrophic-risk assessment, mitigations, governance, cybersecurity and safe deployment. It must review the framework at least annually, update it as needed, and publish a summary of material changes with reasons within 30 days.
+    applies_to:
+      roles: [developer, provider]
+      uses: [frontier-model]
+      conditions: A frontier model is a foundation model trained using more than 10^26 integer or floating-point operations, including original training and qualifying later fine-tuning or modification. A large frontier developer is a developer together with affiliates whose preceding-year annual gross revenue exceeds $500 million.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [safety_framework, risk_management, security_testing]
+    evidence:
+      - Publicly accessible, dated frontier AI framework and change history
+      - Annual review record and documented catastrophic-risk assessments and mitigations
+    penalty: Civil penalties may reach $1,000,000 per violation for specified violations by a large frontier developer.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53
+    confidence: high
+    notes: The $500 million revenue test applies to the developer and affiliates together; the compute threshold includes qualifying later training or modification.
+  - id: AGC-US-CA-SB53-22757-12-C-13
+    instrument: us-ca-sb53
+    article: BPC §§ 22757.12(c)–(d), 22757.13(c)
+    title: Publish deployment reports and report critical safety incidents
+    plain: Before or concurrently with deployment of a new or substantially modified frontier model, a frontier developer must publish a transparency report with specified release, contact, capability, use and restriction information; large developers add specified risk-assessment and evaluation information. A developer must report a critical safety incident to the Office of Emergency Services within 15 days after discovery, or notify an appropriate authority within 24 hours if the incident poses an imminent risk of death or serious physical injury; large developers also transmit confidential summaries of internal-use catastrophic-risk assessments to OES quarterly or on an alternate schedule communicated in writing.
+    applies_to:
+      roles: [developer, provider]
+      uses: [frontier-model]
+      conditions: Applies to developers of models exceeding the statutory 10^26-compute frontier-model threshold; the enhanced report and internal-use assessment requirements apply to large frontier developers exceeding the $500 million preceding-year revenue threshold.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [transparency_notice, incident_reporting, risk_management, audit_log]
+    evidence:
+      - Published, dated deployment transparency reports and quarterly confidential internal-use assessment summaries, where applicable
+      - Incident register with discovery, escalation and OES/authority notification timestamps
+    penalty: Civil penalties and other statutory remedies apply; specified large-developer violations may incur up to $1,000,000 per violation.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53
+    confidence: high
+    notes: The 24-hour urgent notification and the 15-day OES reporting requirements are distinct. OES receives confidential internal-use assessment summaries from large developers on the applicable schedule.
+  - id: AGC-US-CA-CATA-22757-2
+    instrument: us-ca-cata
+    article: BPC § 22757.2
+    title: Provide a free generative-AI disclosure verification tool
+    plain: A covered provider must make a free, publicly accessible tool available to determine whether image, video or audio content was created or altered using its generative-AI system. The tool must expose the specified provenance information while limiting personal-information collection and retention as the statute requires.
+    applies_to:
+      roles: [provider, developer]
+      uses: [generated-media]
+      conditions: Covers providers of publicly accessible generative-AI systems in California, subject to statutory exceptions, including a temporary assistive-technology exemption. SB 1000, effective 2026-09-30, removed the former more-than-one-million-monthly-user threshold.
+    applies_from: "2026-08-02"
+    status: applicable
+    controls: [content_marking, privacy_compliance]
+    evidence:
+      - Public link and test records for the free provenance-verification tool
+      - Technical and privacy documentation showing required provenance data and minimized data handling
+    penalty: Generally $5,000 per violation per day.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000
+    confidence: high
+    notes: The user's lead about a one-million-user threshold is outdated. SB 1000 removed that threshold and deleted the optional manifest-disclosure route; the current tool duty is not limited to providers above that user count.
+  - id: AGC-US-CA-CATA-22757-3
+    instrument: us-ca-cata
+    article: BPC § 22757.3
+    title: Embed latent provenance disclosures in generated or altered media
+    plain: Where technically feasible, a provider must embed a latent disclosure in image, video and audio content created or altered by its generative-AI system, except for specified minor modifications. The disclosure must identify the AI origin and include the information prescribed by statute; providers must also give licensees required notice and act on identified noncompliant modifications within the statutory time limits.
+    applies_to:
+      roles: [provider, developer]
+      uses: [generated-media]
+      conditions: Applies to covered generative-AI providers when latent disclosure is technically feasible; minor modifications and the temporary assistive-technology exemption are excluded as specified by statute.
+    applies_from: "2026-08-02"
+    status: applicable
+    controls: [content_marking]
+    evidence:
+      - Sample image, video and audio outputs with inspectable latent provenance disclosures
+      - Feasibility assessment and licensee notices, compliance escalations and remediation records
+    penalty: Generally $5,000 per violation per day; specified false claims of assistive-technology exemption carry a separate higher penalty until 2029-01-01.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000
+    confidence: high
+    notes: SB 1000 removed the former manifest-disclosure option. The latent-disclosure requirement is limited by technical feasibility and the statute's enumerated exceptions.
+  - id: AGC-US-CA-CATA-22757-3-1-3-2
+    instrument: us-ca-cata
+    article: BPC §§ 22757.3.1–22757.3.2
+    title: Detect and disclose provenance on large platforms and GenAI hosting services
+    plain: From 2027-01-01, a large online platform must provide a compliant mechanism to detect provenance data, display the prescribed indicator or disclosure, and permit inspection; it must take reasonable steps not to strip compliant provenance. A GenAI hosting platform must not knowingly make a covered system available if it does not comply with the latent-disclosure requirements, and platforms need not maintain, display or enable downloading of users' personal information as provenance.
+    applies_to:
+      roles: [platform]
+      uses: [generated-media, deepfake]
+      conditions: A large online platform is a public-facing social-media, file-sharing, mass-messaging or stand-alone search platform that distributes content to users who did not create or collaborate on it and exceeded 2,000,000 unique monthly users during the preceding 12 months, excluding broadband and telecommunications services. A GenAI hosting platform is an internet website or application making model weights or source code available for download by California residents, regardless of compensation. Platform duties concern provenance data compliant with widely adopted specifications of an established standards-setting body.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [content_marking, transparency_notice]
+    evidence:
+      - Provenance-detection, inspection and user-interface tests against compliant interoperable standards; policies and logs for avoiding removal of provenance data
+      - Hosting-service checks that covered systems comply with latent-disclosure requirements
+    penalty: Generally $5,000 per violation per day.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2713
+    confidence: high
+    notes: AB 2713 revised detection, interface, inspection and no-stripping requirements. The platform is not required to preserve or disclose personal information as part of the provenance mechanism.
+  - id: AGC-US-CA-CATA-22757-3-3
+    instrument: us-ca-cata
+    article: BPC § 22757.3.3
+    title: Support provenance disclosures in newly manufactured capture devices
+    plain: Beginning 2028-01-01, a manufacturer of a covered capture device first produced for sale in California must provide an option to include and, where required, embed a latent disclosure identifying the manufacturer, device, version and capture date or time. The duty is subject to technical feasibility and the statute's accepted technical specifications.
+    applies_to:
+      roles: [product-manufacturer]
+      uses: [generated-media]
+      conditions: Applies to covered image, video and audio capture devices first manufactured for sale in California on or after 2028-01-01, subject to statutory technical-feasibility and specification conditions.
+    applies_from: "2028-01-01"
+    status: not-yet-applicable
+    controls: [content_marking]
+    evidence:
+      - Device technical specifications and provenance options
+      - Test captures demonstrating default embedding where technically required
+    penalty: Generally $5,000 per violation per day.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853
+    confidence: high
+    notes: This is a later phase-in than the provider tool and latent-disclosure duties.
+  - id: AGC-US-CA-AB2013-CIV-3111
+    instrument: us-ca-ab2013
+    article: Civil Code § 3111
+    title: Publish generative-AI training-data documentation
+    plain: A developer must publish documentation about the datasets used to develop a covered generative-AI system or service, including a high-level summary of source types, dataset purpose and characteristics, intellectual-property and personal-information content, processing, collection periods and use of synthetic data. The documentation must be posted publicly online by the initial deadline and updated before a subsequent release or substantial modification, subject to statutory exceptions.
+    applies_to:
+      roles: [developer]
+      uses: [generated-media]
+      conditions: Covers generative-AI systems or services released on or after 2022 and made available to Californians; statutory exceptions include specified systems and circumstances.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [training_data_summary, data_governance, transparency_notice]
+    evidence:
+      - Public training-data documentation with the required dataset categories
+      - Version history showing publication and updates before later releases or substantial modifications
+    penalty: No standalone penalty amount is specified in § 3111.
+    source_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111.
+    confidence: high
+    notes: Initial public documentation was due 2026-01-01; it is an ongoing publication duty before subsequent covered release or substantial modification.
+  - id: AGC-US-CA-SB243-22602
+    instrument: us-ca-sb243
+    article: BPC §§ 22602(a)–(c), 22604
+    title: Disclose companion-chatbot identity and maintain crisis and minor safeguards
+    plain: A companion-chatbot operator must disclose when a reasonable person could be misled into believing the chatbot is human, maintain and publish a protocol for responding to suicidal ideation or self-harm, and provide a notice that the chatbot may not be suitable for some minors. Until 2027-01-01, the statute also requires specified disclosures, break reminders and protections for known minor users; SB 1119 repeals those § 22602(c) duties from that date.
+    applies_to:
+      roles: [provider, deployer, platform]
+      uses: [companion, chatbot, minors]
+      conditions: Applies to operators of companion chatbots made available to users in California; a companion chatbot is designed to provide adaptive, human-like responses and sustain a relationship across multiple interactions.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [ai_disclosure, minors_protection, risk_management, transparency_notice]
+    evidence:
+      - User-facing human-mimicry and minor-suitability notices; published suicidal-ideation and self-harm protocol with tested escalation paths
+      - Records of known-minor disclosures and break reminders through 2026-12-31
+    penalty: Civil penalties and other statutory remedies apply; exact exposure depends on the provision and violation.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243
+    confidence: high
+    notes: The known-minor requirements in § 22602(c) are operative as of 2026-11-04 but are scheduled for deletion by SB 1119 effective 2027-01-01. Do not treat them as a permanent duty after that date.
+  - id: AGC-US-CA-SB243-22603
+    instrument: us-ca-sb243
+    article: BPC § 22603
+    title: Report companion-chatbot safety and crisis-response information annually
+    plain: An operator must submit an annual report stating the number of notifications sent to users about suicidal ideation or self-harm during the preceding calendar year and describing protocols for detecting, removing or responding to such content. Reports must avoid personally identifying information and include specified safety and use information.
+    applies_to:
+      roles: [provider, platform]
+      uses: [companion, chatbot]
+      conditions: Applies to operators of companion chatbots subject to the Act; the first annual report is due 2027-07-01 and covers the preceding calendar year as required by statute.
+    applies_from: "2027-07-01"
+    status: not-yet-applicable
+    controls: [incident_reporting, minors_protection, audit_log]
+    evidence:
+      - Annual report and submission receipt with aggregated notification counts and documented crisis-response procedures
+      - Privacy review showing report data excludes personally identifying information
+    penalty: Civil penalties and other statutory remedies apply.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243
+    confidence: high
+    notes: The duty is a 2027 phase-in; it should not be represented as an already-due report on the as-of date.
+  - id: AGC-US-CA-SB1119-21811-13
+    instrument: us-ca-sb1119
+    article: BPC §§ 21811–21814
+    title: Assess and mitigate child-safety risks in AI chatbots
+    plain: From 2027-01-01, operators must determine users' ages or apply child protections to all users. From 2027-07-01, before new or substantially modified releases, operators allowing children must document a safety risk assessment and mitigations, publish a safety policy and crisis procedures, and implement required safeguards, defaults and data or advertising restrictions. Under § 21814's AB 1405-conditioned text, operators with at least $500 million in prior-year gross revenue must complete an independent audit by 2029-01-01 or before first public availability (whichever is later), then every two years, submit an audit summary to the Attorney General within 30 business days and post a high-level summary within 90 days; operators below that threshold are exempt before 2032.
+    applies_to:
+      roles: [provider, deployer, platform]
+      uses: [chatbot, companion, minors]
+      conditions: Applies to covered operators of AI chatbots accessible to children, subject to statutory definitions and exclusions, including specified workplace-exclusive and postsecondary educational chatbots. The child-safety risk-assessment, mitigation and policy duties begin 2027-07-01; audit requirements have revenue thresholds, small-operator provisions and an exemption/phase-in before 2032.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [impact_assessment, risk_management, minors_protection, user_controls, privacy_compliance, audit_log]
+    evidence:
+      - Age-assurance implementation and records of applicable user-protection defaults
+      - Child-safety assessments, mitigation plans, policies, crisis procedures, safeguard tests and independent audit reports/remediation where § 21814 applies
+    penalty: Civil penalties may be imposed per affected child, with higher amounts for intentional violations; statutory enforcement and remedies also apply.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119
+    confidence: high
+    notes: AB 1405 was chaptered on 2026-09-09 and, absent a special effective-date clause, takes effect 2027-01-01; accordingly, SB 1119's alternate § 21814 text conditioned on AB 1405 being chaptered and effective by that date is the applicable version. Under that text, operators with less than $500 million in prior-year gross revenue are exempt from audit duties before 2032; audit summaries go to the Attorney General within 30 business days and high-level public summaries within 90 days. SB 1119 also removes BPC § 22602(c) minor-specific companion-chatbot provisions effective 2027-01-01.
+  - id: AGC-US-CA-BOT-17941
+    instrument: us-ca-bot-act
+    article: BPC § 17941
+    title: Disclose a qualifying bot's artificial identity
+    plain: A person using a bot online must clearly and conspicuously disclose that it is a bot when the person intends to mislead someone about the bot's artificial identity, knowingly deceive that person about the communication's content, and thereby incentivize a commercial transaction or influence a vote in an election. The disclosure must be reasonably designed to inform people that they are communicating with a bot.
+    applies_to:
+      roles: [any]
+      uses: [chatbot, generated-media]
+      conditions: Narrowly applies to the combination of intent to mislead about artificial identity, knowing deception about the communication's content, and an aim to incentivize a commercial transaction or influence an election; statutory exceptions apply.
+    applies_from: "2019-07-01"
+    status: applicable
+    controls: [ai_disclosure, transparency_notice]
+    evidence:
+      - Disclosure shown in the qualifying online interaction
+      - Records explaining the deployment purpose and applicable statutory exception analysis
+    penalty: Civil enforcement remedies are available under the Act.
+    source_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941.
+    confidence: high
+    notes: This is not a general chatbot-disclosure rule; all statutory intent and purpose elements must be present.
+  - id: AGC-US-CA-CCPA-7150
+    instrument: us-ca-cppa-admt
+    article: 11 CCR § 7150 and related risk-assessment provisions
+    title: Complete CCPA risk assessments for high-risk processing
+    plain: A CCPA-covered business must conduct and document a risk assessment before initiating processing that presents significant risk to consumers, including selling or sharing personal information, processing sensitive personal information, using ADMT for a significant decision, specified profiling, and using personal information to train covered technologies. A covered business already conducting qualifying processing before the regulations took effect must complete the assessment by 2027-12-31 if that processing continues; required information and attestations for 2026–2027 assessments are due 2028-04-01.
+    applies_to:
+      roles: [deployer, employer, provider]
+      uses: [significant-decision, profiling, hiring, credit, education, healthcare]
+      conditions: Applies to businesses subject to the CCPA that engage in processing identified by the risk-assessment regulations; statutory business, processing and decision exceptions apply.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [impact_assessment, risk_management, privacy_compliance, audit_log]
+    evidence:
+      - Dated risk assessments completed before initiation of new covered processing and for qualifying legacy processing, with approvals and mitigations
+      - Submission receipt and executive attestation for the 2026–2027 reporting period
+    penalty: CCPA enforcement penalties and remedies may apply; amounts depend on violation and circumstances.
+    source_url: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf
+    confidence: high
+    notes: The regulations' risk-assessment duties apply from 2026-01-01; this obligation is distinct from the later ADMT access, notice and opt-out rights.
+  - id: AGC-US-CA-CCPA-7200-7222
+    instrument: us-ca-cppa-admt
+    article: 11 CCR §§ 7200–7222
+    title: Give notice, opt-out and access rights for covered ADMT
+    plain: From 2027-01-01, a CCPA-covered business using covered ADMT for a significant decision must provide a prominent pre-use notice explaining the purpose, operation and consumer rights. Consumers generally have an opt-out right, subject to regulatory exceptions including certain qualifying human-appeal processes, and may request a plain-language explanation of the specific ADMT use, logic and role in the decision.
+    applies_to:
+      roles: [deployer, employer]
+      uses: [significant-decision, hiring, credit, education, healthcare]
+      conditions: Applies to CCPA-covered businesses using ADMT as defined by regulation to make or substantially replace human decisionmaking for a significant decision, subject to statutory and regulatory exclusions and exceptions.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [transparency_notice, user_controls, contest_and_appeal, privacy_compliance]
+    evidence:
+      - Prominent pre-use notices and plain-language access explanations describing purpose, logic, output and decision role
+      - Functional opt-out and qualifying appeal workflows, with request-handling logs
+    penalty: CCPA enforcement penalties and remedies may apply; amounts depend on violation and circumstances.
+    source_url: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf
+    confidence: high
+    notes: The specific opt-out exceptions and implementation alternatives are regulatory; verify that an exception's conditions are met before relying on it.
+  - id: AGC-US-CA-CRC-11009-F
+    instrument: us-ca-crc-ads
+    article: 2 CCR §§ 11009(f), 11013(c)
+    title: Prevent discriminatory employment use of automated decision systems
+    plain: An employer or other FEHA-covered entity may not use an automated-decision system or selection criteria that discriminates against applicants or employees on a protected basis. Anti-bias testing or its absence is relevant evidence in a discrimination claim or defense, while covered personnel and employment records must be retained for four years from record creation or the personnel action, whichever is later.
+    applies_to:
+      roles: [employer]
+      uses: [hiring, significant-decision]
+      conditions: Applies to FEHA-covered employers and other covered entities using automated-decision systems or selection criteria in employment decisions; the regulations do not impose a freestanding universal anti-bias-testing mandate.
+    applies_from: "2025-10-01"
+    status: applicable
+    controls: [bias_testing, audit_log]
+    evidence:
+      - Employment ADS and selection-criteria inventory, anti-bias testing or rationale, and documented response to results
+      - Personnel and employment records with a four-year retention schedule under § 11013(c)
+    penalty: FEHA administrative and civil remedies may apply; case-specific.
+    source_url: https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/06/Final-Text-regulations-automated-employment-decision-systems.pdf
+    confidence: medium
+    notes: The final regulation makes testing evidence relevant to claims and defenses, not an independent testing mandate. CRD's official effective-date announcement confirms 2025-10-01 and the four-year retention period, but the PDF text extraction merges the deleted word "two" with inserted "four," so exact codified wording should be rechecked against the final formatted rule.
+  - id: AGC-US-CA-SB947-1522-1524
+    instrument: us-ca-sb947
+    article: Labor Code §§ 1522, 1524 and 1526.7
+    title: Require human corroboration and notice for workplace automated decisions
+    plain: From 2027-07-01, covered employers may not rely solely on an automated decision system to discipline or terminate an employee, and must corroborate specified outputs with a human when those outputs are primarily relied upon. Employers must give employees notice after covered use and provide a description of relevant data on request; the Act also prohibits specified uses of automated systems in employment decisions.
+    applies_to:
+      roles: [employer]
+      uses: [hiring, significant-decision]
+      conditions: Applies to employers and automated decision systems as defined in SB 947 for covered employees; statutory exceptions include specified collective-bargaining, national-security and other circumstances.
+    applies_from: "2027-07-01"
+    status: not-yet-applicable
+    controls: [human_oversight, transparency_notice, contest_and_appeal, audit_log]
+    evidence:
+      - Human corroboration records, employee notices and data-description response records
+      - Screening records for prohibited automated-decision uses and applicable exceptions
+    penalty: $500 per violation, in addition to other available remedies.
+    source_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947
+    confidence: high
+    notes: These duties are enacted but not operative on the 2026-11-04 as-of date.
+deadlines:
+  - { date: "2027-01-01", title: CATA large-online-platform and GenAI-hosting duties begin, instrument: us-ca-cata, obligations: [AGC-US-CA-CATA-22757-3-1-3-2], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
+  - { date: "2027-01-01", title: CCPA covered ADMT notice, opt-out and access rights begin, instrument: us-ca-cppa-admt, obligations: [AGC-US-CA-CCPA-7200-7222], source: https://cppa.ca.gov/announcements/2025/20250923.html }
+  - { date: "2027-01-01", title: SB 1119 age-assurance requirements begin and SB 243 § 22602(c) minor-specific requirements are repealed, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13, AGC-US-CA-SB243-22602], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+  - { date: "2027-07-01", title: SB 1119 child-safety risk assessment and mitigation requirements begin, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+  - { date: "2027-07-01", title: First SB 243 annual companion-chatbot safety report is due, instrument: us-ca-sb243, obligations: [AGC-US-CA-SB243-22603], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
+  - { date: "2027-07-01", title: SB 947 workplace ADS duties become operative, instrument: us-ca-sb947, obligations: [AGC-US-CA-SB947-1522-1524], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947 }
+  - { date: "2028-01-01", title: CATA capture-device provenance duties begin, instrument: us-ca-cata, obligations: [AGC-US-CA-CATA-22757-3-3], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
+  - { date: "2028-04-01", title: First CPPA submission and attestation for 2026–2027 risk assessments, instrument: us-ca-cppa-admt, obligations: [AGC-US-CA-CCPA-7150], source: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
+  - { date: "2029-01-01", title: Initial child-safety audit deadline for covered operators, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+sources:
+  - { title: SB 53, Transparency in Frontier Artificial Intelligence Act, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53 }
+  - { title: AB 853, CATA implementation and later platform/capture-device phase-ins, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
+  - { title: SB 1000, amendments to California AI Transparency Act, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000 }
+  - { title: AB 2713, platform provenance amendments, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2713 }
+  - { title: Civil Code § 3111, generative-AI training-data documentation, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111. }
+  - { title: SB 243, companion chatbot requirements, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
+  - { title: SB 1119, Adam's Law and amendments to SB 243, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+  - { title: Business and Professions Code § 17941, BOT Act disclosure rule, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941. }
+  - { title: CCPA updates, cybersecurity audits and ADMT adopted text, California Privacy Protection Agency, url: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
+  - { title: CPPA implementation timeline, California Privacy Protection Agency, url: https://cppa.ca.gov/announcements/2025/20250923.html }
+  - { title: Final employment ADS regulations, California Civil Rights Department, url: https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/06/Final-Text-regulations-automated-employment-decision-systems.pdf }
+  - { title: Employment ADS regulation effective-date announcement, California Civil Rights Department, url: https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/ }
+  - { title: SB 947, workplace automated decision systems, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947 }
+  - { title: AB 1405, California AI auditor registration and related provisions, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405 }

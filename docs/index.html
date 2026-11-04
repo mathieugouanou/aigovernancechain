@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Governance Chain: which AI rules apply to your system?</title>
+<meta name="description" content="Open, cited AI-governance obligations for the EU, US, China, Korea, Japan, UK, Singapore, Switzerland and more, plus the AI_GOVERNANCE.md standard, a CLI, MCP server, GitHub Action and agent rails. Not legal advice.">
+<meta property="og:title" content="AI Governance Chain">
+<meta property="og:description" content="Turn the world's AI laws into checks your code, your agents and your CI can run.">
+<meta property="og:url" content="https://aigovernancechain.com/">
+<link rel="alternate" type="text/calendar" title="World AI-law deadlines" href="deadlines.ics">
+<style>
+:root{--paper:#eef1ee;--card:#f8faf8;--ink:#18222e;--muted:#5d6b78;--steel:#9aa8b4;--stamp:#2f6b5e;--stamp-2:#e2ece8;--amber:#c9861a;--amber-2:#f6ead2;--rule:#d5dcd8;
+--mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;--sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;overflow-x:hidden;background:var(--paper);color:var(--ink);font:16px/1.55 var(--sans)}
+a{color:var(--stamp)}a:hover{text-decoration-thickness:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:16px;flex-wrap:wrap}
+.brand{font:600 15px/1 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand i{display:inline-block;width:22px;height:12px;margin-right:14px;flex:none;border:2.5px solid var(--stamp);border-radius:8px;position:relative}
+.brand i:after{content:"";position:absolute;left:9px;top:-2.5px;width:22px;height:12px;border:2.5px solid var(--ink);border-radius:8px}
+nav a{margin-left:18px;color:var(--ink);text-decoration:none;font-size:14px}nav a:hover{color:var(--stamp)}
+.hero{padding:36px 0 8px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font:700 clamp(34px,5.4vw,62px)/1.02 var(--sans);letter-spacing:-.03em;margin:14px 0 12px;max-width:15ch}
+.lede{font-size:19px;color:var(--muted);max-width:60ch;margin:0 0 26px}
+.finder{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:22px}
+.group{margin:0 0 14px}.group b{display:block;font:600 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 13px/1 var(--mono);padding:8px 11px;border-radius:999px;border:1px solid var(--rule);background:#fff;color:var(--ink);cursor:pointer;transition:background .15s,border-color .15s}
+.chip:hover{border-color:var(--steel)}.chip[aria-pressed=true]{background:var(--stamp);border-color:var(--stamp);color:#fff}
+.chain{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin:22px 0 6px;counter-reset:l}
+.link{position:relative;padding:14px 12px 12px;border:2.5px solid var(--steel);border-radius:40px;margin-right:-10px;background:var(--card);text-align:center;transition:border-color .3s,background .3s}
+.link.on{border-color:var(--stamp);background:var(--stamp-2)}
+.link .n{display:block;font:700 26px/1 var(--mono);letter-spacing:-.02em}
+.link .k{display:block;font:600 11px/1.2 var(--mono);letter-spacing:.1em;margin-top:6px}
+.link .d{display:block;font-size:12px;color:var(--muted);margin-top:4px;line-height:1.3}
+.cmd{display:flex;gap:8px;align-items:stretch;margin-top:16px}
+pre,code{font-family:var(--mono)}
+.cmd pre{flex:1;min-width:0;margin:0;background:var(--ink);color:#e7efe9;padding:12px 14px;border-radius:10px;font-size:13px;overflow:auto;white-space:pre}
+button.copy{font:600 12px var(--mono);border:0;border-radius:10px;background:var(--stamp);color:#fff;padding:0 14px;cursor:pointer}
+.results{margin-top:18px;max-height:440px;overflow:auto;border-top:1px solid var(--rule)}
+.ob{display:grid;grid-template-columns:96px 1fr 110px;gap:14px;padding:12px 2px;border-bottom:1px solid var(--rule);align-items:start}
+.ob .j{font:600 12px/1.4 var(--mono);color:var(--stamp)}.ob .t{font-weight:600}.ob .p{color:var(--muted);font-size:14px;margin-top:3px}
+.ob .w{font:12px/1.4 var(--mono);text-align:right;color:var(--muted)}
+.tag{display:inline-block;font:600 10.5px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 6px;border-radius:5px;margin-top:4px}
+.tag.applicable{background:var(--stamp-2);color:var(--stamp)}.tag.not-yet-applicable{background:var(--amber-2);color:#8a5a0b}.tag.voluntary,.tag.proposed{background:#e9edf1;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin:12px 0 0}
+section{padding:56px 0 8px}
+h2{font:700 30px/1.1 var(--sans);letter-spacing:-.02em;margin:0 0 8px}
+.sub{color:var(--muted);margin:0 0 22px;max-width:62ch}
+.dl{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.dd{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--amber);border-radius:10px;padding:12px 14px}
+.dd .date{font:700 15px var(--mono)}.dd .jur{font:600 11px var(--mono);color:var(--amber);letter-spacing:.08em;margin-left:6px}.dd .what{font-size:14px;margin-top:4px}
+.btn{display:inline-block;font:600 14px var(--sans);padding:11px 16px;border-radius:10px;background:var(--ink);color:#fff;text-decoration:none;margin:18px 8px 0 0}.btn.alt{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.box{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:16px}
+.box h3{margin:0 0 6px;font-size:17px}.box p{margin:0 0 10px;color:var(--muted);font-size:14px}
+.box pre{background:var(--ink);color:#e7efe9;border-radius:8px;padding:10px;font-size:12px;overflow:auto;margin:0}
+.regimes{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.rg{display:block;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.rg:hover{border-color:var(--stamp)}.rg .c{font:700 12px var(--mono);color:var(--stamp)}.rg .nm{font-weight:600;font-size:14px;margin:4px 0}.rg .meta{font:12px var(--mono);color:var(--muted)}
+footer{margin:64px 0 0;padding:28px 0 48px;border-top:1px solid var(--rule);color:var(--muted);font-size:13px}
+footer p{margin:6px 0;max-width:80ch}
+@media (max-width:820px){.chain{grid-template-columns:repeat(3,1fr);row-gap:10px}.three{grid-template-columns:1fr}.ob{grid-template-columns:1fr}.ob .w{text-align:left}nav a{margin:0 14px 0 0}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="./"><i aria-hidden="true"></i>AI Governance Chain</a>
+  <nav><a href="#deadlines">Deadlines</a><a href="#repo">Your repo</a><a href="#regimes">Regimes</a><a href="https://github.com/mathieugouanou/aigovernancechain/blob/main/spec/AI_GOVERNANCE-spec.md">Spec</a><a href="https://github.com/mathieugouanou/aigovernancechain">GitHub</a></nav>
+</header>
+
+<div class="hero">
+  <div class="eyebrow" id="asof">Open data · loading the Atlas…</div>
+  <h1>Which AI rules apply to your system?</h1>
+  <p class="lede">Pick where it runs, your role and what it does. Every answer links to its official source. Then put the result in your repo as an <code>AI_GOVERNANCE.md</code> that CI can check.</p>
+
+  <div class="finder" id="finder">
+    <div class="group"><b>Where</b><div class="chips" id="g-j"></div></div>
+    <div class="group"><b>Your role</b><div class="chips" id="g-r"></div></div>
+    <div class="group"><b>What it does</b><div class="chips" id="g-u"></div></div>
+
+    <div class="chain" aria-label="The governance chain">
+      <div class="link" id="L1"><span class="n" id="n1">0</span><span class="k">LAW</span><span class="d">regimes that apply</span></div>
+      <div class="link" id="L2"><span class="n" id="n2">0</span><span class="k">OBLIGATION</span><span class="d">duties in scope</span></div>
+      <div class="link" id="L3"><span class="n" id="n3">0</span><span class="k">CONTROL</span><span class="d">controls to declare</span></div>
+      <div class="link" id="L4"><span class="n">16</span><span class="k">GATE</span><span class="d">checks in CI</span></div>
+      <div class="link" id="L5"><span class="n">#</span><span class="k">EVIDENCE</span><span class="d">hashed pack</span></div>
+      <div class="link" id="L6"><span class="n" id="n6">–</span><span class="k">OVERSIGHT</span><span class="d" id="d6">next date</span></div>
+    </div>
+
+    <div class="cmd"><pre id="cmd">npx github:mathieugouanou/aigovernancechain scope</pre><button class="copy" data-copy="cmd">Copy</button></div>
+    <div class="results" id="results" aria-live="polite"></div>
+    <p class="note">Draft open data, not yet expert-reviewed. Not legal advice. Check each source before you act.</p>
+  </div>
+</div>
+
+<section id="deadlines">
+  <h2>The next twelve months</h2>
+  <p class="sub">Dates when AI-governance duties start to apply. They move: the EU Digital Omnibus and Colorado both shifted dates in 2026. Subscribe once and your calendar follows the changes.</p>
+  <div class="dl" id="dl"></div>
+  <a class="btn" href="webcal://aigovernancechain.com/deadlines.ics">Subscribe to the calendar</a><a class="btn alt" href="https://github.com/mathieugouanou/aigovernancechain/blob/main/calendar/DEADLINES.md">See all dates</a>
+</section>
+
+<section id="repo">
+  <h2>Put the chain in your repo</h2>
+  <p class="sub">One file describes your system. CI checks it on every pull request. Agents can query the same data and are held to the same rules at runtime.</p>
+  <div class="three">
+    <div class="box"><h3>Write and check</h3><p>Generate an AI_GOVERNANCE.md from your profile, then run the 16 checks.</p><pre>npx github:mathieugouanou/aigovernancechain init
+npx github:mathieugouanou/aigovernancechain check</pre></div>
+    <div class="box"><h3>Gate every pull request</h3><p>The Shield Action adds a summary, code-scanning alerts and an Evidence Pack.</p><pre>- uses: actions/checkout@v7
+- uses: mathieugouanou/aigovernancechain/action@v0.1.0</pre></div>
+    <div class="box"><h3>Give your agent the law</h3><p>MCP server and Agent Skills. Runtime rails stop risky tool calls.</p><pre>{"command": "npx", "args": ["-y",
+ "github:mathieugouanou/aigovernancechain", "mcp"]}</pre></div>
+  </div>
+  <a class="btn" href="https://github.com/mathieugouanou/aigovernancechain#try-it-in-60-seconds">Start in 60 seconds</a><a class="btn alt" href="https://github.com/mathieugouanou/aigovernancechain/tree/main/ctf">Play the CTF</a>
+</section>
+
+<section id="regimes">
+  <h2>Regimes in the Atlas</h2>
+  <p class="sub">Each card lists who the regime hits, its dates and every obligation with its source. Every Tier-1 regime has an open seat for a named expert reviewer.</p>
+  <div class="regimes" id="rg"></div>
+</section>
+
+<footer>
+  <p><b>Not legal advice.</b> AI Governance Chain is open data and open-source tooling. Results describe draft, dated data and self-declared files. They are never a certification. <a href="https://github.com/mathieugouanou/aigovernancechain/blob/main/DISCLAIMER.md">Disclaimer</a>.</p>
+  <p>Code Apache-2.0 · Data and docs CC BY 4.0 · <a href="atlas.json">atlas.json</a> · <a href="deadlines.ics">deadlines.ics</a> · <a href="schema/ai-governance.v0.1.json">schema</a> · <a href="https://github.com/mathieugouanou/aigovernancechain/blob/main/CHARTER.md">Charter</a></p>
+  <p>This page sets no cookies, uses no analytics and loads nothing from third parties.</p>
+</footer>
+</div>
+
+<script>
+const REPO = 'https://github.com/mathieugouanou/aigovernancechain';
+const J = [['EU','EU'],['US','US federal'],['US-CA','California'],['US-CO','Colorado'],['US-NY','New York'],['US-NY-NYC','NYC'],['US-IL','Illinois'],['US-TX','Texas'],['GB','UK'],['CH','Switzerland'],['CN','China'],['KR','South Korea'],['JP','Japan'],['SG','Singapore'],['IN','India'],['VN','Vietnam']];
+const R = [['provider','Provider (builds it)'],['deployer','Deployer (uses it)'],['gpai-provider','GPAI model provider'],['employer','Employer'],['platform','Platform'],['public-body','Public body']];
+const U = [['chatbot','Chatbot'],['agent','Agent'],['generated-media','Generates media'],['deepfake','Deepfakes'],['hiring','Hiring'],['credit','Credit'],['healthcare','Healthcare'],['education','Education'],['significant-decision','Decisions about people'],['companion','Companion'],['minors','Used by minors'],['public-sector-use','Public service'],['gpai-model','GPAI model'],['frontier-model','Frontier model']];
+const sel = { j: new Set(['EU', 'US-CA']), r: new Set(['provider']), u: new Set(['chatbot', 'generated-media']) };
+let atlas = null;
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function chips(id, list, key) {
+  const el = document.getElementById(id);
+  el.innerHTML = list.map(([v, l]) => `<button class="chip" data-k="${key}" data-v="${v}" aria-pressed="${sel[key].has(v)}">${esc(l)}</button>`).join('');
+}
+function expand(js) {
+  const out = new Set(js);
+  for (const j of js) { if (j.startsWith('US-')) out.add('US'); if (j === 'US-NY-NYC') out.add('US-NY'); if (['EU', 'CH', 'GB'].includes(j)) out.add('COE'); }
+  out.add('INTL');
+  return out;
+}
+function scope() {
+  const JJ = expand([...sel.j]), RR = sel.r, UU = sel.u;
+  return atlas.obligations.filter(o => {
+    if (!JJ.has(o.jurisdiction) || o.status === 'repealed') return false;
+    const ro = o.applies_to.roles, us = o.applies_to.uses;
+    const roleOk = ro.includes('any') || ro.some(x => RR.has(x)) || (RR.has('provider') && ro.includes('developer')) || (RR.has('developer') && ro.includes('provider'));
+    const useOk = us.includes('any-ai') || us.some(x => UU.has(x)) || (UU.has('frontier-model') && us.includes('gpai-model'));
+    return roleOk && useOk;
+  }).sort((a, b) => a.jurisdiction.localeCompare(b.jurisdiction) || String(a.applies_from).localeCompare(String(b.applies_from)));
+}
+function render() {
+  if (!atlas) return;
+  const obs = scope();
+  const today = atlas.generated;
+  const regimes = new Set(obs.map(o => o.regime));
+  const controls = new Set(obs.flatMap(o => o.controls || []));
+  const next = obs.filter(o => o.applies_from && o.applies_from > today).sort((a, b) => a.applies_from.localeCompare(b.applies_from))[0];
+  document.getElementById('n1').textContent = regimes.size;
+  document.getElementById('n2').textContent = obs.length;
+  document.getElementById('n3').textContent = controls.size;
+  document.getElementById('n6').textContent = next ? new Date(next.applies_from + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }) : '–';
+  document.getElementById('d6').textContent = next ? `next date, ${next.applies_from.slice(0, 4)}` : 'no new date';
+  ['L1', 'L2', 'L3'].forEach((id, i) => document.getElementById(id).classList.toggle('on', [regimes.size, obs.length, controls.size][i] > 0));
+  ['L4', 'L5', 'L6'].forEach(id => document.getElementById(id).classList.toggle('on', obs.length > 0));
+  document.getElementById('cmd').textContent = `npx github:mathieugouanou/aigovernancechain scope -j ${[...sel.j].join(',') || 'EU'} -r ${[...sel.r].join(',') || 'deployer'} -u ${[...sel.u].join(',') || 'any-ai'}`;
+  document.getElementById('results').innerHTML = obs.length ? obs.map(o => `<div class="ob"><div class="j">${esc(o.jurisdiction)}<br><span style="color:var(--muted);font-weight:400">${esc(o.id)}</span></div><div><div class="t">${esc(o.title)}</div><div class="p">${esc(o.plain)}</div><div class="p"><a href="${esc(o.source_url)}" rel="noopener">${esc(o.instrument_short)} ${esc(o.article)}</a> · controls: ${esc((o.controls || []).join(', ') || 'none')} · confidence ${esc(o.confidence)}</div></div><div class="w">${esc(o.applies_from || 'n/a')}<br><span class="tag ${esc(o.status)}">${esc(o.status.replace(/-/g, ' '))}</span></div></div>`).join('') : '<p class="note">Nothing matched. Try adding a role or a use.</p>';
+}
+document.addEventListener('click', e => {
+  const c = e.target.closest('.chip');
+  if (c) { const s = sel[c.dataset.k]; s.has(c.dataset.v) ? s.delete(c.dataset.v) : s.add(c.dataset.v); c.setAttribute('aria-pressed', s.has(c.dataset.v)); render(); }
+  const b = e.target.closest('button.copy');
+  if (b) { navigator.clipboard?.writeText(document.getElementById(b.dataset.copy).textContent); b.textContent = 'Copied'; setTimeout(() => (b.textContent = 'Copy'), 1400); }
+});
+chips('g-j', J, 'j'); chips('g-r', R, 'r'); chips('g-u', U, 'u');
+fetch('atlas.json').then(r => r.json()).then(a => {
+  atlas = a;
+  const d = new Date(a.generated + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  document.getElementById('asof').textContent = `Open data · ${a.regimes.length} regimes · ${a.obligations.length} obligations · as of ${d}`;
+  render();
+  const end = new Date(Date.parse(a.generated) + 365 * 864e5).toISOString().slice(0, 10);
+  const dls = a.deadlines.filter(x => x.date >= a.generated && x.date <= end && x.kind !== 'milestone').slice(0, 12);
+  document.getElementById('dl').innerHTML = dls.map(x => `<div class="dd"><span class="date">${esc(x.date)}</span><span class="jur">${esc(x.jurisdiction)}</span><div class="what">${esc(x.title)}</div></div>`).join('');
+  document.getElementById('rg').innerHTML = a.regimes.map(r => `<a class="rg" href="${REPO}/blob/main/cards/${esc(r.id)}.md"><div class="c">${esc(r.jurisdiction)}</div><div class="nm">${esc(r.card?.title || r.name)}</div><div class="meta">${a.obligations.filter(o => o.regime === r.id).length} obligations · ${esc(r.review?.status)}</div></a>`).join('');
+}).catch(() => { document.getElementById('asof').textContent = 'Could not load atlas.json'; });
+</script>
+</body>
+</html>

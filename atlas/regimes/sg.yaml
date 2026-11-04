@@ -1,0 +1,363 @@
+id: sg
+jurisdiction: SG
+name: Singapore
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Singapore AI governance and online harms
+  one_liner: Most AI governance frameworks are voluntary, while existing privacy, election and online-harm laws create binding duties in defined situations.
+  who_it_hits: AI developers, providers and deployers; organizations handling personal data; election advertisers; communicators, online administrators and platforms.
+  status_line: PDPA and election-advertising rules are binding. OSRAA's first-phase remedies began on 29 June 2026; its inauthentic-material category is still awaiting progressive implementation.
+instruments:
+  - id: sg-mgf-2020
+    code: MGF20
+    title: Model Artificial Intelligence Governance Framework, Second Edition
+    short: Model AI Governance Framework (2020)
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/sg-digital/tech-pillars/artificial-intelligence/second-edition-of-the-model-ai-governance-framework.pdf
+    penalties: null
+    key_dates:
+      - { date: "2020-01-21", event: "Second edition released as voluntary guidance", source: "https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/sg-digital/tech-pillars/artificial-intelligence/second-edition-of-the-model-ai-governance-framework.pdf" }
+  - id: sg-mgf-genai
+    code: MGFGAI
+    title: Model AI Governance Framework for Generative AI
+    short: Generative AI Governance Framework (2024)
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.imda.gov.sg/About-IMDA/Emerging-Technologies-and-Research/Artificial-Intelligence
+    penalties: null
+    key_dates:
+      - { date: "2024-05-30", event: "IMDA introduced the Generative AI framework as an ecosystem-level voluntary framework", source: "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2024/gen-ai-and-digital-foss-ai-governance-playbook" }
+  - id: sg-mgf-agentic
+    code: AGENTIC
+    title: Model AI Governance Framework for Agentic AI, Version 1.5
+    short: Agentic AI Governance Framework
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf
+    penalties: null
+    key_dates:
+      - { date: "2026-01-22", event: "IMDA first published the Agentic AI framework", source: "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/singapore-launches-new-model-ai-governance-framework-for-agentic-ai" }
+      - { date: "2026-05-20", event: "Version 1.5 published; the PDF notes a further update on 5 June 2026", source: "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf" }
+      - { date: "2026-06-05", event: "Version 1.5 PDF updated", source: "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf" }
+  - id: sg-ai-verify
+    code: AIVERIFY
+    title: AI Verify Testing Framework and Toolkit
+    short: AI Verify
+    type: standard
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.imda.gov.sg/ai-verify
+    penalties: null
+    key_dates:
+      - { date: "2022-05-25", event: "AI Verify testing framework and toolkit announced for international pilot", source: "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2022/sg-launches-worlds-first-ai-testing-framework-and-toolkit-to-promote-transparency" }
+  - id: sg-eioaa
+    code: EIOA
+    title: Elections (Integrity of Online Advertising) (Amendment) Act 2024
+    short: Elections Integrity Amendment
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20241121
+    penalties: A person convicted for the candidate-representation offence may be fined up to S$1,000, imprisoned for up to 12 months, or both.
+    key_dates:
+      - { date: "2024-11-21", event: "Amendment Act published in the Government Gazette", source: "https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20241121" }
+      - { date: "2025-01-22", event: "Amendment commenced", source: "https://sso.agc.gov.sg/Act/PEA1954?ProvIds=pr61MA-" }
+  - id: sg-pdpa
+    code: PDPA
+    title: Personal Data Protection Act 2012
+    short: PDPA
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://sso.agc.gov.sg/Act/PDPA2012
+    penalties: For qualifying contraventions under section 48J, up to 10% of annual Singapore turnover where it exceeds S$10 million, or S$1 million otherwise; the exact provision and cap depend on the breach.
+    key_dates:
+      - { date: "2014-07-02", event: "Core collection, use and disclosure provisions apply", source: "https://sso.agc.gov.sg/Act/PDPA2012" }
+  - id: sg-pdpc-ai-rec
+    code: PDPCREC
+    title: Advisory Guidelines on Use of Personal Data in AI Recommendation and Decision Systems
+    short: PDPC AI Recommendation and Decision Guidelines
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-and-decision-systems.pdf
+    penalties: null
+    key_dates:
+      - { date: "2024-03-01", event: "Final advisory guidelines issued", source: "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-and-decision-systems.pdf" }
+  - id: sg-pdpc-genai
+    code: PDPCGENAI
+    title: Advisory Guidelines on Use of Personal Data in Generative AI
+    short: PDPC Generative AI Guidelines
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294
+    penalties: null
+    key_dates:
+      - { date: "2026-07-20", event: "PDPC issued the final Generative AI personal-data guidelines", source: "https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294" }
+  - id: sg-osraa
+    code: OSRAA
+    title: Online Safety (Relief and Accountability) Act 2025
+    short: OSRAA
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: https://sso.agc.gov.sg/Act/OSRAA2025
+    penalties: Civil remedies and Commissioner directions apply to harms implemented in the relevant phase; the Act is being implemented progressively.
+    key_dates:
+      - { date: "2026-06-29", event: "First-phase Online Safety Commission operations and specified statutory torts commenced", source: "https://www.mddi.gov.sg/newsroom/online-safety-commission-and-online-safety--relief-and-accountability--act-2025-to-start-on-29-june-2026/" }
+      - { date: "2026-09-10", event: "MDDI confirmed inauthentic material abuse would be progressively implemented and no commencement date had been announced", source: "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-protecting-against-unauthorised-ai-generated-likeness-in-advertisements-and-operationalising-online-safety-commission-mandate-over-inauthentic-material-abuse/" }
+obligations:
+  - id: AGC-SG-MGF20-2-7
+    instrument: sg-mgf-2020
+    article: "§ 2.7"
+    title: Make AI decision processes explainable, fair and human-centric
+    plain: The voluntary second-edition framework recommends explainable, transparent and fair AI decision-making, with human well-being and safety central to design, development and deployment. It is guidance, not a legal duty.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Organisations deploying AI should tailor the framework's recommendations to their risks and context.
+    applies_from: "2020-01-21"
+    status: voluntary
+    controls: [transparency_notice, human_oversight, bias_testing]
+    evidence:
+      - Decision-process documentation and records of human-centered design and fairness review
+    source_url: https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/sg-digital/tech-pillars/artificial-intelligence/second-edition-of-the-model-ai-governance-framework.pdf
+    confidence: high
+  - id: AGC-SG-MGFGAI-9D
+    instrument: sg-mgf-genai
+    article: Framework, nine dimensions
+    title: Govern Generative AI across its lifecycle and ecosystem
+    plain: The voluntary framework recommends an ecosystem approach spanning accountability, data, trusted development and deployment, incident reporting, testing and assurance, security, content provenance, safety and alignment research, and AI for public good. It creates no statutory compliance duty.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [generated-media, gpai-model]
+      conditions: Organizations across the Generative AI ecosystem; recommendations are voluntary.
+    applies_from: "2024-05-30"
+    status: voluntary
+    controls: [risk_management, data_governance, incident_reporting, security_testing, content_marking]
+    evidence:
+      - Governance records showing lifecycle risk, testing, security, incident and provenance practices
+    source_url: https://www.imda.gov.sg/About-IMDA/Emerging-Technologies-and-Research/Artificial-Intelligence
+    confidence: high
+    notes: IMDA's official 2024 annual report confirms the nine dimensions and the voluntary nature of its model frameworks.
+  - id: AGC-SG-AGENTIC-2-1
+    instrument: sg-mgf-agentic
+    article: "Framework § 2.1"
+    title: Bound agent risks before deployment
+    plain: The framework recommends assessing whether an agent use case is suitable, then limiting its access to tools and systems and defining its identity, permissions and scope of actions. The appropriate boundary should reflect the risk and reversibility of agent actions.
+    applies_to:
+      roles: [provider, deployer, developer]
+      uses: [agent]
+      conditions: Guidance for organizations developing agents in-house or deploying third-party agentic solutions.
+    applies_from: "2026-01-22"
+    status: voluntary
+    controls: [risk_management, tool_scope]
+    evidence:
+      - Agent risk assessment, tool allowlist and permission-scope configuration
+    source_url: https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf
+    confidence: high
+  - id: AGC-SG-AGENTIC-2-2
+    instrument: sg-mgf-agentic
+    article: "Framework § 2.2"
+    title: Assign accountable humans and approval checkpoints
+    plain: The framework recommends clear allocation of responsibility across internal teams and external vendors, with meaningful human oversight. Significant checkpoints should require human approval, especially for high-stakes or irreversible agent actions.
+    applies_to:
+      roles: [provider, deployer, developer, employer]
+      uses: [agent]
+      conditions: Guidance for organizations developing or deploying agentic systems.
+    applies_from: "2026-01-22"
+    status: voluntary
+    controls: [human_oversight, audit_log]
+    evidence:
+      - Named accountable owners, checkpoint rules and approval records for consequential actions
+    source_url: https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf
+    confidence: high
+  - id: AGC-SG-AGENTIC-2-3
+    instrument: sg-mgf-agentic
+    article: "Framework § 2.3"
+    title: Test, monitor and log agent behavior
+    plain: The framework recommends technical controls throughout the agent lifecycle, including pre-deployment testing and continuous monitoring and testing after deployment. It also recommends reporting and failsafe mechanisms for agent failures or unexpected behavior.
+    applies_to:
+      roles: [provider, deployer, developer]
+      uses: [agent]
+      conditions: Guidance for organizations developing or deploying agentic systems.
+    applies_from: "2026-01-22"
+    status: voluntary
+    controls: [security_testing, audit_log, post_market_monitoring, kill_switch]
+    evidence:
+      - Pre-deployment test results, attributable action logs, monitoring records and agent-failure runbook
+    source_url: https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf
+    confidence: high
+  - id: AGC-SG-AGENTIC-2-4
+    instrument: sg-mgf-agentic
+    article: "Framework § 2.4"
+    title: Inform and train agent end users
+    plain: The framework recommends telling users about an agent's range of actions, its data access and the user's responsibilities. Organizations should consider training employees to manage human-agent interactions, provide effective oversight and retain relevant skills.
+    applies_to:
+      roles: [deployer, employer]
+      uses: [agent]
+      conditions: Guidance for organizations whose staff or customers interact with or integrate agents into work processes.
+    applies_from: "2026-01-22"
+    status: voluntary
+    controls: [transparency_notice, ai_literacy]
+    evidence:
+      - User-facing notice of agent capabilities and training materials for staff
+    source_url: https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf
+    confidence: high
+  - id: AGC-SG-AIVERIFY-11
+    instrument: sg-ai-verify
+    article: Testing Framework, 11 governance principles
+    title: Test AI systems against responsible-AI principles
+    plain: AI Verify is an optional testing framework and software toolkit for assessing AI systems against 11 governance principles. It combines standardized tests for selected properties with process checks, and current IMDA materials describe coverage for both traditional AI and Generative AI.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Optional assurance tool; it is not a statutory certification requirement.
+    applies_from: "2022-05-25"
+    status: voluntary
+    controls: [bias_testing, accuracy_robustness, security_testing, risk_management]
+    evidence:
+      - AI Verify assessment results and supporting test records
+    source_url: https://www.imda.gov.sg/ai-verify
+    confidence: high
+  - id: AGC-SG-EIOA-PEA-61MA-1
+    instrument: sg-eioaa
+    article: PEA § 61MA(1); PrEA § 42LA(1)
+    title: Do not publish realistic false candidate representations in online election ads
+    plain: During an election period, publishing or causing publication in Singapore of online election advertising with a digitally generated or manipulated audio, visual or audiovisual representation that realistically depicts a candidate saying or doing something they did not is an offence. The law contains specific exceptions, including private or domestic communications and publication of election news by an authorized news agency.
+    applies_to:
+      roles: [any]
+      uses: [deepfake, generated-media, justice]
+      conditions: Applies to relevant online election advertising published in Singapore during the election period, where the publisher knows or ought reasonably to know its election-advertising character.
+    applies_from: "2025-01-22"
+    status: applicable
+    controls: [content_moderation]
+    evidence:
+      - Election-period content review and approval records for online political advertising
+    penalty: Fine up to S$1,000, imprisonment up to 12 months, or both, on conviction.
+    source_url: https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20241121
+    confidence: high
+  - id: AGC-SG-PDPA-13-18-20
+    instrument: sg-pdpa
+    article: "PDPA §§ 13-20"
+    title: Establish a lawful basis and notify purposes for personal-data use
+    plain: An organization must not collect, use or disclose personal data unless consent, deemed consent, an applicable exception or another law permits it. It must limit use to appropriate purposes and notify individuals as required; these duties apply when personal data is processed for AI development or deployment.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [any-ai]
+      conditions: An organization collects, uses or discloses personal data in an AI system or model.
+    applies_from: "2014-07-02"
+    status: applicable
+    controls: [privacy_compliance, transparency_notice, user_controls]
+    evidence:
+      - Consent or exception records and notices that identify the purposes of AI-related personal-data processing
+    penalty: PDPA directions and financial penalties may apply under section 48J; the applicable cap depends on the contravention and organization.
+    source_url: https://sso.agc.gov.sg/Act/PDPA2012
+    confidence: high
+  - id: AGC-SG-PDPA-11-12-24-25
+    instrument: sg-pdpa
+    article: "PDPA §§ 11-12, 24-25"
+    title: Maintain accountability, security and retention controls
+    plain: Organizations must take responsibility for personal data under their control, maintain data-protection policies and practices, make reasonable security arrangements, and cease retaining personal data when retention is no longer necessary for legal or business purposes. These duties also apply to personal data used in AI systems.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [any-ai]
+      conditions: An organization holds or controls personal data processed in an AI context.
+    applies_from: "2014-07-02"
+    status: applicable
+    controls: [privacy_compliance, data_governance, security_testing]
+    evidence:
+      - Data-protection policies, security controls and retention schedules for AI-related personal data
+    source_url: https://sso.agc.gov.sg/Act/PDPA2012
+    confidence: high
+  - id: AGC-SG-PDPCREC-9
+    instrument: sg-pdpc-ai-rec
+    article: "Guidelines §§ 2.2, 3.1, 9.1-9.7 and 10"
+    title: Apply PDPC's advice to AI recommendation and decision systems
+    plain: The nonbinding guidelines explain how the PDPA applies to personal data used to develop and deploy machine-learning systems that make recommendations, predictions or decisions. They recommend meaningful consent, contextual notices and proportionate transparency about relevant data use and safeguards.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [recommender, significant-decision, profiling]
+      conditions: Personal data is used in an AI recommendation, prediction or decision system; underlying PDPA duties remain binding.
+    applies_from: "2024-03-01"
+    status: voluntary
+    controls: [privacy_compliance, transparency_notice, user_controls]
+    evidence:
+      - AI data-use assessment and consumer-facing notice describing relevant data and purposes
+    source_url: https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-and-decision-systems.pdf
+    confidence: high
+    notes: PDPC states the guidelines are advisory and not legally binding; the PDPA itself remains binding.
+  - id: AGC-SG-PDPCGENAI-4-4
+    instrument: sg-pdpc-genai
+    article: "Guidelines §§ 4.2-4.8, 5.1 and 7.1"
+    title: Give AI-specific notices for large-scale GenAI training data
+    plain: The advisory guidance says general notifications are insufficient for large-scale Generative AI model training or fine-tuning and recommends AI-specific notices describing the data and its use. It also encourages data minimization or anonymization and confirms that model providers processing personal data are organizations under the PDPA.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [generated-media, gpai-model]
+      conditions: Use of personal data in Generative AI development or deployment; the AI-specific notice point concerns large-scale training or fine-tuning.
+    applies_from: "2026-07-20"
+    status: voluntary
+    controls: [privacy_compliance, transparency_notice, user_controls, data_governance]
+    evidence:
+      - AI-specific training notice, data-minimization record and privacy controls for model development
+    source_url: https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294
+    confidence: high
+    notes: The guidance is advisory and nonbinding; the underlying PDPA consent, notification and protection duties remain binding.
+  - id: AGC-SG-OSRAA-13-14-83-84
+    instrument: sg-osraa
+    article: "OSRAA §§ 13-14, 83-84"
+    title: Do not communicate qualifying intimate or child-abuse images
+    plain: The Act prohibits communications that meet the statutory definitions of intimate-image abuse or image-based child abuse; the relevant image definitions include images altered or generated by any means. These harms are in the first operational phase, and victims may seek civil remedies while the Commissioner may direct communicators, administrators or platforms to act.
+    applies_to:
+      roles: [any, platform]
+      uses: [generated-media, deepfake]
+      conditions: Only material meeting the statutory thresholds and exceptions; the Act's first-phase harms became operational on 29 June 2026.
+    applies_from: "2026-06-29"
+    status: applicable
+    controls: [content_moderation]
+    evidence:
+      - Content review, notice escalation and removal records for qualifying harmful image material
+    penalty: Victims may seek civil remedies; the Commissioner may issue directions under the Act.
+    source_url: https://sso.agc.gov.sg/Act/OSRAA2025
+    confidence: high
+    notes: "MDDI confirmed AI-generated content is within scope where it meets the thresholds for the implemented harms. Official response: https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-protecting-against-unauthorised-ai-generated-likeness-in-advertisements-and-operationalising-online-safety-commission-mandate-over-inauthentic-material-abuse/."
+  - id: AGC-SG-OSRAA-16-86
+    instrument: sg-osraa
+    article: "OSRAA §§ 16, 86"
+    title: Track the pending inauthentic-material-abuse provisions
+    plain: Section 16 covers online inauthentic material abuse, including realistic false or misleading digitally altered or generated depictions that meet the statutory harm threshold; section 86 provides the corresponding tort. MDDI said this category would be progressively implemented and had not announced a commencement date as of 10 September 2026.
+    applies_to:
+      roles: [any, platform]
+      uses: [generated-media, deepfake]
+      conditions: Not yet operational as of 4 November 2026; monitor for a commencement notification.
+    applies_from: null
+    status: not-yet-applicable
+    controls: [content_moderation]
+    evidence:
+      - Monitor official commencement announcements and retain a content-response plan for realistic AI depictions
+    source_url: https://sso.agc.gov.sg/Act/OSRAA2025
+    confidence: high
+    notes: MDDI's 10 September 2026 response stated that inauthentic material abuse would be progressively implemented and that further commencement details would follow.
+deadlines: []
+sources:
+  - { title: "IMDA/PDPC Model AI Governance Framework, Second Edition (2020)", url: "https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/sg-digital/tech-pillars/artificial-intelligence/second-edition-of-the-model-ai-governance-framework.pdf" }
+  - { title: "IMDA Artificial Intelligence in Singapore: frameworks and AI Verify", url: "https://www.imda.gov.sg/About-IMDA/Emerging-Technologies-and-Research/Artificial-Intelligence" }
+  - { title: "IMDA 2024 Annual Report: Generative AI framework and nine dimensions", url: "https://www.imda.gov.sg/-/media/imda/files/about/resources/corporate-publications/annual-report/imda-annual-report-2024.pdf" }
+  - { title: "IMDA Model AI Governance Framework for Agentic AI, version 1.5", url: "https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf" }
+  - { title: "PDPC Advisory Guidelines on AI Recommendation and Decision Systems (2024)", url: "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-and-decision-systems.pdf" }
+  - { title: "PDPC Advisory Guidelines on Use of Personal Data in Generative AI (2026)", url: "https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294" }
+  - { title: "Personal Data Protection Act 2012", url: "https://sso.agc.gov.sg/Act/PDPA2012" }
+  - { title: "Elections (Integrity of Online Advertising) (Amendment) Act 2024", url: "https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20241121" }
+  - { title: "Parliamentary Elections Act 1954, s. 61MA", url: "https://sso.agc.gov.sg/Act/PEA1954?ProvIds=pr61MA-" }
+  - { title: "Online Safety (Relief and Accountability) Act 2025", url: "https://sso.agc.gov.sg/Act/OSRAA2025" }
+  - { title: "MDDI OSRAA commencement and phased-implementation statement (14 May 2026)", url: "https://www.mddi.gov.sg/newsroom/online-safety-commission-and-online-safety--relief-and-accountability--act-2025-to-start-on-29-june-2026/" }
+  - { title: "MDDI response on AI-generated content and progressive implementation of inauthentic-material abuse (10 Sep 2026)", url: "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-protecting-against-unauthorised-ai-generated-likeness-in-advertisements-and-operationalising-online-safety-commission-mandate-over-inauthentic-material-abuse/" }

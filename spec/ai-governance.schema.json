@@ -1,0 +1,445 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aigovernancechain.com/schema/ai-governance.v0.1.json",
+  "title": "AI_GOVERNANCE.md front matter (ai-governance/v0.1)",
+  "description": "YAML front matter of an AI_GOVERNANCE.md file. Draft specification by AI Governance Chain, CC BY 4.0. Not legal advice.",
+  "type": "object",
+  "required": [
+    "spec",
+    "system",
+    "roles",
+    "jurisdictions",
+    "uses"
+  ],
+  "properties": {
+    "spec": {
+      "const": "ai-governance/v0.1"
+    },
+    "system": {
+      "type": "object",
+      "required": [
+        "name",
+        "owner"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string",
+          "description": "Accountable person, role or team (email or handle)."
+        },
+        "repository": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "roles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "provider",
+          "deployer",
+          "importer",
+          "distributor",
+          "product-manufacturer",
+          "authorised-representative",
+          "gpai-provider",
+          "developer",
+          "platform",
+          "public-body",
+          "employer",
+          "any"
+        ]
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z]{2,4}(-[A-Za-z]{2,3}){0,2}$"
+      },
+      "description": "EU, COE, US, US-CA, US-CO, US-TX, US-NY, US-NY-NYC, US-IL, CN, KR, JP, VN, IN, GB, SG, CH, or an EU member code such as DE."
+    },
+    "uses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "any-ai",
+          "chatbot",
+          "agent",
+          "generated-media",
+          "deepfake",
+          "emotion-recognition",
+          "biometric-categorisation",
+          "remote-biometric-id",
+          "hiring",
+          "credit",
+          "insurance",
+          "education",
+          "essential-services",
+          "healthcare",
+          "law-enforcement",
+          "migration",
+          "justice",
+          "critical-infrastructure",
+          "significant-decision",
+          "profiling",
+          "recommender",
+          "companion",
+          "minors",
+          "gpai-model",
+          "frontier-model",
+          "public-sector-use",
+          "safety-component"
+        ]
+      }
+    },
+    "risk": {
+      "type": "object",
+      "properties": {
+        "self_assessed": {
+          "enum": [
+            "minimal",
+            "limited",
+            "high",
+            "unacceptable",
+            "unknown"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "models": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "model_card": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "agent": {
+      "type": "object",
+      "properties": {
+        "default_deny": {
+          "type": "boolean",
+          "default": true
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "scope"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "scope": {
+                "enum": [
+                  "read",
+                  "write",
+                  "payment",
+                  "delete",
+                  "send",
+                  "execute",
+                  "admin"
+                ]
+              },
+              "limits": {
+                "type": "object",
+                "properties": {
+                  "max_amount": {
+                    "type": "number"
+                  },
+                  "currency": {
+                    "type": "string"
+                  },
+                  "max_calls": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "allowed_recipient_domains": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "additionalProperties": true
+              },
+              "approval": {
+                "enum": [
+                  "none",
+                  "human",
+                  "two-person"
+                ]
+              }
+            }
+          }
+        },
+        "spend_limit": {
+          "type": "object",
+          "required": [
+            "amount"
+          ],
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "period": {
+              "enum": [
+                "run",
+                "hour",
+                "day",
+                "week",
+                "month"
+              ]
+            }
+          }
+        },
+        "kill_switch": {
+          "type": "string",
+          "description": "Who can stop the agent, how, and how fast."
+        },
+        "trust_boundaries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "source",
+              "treat_as"
+            ],
+            "properties": {
+              "source": {
+                "type": "string"
+              },
+              "treat_as": {
+                "enum": [
+                  "data",
+                  "instructions"
+                ]
+              }
+            }
+          }
+        },
+        "disclosure": {
+          "type": "string",
+          "description": "Fallback disclosure text; prefer controls.ai_disclosure.message."
+        }
+      }
+    },
+    "controls": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "ai_disclosure",
+          "content_marking",
+          "deepfake_label",
+          "human_oversight",
+          "tool_scope",
+          "spend_limits",
+          "kill_switch",
+          "audit_log",
+          "risk_management",
+          "impact_assessment",
+          "bias_testing",
+          "data_governance",
+          "technical_documentation",
+          "incident_reporting",
+          "transparency_notice",
+          "contest_and_appeal",
+          "ai_literacy",
+          "prohibited_practices_screen",
+          "registration",
+          "local_representative",
+          "safety_framework",
+          "copyright_policy",
+          "training_data_summary",
+          "security_testing",
+          "quality_management",
+          "post_market_monitoring",
+          "conformity_assessment",
+          "accuracy_robustness",
+          "privacy_compliance",
+          "user_controls",
+          "minors_protection",
+          "content_moderation"
+        ]
+      },
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "enum": [
+              "implemented",
+              "partial",
+              "planned",
+              "not-applicable",
+              "todo"
+            ]
+          },
+          {
+            "type": "object",
+            "required": [
+              "status"
+            ],
+            "properties": {
+              "status": {
+                "enum": [
+                  "implemented",
+                  "partial",
+                  "planned",
+                  "not-applicable",
+                  "todo"
+                ]
+              },
+              "how": {
+                "type": "string"
+              },
+              "evidence": {
+                "oneOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                ]
+              },
+              "reason": {
+                "type": "string"
+              },
+              "owner": {
+                "type": "string"
+              },
+              "due": {
+                "type": "string"
+              },
+              "message": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "obligations": {
+      "type": "object",
+      "properties": {
+        "acknowledged": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^AGC-"
+          }
+        },
+        "waived": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "object",
+                "required": [
+                  "id",
+                  "reason"
+                ],
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "contacts": {
+      "type": "object",
+      "properties": {
+        "governance": {
+          "type": "string"
+        },
+        "security": {
+          "type": "string"
+        },
+        "incidents": {
+          "type": "string"
+        },
+        "dpo": {
+          "type": "string"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "last_reviewed": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "next_review": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reviewed_by": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "disclaimer": {
+      "type": "string"
+    }
+  },
+  "patternProperties": {
+    "^x-": {}
+  },
+  "additionalProperties": false
+}

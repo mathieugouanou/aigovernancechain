@@ -1,0 +1,399 @@
+id: us
+jurisdiction: US
+name: United States (federal)
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: U.S. Federal AI Governance
+  one_liner: Federal AI governance is a mix of agency-use and procurement directives, targeted statutes, and generally applicable consumer-protection law; it is not a comprehensive private-sector AI code.
+  who_it_hits: Federal agencies and their AI suppliers, DoD and intelligence-community contractors, covered online platforms, and businesses making AI-related claims to consumers.
+  status_line: EO 14148 revoked the 2023 EO 14110 and EO 14179 reset federal policy. No comprehensive AI statute or blanket AI-specific state-law preemption was enacted by 4 November 2026; EO 14365 directs litigation and policy work but does not itself preempt state laws. The chatbot/minors and AI-labeling bills checked remain proposals; NIST AI RMF is voluntary and under revision.
+instruments:
+  - id: us-omb-m2521
+    code: M2521
+    title: OMB Memorandum M-25-21, Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+    short: OMB M-25-21
+    type: guidance
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    penalties: null
+    key_dates:
+      - { date: "2025-04-03", event: "OMB issued M-25-21; applies to covered agency AI use, subject to stated exceptions", source: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf" }
+      - { date: "2025-06-02", event: "60-day deadline for agency heads to retain or designate a Chief AI Officer", source: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf" }
+      - { date: "2026-04-03", event: "365-day deadline to document implementation of minimum risk practices for high-impact AI", source: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf" }
+  - id: us-omb-m2522
+    code: M2522
+    title: OMB Memorandum M-25-22, Driving Efficient Acquisition of Artificial Intelligence in Government
+    short: OMB M-25-22
+    type: guidance
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf"
+    penalties: null
+    key_dates:
+      - { date: "2025-04-03", event: "OMB issued M-25-22", source: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf" }
+      - { date: "2025-09-30", event: "180-day phase-in begins for covered solicitations and later contract options", source: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf" }
+  - id: us-eo14319
+    code: EO14319
+    title: Executive Order 14319, Preventing Woke AI in the Federal Government
+    short: EO 14319
+    type: executive-order
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/"
+    penalties: null
+    key_dates:
+      - { date: "2025-07-23", event: "Executive order signed; directs agencies to procure LLMs developed in accordance with its Unbiased AI Principles", source: "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/" }
+  - id: us-omb-m2604
+    code: M2604
+    title: OMB Memorandum M-26-04, Increasing Public Trust in Artificial Intelligence Through Unbiased AI Principles
+    short: OMB M-26-04
+    type: guidance
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles.pdf"
+    penalties: null
+    key_dates:
+      - { date: "2025-12-11", event: "OMB issued M-26-04; procurement terms apply to solicitations or orders issued after this date", source: "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles.pdf" }
+      - { date: "2026-03-11", event: "Deadline for agencies to update procurement policies and user-feedback processes", source: "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles.pdf" }
+      - { date: "2027-12-11", event: "M-26-04 sunsets unless OMB extends it", source: "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles.pdf" }
+  - id: us-eo14434
+    code: EO14434
+    title: Executive Order 14434, Inaugurating the Era of Super Intelligence
+    short: EO 14434
+    type: executive-order
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
+    penalties: null
+    key_dates:
+      - { date: "2026-09-29", event: "Executive order signed; directs terminology changes in non-statutory executive-branch communications and documents", source: "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/" }
+  - id: us-tida
+    code: TIDA
+    title: TAKE IT DOWN Act, Public Law 119-12
+    short: TAKE IT DOWN Act
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm"
+    penalties: Criminal penalties apply to the specified publication offenses; a covered platform's failure to reasonably comply with section 3 is enforceable by the FTC under the FTC Act.
+    key_dates:
+      - { date: "2025-05-19", event: "Act signed; section 2 criminal prohibitions took effect", source: "https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm" }
+      - { date: "2026-05-19", event: "Deadline for covered platforms to establish the section 3 notice-and-removal process", source: "https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm" }
+  - id: us-ftc-act
+    code: FTCA
+    title: Federal Trade Commission Act, section 5 (15 U.S.C. § 45)
+    short: FTC Act section 5
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://uscode.house.gov/us/usc/119-136/t15/s45/"
+    penalties: Remedies depend on the enforcement route and applicable law; section 5 does not create a single AI-specific penalty.
+    key_dates:
+      - { date: "1914-09-26", event: "FTC Act enacted; section 5's generally applicable prohibition on unfair or deceptive acts in commerce also applies to AI-related conduct", source: "https://uscode.house.gov/us/usc/119-136/t15/s45/" }
+  - id: us-ndaa26
+    code: NDAA11960
+    title: National Defense Authorization Act for Fiscal Year 2026, Public Law 119-60
+    short: FY2026 NDAA
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm"
+    penalties: null
+    key_dates:
+      - { date: "2025-12-18", event: "FY2026 NDAA enacted", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2026-01-17", event: "30-day deadline for DoD's DeepSeek-related removal requirements and DoD-contractor prohibition under section 1532", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2026-02-16", event: "60-day deadline for DNI to issue initial standards and guidelines under section 6604", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2026-06-01", event: "Deadline to establish the DoD cross-functional AI model assessment and oversight team under section 1533", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2026-06-16", event: "180-day deadline for the DoD policies and framework-related congressional updates in sections 1512 and 1513", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2027-01-01", event: "Deadline to designate DoD AI application functional leads under section 1533", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2027-06-01", event: "Deadline to complete DoD's AI assessment framework and governance structure under section 1533", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+      - { date: "2028-01-01", event: "Deadline to complete assessments of major DoD AI systems under section 1533", source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+obligations:
+  - id: AGC-US-M2521-3A-I
+    instrument: us-omb-m2521
+    article: M-25-21 §3(a)(i)
+    title: Designate a Chief AI Officer
+    plain: The head of each covered agency must retain or designate a Chief AI Officer to promote agency AI innovation, adoption, and governance. An existing senior official may serve if they have significant AI expertise and the authority and access required by the memorandum.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: Covered executive-branch agencies; the memorandum excludes AI used as a component of a national security system and contains additional agency-specific exceptions.
+    applies_from: "2025-04-03"
+    status: applicable
+    controls: [risk_management]
+    evidence:
+      - Agency designation memo naming the CAIO and defining their authority and responsibilities
+    source_url: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    confidence: high
+    notes: The 60-day designation deadline was 2025-06-02. M-25-21 is an internal federal policy and does not create private-sector duties.
+  - id: AGC-US-M2521-3B-V
+    instrument: us-omb-m2521
+    article: M-25-21 §3(b)(v)
+    title: Maintain and publish annual AI use-case inventories
+    plain: Covered agencies must inventory AI use cases at least annually, submit the inventory to OMB, and publish a public version on the agency website. The public-inventory requirement does not apply to the Department of Defense or Intelligence Community; other stated agency and national-security exceptions also apply.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: Covered agencies under M-25-21; DoD and Intelligence Community are excluded from the public version of the inventory.
+    applies_from: "2025-04-03"
+    status: applicable
+    controls: [technical_documentation, audit_log]
+    evidence:
+      - Dated agency AI use-case inventory and OMB submission record
+      - Public inventory page or documented exception for non-public inventories
+    source_url: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    confidence: high
+  - id: AGC-US-M2521-4B
+    instrument: us-omb-m2521
+    article: M-25-21 §4(b)
+    title: Apply minimum risk practices to high-impact AI
+    plain: Agencies must conduct pre-deployment testing, prepare risk-mitigation plans, and complete a documented AI impact assessment before deploying a high-impact use case; they must periodically update the assessment and monitor performance and risks. Agencies must discontinue or cease use when the system fails the required practices and the risks cannot be mitigated.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, significant-decision]
+      conditions: High-impact AI is AI whose output is a principal basis for a decision or action with legal, material, binding, or significant effects on rights or safety; M-25-21 has national-security-system and specified agency exceptions and limited pilot provisions.
+    applies_from: "2025-04-03"
+    status: applicable
+    controls: [risk_management, impact_assessment, security_testing, human_oversight]
+    evidence:
+      - Pre-deployment test results, risk-mitigation plan, and signed AI impact assessment
+      - Periodic monitoring records and documented stop-use or remediation decisions
+    source_url: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf"
+    confidence: high
+    notes: Agencies had 365 days, through 2026-04-03, to document implementation of the minimum practices.
+  - id: AGC-US-M2522-2C
+    instrument: us-omb-m2522
+    article: M-25-22 §§2(c), 3(c)-(e), 4
+    title: Put required safeguards into covered AI contracts
+    plain: For covered solicitations and later contract options, agencies must include appropriate terms addressing privacy, government data and intellectual-property rights, M-25-21 high-impact AI requirements, and the agency's ability to conduct ongoing testing and monitoring. AI systems operated as agency information systems also need an authorization to operate before deployment.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: Covered executive-branch agency acquisitions of AI systems or services under solicitations issued on or after 2025-09-30, and options exercised after that date; excludes Intelligence Community elements and AI acquired for use in a national security system.
+    applies_from: "2025-09-30"
+    status: applicable
+    controls: [privacy_compliance, technical_documentation, risk_management, post_market_monitoring]
+    evidence:
+      - Solicitation and contract clauses covering privacy, government data/IP, high-impact AI practices, and testing access
+      - Authorization-to-operate decision and contract monitoring records where applicable
+    source_url: "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf"
+    confidence: high
+    notes: M-25-22 includes recommendations as well as mandatory requirements; this entry lists the stated mandatory contract terms, not optional vendor-lock-in practices.
+  - id: AGC-US-EO14319-3
+    instrument: us-eo14319
+    article: EO 14319 §3(a)-(b)
+    title: Procure LLMs developed under the Unbiased AI Principles
+    plain: Agency heads must procure only LLMs developed in accordance with the order's truth-seeking and ideological-neutrality principles. The order concerns federal procurement and does not impose a general private-market model-design mandate.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, gpai-model]
+      conditions: Federal agency procurement of LLMs; national-security-system exceptions may be provided in OMB guidance.
+    applies_from: "2025-07-23"
+    status: applicable
+    controls: [accuracy_robustness, technical_documentation]
+    evidence:
+      - Procurement evaluation documenting the principles and the agency's review of vendor information
+    source_url: "https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/"
+    confidence: high
+    notes: OMB implemented the order through M-26-04; its contract and policy requirements are listed separately.
+  - id: AGC-US-M2604-3A-C
+    instrument: us-omb-m2604
+    article: M-26-04 §§3(a), 3(c), Appendix A
+    title: Include Unbiased AI Principles in LLM procurement
+    plain: Agencies must put contractual requirements addressing the Unbiased AI Principles in post-11 December 2025 solicitations or orders for LLM procurement, obtain enough vendor information to assess compliance, and update procurement policies and user-feedback procedures by 11 March 2026. The memo also sets a two-year sunset unless extended by OMB.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, gpai-model]
+      conditions: Covered agencies procuring LLMs; excludes national security systems, with specified factors for applying the requirements to agency-developed LLMs and non-LLM models.
+    applies_from: "2025-12-11"
+    status: applicable
+    controls: [accuracy_robustness, technical_documentation, audit_log]
+    evidence:
+      - LLM solicitation and contract clauses requiring compliance with the principles
+      - Agency procurement policy and user process for reporting outputs that may violate the principles
+    source_url: "https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles.pdf"
+    confidence: high
+    notes: This memo governs agency procurement; it is not a generally applicable private-sector AI standard and is scheduled to sunset 2027-12-11 unless extended.
+  - id: AGC-US-EO14434-2A
+    instrument: us-eo14434
+    article: EO 14434 §2(a)-(b)
+    title: Use the prescribed term in future federal AI communications
+    plain: To the maximum extent permitted by law, executive departments and agencies must use “Super Intelligence” and “SI” instead of “Artificial Intelligence” and “AI” in official correspondence, public communications, websites, reports, policy documents, and other non-statutory executive-branch documents. The order does not require altering statutes, prior regulations, contracts, or historical documents.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: Non-statutory executive-branch communications and documents issued after the order; subject to applicable law.
+    applies_from: "2026-09-29"
+    status: applicable
+    controls: []
+    evidence:
+      - Current agency style guidance and a review process for covered non-statutory documents
+    source_url: "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
+    confidence: high
+    notes: Terminology rule for federal agencies only. No governance control in the shared vocabulary maps to it, so controls is empty on purpose.
+  - id: AGC-US-TIDA-2
+    instrument: us-tida
+    article: TAKE IT DOWN Act §2; 47 U.S.C. §223(h)
+    title: Do not knowingly publish specified nonconsensual intimate depictions
+    plain: In interstate or foreign commerce, it is unlawful to use an interactive computer service to knowingly publish certain intimate visual depictions of identifiable adults or minors without consent, including covered digital forgeries made with AI. The adult and minor offenses have different intent or harm conditions and statutory exceptions.
+    applies_to:
+      roles: [any]
+      uses: [generated-media, deepfake]
+      conditions: Applies only to the statutory categories and circumstances in 47 U.S.C. §223(h), including the separate rules for adult and minor subjects and the listed exceptions.
+    applies_from: "2025-05-19"
+    status: applicable
+    controls: [prohibited_practices_screen, content_moderation]
+    evidence:
+      - Content policy prohibiting covered nonconsensual intimate depictions and escalation records for suspected violations
+    source_url: "https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm"
+    confidence: high
+  - id: AGC-US-TIDA-3
+    instrument: us-tida
+    article: TAKE IT DOWN Act §3(a)-(b)
+    title: Provide notice and remove validly reported intimate depictions
+    plain: Covered platforms must provide a clear, plain-language notice of a removal process for intimate depictions published without consent, including AI digital forgeries. After a valid request, the platform must remove the depiction and make reasonable efforts to remove known identical copies as soon as possible and no later than 48 hours.
+    applies_to:
+      roles: [platform]
+      uses: [generated-media, deepfake]
+      conditions: Covered platforms as defined by the Act; removal duties concern intimate visual depictions published on the platform without the identifiable person's consent.
+    applies_from: "2026-05-19"
+    status: applicable
+    controls: [content_moderation, audit_log]
+    evidence:
+      - Clear notice and functioning request channel, including for people without platform accounts
+      - Takedown timestamps, disposition records, and reasonable-efforts records for known identical copies
+    penalty: A failure to reasonably comply is treated as an FTC Act violation; FTC guidance states potential civil penalties up to $53,088 per violation.
+    source_url: "https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm"
+    confidence: high
+    notes: The one-year compliance deadline ran from enactment on 2025-05-19. The FTC began enforcement on 2026-05-19.
+  - id: AGC-US-FTCA-5A
+    instrument: us-ftc-act
+    article: FTC Act §5(a), 15 U.S.C. §45(a)
+    title: Do not make deceptive AI claims to consumers
+    plain: The FTC Act's existing prohibition on unfair or deceptive acts or practices in commerce applies to AI-related marketing and conduct. Companies must not make deceptive claims about AI capabilities or use AI to facilitate deception; the law does not create a general warranty that every AI output is accurate.
+    applies_to:
+      roles: [any]
+      uses: [any-ai]
+      conditions: Conduct in or affecting commerce within the FTC's jurisdiction; statutory exceptions and other applicable law remain relevant.
+    applies_from: "1914-09-26"
+    status: applicable
+    controls: [accuracy_robustness, technical_documentation]
+    evidence:
+      - Substantiation for material performance, accuracy, earnings, or professional-service claims about AI products
+      - Review records for AI-enabled marketing and consumer-facing representations
+    source_url: "https://uscode.house.gov/us/usc/119-136/t15/s45/"
+    confidence: high
+    notes: FTC's Operation AI Comply is an enforcement example, not a new AI-specific rule. The FTC's June 2026 AI-accuracy policy statement was proposed for comment, not a final rule.
+  - id: AGC-US-NDAA11960-1512
+    instrument: us-ndaa26
+    article: FY2026 NDAA §1512
+    title: Establish a DoD-wide AI and ML cybersecurity policy
+    plain: The Secretary of Defense must develop and implement a department-wide policy for cybersecurity and associated governance of AI and machine-learning systems, applications, and models used in national-defense applications. The policy must address AI-specific threats, lifecycle safeguards, testing, auditing, monitoring, and workforce training.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: Department of Defense systems, applications, and models used in national-defense applications.
+    applies_from: "2025-12-18"
+    status: applicable
+    controls: [risk_management, security_testing, audit_log, ai_literacy]
+    evidence:
+      - Published or approved DoD AI/ML security and governance policy
+      - Implementation records for lifecycle security, testing, monitoring, and workforce training
+    source_url: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm"
+    confidence: high
+    notes: Section 1512 set a 180-day policy deadline of 2026-06-16 and required a report to the congressional armed-services committees by 2026-08-31.
+  - id: AGC-US-NDAA11960-1513
+    instrument: us-ndaa26
+    article: FY2026 NDAA §1513(a)-(b), (f)(3)
+    title: Develop DoD AI security requirements for covered entities
+    plain: The Secretary of Defense must develop a risk-based physical- and cybersecurity framework for covered AI/ML technologies and amend the DFARS or take similar action to require covered entities to implement it. A covered entity is a contractor or other entity developing, deploying, storing, or hosting covered AI/ML technology for DoD.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: This records DoD's statutory implementation duty; a company's specific requirements depend on an applicable DoD solicitation, contract clause, or similar action.
+    applies_from: "2025-12-18"
+    status: applicable
+    controls: [risk_management, security_testing, incident_reporting, ai_literacy]
+    evidence:
+      - DoD AI security framework and implementation plan
+      - Applicable DFARS clause or similar procurement action identifying contractor requirements
+    source_url: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm"
+    confidence: high
+    notes: Section 1513 separately required an implementation-status update to the congressional defense committees within 180 days of enactment.
+  - id: AGC-US-NDAA11960-1532
+    instrument: us-ndaa26
+    article: FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c)
+    title: Keep covered DeepSeek and High Flyer AI out of DoD contract performance
+    plain: DoD must require covered AI applications to be excluded from and removed from its systems and devices, and contractors may not use covered AI in performing a DoD contract. Covered AI includes models or successor models developed by DeepSeek or High Flyer and specified affiliated entities; the Secretary may grant case-specific waivers for listed research, evaluation, national-security, or mission-critical purposes with risk mitigation.
+    applies_to:
+      roles: [any]
+      uses: [any-ai, public-sector-use]
+      conditions: Contractors during performance of a contract with the Department of Defense; statutory waiver exceptions and definitions apply.
+    applies_from: "2026-01-17"
+    status: applicable
+    controls: [prohibited_practices_screen]
+    evidence:
+      - Vendor and subcontractor AI-use screening for DoD contract performance
+      - Documented waiver and risk-mitigation approval where an exception is used
+    source_url: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm"
+    confidence: high
+    notes: The 30-day deadline after enactment was 2026-01-17; the statutory restriction is limited to the covered AI defined in §1532.
+  - id: AGC-US-NDAA11960-1533
+    instrument: us-ndaa26
+    article: FY2026 NDAA §1533(a)-(d), (f)(3)
+    title: Assess and oversee major DoD AI systems
+    plain: The Secretary of Defense must establish a cross-functional team to develop a standard AI model assessment framework and governance structure, designate functional leads, and assess major AI systems against the framework. A major system meets the statutory impact, user-count, and operational-use thresholds; systems used solely for undeployed research, development, testing, or evaluation are excluded.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: Department of Defense major AI systems meeting §1533(f)(3)'s criteria, including at least 500 annual DoD users and specified high-impact or operational conditions.
+    applies_from: "2026-06-01"
+    status: applicable
+    controls: [risk_management, impact_assessment, security_testing, technical_documentation]
+    evidence:
+      - Team charter, assessment framework, and governance structure
+      - Assessment records for major AI systems and documentation of use-case risk levels
+    source_url: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm"
+    confidence: high
+    notes: The statute set future deadlines for functional leads (2027-01-01), framework completion (2027-06-01), and major-system assessments (2028-01-01); the team-establishment deadline was 2026-06-01.
+  - id: AGC-US-NDAA11960-6604
+    instrument: us-ndaa26
+    article: FY2026 NDAA §6604(a)-(e)
+    title: Require removal of DeepSeek from intelligence-community systems
+    plain: The Director of National Intelligence must issue standards and guidelines requiring removal of the DeepSeek application or successor service from national security systems operated by an intelligence-community element, its contractor, or another entity acting for it. The standards must include national-security and research exceptions with risk-mitigation requirements.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: Intelligence-community national security systems, including systems operated by contractors or other entities on behalf of an element.
+    applies_from: "2026-02-16"
+    status: applicable
+    controls: [prohibited_practices_screen, security_testing]
+    evidence:
+      - DNI-issued standards and guidelines implementing the covered-application removal requirement
+      - System and contractor screening records, including risk controls for approved exceptions
+    source_url: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm"
+    confidence: high
+    notes: The 60-day deadline to issue initial standards was 2026-02-16; §6604 requires standards and guidelines rather than stating an unrestricted direct prohibition on all DeepSeek use.
+deadlines:
+  - { date: "2027-01-01", title: "DoD must designate functional leads for AI applications under NDAA §1533", instrument: us-ndaa26, obligations: [AGC-US-NDAA11960-1533], source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+  - { date: "2027-06-01", title: "DoD must complete the AI assessment framework and governance structure under NDAA §1533", instrument: us-ndaa26, obligations: [AGC-US-NDAA11960-1533], source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+  - { date: "2028-01-01", title: "DoD must complete assessments of major AI systems under NDAA §1533", instrument: us-ndaa26, obligations: [AGC-US-NDAA11960-1533], source: "https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm" }
+sources:
+  - { title: "EO 14148, Initial Rescissions of Harmful Executive Orders and Actions", url: "https://www.whitehouse.gov/presidential-actions/2025/01/initial-rescissions-of-harmful-executive-orders-and-actions/" }
+  - { title: "EO 14179, Removing Barriers to American Leadership in Artificial Intelligence", url: "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/" }
+  - { title: "EO 14365, Ensuring a National Policy Framework for Artificial Intelligence", url: "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" }
+  - { title: "NIST AI RMF FAQ (states the framework is voluntary)", url: "https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs" }
+  - { title: "NIST AI Resource Center (AI RMF 1.0 is being revised)", url: "https://airc.nist.gov/" }
+  - { title: "FTC Operation AI Comply / deceptive AI claims enforcement example", url: "https://search.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes" }
+  - { title: "FTC proposed AI-accuracy policy statement (not a final rule)", url: "https://search.ftc.gov/policy/public-comments/policy-statement-concerning-suppression-accuracy-artificial-intelligence-systems" }
+  - { title: "FTC business guidance on the TAKE IT DOWN Act", url: "https://search.ftc.gov/business-guidance/resources/complying-take-it-down-act" }
+  - { title: "Congress.gov list of enacted 119th Congress public laws", url: "https://www.congress.gov/public-laws/119th-congress" }
+  - { title: "S. 4199, Youth AI Privacy Act (proposed; not enacted)", url: "https://www.congress.gov/bill/119th-congress/senate-bill/4199" }
+  - { title: "S. 3062, GUARD Act (proposed; not enacted)", url: "https://www.congress.gov/bill/119th-congress/senate-bill/3062" }
+  - { title: "S. 4915, AI Labeling Act of 2026 (proposed; not enacted)", url: "https://www.congress.gov/bill/119th-congress/senate-bill/4915" }
+  - { title: "H.R. 10146, AI Advertising Disclosure Act (proposed; not enacted)", url: "https://www.congress.gov/bill/119th-congress/house-bill/10146" }
+  - { title: "Federal Register notice of DHS DeepSeek order (omitted from obligations because the signed order and its effective date were not available for exact verification)", url: "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive" }

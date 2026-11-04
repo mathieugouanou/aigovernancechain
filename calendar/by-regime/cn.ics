@@ -1,0 +1,337 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: China (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20220301-QWxnb3JpdGhtaWMgUmVjb21t@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20220301
+DTEND;VALUE=DATE:20220302
+SUMMARY:[CN] Algorithmic Recommendation Provisions: Provisions enter into 
+ force
+DESCRIPTION:Source: https://www.cac.gov.cn/2022-01/04/c_1642894606364259.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20220301-RGlzY2xvc2UgcmVjb21tZW5k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20220301
+DTEND;VALUE=DATE:20220302
+SUMMARY:[CN] Disclose recommendation and give users a real choice (Algorit
+ hmic Recommendation Provisions Arts. 16–17)
+DESCRIPTION:Obligations: AGC-CN-ALGO-16-17. Source: https://www.cac.gov.cn
+ /2022-01/04/c_1642894606364259.htm. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20220301-RmlsZSBwdWJsaWMtb3Bpbmlv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20220301
+DTEND;VALUE=DATE:20220302
+SUMMARY:[CN] File public-opinion or mobilisation-capable recommendation se
+ rvices (Algorithmic Recommendation Provisions Arts. 24–27\, 31\, 33)
+DESCRIPTION:Obligations: AGC-CN-ALGO-24-27. Source: https://www.cac.gov.cn
+ /2022-01/04/c_1642894606364259.htm. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230110-QXNzZXNzIGFuZCBmaWxlIHNw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230110
+DTEND;VALUE=DATE:20230111
+SUMMARY:[CN] Assess and file specified deep-synthesis services (Deep Synth
+ esis Provisions Arts. 15\, 19–20)
+DESCRIPTION:Obligations: AGC-CN-DSYN-15-19-20. Source: https://www.cac.gov
+ .cn/2022-12/11/c_1672221949354811.htm. Draft open data from AI Governance
+  Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230110-RGVlcCBTeW50aGVzaXMgUHJv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230110
+DTEND;VALUE=DATE:20230111
+SUMMARY:[CN] Deep Synthesis Provisions: Provisions enter into force
+DESCRIPTION:Source: https://www.cac.gov.cn/2022-12/11/c_1672221949354811.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230110-VmVyaWZ5IGlkZW50aXR5IGZv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230110
+DTEND;VALUE=DATE:20230111
+SUMMARY:[CN] Verify identity for posting and label deep-synthesis output (
+ Deep Synthesis Provisions Arts. 9\, 16–18)
+DESCRIPTION:Obligations: AGC-CN-DSYN-9-16-18. Source: https://www.cac.gov.
+ cn/2022-12/11/c_1672221949354811.htm. Draft open data from AI Governance 
+ Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230815-QXNzZXNzIGFuZCBmaWxlIHF1@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230815
+DTEND;VALUE=DATE:20230816
+SUMMARY:[CN] Assess and file qualifying public-facing GenAI services (Inte
+ rim GenAI Measures Art. 17)
+DESCRIPTION:Obligations: AGC-CN-GENAI-17. Source: https://www.cac.gov.cn/2
+ 023-07/13/c_1690898327029107.htm. Draft open data from AI Governance Chai
+ n. Not legal advice.
+URL:https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230815-Q29udHJvbCBoYXJtZnVsIG91@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230815
+DTEND;VALUE=DATE:20230816
+SUMMARY:[CN] Control harmful outputs and provide user safeguards (Interim 
+ GenAI Measures Arts. 4\, 10\, 14–15)
+DESCRIPTION:Obligations: AGC-CN-GENAI-4-10-14-15. Source: https://www.cac.
+ gov.cn/2023-07/13/c_1690898327029107.htm. Draft open data from AI Governa
+ nce Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230815-SW50ZXJpbSBHZW5BSSBNZWFz@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230815
+DTEND;VALUE=DATE:20230816
+SUMMARY:[CN] Interim GenAI Measures: Measures enter into force
+DESCRIPTION:Source: https://www.cac.gov.cn/2023-07/13/c_1690898327029107.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230815-VXNlIGxhd2Z1bCwgZ292ZXJu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230815
+DTEND;VALUE=DATE:20230816
+SUMMARY:[CN] Use lawful\, governed data for public-facing GenAI services (
+ Interim GenAI Measures Arts. 7–8)
+DESCRIPTION:Obligations: AGC-CN-GENAI-7-8. Source: https://www.cac.gov.cn/
+ 2023-07/13/c_1690898327029107.htm. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250228-R0IgNDU0MzgtMjAyNTogU3Rh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250228
+DTEND;VALUE=DATE:20250301
+SUMMARY:[CN] GB 45438-2025: Standard published
+DESCRIPTION:Source: https://openstd.samr.gov.cn/bzgk/std/std_list?p.p2=GB+
+ 45438-2025. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://openstd.samr.gov.cn/bzgk/std/std_list?p.p2=GB+45438-2025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250307-QUkgQ29udGVudCBMYWJlbGxp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250307
+DTEND;VALUE=DATE:20250308
+SUMMARY:[CN] AI Content Labelling Measures: Measures issued
+DESCRIPTION:Source: https://www.cac.gov.cn/2025-03/14/c_1743654684782215.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250901-QUkgQ29udGVudCBMYWJlbGxp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+SUMMARY:[CN] AI Content Labelling Measures: Measures enter into force
+DESCRIPTION:Source: https://www.cac.gov.cn/2025-03/14/c_1743654684782215.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250901-SW1wbGVtZW50IHRoZSBtYW5k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+SUMMARY:[CN] Implement the mandatory AI-content labelling method (GB 45438
+ -2025 Clauses 4–6 and normative Annex E)
+DESCRIPTION:Obligations: AGC-CN-GB45438-4-6-E. Source: https://openstd.sam
+ r.gov.cn/bzgk/std/std_list?p.p2=GB+45438-2025. Draft open data from AI Go
+ vernance Chain. Not legal advice.
+URL:https://openstd.samr.gov.cn/bzgk/std/std_list?p.p2=GB+45438-2025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250901-TGFiZWwgYW5kIHZlcmlmeSBB@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+SUMMARY:[CN] Label and verify AI-generated content across the service chai
+ n (AI Content Labelling Measures Arts. 4–12)
+DESCRIPTION:Obligations: AGC-CN-LABEL-4-12. Source: https://www.cac.gov.cn
+ /2025-03/14/c_1743654684782215.htm. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20251028-QW1lbmRlZCBDeWJlcnNlY3Vy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251028
+DTEND;VALUE=DATE:20251029
+SUMMARY:[CN] Amended Cybersecurity Law: Amendment adopted by the NPC Stand
+ ing Committee
+DESCRIPTION:Source: http://www.npc.gov.cn/npc/c1773/c1848/c21114/wlaqfxz/w
+ laqfxz002/202511/t20251103_449242.html. Draft open data from AI Governanc
+ e Chain. Not legal advice.
+URL:http://www.npc.gov.cn/npc/c1773/c1848/c21114/wlaqfxz/wlaqfxz002/202511
+ /t20251103_449242.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260101-QW1lbmRlZCBDeWJlcnNlY3Vy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:[CN] Amended Cybersecurity Law: Amendment enters into force
+DESCRIPTION:Source: http://www.npc.gov.cn/npc/c1773/c1848/c21114/wlaqfxz/w
+ laqfxz002/202511/t20251103_449242.html. Draft open data from AI Governanc
+ e Chain. Not legal advice.
+URL:http://www.npc.gov.cn/npc/c1773/c1848/c21114/wlaqfxz/wlaqfxz002/202511
+ /t20251103_449242.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260101-UmVjb2duaXNlIHRoZSBDeWJl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:[CN] Recognise the Cybersecurity Law's AI governance mandate (Amen
+ ded Cybersecurity Law Art. 20)
+DESCRIPTION:Obligations: AGC-CN-CSL-20. Source: http://www.npc.gov.cn/npc/
+ c1773/c1848/c21114/wlaqfxz/wlaqfxz002/202511/t20251103_449242.html. Draft
+  open data from AI Governance Chain. Not legal advice.
+URL:http://www.npc.gov.cn/npc/c1773/c1848/c21114/wlaqfxz/wlaqfxz002/202511
+ /t20251103_449242.html
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260410-QW50aHJvcG9tb3JwaGljIElu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:[CN] Anthropomorphic Interactive Services Measures: Measures promu
+ lgated
+DESCRIPTION:Source: https://www.cac.gov.cn/2026-04/10/c_1777558395078289.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260508-UHJvcG9zZWQ6IFN0YXRlIENv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+SUMMARY:[CN] Proposed: State Council legislative work plan calls for accel
+ erating comprehensive AI legislation\; no draft text or enactment date st
+ ated
+DESCRIPTION:Obligations: AGC-CN-CSL-20. Source: https://www.gov.cn/yaowen/
+ liebiao/202605/content_7068353.htm. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.gov.cn/yaowen/liebiao/202605/content_7068353.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-QW50aHJvcG9tb3JwaGljIElu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[CN] Anthropomorphic Interactive Services Measures: Measures enter
+  into force
+DESCRIPTION:Source: https://www.cac.gov.cn/2026-04/10/c_1777558395078289.h
+ tm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-QXNzZXNzIGFuZCBmaWxlIGh1@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[CN] Assess and file human-like interactive services (Anthropomorp
+ hic Interactive Services Measures Arts. 22–27)
+DESCRIPTION:Obligations: AGC-CN-ANTHRO-22-26. Source: https://www.cac.gov.
+ cn/2026-04/10/c_1777558395078289.htm. Draft open data from AI Governance 
+ Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-RGlzY2xvc2UgQUkgaWRlbnRp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[CN] Disclose AI identity and allow users to leave (Anthropomorphi
+ c Interactive Services Measures Arts. 18–19)
+DESCRIPTION:Obligations: AGC-CN-ANTHRO-18-19. Source: https://www.cac.gov.
+ cn/2026-04/10/c_1777558395078289.htm. Draft open data from AI Governance 
+ Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-R292ZXJuIGh1bWFuLWxpa2Ug@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[CN] Govern human-like interaction safety and training data (Anthr
+ opomorphic Interactive Services Measures Arts. 8–11)
+DESCRIPTION:Obligations: AGC-CN-ANTHRO-9-11. Source: https://www.cac.gov.c
+ n/2026-04/10/c_1777558395078289.htm. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-UHJvdGVjdCBpbnRlcmFjdGl2@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[CN] Protect interactive data and sensitive information (Anthropom
+ orphic Interactive Services Measures Arts. 16–17)
+DESCRIPTION:Obligations: AGC-CN-ANTHRO-16. Source: https://www.cac.gov.cn/
+ 2026-04/10/c_1777558395078289.htm. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260715-UHJvdGVjdCBtaW5vcnMgYW5k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:[CN] Protect minors and intervene in safety crises (Anthropomorphi
+ c Interactive Services Measures Arts. 13–15)
+DESCRIPTION:Obligations: AGC-CN-ANTHRO-13-15. Source: https://www.cac.gov.
+ cn/2026-04/10/c_1777558395078289.htm. Draft open data from AI Governance 
+ Chain. Not legal advice.
+URL:https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

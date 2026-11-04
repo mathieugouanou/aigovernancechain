@@ -1,0 +1,245 @@
+id: ch
+jurisdiction: CH
+name: Switzerland
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Swiss AI governance
+  one_liner: Switzerland has no overarching AI-specific act yet; existing data-protection law applies to AI processing of personal data, while an AI-law consultation draft is planned for spring 2027.
+  who_it_hits: Private controllers and processors, federal bodies, and organisations that use AI to process personal data in Switzerland; separate cantonal rules may apply to cantonal and municipal bodies.
+  status_line: Binding FADP and Data Protection Ordinance duties apply today. The Federal Council reported a spring 2027 consultation for proposed AI legislation; OFCOM's AI Code of Conduct guide is voluntary.
+instruments:
+  - id: ch-fadp
+    code: FADP
+    title: Federal Act of 25 September 2020 on Data Protection (FADP), revised
+    short: Revised FADP
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    penalties: "On complaint, a natural person may face a fine of up to CHF 250,000 for specified wilful violations of information duties (including Arts. 19, 21 and 25–27); this is not an AI-specific penalty."
+    key_dates:
+      - { date: "2023-09-01", event: "Revised FADP enters into force", source: "https://www.fedlex.admin.ch/eli/cc/2022/491/en" }
+    notes: "Technology-neutral data protection law, not an AI Act. It covers processing of natural persons' personal data by private persons and federal bodies; cantonal and communal public bodies generally fall under cantonal data-protection laws. Fedlex English text is an informational translation."
+  - id: ch-dpo
+    code: DPO
+    title: Ordinance of 31 August 2022 on Data Protection (Data Protection Ordinance, DPO), current to 1 December 2025
+    short: Data Protection Ordinance
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: https://www.fedlex.admin.ch/eli/cc/2022/568/en
+    penalties: null
+    key_dates:
+      - { date: "2023-09-01", event: "Data Protection Ordinance enters into force", source: "https://www.fedlex.admin.ch/eli/cc/2022/568/en" }
+      - { date: "2025-12-01", event: "Amendments to the logging rules in Art. 4 and transition in Art. 46 take effect", source: "https://www.fedlex.admin.ch/eli/cc/2022/568/en" }
+  - id: ch-ai-proposal
+    code: AI2027
+    title: Proposed Federal Council AI legislation implementing the Council of Europe AI Convention (draft for consultation planned for spring 2027)
+    short: Proposed Swiss AI legislation
+    type: bill
+    legal_force: proposed
+    status: proposed
+    official_url: https://www.bakom.admin.ch/en/artificial-intelligence
+    penalties: null
+    key_dates:
+      - { date: "2025-02-12", event: "Federal Council chooses an approach to ratify and implement the Council of Europe AI Convention, with sector-specific amendments where needed", source: "https://www.admin.ch/en/nsb?id=104110" }
+      - { date: "2025-03-27", event: "Switzerland signs the Council of Europe Framework Convention on AI", source: "https://www.bakom.admin.ch/en/nsb?id=104646" }
+      - { date: "2026-10-28", event: "Federal Council update says consultation is scheduled for spring 2027; proposed rules are to address transparency, data protection, non-discrimination, supervision and risk assessment", source: "https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D" }
+    notes: "No overarching Swiss AI-specific legislation is in force as of 2026-11-04. The consultation timing is an official forecast, not an enacted commencement date."
+  - id: ch-aicg
+    code: AICG
+    title: OFCOM Guide on an AI Code of Conduct
+    short: OFCOM AI Code of Conduct guide
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D
+    penalties: null
+    key_dates:
+      - { date: "2026-10-28", event: "OFCOM AI Code of Conduct guide reported as a toolkit for voluntary guidelines", source: "https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D" }
+    notes: "The toolkit offers suggested text on 10 topics and a process for associations and businesses to develop voluntary AI guidelines; it creates no legal duties."
+obligations:
+  - id: AGC-CH-FADP-6-7
+    instrument: ch-fadp
+    article: Art. 6(1)–(5) and Art. 7
+    title: Process personal data transparently and build privacy in by design
+    plain: "Personal data must be processed lawfully, in good faith and proportionately; the purpose must be recognisable to the data subject and further processing must remain compatible with that purpose. Controllers must design processing to respect these principles from the planning stage and use suitable default settings to limit data to what is necessary."
+    applies_to:
+      roles: [any]
+      uses: [any-ai]
+      conditions: "Applies when AI processing concerns personal data of natural persons and the organisation is a private person or federal body within the FADP's scope."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [privacy_compliance, transparency_notice, user_controls]
+    evidence:
+      - "Purpose and lawful-basis records for AI-related personal-data processing"
+      - "Privacy-by-design review and data-minimising default settings"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: high
+  - id: AGC-CH-FADP-12
+    instrument: ch-fadp
+    article: Art. 12(1)–(5); DPO Art. 24
+    title: Keep a record of processing activities
+    plain: "Controllers and processors must keep records describing their processing activities, including purpose, data and data-subject categories, recipients, retention, security measures and relevant foreign disclosures. Natural persons and private organisations with fewer than 250 employees are generally exempt unless they process a large volume of sensitive personal data or carry out high-risk profiling; federal bodies must notify the FDPIC of their records."
+    applies_to:
+      roles: [any]
+      uses: [any-ai]
+      conditions: "Record only processing of personal data; the small-organisation exception and its sensitive-data/high-risk-profiling limits are in DPO Art. 24."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [audit_log, privacy_compliance]
+    evidence:
+      - "Current processing inventory covering AI uses, data categories, purposes, recipients and transfers"
+      - "Documented exemption analysis, if relying on the DPO Art. 24 exception"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: high
+  - id: AGC-CH-FADP-19-6
+    instrument: ch-fadp
+    article: Art. 6(3), 19(1)–(2); FDPIC, AI and data protection, Transparent information
+    title: Tell people how AI processes their personal data
+    plain: "Controllers must make the purpose of personal-data processing recognisable and inform data subjects appropriately when collecting personal data, including the controller's identity, processing purpose and, where applicable, recipients. The FDPIC says that AI providers and users should make purpose, functionality and data sources transparent; users of directly interactive language models should know they are communicating with a machine and how their prompts may be used."
+    applies_to:
+      roles: [provider, deployer, any]
+      uses: [any-ai, chatbot, agent]
+      conditions: "Only where personal data is processed within the FADP's scope; the FDPIC's AI-specific disclosure statement is its application of general FADP transparency duties, not a separate AI Act."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [ai_disclosure, transparency_notice, privacy_compliance]
+    evidence:
+      - "Notice describing the AI processing purpose, data sources, and prompt retention or reuse"
+      - "User-facing disclosure when an interactive language model is a machine"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: medium
+    notes: "FDPIC's 2025 statement also says use of programs that manipulate identifiable persons' faces, images or voice messages must be clearly indicated. This is the regulator's interpretation of existing data-protection duties, not a standalone statutory deepfake-labelling article. See https://www.edoeb.admin.ch/en/ai-and-data-protection."
+  - id: AGC-CH-FADP-21
+    instrument: ch-fadp
+    article: Art. 21(1)–(4)
+    title: Notify people about consequential decisions made solely by automation and offer human review
+    plain: "If a decision is based exclusively on automated processing and has legal consequences or a considerable adverse effect, the controller must inform the data subject. On request, the person may express their view and request review by a natural person; federal bodies must designate such decisions. The Act has exceptions, including where an eligible contract-related request is granted or the person explicitly consented to automation."
+    applies_to:
+      roles: [deployer, public-body, any]
+      uses: [significant-decision, profiling, credit, hiring, education, healthcare, essential-services]
+      conditions: "Only automated individual decisions with legal consequences or considerable adverse effects; the Art. 21(3) exceptions and federal-body hearing qualification apply."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [transparency_notice, human_oversight, contest_and_appeal]
+    evidence:
+      - "Decision notices identifying exclusively automated consequential decisions"
+      - "Procedure and records for a person's request to express a view or obtain human review"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: high
+  - id: AGC-CH-FADP-22
+    instrument: ch-fadp
+    article: Art. 22(1)–(5) and Art. 23
+    title: Assess high-risk personal-data processing before deployment
+    plain: "Before processing likely to create a high risk to a person's personality or fundamental rights, the controller must complete a data protection impact assessment describing the processing, risks and protective measures. High risk depends on the nature, extent, circumstances and purpose, including large-scale sensitive-data processing or large-scale systematic monitoring of public areas; residual high risk generally requires prior consultation with the FDPIC, subject to statutory exceptions."
+    applies_to:
+      roles: [provider, deployer, public-body, any]
+      uses: [any-ai, profiling, biometric-categorisation, remote-biometric-id, significant-decision]
+      conditions: "Applies only where personal-data processing is likely to present high risk; statutory exemptions and the certified-product/code-of-conduct route are set out in Arts. 22–23."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [impact_assessment, risk_management, privacy_compliance]
+    evidence:
+      - "Completed DPIA with processing description, risk evaluation and safeguards"
+      - "FDPIC consultation record where residual high risk remains and consultation is required"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: high
+  - id: AGC-CH-FADP-24
+    instrument: ch-fadp
+    article: Art. 24(1)–(4)
+    title: Report high-risk personal-data security breaches
+    plain: "A controller must notify the FDPIC as quickly as possible of a data-security breach likely to result in a high risk to a person's personality or fundamental rights, describing the breach, its consequences and measures taken or planned. A processor must notify the controller as quickly as possible; the controller must inform affected people where needed for their protection or at the FDPIC's request."
+    applies_to:
+      roles: [provider, deployer, public-body, any]
+      uses: [any-ai]
+      conditions: "Only where AI-related personal data are involved and a breach is likely to create a high risk to data subjects."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [incident_reporting, privacy_compliance]
+    evidence:
+      - "Data-breach response runbook and assessment of high-risk notification thresholds"
+      - "FDPIC notice, affected-person notice, and incident documentation where required"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: high
+  - id: AGC-CH-FADP-25
+    instrument: ch-fadp
+    article: Art. 25(1)–(2)(e)–(g)
+    title: Provide access information, including about automated decisions
+    plain: "On request, a person may ask whether personal data about them is being processed and receive information needed to exercise their rights. This includes the purpose, available source of data not collected from them, and, if applicable, whether an automated individual decision was taken and the logic behind it, subject to the Act's exceptions."
+    applies_to:
+      roles: [provider, deployer, public-body, any]
+      uses: [any-ai, profiling, significant-decision]
+      conditions: "Applies to personal data within the FADP's scope; access rights may be limited in the cases set out in Arts. 26–27."
+    applies_from: "2023-09-01"
+    status: applicable
+    controls: [transparency_notice, contest_and_appeal, privacy_compliance]
+    evidence:
+      - "Access-request process and response template for AI-related processing"
+      - "Information supplied about data sources and automated-decision logic when applicable"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/491/en
+    confidence: high
+  - id: AGC-CH-DPO-4
+    instrument: ch-dpo
+    article: Art. 4(1)–(5)
+    title: Log qualifying automated processing and keep logs protected
+    plain: "Private controllers and processors must log specified data operations and access when they automate large-volume sensitive-data processing or high-risk profiling and preventive measures cannot ensure protection. Federal bodies and their processors must log specified operations for sensitive data, profiling and covered law-enforcement processing; for other automated processing they must assess fundamental-rights risks and decide whether and how far to log. Required logs identify who did what and when, are kept at least one year, and are separated and access-restricted."
+    applies_to:
+      roles: [provider, deployer, public-body, any]
+      uses: [any-ai, profiling, law-enforcement]
+      conditions: "Applies to automated processing of personal data; private-sector logging depends on the Art. 4(1) risk conditions, while federal-body duties are specified in Art. 4(2)."
+    applies_from: "2025-12-01"
+    status: applicable
+    controls: [audit_log, privacy_compliance, risk_management]
+    evidence:
+      - "Written risk assessment and decision on logging for covered automated processing"
+      - "Protected logs with access restrictions and at least one-year retention where Art. 4 requires them"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/568/en
+    confidence: high
+  - id: AGC-CH-DPO-46-1
+    instrument: ch-dpo
+    article: Art. 46(1)
+    title: Assess logging needs for legacy automated processing by the transition deadline
+    plain: "For automated personal-data processing planned or started before 1 December 2025, the controller must assess the need for logging by 31 December 2026; if logging is needed, it must be implemented by 31 December 2029. This transition does not cover automated processing of sensitive personal data, profiling, or processing within the law-enforcement data-protection directive."
+    applies_to:
+      roles: [provider, deployer, public-body, any]
+      uses: [any-ai]
+      conditions: "Only legacy automated processing begun or planned before the 29 October 2025 amendment; excluded categories remain subject to Art. 4 without this transition."
+    applies_from: "2026-12-31"
+    status: not-yet-applicable
+    controls: [audit_log, risk_management, privacy_compliance]
+    evidence:
+      - "Written Art. 4(2) assessment by 31 December 2026"
+      - "Logging controls implemented by 31 December 2029 where the assessment finds they are needed"
+    source_url: https://www.fedlex.admin.ch/eli/cc/2022/568/en
+    confidence: high
+    notes: "Art. 46(1) sets two separate deadlines; the second applies only if the logging assessment finds logging necessary."
+  - id: AGC-CH-AICG-VOL
+    instrument: ch-aicg
+    article: OFCOM Guide on an AI Code of Conduct, voluntary toolkit
+    title: Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation
+    plain: "OFCOM's toolkit helps associations and businesses create voluntary AI guidelines, with suggested texts on 10 topics and a process for developing and improving commitments. It is not legislation and creates no mandatory duty to adopt a code."
+    applies_to:
+      roles: [provider, deployer, public-body]
+      uses: [any-ai]
+    applies_from: "2026-10-28"
+    status: voluntary
+    controls: [risk_management]
+    evidence:
+      - "Voluntary AI policy or code and records of periodic review, if adopted"
+    source_url: https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D
+    confidence: high
+    notes: "OFCOM reported the guide on 28 October 2026; it is a toolkit for voluntary commitments, not a substitute for binding FADP duties."
+deadlines:
+  - { date: "2026-12-31", title: "Assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1)", instrument: ch-dpo, obligations: [AGC-CH-DPO-46-1], source: "https://www.fedlex.admin.ch/eli/cc/2022/568/en" }
+  - { date: "2029-12-31", title: "Implement logging for eligible legacy processing if the Art. 46(1) assessment finds it necessary", instrument: ch-dpo, obligations: [AGC-CH-DPO-46-1], source: "https://www.fedlex.admin.ch/eli/cc/2022/568/en" }
+sources:
+  - { title: "Federal Act on Data Protection (FADP), Fedlex", url: "https://www.fedlex.admin.ch/eli/cc/2022/491/en" }
+  - { title: "Data Protection Ordinance (DPO), Fedlex (status 1 December 2025)", url: "https://www.fedlex.admin.ch/eli/cc/2022/568/en" }
+  - { title: "FDPIC: AI and data protection", url: "https://www.edoeb.admin.ch/en/ai-and-data-protection" }
+  - { title: "Federal Council: AI regulation approach, 12 February 2025", url: "https://www.admin.ch/en/nsb?id=104110" }
+  - { title: "OFCOM: Artificial Intelligence in Switzerland", url: "https://www.bakom.admin.ch/en/artificial-intelligence" }
+  - { title: "OFCOM: Federal Council takes note of interim progress on AI regulation, 28 October 2026", url: "https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D" }

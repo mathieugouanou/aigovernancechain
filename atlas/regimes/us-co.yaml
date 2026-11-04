@@ -1,0 +1,304 @@
+id: us-co
+jurisdiction: US-CO
+name: Colorado
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Colorado ADMT Act and Chatbot Safety Act
+  one_liner: Colorado's successor ADMT law requires developer documentation, deployer notices and consumer recourse for consequential decisions; a separate law governs public conversational AI and minors.
+  who_it_hits: Colorado developers and deployers of automated decision-making technology used in consequential decisions, plus operators of public conversational AI services, including services used by minors.
+  status_line: Binding. SB 24-205's delayed duties apply during the transition through 2026-12-31; SB 26-189 and HB 26-1263's main duties apply from 2027-01-01. Proposed AG rules had a 2026-10-26 hearing; final rules were not confirmed by 2026-11-04.
+instruments:
+  - id: co-sb24-205
+    code: SB24205
+    title: Senate Bill 24-205, Consumer Protections for Artificial Intelligence Systems
+    short: Colorado AI Act (2024)
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download"
+    penalties: Violations were deceptive trade practices enforceable by the Colorado Attorney General or district attorneys; the Colorado Consumer Protection Act generally allows up to $20,000 per violation (up to $50,000 for a violation against an elderly person).
+    key_dates:
+      - { date: "2024-05-17", event: "SB 24-205 was signed; its high-risk AI duties were initially scheduled for 2026-02-01", source: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download" }
+      - { date: "2025-11-25", event: "SB 25B-004 took effect and delayed SB 24-205 requirements until 2026-06-30", source: "https://leg.colorado.gov/laws/session-laws/SB25B-004/3/download" }
+      - { date: "2026-06-30", event: "The delayed SB 24-205 requirements began applying", source: "https://leg.colorado.gov/laws/session-laws/SB25B-004/3/download" }
+      - { date: "2027-01-01", event: "SB 26-189's general effective date: Part 17 is repealed and reenacted as the successor ADMT framework", source: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download" }
+  - id: co-sb26-189
+    code: SB26189
+    title: Senate Bill 26-189, Automated Decision-Making Technology in Consequential Decisions
+    short: Colorado ADMT Act
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download"
+    penalties: A Part 17 violation is a deceptive trade practice. The Attorney General enforces through the Colorado Consumer Protection Act; violations of §§ 6-1-1702 to 1705 are enforceable exclusively by the Attorney General. The general CCPA ceiling is $20,000 per violation ($50,000 for a violation against an elderly person), with a separate violation for each consumer or transaction. Before 2030, the Attorney General generally gives 60 days to cure if a cure is possible, but not for knowing or repeated violations; the Act creates no new private right of action and preserves existing remedies under other law.
+    key_dates:
+      - { date: "2026-05-14", event: "SB 26-189 was signed; specified rulemaking and procedural provisions took effect upon passage", source: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download" }
+      - { date: "2026-08-11", event: "Department of Law filed proposed ADMT and chatbot rules", source: "https://coag.gov/ai/" }
+      - { date: "2026-10-06", event: "Interim draft rules were released", source: "https://coag.gov/ai/" }
+      - { date: "2026-10-26", event: "Formal rulemaking hearing on proposed 4 CCR 904-6 rules", source: "https://coag.gov/app/uploads/2026/08/2026.08.11-Notice-of-Hearing.docx" }
+      - { date: "2027-01-01", event: "Main SB 26-189 duties apply to consequential decisions made on or after this date; Attorney General rules on disclosures and consumer rights are due by this date", source: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download" }
+      - { date: "2030-01-01", event: "SB 26-189's 60-day cure provision is repealed effective this date", source: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download" }
+  - id: co-hb26-1263
+    code: HB261263
+    title: House Bill 26-1263, Conversational Artificial Intelligence Service Operator Requirements
+    short: Colorado Chatbot Safety Act
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download"
+    penalties: Violations are deceptive trade practices under the Colorado Consumer Protection Act; the general CCPA civil penalty ceiling is $20,000 per violation ($50,000 for a violation against an elderly person), with a separate violation for each consumer or transaction. The statutory duties in § 6-1-1708 generally begin 2027-01-01.
+    key_dates:
+      - { date: "2026-08-12", event: "HB 26-1263 took effect as an Act", source: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download" }
+      - { date: "2027-01-01", event: "Main operator duties in § 6-1-1708 apply", source: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download" }
+      - { date: "2027-07-01", event: "First annual chatbot safety report to the Attorney General is due on or after this date", source: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download" }
+obligations:
+  - id: AGC-US-CO-SB24205-1702
+    instrument: co-sb24-205
+    article: C.R.S. § 6-1-1702 (SB 24-205 version)
+    title: Use reasonable care and document high-risk systems
+    plain: Developers of high-risk AI systems must use reasonable care to protect consumers from known or reasonably foreseeable risks of algorithmic discrimination and provide downstream deployers with required system documentation. The original law also requires disclosure of discovered algorithmic discrimination to the Attorney General and known downstream developers or deployers within 90 days.
+    applies_to:
+      roles: [developer]
+      uses: [significant-decision, hiring, credit, education, healthcare, insurance, essential-services, critical-infrastructure, justice, migration]
+      conditions: High-risk AI systems making or substantially influencing a consequential decision; these predecessor duties apply during the transition before 2027-01-01.
+    applies_from: "2026-06-30"
+    status: applicable
+    controls: [risk_management, bias_testing, technical_documentation, incident_reporting]
+    evidence:
+      - Documented risk analysis and system/deployer documentation for each covered high-risk system
+      - Record of any discovered algorithmic discrimination and timely notice to the Attorney General and known downstream parties
+    penalty: Up to $20,000 per violation under the CCPA generally; a federal court order restricts the Attorney General's initiation of enforcement for covered violations, without changing statutory applicability dates.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download"
+    confidence: high
+    notes: "SB 25B-004 moved the original implementation date to 2026-06-30. SB 26-189's general effective date is 2027-01-01, so the 2024 duties remain in the statutory transition through 2026-12-31. The April 27, 2026 federal minute order bars the Attorney General from initiating enforcement, including investigations, for alleged violations of SB 24-205 or its 2026 replacement occurring on or before 14 days after the court rules on xAI's forthcoming preliminary-injunction motion. It does not change statutory dates. The order names the Attorney General defendant; the 2024 statute also permits district-attorney enforcement. The rulemaking was not final as of 2026-11-04. Order PDF: https://storage.courtlistener.com/recap/gov.uscourts.cod.253513/gov.uscourts.cod.253513.24.0.pdf"
+  - id: AGC-US-CO-SB24205-1703
+    instrument: co-sb24-205
+    article: C.R.S. § 6-1-1703 (SB 24-205 version)
+    title: Run risk management and impact assessments for high-risk AI
+    plain: Deployers of high-risk AI systems must use reasonable care to protect consumers from algorithmic-discrimination risks and implement a risk-management policy and program. They must complete an impact assessment before deployment and at least annually, and within 90 days after an intentional and substantial modification, subject to statutory exceptions.
+    applies_to:
+      roles: [deployer]
+      uses: [significant-decision, hiring, credit, education, healthcare, insurance, essential-services, critical-infrastructure, justice, migration]
+      conditions: High-risk AI systems making or substantially influencing consequential decisions; predecessor duties apply only until the successor framework takes effect on 2027-01-01.
+    applies_from: "2026-06-30"
+    status: applicable
+    controls: [risk_management, impact_assessment, bias_testing]
+    evidence:
+      - Risk-management policy and program with owners, processes, mitigations, and review history
+      - Initial and annual impact assessments, plus assessments after substantial modifications
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download"
+    confidence: high
+    notes: The delayed 2024 framework remains applicable during the transition period; it is not the successor law's standard. AG enforcement is subject to the temporary federal order described in the SB 24-205 instrument's first obligation.
+  - id: AGC-US-CO-SB24205-1704
+    instrument: co-sb24-205
+    article: C.R.S. §§ 6-1-1703(5), 6-1-1704 (SB 24-205 version)
+    title: Notify consumers and publish high-risk system information
+    plain: Deployers must provide the required consumer notice when a high-risk system is used for a consequential decision and publish a statement describing the types of high-risk systems they deploy and how they manage known algorithmic-discrimination risks. The statement must be updated at least annually, subject to statutory exceptions.
+    applies_to:
+      roles: [deployer]
+      uses: [significant-decision, hiring, credit, education, healthcare, insurance, essential-services, critical-infrastructure, justice, migration]
+      conditions: High-risk AI systems deployed to make or substantially influence consequential decisions; predecessor duties apply until 2027-01-01.
+    applies_from: "2026-06-30"
+    status: applicable
+    controls: [transparency_notice, ai_disclosure]
+    evidence:
+      - Consumer notices and a current public statement describing covered systems and risk management
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download"
+    confidence: high
+  - id: AGC-US-CO-SB24205-1705
+    instrument: co-sb24-205
+    article: C.R.S. § 6-1-1705 (SB 24-205 version)
+    title: Mark and disclose synthetic content
+    plain: Developers of covered systems that generate or manipulate synthetic digital content must provide a machine-readable marker, to the extent technically feasible, and deployers must disclose to consumers that content is artificially generated or manipulated. This is a predecessor duty scheduled to be replaced on 2027-01-01.
+    applies_to:
+      roles: [developer, deployer]
+      uses: [generated-media, deepfake]
+      conditions: Systems that generate or manipulate synthetic digital content, subject to the statutory exceptions.
+    applies_from: "2026-06-30"
+    status: applicable
+    controls: [content_marking, deepfake_label]
+    evidence:
+      - Description and test results for machine-readable output marking
+      - Consumer-facing labels for synthetic media
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download"
+    confidence: high
+    notes: The successor SB 26-189 framework does not impose these same general synthetic-content marking duties; this obligation is included only for the transitional SB 24-205 period ending 2026-12-31.
+  - id: AGC-US-CO-SB26189-1702
+    instrument: co-sb26-189
+    article: C.R.S. § 6-1-1702(1)-(3)
+    title: Give deployers usable documentation for covered ADMT
+    plain: Developers must provide each deployer with an understandable statement of intended and known harmful uses, known training-data categories, limitations and risks, instructions for appropriate use, monitoring and meaningful human review, and information reasonably needed for deployer disclosures. They must give timely notice of material updates, substantial modifications, or changes to intended use, limitations, or risk mitigation; the detailed documentation duties apply only to uses marketed, advertised, configured, contracted, sold, or licensed for consequential decisions.
+    applies_to:
+      roles: [developer]
+      uses: [significant-decision, hiring, education, credit, insurance, healthcare, essential-services]
+      conditions: A covered ADMT materially influences a consequential decision in education, employment, housing, financial/lending services, insurance, health-care services, or essential government services; statutory definition excludes specified ordinary tools and human-review-only tasks.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [technical_documentation, transparency_notice, human_oversight, risk_management]
+    evidence:
+      - Developer documentation supplied to each deployer, including use limits, data categories, risks, and review instructions
+      - Versioned change log and direct notices of material updates to deployers
+    penalty: Up to $20,000 per violation under the CCPA generally; the SB 26-189 enforcement and cure provisions apply.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download"
+    confidence: high
+    notes: The statute requires technical documentation, not a general algorithmic impact assessment. The draft AG rules may clarify scope and content but were not adopted as of 2026-11-04. AG enforcement is also subject to the temporary federal order noted above.
+  - id: AGC-US-CO-SB26189-1702-RECORDS
+    instrument: co-sb26-189
+    article: C.R.S. §§ 6-1-1702(4), 6-1-1703
+    title: Keep developer and deployer compliance records
+    plain: Developers must retain records reasonably necessary to demonstrate compliance for at least three years after creating each record. Deployers must retain records reasonably necessary to demonstrate compliance for at least three years after the consequential decision, including relevant system-version, change-log, and mitigation records.
+    applies_to:
+      roles: [developer, deployer]
+      uses: [significant-decision]
+      conditions: Covered ADMT used to materially influence a consequential decision; longer retention applies when required by other law.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [audit_log, technical_documentation]
+    evidence:
+      - Retention schedule and records linking decisions to system versions and mitigation changes
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download"
+    confidence: high
+  - id: AGC-US-CO-SB26189-1704-1
+    instrument: co-sb26-189
+    article: C.R.S. § 6-1-1704(1)-(2)
+    title: Tell consumers before covered ADMT influences a decision
+    plain: Before using covered ADMT to materially influence a consequential decision, a deployer must give the consumer clear and conspicuous notice that the decision uses ADMT and instructions for obtaining further information. A prominent public notice reasonably accessible near consumer interactions may satisfy this requirement.
+    applies_to:
+      roles: [deployer]
+      uses: [significant-decision, hiring, education, credit, insurance, healthcare, essential-services]
+      conditions: The covered ADMT materially influences a consequential decision affecting the consumer; housing is also a covered domain.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [transparency_notice, ai_disclosure]
+    evidence:
+      - Consumer-facing notice and records showing it was available before use at relevant interaction points
+    penalty: Up to $20,000 per violation under the CCPA generally; AG enforcement only for this statutory duty.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download"
+    confidence: high
+  - id: AGC-US-CO-SB26189-1704-3
+    instrument: co-sb26-189
+    article: C.R.S. § 6-1-1704(3)
+    title: Explain the ADMT role after an adverse outcome
+    plain: Within 30 days after an adverse outcome, the deployer must give a plain-language description of the consequential decision and ADMT's role, a simple process for requesting more information about the system and inputs, and an explanation of the consumer's data-correction and human-review rights. The statute does not itself require a full individualized rationale for why the outcome occurred; federal-law, trade-secret, and other statutory limits apply.
+    applies_to:
+      roles: [deployer]
+      uses: [significant-decision, hiring, education, credit, insurance, healthcare, essential-services]
+      conditions: A covered ADMT materially influences a consequential decision that results in an adverse outcome for a consumer; housing is also a covered domain.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [transparency_notice, contest_and_appeal]
+    evidence:
+      - Adverse-outcome notice template and dated evidence of delivery within 30 days
+      - Process for consumers to request system and input information and exercise statutory rights
+    penalty: Up to $20,000 per violation under the CCPA generally; 60-day cure if the Attorney General deems a cure possible, except knowing or repeated violations.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download"
+    confidence: high
+    notes: Proposed 4 CCR 904-6 rules would further specify disclosure content, but were not final as of 2026-11-04. The statute requires a description of the decision and ADMT's role, not a free-standing explanation of the adverse decision's substantive merits.
+  - id: AGC-US-CO-SB26189-1705
+    instrument: co-sb26-189
+    article: C.R.S. § 6-1-1705(1)
+    title: Offer data correction and meaningful human review on request
+    plain: After an adverse outcome materially influenced by covered ADMT, a consumer may request instructions for accessing and correcting factually incorrect or materially inaccurate personal data used in the decision, plus an opportunity for meaningful human review and reconsideration to the extent commercially reasonable. The right does not require correction of opinions, predictions, scores, or protected evaluations; education deployers subject to FERPA may use existing compliant processes.
+    applies_to:
+      roles: [deployer]
+      uses: [significant-decision, hiring, education, credit, insurance, healthcare, essential-services]
+      conditions: Consumer experienced an adverse outcome from a consequential decision materially influenced by covered ADMT; meaningful review is subject to commercial reasonableness and statutory exceptions.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [contest_and_appeal, transparency_notice, human_oversight]
+    evidence:
+      - Consumer request and correction/review workflow with a trained human reviewer
+      - Record of review, reconsideration, and response to the consumer
+    penalty: Up to $20,000 per violation under the CCPA generally; 60-day cure if the Attorney General deems a cure possible, except knowing or repeated violations.
+    source_url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download"
+    confidence: high
+    notes: This is a request right after an adverse outcome, not a general appeal right for every automated decision. The Act does not require a general impact assessment or deployer risk-management program; those were present in SB 24-205 but are not in the successor ADMT duties. The Attorney General's rules clarifying consumer rights were due by 2027-01-01 and remained proposed as of 2026-11-04.
+  - id: AGC-US-CO-HB261263-1708-2
+    instrument: co-hb26-1263
+    article: C.R.S. § 6-1-1708(2)
+    title: Estimate ages and protect minor chatbot users
+    plain: Operators must use commercially reasonable or generally accepted methods to estimate account-holder and user ages and may not willfully disregard clear and convincing evidence that a person is a minor. When the operator knows a user is a minor, it must give the required AI disclosure, avoid unpredictable engagement rewards, use technically feasible protections against specified sexual content and intimate depictions, take reasonable measures against simulated emotional dependence, stop explicit sexual exchanges, comply with minor-privacy duties, and provide privacy and account controls to minors and their parents or guardians.
+    applies_to:
+      roles: [any]
+      uses: [chatbot, companion, minors]
+      conditions: Operator develops and makes publicly available or offers a conversational AI service accessible to the general public that primarily simulates human conversation; minor means under 18, and an estimated age/range is treated as knowledge.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [minors_protection, privacy_compliance, user_controls, content_moderation, ai_disclosure]
+    evidence:
+      - Age-estimation method and records of decisions about known or estimated minor status
+      - Minor safety controls, privacy settings, parent/guardian tools, and testing records
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download"
+    confidence: high
+    notes: Statutory exceptions exclude specified narrow-topic, business-internal, virtual-assistant, or other services; check the definition of conversational AI service and operator before applying.
+  - id: AGC-US-CO-HB261263-1708-3
+    instrument: co-hb26-1263
+    article: C.R.S. § 6-1-1708(3)
+    title: Disclose that a conversational AI service is AI
+    plain: Operators must clearly and conspicuously tell users that the service is artificial intelligence. The disclosure must appear at the beginning of the user's first interaction each calendar day, at least once every three hours in a continuous interaction or persistently on screen, and in response to a user's question about whether it is AI rather than human.
+    applies_to:
+      roles: [any]
+      uses: [chatbot, companion, minors]
+      conditions: Operators of covered conversational AI services; separate disclosure format applies to known minor users under § 6-1-1708(2)(a).
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [ai_disclosure]
+    evidence:
+      - Screenshots or transcripts showing first-session, recurring or persistent, and responsive disclosures
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download"
+    confidence: high
+  - id: AGC-US-CO-HB261263-1708-4-6
+    instrument: co-hb26-1263
+    article: C.R.S. § 6-1-1708(4), (6)
+    title: Respond to suicide and self-harm prompts and report annually
+    plain: Operators must implement a protocol for responses to user prompts about suicidal ideation or self-harm, including referral to an appropriate crisis service (not law enforcement) and escalation for repeated or severe indicators. Beginning 2027-07-01, operators must report annually to the Attorney General the referral count, relevant protocols and AG-requested efficacy metrics, without user identifiers or personal information, using evidence-based measurement methods.
+    applies_to:
+      roles: [any]
+      uses: [chatbot, companion, minors]
+      conditions: Operators of covered conversational AI services; the first annual reporting date is 2027-07-01 and the report must not contain user identifiers or personal information.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [content_moderation, incident_reporting, minors_protection]
+    evidence:
+      - Crisis-response protocol, referral and escalation logs, and annual-report submission
+      - Evidence-based self-harm measurement method and privacy review confirming reports contain no user identifiers
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download"
+    confidence: high
+  - id: AGC-US-CO-HB261263-1708-5
+    instrument: co-hb26-1263
+    article: C.R.S. § 6-1-1708(5)
+    title: Do not misrepresent chatbot outputs as professional services
+    plain: Operators may not knowingly or recklessly state that chatbot output is provided by, endorsed by, or equivalent to services provided by a licensed health-care or legal professional, a licensed/certified/registered mental-health professional, or a qualified dietitian.
+    applies_to:
+      roles: [any]
+      uses: [chatbot, companion]
+      conditions: Operators of covered conversational AI services.
+    applies_from: "2027-01-01"
+    status: not-yet-applicable
+    controls: [prohibited_practices_screen]
+    evidence:
+      - Marketing and in-product claims review for professional-equivalence representations
+    penalty: Up to $20,000 per violation under the CCPA generally.
+    source_url: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download"
+    confidence: high
+deadlines:
+  - { date: "2027-01-01", title: "SB 26-189 successor duties apply and Attorney General rules on disclosures and consumer rights are due", instrument: co-sb26-189, obligations: [AGC-US-CO-SB26189-1702, AGC-US-CO-SB26189-1702-RECORDS, AGC-US-CO-SB26189-1704-1, AGC-US-CO-SB26189-1704-3, AGC-US-CO-SB26189-1705], source: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download" }
+  - { date: "2027-01-01", title: "Main chatbot operator duties begin", instrument: co-hb26-1263, obligations: [AGC-US-CO-HB261263-1708-2, AGC-US-CO-HB261263-1708-3, AGC-US-CO-HB261263-1708-4-6, AGC-US-CO-HB261263-1708-5], source: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download" }
+  - { date: "2027-07-01", title: "First annual chatbot safety report to the Attorney General", instrument: co-hb26-1263, obligations: [AGC-US-CO-HB261263-1708-4-6], source: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download" }
+sources:
+  - { title: "Colorado SB 24-205 session law (Chapter 198)", url: "https://leg.colorado.gov/laws/session-laws/SB24-205/198/download" }
+  - { title: "Colorado SB 25B-004 session law (Chapter 3), delaying SB 24-205 implementation", url: "https://leg.colorado.gov/laws/session-laws/SB25B-004/3/download" }
+  - { title: "Colorado SB 26-189 session law (Chapter 131)", url: "https://leg.colorado.gov/laws/session-laws/SB26-189/131/download" }
+  - { title: "Colorado HB 26-1263 session law (Chapter 208)", url: "https://leg.colorado.gov/laws/session-laws/HB26-1263/208/download" }
+  - { title: "Colorado Attorney General: ADMT and Chatbot Safety rulemaking", url: "https://coag.gov/ai/" }
+  - { title: "Colorado SB 25-282 session law amending CCPA civil penalties", url: "https://leg.colorado.gov/laws/session-laws/SB25-282/412/download" }

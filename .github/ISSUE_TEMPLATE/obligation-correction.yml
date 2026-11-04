@@ -1,0 +1,28 @@
+name: Obligation correction
+description: A date, article, scope or link in the Atlas is wrong or out of date.
+title: "[correction] "
+labels: ["atlas", "correction"]
+body:
+  - type: input
+    id: obligation
+    attributes: { label: "Obligation id or regime file", placeholder: "AGC-EU-AIA-50-1 or atlas/regimes/eu.yaml" }
+    validations: { required: true }
+  - type: textarea
+    id: wrong
+    attributes: { label: "What is wrong", description: "Quote the current text or value." }
+    validations: { required: true }
+  - type: textarea
+    id: right
+    attributes: { label: "What it should be" }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: "Primary source link", description: "Official journal, statute or regulator page." }
+    validations: { required: true }
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirm
+      options:
+        - label: I checked the primary source myself.
+          required: true

@@ -1,0 +1,28 @@
+name: Reviewer application
+description: Apply for a named reviewer seat for a Tier-1 regime.
+title: "[reviewer] "
+labels: ["reviewers"]
+body:
+  - type: dropdown
+    id: regime
+    attributes:
+      label: Regime
+      options: [European Union, United States (federal), United States (states), China, South Korea, Japan, Vietnam, India, United Kingdom, Singapore, Switzerland, Council of Europe]
+    validations: { required: true }
+  - type: textarea
+    id: background
+    attributes: { label: "Relevant experience", description: "Practice area, years, publications or public profile." }
+    validations: { required: true }
+  - type: textarea
+    id: conflicts
+    attributes: { label: "Affiliations and possible conflicts of interest" }
+    validations: { required: true }
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreement
+      options:
+        - label: I will review against primary sources and act in a personal capacity unless stated.
+          required: true
+        - label: I have read DISCLAIMER.md and CHARTER.md.
+          required: true

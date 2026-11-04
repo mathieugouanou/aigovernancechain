@@ -1,0 +1,88 @@
+name: 'AI Governance Chain Shield'
+description: 'Check AI_GOVERNANCE.md against the open Obligation Atlas: 16 checks, PR summary, SARIF, badge and Evidence Pack. Not legal advice.'
+author: 'AI Governance Chain contributors'
+branding:
+  icon: 'shield'
+  color: 'blue'
+inputs:
+  file:
+    description: 'Path to the AI_GOVERNANCE.md file'
+    default: 'AI_GOVERNANCE.md'
+  fail-on:
+    description: 'Fail the job on "fail" (default), "warn" or "never"'
+    default: 'fail'
+  upload-sarif:
+    description: 'Upload results to GitHub code scanning (needs permissions: security-events: write)'
+    default: 'false'
+  evidence:
+    description: 'Build an Evidence Pack and upload it as a workflow artifact'
+    default: 'true'
+  badge:
+    description: 'Write .governance/badge.json and badge.svg (commit or publish them yourself)'
+    default: 'false'
+  setup-node:
+    description: 'Install Node.js first (set to false if the runner already has Node 18+)'
+    default: 'true'
+outputs:
+  passed:
+    description: 'Number of checks passed'
+    value: ${{ steps.check.outputs.passed }}
+  warnings:
+    description: 'Number of warnings'
+    value: ${{ steps.check.outputs.warnings }}
+  failed:
+    description: 'Number of failed checks'
+    value: ${{ steps.check.outputs.failed }}
+  sarif-file:
+    description: 'Path to the SARIF file'
+    value: aigovchain.sarif
+  evidence-dir:
+    description: 'Path to the Evidence Pack folder'
+    value: governance-evidence
+runs:
+  using: 'composite'
+  steps:
+    - if: ${{ inputs.setup-node == 'true' }}
+      uses: actions/setup-node@v7
+      with:
+        node-version: '22'
+    - id: check
+      shell: bash
+      env:
+        AGC_FILE: ${{ inputs.file }}
+        AGC_CLI: ${{ github.action_path }}/../cli/aigovchain.mjs
+      run: |
+        node "$AGC_CLI" check --file "$AGC_FILE" --sarif aigovchain.sarif --summary --fail-on never
+        node "$AGC_CLI" check --file "$AGC_FILE" --format json --fail-on never > aigovchain-result.json
+        node -e 'const r=require("./aigovchain-result.json").summary; const fs=require("fs"); fs.appendFileSync(process.env.GITHUB_OUTPUT, `passed=${r.passed}\nwarnings=${r.warnings}\nfailed=${r.failed}\ntotal=${r.total}\n`)'
+    - if: ${{ inputs.badge == 'true' }}
+      shell: bash
+      env:
+        AGC_FILE: ${{ inputs.file }}
+        AGC_CLI: ${{ github.action_path }}/../cli/aigovchain.mjs
+      run: node "$AGC_CLI" badge --file "$AGC_FILE" --out .governance
+    - if: ${{ inputs.evidence == 'true' }}
+      shell: bash
+      env:
+        AGC_FILE: ${{ inputs.file }}
+        AGC_CLI: ${{ github.action_path }}/../cli/aigovchain.mjs
+      run: node "$AGC_CLI" evidence --file "$AGC_FILE" --out governance-evidence
+    - if: ${{ inputs.evidence == 'true' }}
+      uses: actions/upload-artifact@v7
+      with:
+        name: governance-evidence
+        path: governance-evidence
+    - if: ${{ inputs.upload-sarif == 'true' }}
+      uses: github/codeql-action/upload-sarif@v4
+      with:
+        sarif_file: aigovchain.sarif
+        category: aigovernancechain
+    - shell: bash
+      env:
+        FAIL_ON: ${{ inputs.fail-on }}
+        FAILED: ${{ steps.check.outputs.failed }}
+        WARNINGS: ${{ steps.check.outputs.warnings }}
+      run: |
+        if [ "$FAIL_ON" = "fail" ] && [ "$FAILED" != "0" ]; then echo "::error title=AI Governance Chain::$FAILED check(s) failed. See the job summary."; exit 1; fi
+        if [ "$FAIL_ON" = "warn" ] && { [ "$FAILED" != "0" ] || [ "$WARNINGS" != "0" ]; }; then echo "::error title=AI Governance Chain::$FAILED failure(s), $WARNINGS warning(s). See the job summary."; exit 1; fi
+        echo "AI Governance Chain: $FAILED failure(s), $WARNINGS warning(s)."

@@ -1,0 +1,194 @@
+id: jp
+jurisdiction: JP
+name: Japan
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Japan AI Promotion Act and business guidance
+  one_liner: Japan's AI Act is a promotion framework with a business cooperation duty; the detailed business principles remain voluntary guidance.
+  who_it_hits: AI developers, providers and business users, plus public bodies using the voluntary national guidance and plan.
+  status_line: The Act is fully in force; Article 7 requires cooperation with government measures but sets no penalties. The Second AI Basic Plan was adopted on 14 July 2026; METI/MIC Guidelines Ver1.2 are voluntary.
+instruments:
+  - id: jp-ai-act
+    code: AIPA
+    title: Act on Promotion of Research and Development, and Utilization of Artificial Intelligence-related Technology (Act No. 53 of 2025)
+    short: AI Promotion Act
+    type: statute
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: https://laws.e-gov.go.jp/law/507AC0000000053
+    penalties: null
+    key_dates:
+      - { date: "2025-06-04", event: "Promulgated and most provisions took effect", source: "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html" }
+      - { date: "2025-09-01", event: "Remaining provisions, including the Basic Plan and Strategic Headquarters chapters, took effect; the Act is fully in force", source: "https://laws.e-gov.go.jp/law/507AC0000000053" }
+  - id: jp-ai-plan
+    code: AIBP
+    title: Japan's Second Artificial Intelligence Basic Plan
+    short: Second AI Basic Plan
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html
+    penalties: null
+    key_dates:
+      - { date: "2026-07-14", event: "Cabinet decided the Second AI Basic Plan, replacing the first plan", source: "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html" }
+  - id: jp-ai-guidelines
+    code: AIGB
+    title: AI Guidelines for Business Ver1.2 (METI and MIC)
+    short: AI Guidelines for Business Ver1.2
+    type: guidance
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html
+    penalties: null
+    key_dates:
+      - { date: "2026-03-31", event: "METI and MIC issued AI Guidelines for Business Ver1.2", source: "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf" }
+obligations:
+  - id: AGC-JP-AIPA-7
+    instrument: jp-ai-act
+    article: Art. 7
+    title: Cooperate with national and local AI measures
+    plain: Utilization business operators must cooperate with measures taken by the national and local governments under Articles 4 and 5. They need only endeavor to use AI actively to improve business efficiency and advancement and create new industries.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [any-ai]
+      conditions: People developing or providing AI-enabled products or services, or using AI in business activities.
+    applies_from: "2025-06-04"
+    status: applicable
+    controls: [risk_management]
+    evidence:
+      - Records of cooperation with applicable national or local government AI measures
+      - Internal record identifying the entity's AI business activities
+    source_url: https://www.japaneselawtranslation.go.jp/en/laws/view/5066/je
+    confidence: high
+    notes: The Act has no penalties chapter. Article 16 allows government research, guidance, advice, information provision and other measures; Article 7 does not set a detailed AI risk-management checklist.
+  - id: AGC-JP-AIBP-PLAN
+    instrument: jp-ai-plan
+    article: Second AI Basic Plan, Chapters 1-4
+    title: Follow Japan's current government AI strategy
+    plain: The Cabinet's second plan sets government policy across AI adoption, development capabilities, AI governance and an AI-powered society, with implementation and follow-up arrangements. It is a government strategy, not a direct compliance duty for private AI operators.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: Government policy commitment under Article 18 of the AI Promotion Act; no direct private-sector obligation.
+    applies_from: "2026-07-14"
+    status: voluntary
+    controls: [risk_management]
+    evidence:
+      - Public implementation and follow-up materials for the plan
+    source_url: https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf
+    confidence: high
+    notes: The English text is a provisional translation; the Cabinet Office index confirms the 14 July 2026 Cabinet decision.
+  - id: AGC-JP-AIGB-C1
+    instrument: jp-ai-guidelines
+    article: Part 2.C.1
+    title: Keep AI human-centric
+    plain: The voluntary guidelines recommend respecting human dignity and autonomy when developing, providing or using AI, and taking steps against manipulation and automation bias. They also call for user support appropriate to the system and context.
+    applies_to:
+      roles: [provider, developer, deployer, public-body]
+      uses: [any-ai]
+      conditions: Nonbinding soft-law recommendations for AI business actors, including public institutions.
+    applies_from: "2026-03-31"
+    status: voluntary
+    controls: [human_oversight, transparency_notice]
+    evidence:
+      - Human-impact review and human intervention procedures for relevant AI use cases
+    source_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf
+    confidence: medium
+    notes: Official English PDF is a provisional translation; refer to the Japanese text for accuracy.
+  - id: AGC-JP-AIGB-C2
+    instrument: jp-ai-guidelines
+    article: Part 2.C.2
+    title: Assess and manage AI safety risks
+    plain: The guidelines recommend checking reliability, robustness and controllability, analyzing risks, and taking proportionate measures throughout development, provision and use. They also recommend defining responses for cases where AI safety is endangered.
+    applies_to:
+      roles: [provider, developer, deployer, public-body]
+      uses: [any-ai]
+      conditions: Voluntary, risk-based guidance for AI business actors, including public institutions.
+    applies_from: "2026-03-31"
+    status: voluntary
+    controls: [risk_management, accuracy_robustness, human_oversight]
+    evidence:
+      - Risk analysis, safety testing and response procedures proportionate to the use case
+    source_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf
+    confidence: medium
+    notes: Official English PDF is a provisional translation; refer to the Japanese text for accuracy.
+  - id: AGC-JP-AIGB-C4
+    instrument: jp-ai-guidelines
+    article: Part 2.C.4
+    title: Protect privacy throughout the AI lifecycle
+    plain: The guidelines recommend observing applicable privacy laws and adopting privacy measures based on the use context and people's reasonable expectations. They also recommend a privacy policy and privacy-by-design measures appropriate to the AI system.
+    applies_to:
+      roles: [provider, developer, deployer, public-body]
+      uses: [any-ai]
+      conditions: Voluntary guidance; applicable personal-information laws remain binding independently.
+    applies_from: "2026-03-31"
+    status: voluntary
+    controls: [privacy_compliance, data_governance]
+    evidence:
+      - Privacy policy and records of privacy-by-design review
+    source_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf
+    confidence: medium
+    notes: Official English PDF is a provisional translation; refer to the Japanese text for accuracy.
+  - id: AGC-JP-AIGB-C5
+    instrument: jp-ai-guidelines
+    article: Part 2.C.5
+    title: Secure AI systems and services
+    plain: The guidelines recommend reasonable security measures suited to the technology and its lifecycle, including attention to system connections, vulnerabilities and current attack methods. The guidance does not replace binding cybersecurity or sectoral rules.
+    applies_to:
+      roles: [provider, developer, deployer, public-body]
+      uses: [any-ai]
+      conditions: Voluntary guidance for AI business actors, including public institutions.
+    applies_from: "2026-03-31"
+    status: voluntary
+    controls: [security_testing]
+    evidence:
+      - Security testing and documented remediation of relevant AI system vulnerabilities
+    source_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf
+    confidence: medium
+    notes: Official English PDF is a provisional translation; refer to the Japanese text for accuracy.
+  - id: AGC-JP-AIGB-C6
+    instrument: jp-ai-guidelines
+    article: Part 2.C.6
+    title: Provide proportionate information about AI
+    plain: The guidelines recommend making AI systems verifiable and providing stakeholders with information about AI use, capabilities, limitations, risks and appropriate use, to a reasonable extent that is technically possible. They also recommend keeping relevant process and decision logs where possible.
+    applies_to:
+      roles: [provider, developer, deployer, public-body]
+      uses: [any-ai]
+      conditions: Voluntary recommendations; disclosure should reflect the social context and system purpose.
+    applies_from: "2026-03-31"
+    status: voluntary
+    controls: [transparency_notice, audit_log]
+    evidence:
+      - Stakeholder-facing system information and relevant decision or operation logs
+    source_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf
+    confidence: medium
+    notes: Official English PDF is a provisional translation; refer to the Japanese text for accuracy.
+  - id: AGC-JP-AIGB-C7
+    instrument: jp-ai-guidelines
+    article: Part 2.C.7
+    title: Document AI accountability
+    plain: The guidelines recommend traceability of data and decisions, assigning a responsible person, clarifying shared responsibilities, explaining conformity to the common principles and documenting relevant information. The scope of these steps should reflect the actor's role and the system's risks.
+    applies_to:
+      roles: [provider, developer, deployer, public-body]
+      uses: [any-ai]
+      conditions: Voluntary accountability recommendations for AI business actors, including public institutions.
+    applies_from: "2026-03-31"
+    status: voluntary
+    controls: [audit_log, technical_documentation, risk_management]
+    evidence:
+      - Named accountability owner, responsibility allocation and governance records
+    source_url: https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf
+    confidence: medium
+    notes: Official English PDF is a provisional translation; refer to the Japanese text for accuracy.
+deadlines: []
+sources:
+  - { title: "Act on Promotion of Research and Development, and Utilization of AI-related Technology (official English translation)", url: "https://www.japaneselawtranslation.go.jp/en/laws/view/5066/je" }
+  - { title: "AI Promotion Act on e-Gov", url: "https://laws.e-gov.go.jp/law/507AC0000000053" }
+  - { title: "Cabinet Office AI Promotion Act overview and commencement dates", url: "https://www8.cao.go.jp/cstp/ai/ai_act/ai_act.html" }
+  - { title: "Cabinet Office Artificial Intelligence Basic Plan index", url: "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html" }
+  - { title: "Japan's Second Artificial Intelligence Basic Plan (provisional English translation)", url: "https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf" }
+  - { title: "METI AI Guidelines for Business Ver1.2 listing", url: "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html" }
+  - { title: "AI Guidelines for Business Ver1.2 (provisional English translation)", url: "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf" }

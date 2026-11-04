@@ -1,0 +1,266 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: Vietnam (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20251210-VmlldG5hbSBBSSBMYXc6IEFk@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+SUMMARY:[VN] Vietnam AI Law: Adopted by the National Assembly
+DESCRIPTION:Source: https://en.baochinhphu.vn/viet-nams-law-on-artificial-
+ intelligence-111260715113551787.htm. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260101-UGVyc29uYWwgRGF0YSBQcm90@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:[VN] Personal Data Protection Law: Personal Data Protection Law en
+ ters into force
+DESCRIPTION:Source: https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh
+ 15-45578.htm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260101-UHJvdGVjdCBwZXJzb25hbCBk@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+SUMMARY:[VN] Protect personal data processed using AI (Personal Data Prote
+ ction Law Art. 30(1)-(5))
+DESCRIPTION:Obligations: AGC-VN-PDPL-30. Source: https://congbao.chinhphu.
+ vn/van-ban/luat-so-91-2025-qh15-45578.htm. Draft open data from AI Govern
+ ance Chain. Not legal advice.
+URL:https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-QXNzZXNzIGNvbmZvcm1pdHkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Assess conformity of high-risk AI before use and after signif
+ icant changes (Vietnam AI Law Art. 13\; Decree 142\, Art. 13\; Decision 3
+ 3/2026/QD-TTg)
+DESCRIPTION:Obligations: AGC-VN-AILAW-13. Source: https://en.baochinhphu.v
+ n/viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Draft 
+ open data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-QXNzZXNzIHB1YmxpYy1zZWN0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Assess public-sector AI impacts before qualifying use (AI Law
+  Implementing Decree Art. 27(3)-(4) of the AI Law\; Decree 142\, Art. 20)
+DESCRIPTION:Obligations: AGC-VN-D142-20. Source: https://datafiles.chinhph
+ u.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.signed.pdf. Draft open data from
+  AI Governance Chain. Not legal advice.
+URL:https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.sign
+ ed.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-Q2xhc3NpZnkgQUkgYnkgcmlz@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Classify AI by risk and notify medium- and high-risk systems 
+ (Vietnam AI Law Art. 9-10\; Decree 142\, Arts. 5-6\, 11-12 and 14)
+DESCRIPTION:Obligations: AGC-VN-AILAW-9-10. Source: https://en.baochinhphu
+ .vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Draf
+ t open data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-RGlzY2xvc2UgQUkgaW50ZXJh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Disclose AI interactions and machine-mark generated audio\, i
+ mages and video (Vietnam AI Law Art. 11(1)-(2)\; Decree 142\, Art. 17)
+DESCRIPTION:Obligations: AGC-VN-AILAW-11-1-2. Source: https://en.baochinhp
+ hu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Dr
+ aft open data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-RG8gbm90IHVzZSBBSSBmb3Ig@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Do not use AI for prohibited or unlawful purposes (Vietnam AI
+  Law Art. 7(1)-(6))
+DESCRIPTION:Obligations: AGC-VN-AILAW-7. Source: https://en.baochinhphu.vn
+ /viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Draft o
+ pen data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-Rm9yZWlnbiBoaWdoLXJpc2sg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Foreign high-risk providers must maintain a Vietnam contact p
+ oint (Vietnam AI Law Art. 14(6))
+DESCRIPTION:Obligations: AGC-VN-AILAW-14-6. Source: https://en.baochinhphu
+ .vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Draf
+ t open data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-TWFuYWdlIGhpZ2gtcmlzayBz@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Manage high-risk systems with documented controls and human o
+ versight (Vietnam AI Law Art. 14(1)-(5)\; Decree 142\, Art. 15)
+DESCRIPTION:Obligations: AGC-VN-AILAW-14. Source: https://en.baochinhphu.v
+ n/viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Draft 
+ open data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-Tm90aWZ5IHRoZSBwdWJsaWMg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Notify the public and visibly label potentially misleading AI
+  content (Vietnam AI Law Art. 11(3)-(5)\; Decree 142\, Art. 18)
+DESCRIPTION:Obligations: AGC-VN-AILAW-11-3-4. Source: https://en.baochinhp
+ hu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm. Dr
+ aft open data from AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260301-VmlldG5hbSBBSSBMYXc6IExh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:[VN] Vietnam AI Law: Law enters into force
+DESCRIPTION:Source: https://en.baochinhphu.vn/viet-nams-law-on-artificial-
+ intelligence-111260715113551787.htm. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260430-QUkgTGF3IEltcGxlbWVudGlu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:[VN] AI Law Implementing Decree: Decree issued
+DESCRIPTION:Source: https://vanban.chinhphu.vn/?pageid=27160&docid=218029.
+  Draft open data from AI Governance Chain. Not legal advice.
+URL:https://vanban.chinhphu.vn/?pageid=27160&docid=218029
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501-QUkgTGF3IEltcGxlbWVudGlu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:[VN] AI Law Implementing Decree: Decree enters into force
+DESCRIPTION:Source: https://vanban.chinhphu.vn/?pageid=27160&docid=218029.
+  Draft open data from AI Governance Chain. Not legal advice.
+URL:https://vanban.chinhphu.vn/?pageid=27160&docid=218029
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260501-Q29udGFpbiBhbmQgcmVwb3J0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:[VN] Contain and report serious AI incidents on time (AI Law Imple
+ menting Decree Art. 12 of the AI Law\; Decree 142\, Art. 19(2)-(8))
+DESCRIPTION:Obligations: AGC-VN-D142-19. Source: https://datafiles.chinhph
+ u.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.signed.pdf. Draft open data from
+  AI Governance Chain. Not legal advice.
+URL:https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.sign
+ ed.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260630-SGlnaC1SaXNrIEFJIExpc3Q6@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+SUMMARY:[VN] High-Risk AI List: Decision issued
+DESCRIPTION:Source: https://congbaocdn.chinhphu.vn/180507251028987904/2026
+ /7/14/469951-1784024086_v1_1784024564_signed.pdf. Draft open data from AI
+  Governance Chain. Not legal advice.
+URL:https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-178
+ 4024086_v1_1784024564_signed.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260815-SGlnaC1SaXNrIEFJIExpc3Q6@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:[VN] High-Risk AI List: High-risk list and criteria take effect
+DESCRIPTION:Source: https://congbaocdn.chinhphu.vn/180507251028987904/2026
+ /7/14/469951-1784024086_v1_1784024564_signed.pdf. Draft open data from AI
+  Governance Chain. Not legal advice.
+URL:https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-178
+ 4024086_v1_1784024564_signed.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270301-Q29tcGxldGUgdHJhbnNpdGlv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:[VN] Complete transition compliance for pre-existing AI systems ou
+ tside healthcare\, education and finance\, and qualifying legacy systems 
+ under Decision 33
+DESCRIPTION:Obligations: AGC-VN-AILAW-9-10\, AGC-VN-AILAW-13\, AGC-VN-AILA
+ W-14\, AGC-VN-AILAW-14-6. Source: https://en.baochinhphu.vn/viet-nams-law
+ -on-artificial-intelligence-111260715113551787.htm. Draft open data from 
+ AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270901-Q29tcGxldGUgdHJhbnNpdGlv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:[VN] Complete transition compliance for pre-existing AI systems in
+  healthcare\, education and finance
+DESCRIPTION:Obligations: AGC-VN-AILAW-9-10\, AGC-VN-AILAW-13\, AGC-VN-AILA
+ W-14\, AGC-VN-AILAW-14-6. Source: https://en.baochinhphu.vn/viet-nams-law
+ -on-artificial-intelligence-111260715113551787.htm. Draft open data from 
+ AI Governance Chain. Not legal advice.
+URL:https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111
+ 260715113551787.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

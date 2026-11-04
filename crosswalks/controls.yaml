@@ -1,0 +1,47 @@
+# Crosswalk: AI Governance Chain controls <-> EU AI Act <-> NIST AI RMF 1.0 <-> ISO/IEC 42001:2023 Annex A <-> OWASP Top 10 for Agentic Applications 2026
+# Status: draft-unreviewed, confidence medium. Mappings are indicative "relates to" links, not equivalence.
+# Sources:
+#   EU AI Act (consolidated, as amended by Reg. (EU) 2026/1744): https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer
+#   NIST AI RMF 1.0 (NIST AI 100-1): https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf  and crosswalks: https://airc.nist.gov/airmf-resources/crosswalks/
+#   ISO/IEC 42001:2023 (Annex A control titles only; the standard is paywalled): https://www.iso.org/standard/42001
+#   OWASP Top 10 for Agentic Applications 2026: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
+as_of: "2026-11-04"
+review: { status: draft-unreviewed, confidence: medium }
+frameworks:
+  eu_ai_act: { title: "EU AI Act (Reg. (EU) 2024/1689 as amended)", url: "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer" }
+  nist_ai_rmf: { title: "NIST AI RMF 1.0 subcategories", url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf" }
+  iso_42001: { title: "ISO/IEC 42001:2023 Annex A controls", url: "https://www.iso.org/standard/42001" }
+  owasp_agentic: { title: "OWASP Top 10 for Agentic Applications 2026", url: "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/" }
+controls:
+  ai_disclosure:            { eu_ai_act: ["Art. 50(1)"], nist_ai_rmf: ["MAP 2.2", "MEASURE 2.8"], iso_42001: ["A.8.2"], owasp_agentic: ["ASI09"] }
+  content_marking:          { eu_ai_act: ["Art. 50(2)"], nist_ai_rmf: ["MEASURE 2.8"], iso_42001: ["A.8.2"], owasp_agentic: [] }
+  deepfake_label:           { eu_ai_act: ["Art. 50(4)"], nist_ai_rmf: ["MEASURE 2.8"], iso_42001: ["A.8.2", "A.9.2"], owasp_agentic: [] }
+  human_oversight:          { eu_ai_act: ["Art. 14", "Art. 26(2)"], nist_ai_rmf: ["GOVERN 3.2", "MAP 3.5"], iso_42001: ["A.9.2", "A.6.2.6"], owasp_agentic: ["ASI09", "ASI10"] }
+  tool_scope:               { eu_ai_act: ["Art. 15(5)"], nist_ai_rmf: ["MAP 3.3", "MANAGE 1.3"], iso_42001: ["A.6.2.2", "A.9.4"], owasp_agentic: ["ASI02", "ASI03", "ASI05"] }
+  spend_limits:             { eu_ai_act: ["Art. 9(2)(d)"], nist_ai_rmf: ["MANAGE 1.3", "MANAGE 2.3"], iso_42001: ["A.6.2.6"], owasp_agentic: ["ASI02", "ASI08"] }
+  kill_switch:              { eu_ai_act: ["Art. 14(4)(e)"], nist_ai_rmf: ["MANAGE 2.4"], iso_42001: ["A.6.2.6"], owasp_agentic: ["ASI08", "ASI10"] }
+  audit_log:                { eu_ai_act: ["Art. 12", "Art. 19", "Art. 26(6)"], nist_ai_rmf: ["MEASURE 2.4", "MANAGE 4.1"], iso_42001: ["A.6.2.8"], owasp_agentic: ["ASI01", "ASI03", "ASI10"] }
+  risk_management:          { eu_ai_act: ["Art. 9"], nist_ai_rmf: ["GOVERN 1.3", "GOVERN 1.4", "MAP 5.1", "MANAGE 1.2"], iso_42001: ["A.5.2", "A.6.1.2"], owasp_agentic: [] }
+  impact_assessment:        { eu_ai_act: ["Art. 27"], nist_ai_rmf: ["MAP 3.2", "MAP 5.1"], iso_42001: ["A.5.2", "A.5.3", "A.5.4", "A.5.5"], owasp_agentic: [] }
+  bias_testing:             { eu_ai_act: ["Art. 10(2)(f)-(g)", "Art. 4a"], nist_ai_rmf: ["MEASURE 2.11"], iso_42001: ["A.7.4", "A.6.2.4"], owasp_agentic: [] }
+  data_governance:          { eu_ai_act: ["Art. 10"], nist_ai_rmf: ["MAP 4.1", "MEASURE 2.1"], iso_42001: ["A.7.2", "A.7.3", "A.7.4", "A.7.5", "A.7.6"], owasp_agentic: ["ASI06"] }
+  technical_documentation:  { eu_ai_act: ["Art. 11", "Annex IV"], nist_ai_rmf: ["MAP 2.1", "MEASURE 2.9"], iso_42001: ["A.6.2.3", "A.6.2.7"], owasp_agentic: [] }
+  incident_reporting:       { eu_ai_act: ["Art. 73", "Art. 55(1)(c)"], nist_ai_rmf: ["GOVERN 4.3", "MANAGE 4.3"], iso_42001: ["A.8.4"], owasp_agentic: [] }
+  transparency_notice:      { eu_ai_act: ["Art. 13", "Art. 26(11)", "Art. 86"], nist_ai_rmf: ["MEASURE 2.8", "MEASURE 2.9"], iso_42001: ["A.8.2", "A.8.5"], owasp_agentic: ["ASI09"] }
+  contest_and_appeal:       { eu_ai_act: ["Art. 85", "Art. 86"], nist_ai_rmf: ["MEASURE 3.3", "MANAGE 4.1"], iso_42001: ["A.8.3", "A.3.3"], owasp_agentic: [] }
+  ai_literacy:              { eu_ai_act: ["Art. 4"], nist_ai_rmf: ["GOVERN 2.2", "MAP 3.4"], iso_42001: ["A.4.6"], owasp_agentic: ["ASI09"] }
+  prohibited_practices_screen: { eu_ai_act: ["Art. 5"], nist_ai_rmf: ["GOVERN 1.1", "MAP 1.1", "MANAGE 1.1"], iso_42001: ["A.9.3", "A.9.4"], owasp_agentic: [] }
+  registration:             { eu_ai_act: ["Art. 49", "Art. 71"], nist_ai_rmf: ["GOVERN 1.6"], iso_42001: ["A.8.5"], owasp_agentic: [] }
+  local_representative:     { eu_ai_act: ["Art. 22", "Art. 54"], nist_ai_rmf: ["GOVERN 2.1"], iso_42001: ["A.10.2"], owasp_agentic: [] }
+  safety_framework:         { eu_ai_act: ["Art. 55(1)"], nist_ai_rmf: ["GOVERN 1.4", "MEASURE 2.6"], iso_42001: ["A.6.1.2", "A.6.1.3"], owasp_agentic: [] }
+  copyright_policy:         { eu_ai_act: ["Art. 53(1)(c)"], nist_ai_rmf: ["GOVERN 6.1", "MAP 4.1"], iso_42001: ["A.7.3", "A.7.5"], owasp_agentic: [] }
+  training_data_summary:    { eu_ai_act: ["Art. 53(1)(d)"], nist_ai_rmf: ["MAP 4.1", "MEASURE 2.9"], iso_42001: ["A.7.5", "A.8.2"], owasp_agentic: [] }
+  security_testing:         { eu_ai_act: ["Art. 15(5)", "Art. 55(1)(a)", "Art. 55(1)(d)"], nist_ai_rmf: ["MEASURE 2.7"], iso_42001: ["A.6.2.4"], owasp_agentic: ["ASI01", "ASI04", "ASI05", "ASI06", "ASI07"] }
+  quality_management:       { eu_ai_act: ["Art. 17"], nist_ai_rmf: ["GOVERN 1.4", "GOVERN 4.1"], iso_42001: ["A.6.1.3", "A.2.2"], owasp_agentic: [] }
+  post_market_monitoring:   { eu_ai_act: ["Art. 72", "Art. 26(5)"], nist_ai_rmf: ["MEASURE 2.4", "MANAGE 4.1"], iso_42001: ["A.6.2.6"], owasp_agentic: ["ASI08", "ASI10"] }
+  conformity_assessment:    { eu_ai_act: ["Art. 43", "Art. 47", "Art. 48"], nist_ai_rmf: ["MEASURE 1.3"], iso_42001: ["A.6.2.4", "A.6.2.5"], owasp_agentic: [] }
+  accuracy_robustness:      { eu_ai_act: ["Art. 15"], nist_ai_rmf: ["MEASURE 2.3", "MEASURE 2.5", "MEASURE 2.6"], iso_42001: ["A.6.2.4"], owasp_agentic: ["ASI08"] }
+  privacy_compliance:       { eu_ai_act: ["Art. 26(9)", "Art. 4a"], nist_ai_rmf: ["MEASURE 2.10"], iso_42001: ["A.7.2", "A.5.4"], owasp_agentic: ["ASI06"] }
+  user_controls:            { eu_ai_act: [], nist_ai_rmf: ["MAP 3.5", "MANAGE 4.1"], iso_42001: ["A.8.2", "A.9.2"], owasp_agentic: ["ASI09"] }
+  minors_protection:        { eu_ai_act: ["Art. 5(1)(b)", "Art. 9(9)"], nist_ai_rmf: ["MAP 5.1", "MEASURE 2.6"], iso_42001: ["A.5.4", "A.5.5"], owasp_agentic: [] }
+  content_moderation:       { eu_ai_act: ["Art. 5(1)(ba)-(bb)"], nist_ai_rmf: ["MANAGE 2.3", "MEASURE 2.6"], iso_42001: ["A.9.2"], owasp_agentic: [] }

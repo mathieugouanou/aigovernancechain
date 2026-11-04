@@ -1,0 +1,153 @@
+id: coe
+jurisdiction: COE
+name: Council of Europe
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Council of Europe AI Framework Convention (CETS No. 225)
+  one_liner: A human-rights treaty requiring its Parties to govern AI lifecycle activities through safeguards, transparency, oversight, remedies and risk management.
+  who_it_hits: Treaty Parties must implement the Convention for public authorities and private actors acting on their behalf; each Party chooses how to address other private actors under Article 3.
+  status_line: Treaty, not yet in force as of 4 November 2026. The EU and Bosnia and Herzegovina have ratified; Article 30(3) requires five consents including three Council of Europe member States, followed by three months.
+instruments:
+  - id: coe-ai-convention
+    code: CETS225
+    title: Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)
+    short: Council of Europe AI Framework Convention
+    type: treaty
+    legal_force: treaty
+    status: enacted-not-yet-applicable
+    official_url: https://rm.coe.int/1680afae3c
+    penalties: null
+    key_dates:
+      - { date: "2024-09-05", event: "Convention opened for signature in Vilnius", source: "https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever-global-treaty-on-ai-for-signature" }
+      - { date: "2026-05-15", event: "European Union ratifies the Convention", source: "https://www.coe.int/en/web/artificial-intelligence/-/european-union-ratifies-the-council-of-europe-framework-convention-on-artificial-intelligence" }
+      - { date: "2026-10-28", event: "Treaty Office reports Bosnia and Herzegovina's ratification; this is the second ratification recorded", source: "https://www.coe.int/en/web/conventions/" }
+    notes: "Article 30(3) requires five signatories to express consent to be bound, including at least three Council of Europe member States; entry into force is the first day of the month after the following three-month period. The latest dated Treaty Office update (28 October 2026) reports Bosnia and Herzegovina's ratification after the EU's 15 May ratification. The dedicated Convention overview page still lists the EU alone under Parties, so its roster appears not to reflect the later update."
+obligations:
+  - id: AGC-COE-CETS225-3
+    instrument: coe-ai-convention
+    article: Art. 3(1)(a)–(b)
+    title: Apply the Convention to public-sector AI and address risks from other private actors
+    plain: "Each Party must apply the Convention to AI lifecycle activities by its public authorities and private actors acting on their behalf. For other private actors, each Party must address risks and impacts consistently with the Convention's object and purpose, and declare whether it will apply the treaty principles and obligations or take other appropriate measures."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: "Applies to lifecycle activities with potential to interfere with human rights, democracy or the rule of law. This is a duty of a State Party, not a directly applicable treaty duty on companies; national-defence matters and pre-deployment R&D are excluded, except testing with such potential. Other private-actor coverage follows the Party's Article 3 implementation choice."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [risk_management, privacy_compliance]
+    evidence:
+      - "National implementation measure specifying the Article 3 approach for private actors"
+      - "Inventory of AI lifecycle activities by public authorities and contractors acting on their behalf"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+    notes: "Convention-wide application depends on entry into force; national implementation determines private-actor duties."
+  - id: AGC-COE-CETS225-7-9-13
+    instrument: coe-ai-convention
+    article: Arts. 7, 9–13
+    title: Protect dignity, equality, privacy, accountability and reliability in AI activities
+    plain: "Parties must ensure AI lifecycle activities respect human dignity and individual autonomy, accountability and responsibility, equality and non-discrimination, privacy and personal-data protection, reliability, and safe innovation. The Convention requires Parties to give effect to these principles through measures consistent with the instrument and their legal systems."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: "State-Party measures apply to covered public-authority activities and private actors acting on their behalf; wider private-sector implementation is determined under Art. 3(1)(b)."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [human_oversight, bias_testing, privacy_compliance, risk_management]
+    evidence:
+      - "Policies and assessments showing how public-sector AI use addresses the Convention principles"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+  - id: AGC-COE-CETS225-8
+    instrument: coe-ai-convention
+    article: Art. 8
+    title: Provide context- and risk-appropriate transparency and oversight
+    plain: "Each Party must adopt or maintain measures ensuring adequate transparency and oversight requirements tailored to the context and risks of AI lifecycle activities. The Article expressly includes measures concerning identification of content generated by AI systems."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai, generated-media, chatbot]
+      conditions: "Treaty obligations are on Parties; operational requirements for providers and deployers depend on applicable domestic implementation and the Article 3 scope."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [transparency_notice, human_oversight, content_marking]
+    evidence:
+      - "Transparency and oversight rules tailored to public-sector AI contexts and risk"
+      - "Measures for identifying AI-generated content where appropriate under the implementation framework"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+  - id: AGC-COE-CETS225-14
+    instrument: coe-ai-convention
+    article: Art. 14(1)–(2)
+    title: Ensure effective remedies and information to challenge consequential AI use
+    plain: "To the extent required by a Party's international obligations and consistent with its domestic legal system, it must ensure accessible and effective remedies for human-rights violations arising from AI lifecycle activities. Measures include documenting relevant information, making it available to authorised bodies and, where appropriate, affected people, enabling them to contest decisions substantially informed by AI, and providing a way to complain to competent authorities."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, significant-decision]
+      conditions: "The Convention sets duties on Parties; the remedies obligation is expressly qualified by existing international obligations and the domestic legal system."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [audit_log, transparency_notice, contest_and_appeal]
+    evidence:
+      - "Documented AI system use and information-access procedure for affected people"
+      - "Accessible complaint and contest process linked to competent authorities"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+  - id: AGC-COE-CETS225-15
+    instrument: coe-ai-convention
+    article: Art. 15(1)–(2)
+    title: Provide procedural safeguards and, where appropriate, AI-interaction notice
+    plain: "Each Party must ensure effective procedural guarantees, safeguards and rights where an AI system significantly affects the enjoyment of human rights and fundamental freedoms, consistent with applicable international and domestic law. Parties must also seek context-appropriate notice that a person is interacting with an AI system rather than a human being."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, significant-decision, chatbot, agent]
+      conditions: "The interaction notice is context-dependent; the treaty's procedural-safeguard requirements apply where human rights and fundamental freedoms are significantly affected."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [human_oversight, ai_disclosure, contest_and_appeal]
+    evidence:
+      - "Procedural safeguards for people significantly affected by public-sector AI"
+      - "Notice design and records for AI interactions where appropriate to context"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+  - id: AGC-COE-CETS225-16
+    instrument: coe-ai-convention
+    article: Art. 16(1)–(4)
+    title: Manage AI risks and impacts iteratively across the lifecycle
+    plain: "Each Party must adopt or maintain graduated, context-sensitive measures to identify, assess, prevent and mitigate AI risks to human rights, democracy and the rule of law. Measures apply iteratively, consider impact severity and probability and relevant stakeholders, monitor and document risks and impacts, and require testing where appropriate; Parties must assess whether incompatible uses warrant a moratorium, ban or other measures."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: "Treaty duties are on Parties and apply to covered lifecycle activities; each Party's measures must reflect context, intended use and risk."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [risk_management, impact_assessment, audit_log, security_testing]
+    evidence:
+      - "Iterative human-rights, democracy and rule-of-law risk and impact assessments"
+      - "Documented mitigation, monitoring and testing decisions across the AI lifecycle"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+  - id: AGC-COE-CETS225-26
+    instrument: coe-ai-convention
+    article: Art. 26(1)–(2)
+    title: Establish independent and effective oversight mechanisms
+    plain: "Each Party must establish or designate one or more effective mechanisms to oversee compliance with the Convention. Those mechanisms must be independent and impartial and have the powers, expertise and resources needed to perform their duties effectively."
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, any-ai]
+      conditions: "This is an institutional duty of each Party; it does not itself create an AI-authorisation or registration requirement for companies."
+    applies_from: null
+    status: not-yet-applicable
+    controls: [risk_management, audit_log]
+    evidence:
+      - "Designation or establishment of an adequately resourced, independent oversight mechanism"
+      - "Published oversight mandate, powers and accountability arrangements"
+    source_url: https://rm.coe.int/1680afae3c
+    confidence: high
+sources:
+  - { title: "CETS No. 225, official Convention text, Council of Europe Treaty Office", url: "https://rm.coe.int/1680afae3c" }
+  - { title: "Council of Europe Treaty Office: chart of signatures and ratifications for Treaty 225", url: "https://www.coe.int/en/web/conventions/full-list?module=signatures-by-treaty&treatynum=225" }
+  - { title: "Council of Europe Treaty Office: latest treaty updates", url: "https://www.coe.int/en/web/conventions/" }
+  - { title: "Council of Europe: EU ratification announcement, 15 May 2026", url: "https://www.coe.int/en/web/artificial-intelligence/-/european-union-ratifies-the-council-of-europe-framework-convention-on-artificial-intelligence" }
+  - { title: "Council of Europe: Framework Convention overview", url: "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence" }

@@ -1,0 +1,262 @@
+id: kr
+jurisdiction: KR
+name: South Korea
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Korea AI Basic Act
+  one_liner: Korea's binding AI framework sets notice and labelling rules, high-impact AI duties, and safety controls for a narrowly defined class of advanced systems.
+  who_it_hits: AI developers and businesses providing AI products or services in Korea, including foreign operators serving Korean users, plus public bodies using high-impact AI.
+  status_line: Binding; the Act and Enforcement Decree have applied since 22 Jan 2026. MSIT announced an enforcement grace period of at least one year; 22 Jan 2027 is only the earliest possible end, not a fixed date.
+instruments:
+  - id: kr-aiba
+    code: AIBA
+    title: Framework Act on the Development of Artificial Intelligence and the Creation of a Foundation for Trust (Act No. 20676, as amended by Act No. 21311)
+    short: AI Basic Act
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282791
+    penalties: Administrative fines up to KRW 30 million apply to failure to give advance notice under Article 31(1), appoint a domestic agent under Article 36(1), or comply with an MSIT corrective order under Articles 40(3) and 43(1). MSIT announced that fact-finding investigations and penalties would be deferred for at least one year from 22 January 2026, except investigations in highly exceptional cases involving serious harm. This is an enforcement policy, not a statutory suspension; no fixed end date was identified as of 2026-11-04.
+    key_dates:
+      - { date: "2025-01-21", event: "Act No. 20676 promulgated", source: "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543" }
+      - { date: "2026-01-22", event: "AI Basic Act enters into force", source: "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214" }
+      - { date: "2026-01-24", event: "The high-impact AI definition covering the specified digital-medical-device provisions takes effect", source: "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543" }
+      - { date: "2026-07-21", event: "The amended Article 35(1) requirement to reflect AI-vulnerable-group characteristics in impact assessments takes effect", source: "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810855" }
+      - { date: "2026-01-22", event: "MSIT's announced minimum one-year enforcement grace begins; penalties and fact-finding investigations are deferred except for highly exceptional serious-harm cases", source: "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214" }
+  - id: kr-aibad
+    code: AIBAD
+    title: Enforcement Decree of the Framework Act on the Development of Artificial Intelligence and the Creation of a Foundation for Trust (Presidential Decree No. 36053, as amended)
+    short: AI Basic Act Enforcement Decree
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781
+    penalties: Article 32 refers to the Act's administrative-fine rules. The Act caps the relevant administrative fines at KRW 30 million for the specified violations; see the AI Basic Act instrument and MSIT grace-period policy.
+    key_dates:
+      - { date: "2026-01-21", event: "Presidential Decree No. 36053 promulgated", source: "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=282879" }
+      - { date: "2026-01-22", event: "Enforcement Decree enters into force with the AI Basic Act", source: "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214" }
+      - { date: "2026-07-21", event: "Partial amendment, Presidential Decree No. 36506, takes effect; it implements provisions including the vulnerable-group assessment criteria", source: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288145&efYd=20260721" }
+      - { date: "2026-08-20", event: "Current consolidated version also reflects Presidential Decree No. 36580, a consequential amendment", source: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781" }
+obligations:
+  - id: AGC-KR-AIBA-31-1
+    instrument: kr-aiba
+    article: Art. 31(1); Enforcement Decree Art. 23(1), (4)
+    title: Tell users in advance when a service uses generative or high-impact AI
+    plain: An AI business operator providing a product or service using generative or high-impact AI must notify users in advance that the product or service is operated using that AI. The Decree permits several notice methods and provides exceptions, including where AI use is evident, use is solely for the operator's internal business, or the Minister designates an exception.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Products or services using generative AI or high-impact AI; the Decree's exceptions apply.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [ai_disclosure]
+    evidence:
+      - User-facing notice text, screenshots, or service-flow recording showing advance notice
+      - Documented exception analysis where the operator relies on a Decree exception
+    penalty: Up to KRW 30 million administrative fine under Article 43(1)(1); MSIT announced that penalties are deferred during an enforcement grace period of at least one year, subject to highly exceptional cases.
+    source_url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543
+    confidence: high
+    notes: The Act applies to conduct outside Korea that affects the Korean market or users (Art. 4(1)). The English text is an official aid to understanding, not legally authoritative; current Korean consolidated text is at the instrument official_url.
+  - id: AGC-KR-AIBA-31-2
+    instrument: kr-aiba
+    article: Art. 31(2); Enforcement Decree Art. 23(2), (4)
+    title: Identify outputs generated by generative AI
+    plain: An AI business operator providing generative AI or a product or service using it must indicate that the output was generated by generative AI. The Decree permits human-perceptible or machine-readable indications; a machine-readable indication must be accompanied at least once by text, voice, or another means telling users that the content was AI-generated.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [generated-media, deepfake]
+      conditions: Covers generative-AI outputs; Decree exceptions may apply, including evident AI use and solely internal business use.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [content_marking]
+    evidence:
+      - Output examples and a record of the visible or machine-readable indication method
+      - Detection or user-interface test showing the indication can be perceived as required
+    penalty: No standalone administrative fine is specified for Article 31(2); MSIT may investigate and order correction, and failure to comply with a corrective order can incur up to KRW 30 million under Article 43(1)(3). MSIT announced a minimum one-year enforcement grace.
+    source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781
+    confidence: high
+    notes: A machine-readable marker alone is not enough under Decree Art. 23(2); users must also be told at least once by text, voice, or a similar means. The English translation's rendering of the compute exponent is imperfect, but this output-marking clause is legible in the official text.
+  - id: AGC-KR-AIBA-31-3
+    instrument: kr-aiba
+    article: Art. 31(3); Enforcement Decree Art. 23(3), (4)
+    title: Clearly label realistic synthetic audio, images, and video
+    plain: If an operator provides AI-generated virtual sound, images, or video that are difficult to distinguish from real content, it must notify or label users so they can clearly recognize that the content was generated by AI. For artistic or creative work, the label may be presented in a way that does not hinder its exhibition or enjoyment; the Decree requires recognition by visual, auditory, or software means and consideration of the primary users' age and circumstances.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [deepfake, generated-media]
+      conditions: AI-generated virtual sound, images, or video difficult to distinguish from real content; Decree exceptions may apply.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [deepfake_label]
+    evidence:
+      - Examples of user-facing labels or notices on realistic synthetic media
+      - Test record showing users can recognize the label through the relevant mode
+    penalty: No standalone administrative fine is specified for Article 31(3); investigation and corrective-order powers apply, with up to KRW 30 million for failure to comply with an order. MSIT announced a minimum one-year enforcement grace.
+    source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781
+    confidence: high
+    notes: The artistic/creative-work language allows a presentation that does not hinder exhibition or enjoyment; it does not remove the requirement to disclose or label.
+  - id: AGC-KR-AIBA-32
+    instrument: kr-aiba
+    article: Art. 32(1)-(3); Enforcement Decree Art. 24
+    title: Manage lifecycle safety risks for qualifying advanced AI systems
+    plain: >-
+      For an AI system meeting the Decree's cumulative training-compute threshold, the operator must identify, assess, and mitigate risks throughout the lifecycle, maintain a risk-management system to monitor and respond to AI safety incidents, and submit implementation results to MSIT. The Decree requires all criteria together: at least 10^26 floating-point operations for training, use of the most advanced AI technology then in use, and a likelihood of widespread and significant effects on life, physical safety, or fundamental rights.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [frontier-model]
+      conditions: All three Decree Art. 24 criteria must be met; the compute threshold alone does not trigger the duties.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [risk_management, incident_reporting]
+    evidence:
+      - Training-compute calculation and written assessment of the other two Decree criteria
+      - Lifecycle risk and incident-management records, plus submitted results to MSIT
+    penalty: No standalone administrative fine is specified for Article 32; MSIT may investigate and order correction, and failure to comply with a corrective order can incur up to KRW 30 million under Article 43(1)(3). MSIT announced a minimum one-year enforcement grace.
+    source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781
+    confidence: high
+    notes: The compute number is stated as 10^26 FLOPs in MSIT's official English description of Decree Art. 24. The official English Decree rendering has an exponent/OCR issue; use the current Korean Decree and MSIT's description, and do not treat compute alone as sufficient.
+  - id: AGC-KR-AIBA-33
+    instrument: kr-aiba
+    article: Art. 33(1)-(4); Enforcement Decree Art. 25
+    title: Review whether a system is high-impact AI before providing it
+    plain: When providing AI or a product or service using it, an AI business operator must review in advance whether the system qualifies as high-impact AI. If classification is uncertain, the operator may request confirmation from the Minister of Science and ICT; the Decree specifies the request materials and a response period of 30 days, extendable once by up to 30 days.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Applies where AI is provided, including systems used in statutory areas that may significantly affect or pose risk to life, physical safety, or fundamental rights.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [risk_management, technical_documentation]
+    evidence:
+      - Dated high-impact classification review, including the statutory domain and risk reasoning
+      - Confirmation request and MSIT response, if the operator sought a determination
+    source_url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543
+    confidence: high
+    notes: The Act's high-impact domains include energy, drinking water, health and medical services and devices, nuclear safety, criminal investigation or arrest biometrics, consequential hiring or loan judgments, transport, public-sector decisions, education, and any further domain prescribed by decree. The digital-medical-device portion took effect on 2026-01-24.
+  - id: AGC-KR-AIBA-34
+    instrument: kr-aiba
+    article: Art. 34(1)-(3)
+    title: Apply safety and trust measures to high-impact AI
+    plain: An operator providing high-impact AI, or a product or service using it, must implement measures under the Decree that include a risk-management plan; technically feasible explanations of final outputs, main criteria, and an overview of training data; user-protection measures; human management and oversight; and records verifying the measures. Equivalent measures under other laws may be deemed to satisfy the duty as prescribed by the Decree.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Applies to high-impact AI or products or services using it; classification depends on statutory domains and risk criteria.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [risk_management, transparency_notice, human_oversight, technical_documentation]
+    evidence:
+      - Current risk, explanation, user-protection, and human-oversight plans
+      - Records showing measures taken and any equivalent-measures basis relied upon
+    penalty: No standalone administrative fine is specified for Article 34(1); MSIT may investigate and order correction, and failure to comply with a corrective order can incur up to KRW 30 million under Article 43(1)(3). MSIT announced a minimum one-year enforcement grace.
+    source_url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543
+    confidence: high
+    notes: Explanations are required to the extent technically feasible. The statute delegates specific measures to the Enforcement Decree and MSIT notices/guidelines.
+  - id: AGC-KR-AIBAD-27-1-2
+    instrument: kr-aibad
+    article: Enforcement Decree Art. 27(1)-(2); Act Art. 34(1)
+    title: Publish key high-impact AI safeguards and retain evidence for five years
+    plain: An operator must post the main contents of its risk-management, explanation, and user-protection measures, plus the name and contact details of the human supervisor, at its office or on its website. It must retain supporting documents for the Article 34 measures for five years; trade secrets may be omitted from the public posting, but the retention duty remains.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Applies to operators of high-impact AI or products or services using it.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [transparency_notice, human_oversight, technical_documentation, audit_log]
+    evidence:
+      - Website or premises copy of the published measures and supervisor contact details
+      - Five-year retention schedule and supporting-document repository
+    penalty: No standalone administrative fine is specified for a breach of Article 34 measures; MSIT may investigate and order correction, and failure to comply with a corrective order can incur up to KRW 30 million under Act Article 43(1)(3). MSIT announced a minimum one-year enforcement grace.
+    source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781
+    confidence: high
+    notes: The Decree permits trade-secret material to be excluded from public posting. It also deems some measures implemented by an AI-using operator where the upstream system is received without significant functional change; see Decree Art. 27(3).
+  - id: AGC-KR-AIBA-35-1
+    instrument: kr-aiba
+    article: Art. 35(1); Enforcement Decree Art. 28
+    title: Endeavor to assess fundamental-rights impacts of high-impact AI
+    plain: An operator providing products or services using high-impact AI must endeavor to assess in advance the impact on people's fundamental rights. The Decree lists assessment elements including affected people and rights, social and economic effects, use patterns, evaluation metrics, risk prevention or mitigation, loss recovery, and improvement plans.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: The Act frames the operator's assessment duty as an effort duty; public bodies separately must prioritize products or services that have undergone an assessment.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [impact_assessment]
+    evidence:
+      - Completed or planned impact assessment with affected groups, rights, risks, and mitigations
+      - Written rationale and action plan for any identified improvements
+    source_url: https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810855
+    confidence: high
+    notes: Article 35(1) says the operator shall endeavor to assess; it is not a categorical duty to complete an assessment in every case.
+  - id: AGC-KR-AIBA-35-1-VG
+    instrument: kr-aiba
+    article: Art. 35(1) second sentence; Enforcement Decree Art. 28(1)(1)
+    title: Reflect AI-vulnerable groups in impact assessments
+    plain: When an operator carries out an impact assessment for high-impact AI, the assessment must reflect the characteristics of AI-vulnerable groups, taking account of the nature of the product or service. The amended sentence took effect on 21 July 2026.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Applies when an operator performs the Article 35 impact assessment; the assessment must account for vulnerable-group characteristics in light of the product or service.
+    applies_from: "2026-07-21"
+    status: applicable
+    controls: [impact_assessment]
+    evidence:
+      - Assessment materials identifying relevant vulnerable groups and how their characteristics were considered
+      - Records linking assessment findings to mitigation or improvement measures
+    source_url: https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810855
+    confidence: high
+    notes: The amendment was enacted by Act No. 21311 on 20 January 2026; this part became effective six months later, on 21 July 2026.
+  - id: AGC-KR-AIBA-35-2
+    instrument: kr-aiba
+    article: Art. 35(2)
+    title: Prefer high-impact AI products or services with impact assessments
+    plain: When State agencies and other covered public institutions intend to use products or services using high-impact AI, they must give priority consideration to products or services that have undergone an impact assessment.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use]
+      conditions: Applies to covered State agencies, local governments, and public institutions procuring or using high-impact AI products or services.
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [impact_assessment]
+    evidence:
+      - Procurement or use decision record showing how impact-assessed options received priority consideration
+    source_url: https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031810855
+    confidence: high
+  - id: AGC-KR-AIBA-36-1
+    instrument: kr-aiba
+    article: Art. 36(1)-(3); Enforcement Decree Art. 29
+    title: Appoint a domestic agent when foreign-operator thresholds are met
+    plain: >-
+      An AI business operator without an address or place of business in Korea must designate a domestic agent in writing and report the designation to MSIT if it meets any Decree threshold: prior-year total revenue of at least KRW 1 trillion; prior-year AI-service revenue of at least KRW 10 billion; at least one million average daily domestic users over the preceding three months as of the previous year-end; or an administrative fine for failing to comply with a corrective order. The agent handles specified safety-result submissions, high-impact classification requests, and support for Article 34 measures; the operator is treated as responsible for the agent's related violations.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: No Korean address or business office and at least one Article 29 threshold; the fourth trigger is a prior administrative fine under Act Article 43(1)(3).
+    applies_from: "2026-01-22"
+    status: applicable
+    controls: [local_representative, registration, technical_documentation]
+    evidence:
+      - Written domestic-agent appointment and report to MSIT
+      - Annual threshold assessment covering revenue, AI-service revenue, Korean user counts, and any relevant fine
+    penalty: Up to KRW 30 million administrative fine for failure to designate an agent under Article 43(1)(2); MSIT announced that penalties are deferred during an enforcement grace period of at least one year, subject to highly exceptional cases.
+    source_url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781
+    confidence: high
+    notes: The decree includes an additional trigger for an operator fined for failure to comply with an MSIT corrective order. Revenue values for foreign operators are converted into Korean won using the prior-year average exchange rate.
+deadlines:
+  - date: "2027-01-22"
+    title: Earliest date implied by MSIT's minimum one-year enforcement grace; no fixed end date announced as of 2026-11-04
+    instrument: kr-aiba
+    obligations: [AGC-KR-AIBA-31-1, AGC-KR-AIBA-31-2, AGC-KR-AIBA-31-3, AGC-KR-AIBA-32, AGC-KR-AIBA-34, AGC-KR-AIBAD-27-1-2, AGC-KR-AIBA-36-1]
+    source: https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214
+sources:
+  - { title: Current consolidated AI Basic Act (Korean; Act No. 21311 version), url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282791 }
+  - { title: Official English translation of AI Basic Act (translation is non-authoritative and may not reflect later amendments), url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543 }
+  - { title: Current consolidated AI Basic Act Enforcement Decree (Korean), url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781 }
+  - { title: Official English Enforcement Decree translation, url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=282879 }
+  - { title: MSIT announcement on entry into force, implementing decree, and enforcement grace period, url: https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214 }
+  - { title: MSIT Guidelines on Ensuring AI Transparency, url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1215 }
+  - { title: Official October 2026 Cabinet announcement for further AI Basic Act amendment (proposal not yet enacted at cutoff), url: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784979 }

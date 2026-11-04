@@ -1,0 +1,350 @@
+id: gb
+jurisdiction: GB
+name: United Kingdom
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: UK AI regulation
+  one_liner: No general cross-sector AI Act; existing data, online-safety and criminal laws apply through sector regulators.
+  who_it_hits: AI developers and deployers, controllers making significant automated decisions, in-scope online services, and public bodies using algorithmic tools.
+  status_line: Binding UK GDPR ADM safeguards apply from 5 February 2026. Online-safety duties cover specified services, not every standalone chatbot. England-and-Wales intimate-image offences are in force; Scotland child-image-generator provisions are enacted but not commenced. The ATRS is a mandatory government policy for specified central bodies, not a statute.
+instruments:
+  - id: gb-ukgdpr-adm
+    code: UKGDPR
+    title: UK GDPR Articles 22A–22D, substituted by Data (Use and Access) Act 2025, section 80
+    short: UK GDPR automated decision-making
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: https://www.legislation.gov.uk/ukpga/2025/18/section/80
+    penalties: UK GDPR administrative penalties may apply; the applicable cap depends on the infringement.
+    key_dates:
+      - { date: "2025-06-19", event: Data (Use and Access) Act 2025 received Royal Assent, source: "https://www.legislation.gov.uk/ukpga/2025/18" }
+      - { date: "2026-02-05", event: Section 80 automated decision-making amendments came into force, source: "https://www.legislation.gov.uk/uksi/2026/82/regulation/2" }
+  - id: gb-dpa-le-adm
+    code: DPA18
+    title: Data Protection Act 2018 sections 50A–50D, as substituted by Data (Use and Access) Act 2025, section 80
+    short: Law-enforcement automated decision-making
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://www.legislation.gov.uk/ukpga/2025/18/section/80
+    penalties: UK GDPR / Data Protection Act enforcement provisions may apply.
+    key_dates:
+      - { date: "2026-02-05", event: New Part 3 law-enforcement automated-decision provisions came into force, source: "https://www.legislation.gov.uk/uksi/2026/82/regulation/2" }
+  - id: gb-osa
+    code: OSA
+    title: Online Safety Act 2023, as amended by Crime and Policing Act 2026
+    short: Online Safety Act
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: https://www.legislation.gov.uk/ukpga/2023/50
+    penalties: Ofcom may impose penalties up to £18 million or 10% of qualifying worldwide revenue, whichever is greater, under the Act.
+    key_dates:
+      - { date: "2025-03-17", event: Ofcom began enforcing the illegal-content duties, source: "https://www.gov.uk/government/collections/online-safety-act" }
+      - { date: "2025-07-25", event: Protection-of-children duties and related age-assurance requirements took effect, source: "https://www.gov.uk/government/collections/online-safety-act" }
+      - { date: "2026-04-29", event: Crime and Policing Act 2026 section 248 inserted Online Safety Act section 216A, an enabling power concerning illegal AI-generated content, source: "https://www.legislation.gov.uk/ukpga/2026/20/section/248" }
+  - id: gb-duaa-intimate-images
+    code: DUAA
+    title: Data (Use and Access) Act 2025, section 138 (Sexual Offences Act 2003, sections 66E–66F)
+    short: Non-consensual purported intimate images
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: https://www.legislation.gov.uk/ukpga/2025/18/section/138
+    penalties: Summary conviction may result in imprisonment up to the general limit for summary offences, a fine, or both.
+    key_dates:
+      - { date: "2026-02-06", event: Section 138 came into force, source: "https://www.legislation.gov.uk/uksi/2026/31/made" }
+  - id: gb-cpa26-image-generators
+    code: CPA26
+    title: Crime and Policing Act 2026, sections 72, 74 and 99
+    short: Intimate-image and child-abuse-image generator offences
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: https://www.legislation.gov.uk/ukpga/2026/20/section/99
+    penalties: Section 99 permits up to 3 years' imprisonment and/or a fine on indictment; the child sexual abuse image-generator offences provide up to 5 years on indictment.
+    key_dates:
+      - { date: "2026-04-29", event: Sections 72 and 74 were enacted but were not commenced as of 4 November 2026, source: "https://www.legislation.gov.uk/ukpga/2026/20/section/72" }
+      - { date: "2026-06-29", event: Section 99 came into force in England and Wales, source: "https://www.legislation.gov.uk/uksi/2026/689/regulation/2" }
+  - id: gb-atrs
+    code: ATRS
+    title: Algorithmic Transparency Recording Standard mandatory scope and exemptions policy
+    short: ATRS
+    type: standard
+    legal_force: framework-no-penalties
+    status: in-force
+    official_url: https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy
+    penalties: null
+    key_dates:
+      - { date: "2024-02-06", event: ATRS was mandated across government departments; the policy defines the covered central-government bodies and tools, source: "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy" }
+  - id: gb-ai-cyber-code
+    code: AICSCOP
+    title: Code of Practice for the Cyber Security of AI
+    short: AI Cyber Security Code of Practice
+    type: code-of-practice
+    legal_force: voluntary
+    status: voluntary
+    official_url: https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai
+    penalties: null
+    key_dates:
+      - { date: "2025-01-31", event: Voluntary AI cyber-security code published, source: "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice" }
+      - { date: "2025-02-14", event: UK AI Safety Institute renamed AI Security Institute, source: "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change" }
+  - id: gb-dpa-ai-code-regs
+    code: DPAICR
+    title: Data Protection Act 2018 (Code of Practice on Artificial Intelligence and Automated Decision-Making) Regulations 2026
+    short: Statutory AI and ADM code mandate
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: https://www.legislation.gov.uk/uksi/2026/425/made
+    penalties: null
+    key_dates:
+      - { date: "2026-05-12", event: Regulations requiring the Commissioner to prepare a statutory AI and ADM code came into force, source: "https://www.legislation.gov.uk/uksi/2026/425/made" }
+  - id: gb-ico-ai-code
+    code: ICOAICODE
+    title: ICO statutory code of practice on AI and automated decision-making (in drafting)
+    short: ICO AI and ADM code
+    type: code-of-practice
+    legal_force: proposed
+    status: proposed
+    official_url: https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-codes-of-practice/upcoming-codes-of-practice/
+    penalties: null
+    key_dates:
+      - { date: "2026-07-08", event: ICO listed the code as in drafting and forecast publication in Q1/Q2 2028; the code is not yet published, source: "https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-codes-of-practice/upcoming-codes-of-practice/" }
+  - id: gb-regulating-growth
+    code: RFG
+    title: Regulating for Growth Bill (announced; AI Growth Lab and sandbox powers proposed)
+    short: Regulating for Growth Bill
+    type: bill
+    legal_force: proposed
+    status: proposed
+    official_url: https://www.gov.uk/government/speeches/the-kings-speech-2026
+    penalties: null
+    key_dates:
+      - { date: "2026-05-13", event: King's Speech announced the proposed Regulating for Growth Bill, source: "https://www.gov.uk/government/speeches/the-kings-speech-2026" }
+      - { date: "2026-06-10", event: Government described statutory AI Growth Labs as dependent on passage of the Bill, source: "https://www.gov.uk/government/publications/digital-and-technologies-sector-plan-year-one-update/digital-and-technologies-sector-plan-year-one-update" }
+obligations:
+  - id: AGC-GB-UKGDPR-22B
+    instrument: gb-ukgdpr-adm
+    article: UK GDPR Arts. 22A–22B
+    title: Restrict significant automated decisions using special-category data
+    plain: A significant decision with legal or similarly significant effects that is based solely on automated processing and uses special-category data is barred unless the decision relies entirely on explicit consent, or is necessary for a contract or required/authorised by law and the substantial-public-interest condition in Article 9(2)(g) applies. A significant decision relying in whole or part on the recognised legitimate-interests basis in Article 6(1)(ea) also cannot be made solely by automated processing.
+    applies_to:
+      roles: [any]
+      uses: [significant-decision, profiling]
+      conditions: Controllers making a significant decision based solely on automated processing of personal data; Article 22A defines the decision and meaningful-human-involvement threshold.
+    applies_from: "2026-02-05"
+    status: applicable
+    controls: [privacy_compliance, risk_management]
+    evidence:
+      - Decision inventory showing which significant decisions are solely automated and whether profiling is used
+      - Lawful-basis, Article 9 condition, and exception analysis for each covered decision
+    source_url: https://www.legislation.gov.uk/ukpga/2025/18/section/80
+    confidence: high
+    notes: This is not the former general prohibition with three exceptions. Article 22B sets specific restrictions, including on special-category data and Article 6(1)(ea).
+  - id: AGC-GB-UKGDPR-22C
+    instrument: gb-ukgdpr-adm
+    article: UK GDPR Art. 22C
+    title: Give people safeguards for significant automated decisions
+    plain: For a significant decision based at least partly on personal data and solely on automated processing, the controller must provide safeguards that give the person information about the decision, let them make representations, obtain human intervention by the controller, and contest the decision.
+    applies_to:
+      roles: [any]
+      uses: [significant-decision, profiling]
+      conditions: Applies to controllers making significant decisions solely by automated processing, including profiling; Article 22D allows regulations to supplement or specify safeguards.
+    applies_from: "2026-02-05"
+    status: applicable
+    controls: [transparency_notice, human_oversight, contest_and_appeal]
+    evidence:
+      - Information notice describing the decision and a record of when it is provided
+      - Working representation, human-intervention and contest processes, with records of requests and outcomes
+    source_url: https://www.legislation.gov.uk/ukpga/2025/18/section/80
+    confidence: high
+  - id: AGC-GB-DPA18-50B
+    instrument: gb-dpa-le-adm
+    article: DPA 2018 ss. 50A–50C
+    title: Safeguard automated law-enforcement decisions
+    plain: Controllers processing personal data for law-enforcement purposes may not make a significant decision based solely on automated processing that uses sensitive processing, except with explicit consent or where required or authorised by law. Significant solely automated decisions must generally include information, an opportunity for representations, human intervention and a means to contest, subject to the statutory exceptions and reconsideration safeguards.
+    applies_to:
+      roles: [public-body]
+      uses: [law-enforcement, significant-decision, profiling]
+      conditions: Applies to controllers processing under Part 3 of the Data Protection Act 2018 for law-enforcement purposes; the decision must have an adverse legal or similarly significant effect.
+    applies_from: "2026-02-05"
+    status: applicable
+    controls: [privacy_compliance, transparency_notice, human_oversight, contest_and_appeal]
+    evidence:
+      - Record showing the Part 3 law-enforcement purpose, decision threshold and sensitive-processing condition
+      - Safeguard and human-reconsideration procedure, including exceptions relied upon
+    source_url: https://www.legislation.gov.uk/ukpga/2025/18/section/80
+    confidence: high
+  - id: AGC-GB-OSA-9-10
+    instrument: gb-osa
+    article: OSA 2023 ss. 9–10, 26–27
+    title: Assess and reduce illegal-content risks on in-scope services
+    plain: Providers of regulated user-to-user and search services must assess illegal-content risks, keep assessments up to date (including before significant service changes), and take proportionate measures to prevent priority illegal content and mitigate identified harms and offence-facilitation risks. AI content shared by users or encountered through search can be in scope like other content.
+    applies_to:
+      roles: [platform]
+      uses: [chatbot, generated-media, deepfake, recommender]
+      conditions: Only services meeting the Act's user-to-user or search definitions and UK-link rules. A one-to-one chatbot that neither enables user sharing nor searches multiple sites is generally outside Part 3; see Ofcom's chatbot guidance.
+    applies_from: "2025-03-17"
+    status: applicable
+    controls: [impact_assessment, risk_management, content_moderation, audit_log]
+    evidence:
+      - Service-specific illegal-content risk assessment that covers chatbot, generative features and significant changes
+      - Content moderation, reporting and complaints controls with review records
+    penalty: Ofcom may impose a penalty up to £18 million or 10% of qualifying worldwide revenue, whichever is greater.
+    source_url: https://www.legislation.gov.uk/ukpga/2023/50/section/10
+    confidence: high
+    notes: Ofcom's 2025/2026 guidance explains that user-shared AI outputs are user-generated content. The Crime and Policing Act 2026 added OSA s.216A, an enabling power to extend duties by regulations; that power itself does not create a new direct provider duty.
+  - id: AGC-GB-OSA-11-12
+    instrument: gb-osa
+    article: OSA 2023 ss. 11–12, 28–29
+    title: Assess and mitigate risks to children
+    plain: Providers of regulated user-to-user and search services likely to be accessed by children must assess risks to children and take proportionate steps to mitigate and manage them. User-to-user services must prevent children encountering primary-priority harmful content using age verification or estimation where required, and protect children from other harmful content.
+    applies_to:
+      roles: [platform]
+      uses: [chatbot, generated-media, deepfake, minors]
+      conditions: Applies to in-scope services likely to be accessed by children; duties vary by service type, identified risk, content and child age group. AI-generated content shared between users is assessed as other user-generated content.
+    applies_from: "2025-07-25"
+    status: applicable
+    controls: [impact_assessment, minors_protection, content_moderation]
+    evidence:
+      - Children’s access/risk assessment covering AI chatbot and generated-content features
+      - Age-assurance and child-safety measures, with evidence of effectiveness and periodic review
+    penalty: Ofcom may impose a penalty up to £18 million or 10% of qualifying worldwide revenue, whichever is greater.
+    source_url: https://www.legislation.gov.uk/ukpga/2023/50/section/12
+    confidence: high
+  - id: AGC-GB-OSA-81
+    instrument: gb-osa
+    article: OSA 2023 ss. 79–81
+    title: Age-gate provider-published pornography
+    plain: A service with regulated provider-published pornographic content and UK links must use highly effective age verification or estimation so children are not normally able to encounter it. The provider must keep a written record of its method and privacy considerations and publish a summary; provider-published content may include material produced through an automated tool.
+    applies_to:
+      roles: [platform]
+      uses: [chatbot, generated-media, minors]
+      conditions: Part 5 covers provider-published pornography, including where the provider uses an automated tool; user-generated pornography is excluded from Part 5 and may instead trigger Part 3 duties.
+    applies_from: "2025-01-17"
+    status: applicable
+    controls: [minors_protection, privacy_compliance]
+    evidence:
+      - Highly effective age-assurance design and test results
+      - Written record and public summary of age-assurance methods and privacy considerations
+    penalty: Ofcom may impose a penalty up to £18 million or 10% of qualifying worldwide revenue, whichever is greater.
+    source_url: https://www.legislation.gov.uk/ukpga/2023/50/section/81
+    confidence: high
+    notes: Ofcom's chatbot guidance says the Act covers chatbots meeting user-to-user/search definitions and services publishing pornography, but not every standalone chatbot.
+  - id: AGC-GB-DUAA-138-66E
+    instrument: gb-duaa-intimate-images
+    article: DUAA 2025 s. 138 (SOA 2003 ss. 66E–66F)
+    title: Do not create or request non-consensual purported intimate images
+    plain: In England and Wales, a person commits an offence by intentionally creating a purported intimate image of an adult without consent and without a reasonable belief in consent, or by intentionally requesting its creation on the same basis. The offence covers qualifying synthetic images; the Act defines the image and provides a reasonable-excuse defence.
+    applies_to:
+      roles: [any]
+      uses: [deepfake, generated-media]
+      conditions: The offences apply to adults and extend to England and Wales only; the Act's section 138 offences do not extend to Scotland. A narrow statutory exception applies to certain edits of an existing image.
+    applies_from: "2026-02-06"
+    status: applicable
+    controls: [prohibited_practices_screen, content_moderation]
+    evidence:
+      - Product and use-case controls against creating or requesting non-consensual intimate imagery
+      - Records of abuse reports and actions taken to prevent or respond to prohibited use
+    source_url: https://www.legislation.gov.uk/ukpga/2025/18/section/138
+    confidence: high
+    notes: Section 141(5)(c) limits the new offences to England and Wales. Scotland had consulted on possible equivalent offences in 2026; this file does not treat that proposal as law.
+  - id: AGC-GB-CPA26-99-66I
+    instrument: gb-cpa26-image-generators
+    article: CPA 2026 s. 99 (SOA 2003 s. 66I)
+    title: Do not make or supply purported intimate-image generators
+    plain: It is an offence to make or adapt, or supply or offer to supply, a thing for use as a generator of purported intimate images. “Thing” includes a program, electronic information or a service; a defence is available for taking all reasonable steps to prevent non-consensual use.
+    applies_to:
+      roles: [provider, developer, any]
+      uses: [deepfake, generated-media]
+      conditions: The substantive offence applies in England and Wales. Section 99(5) separately extends the extraterritorial application rule to UK-incorporated bodies and associations; ordinary internet-service-provider safe harbours also apply.
+    applies_from: "2026-06-29"
+    status: applicable
+    controls: [prohibited_practices_screen, risk_management]
+    evidence:
+      - Design-purpose review and access controls for image-generation features
+      - Documented safeguards and abuse-testing showing reasonable steps to prevent non-consensual use
+    source_url: https://www.legislation.gov.uk/ukpga/2026/20/section/99
+    confidence: high
+    notes: Scotland's adult creation offence was not enacted by the cutoff; the Scottish Government consulted on possible offences in 2026. Section 99's general offence is E&W; subsection (5) concerns extraterritorial application for UK bodies.
+  - id: AGC-GB-CPA26-72-74
+    instrument: gb-cpa26-image-generators
+    article: CPA 2026 ss. 72 and 74 (SOA 2003 s. 46A; Civic Government (Scotland) Act 1982 s. 52D)
+    title: Do not make, possess or supply child sexual-abuse image generators
+    plain: The enacted provisions create offences involving making or adapting, possessing, supplying or offering to supply a thing made for creating or facilitating child sexual-abuse images. “Thing” includes a program, electronic information or a service. The England-and-Wales and Scotland provisions had not been commenced by 4 November 2026.
+    applies_to:
+      roles: [provider, developer, any]
+      uses: [generated-media, deepfake, minors]
+      conditions: Section 72 is for England and Wales; section 74 is the separate Scottish provision. Both are enacted but remain prospective pending commencement regulations.
+    applies_from: null
+    status: not-yet-applicable
+    controls: [prohibited_practices_screen, content_moderation]
+    evidence:
+      - Prohibited-use controls and testing for child sexual-abuse image generation
+      - Records of measures to prevent creation, possession or supply of generator tools for this use
+    source_url: https://www.legislation.gov.uk/ukpga/2026/20/section/72
+    confidence: high
+    notes: Do not treat these provisions as operative duties before their commencement. Existing child-abuse-image offences may independently apply to synthetic material.
+  - id: AGC-GB-ATRS-SCOPE
+    instrument: gb-atrs
+    article: ATRS mandatory scope and exemptions policy
+    title: Publish transparency records for in-scope central-government tools
+    plain: Central-government departments and specified arm’s-length bodies must publish an ATRS record for algorithmic tools in beta/pilot or production that significantly influence public-effect decisions or directly interact with the public. The policy is broader than AI and is not a statute; other public-sector bodies are encouraged, not required, to use ATRS.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, chatbot, significant-decision]
+      conditions: Mandatory only for ministerial and non-ministerial departments and ALBs providing public/frontline services or routinely interacting with the public; sensitive information may be withheld under the policy.
+    applies_from: "2024-02-06"
+    status: applicable
+    controls: [transparency_notice, audit_log]
+    evidence:
+      - Published ATRS record for every in-scope algorithmic tool, including a public-facing chatbot
+      - Scope assessment and documented reasons for any exemption or redaction
+    source_url: https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy
+    confidence: high
+    notes: This is a mandatory cross-government policy for its defined central-government scope, not an enacted statutory duty or a general requirement for all public bodies.
+  - id: AGC-GB-AICSCOP-BASELINE
+    instrument: gb-ai-cyber-code
+    article: AI Cyber Security Code of Practice, Principles 1–13
+    title: Use the voluntary AI cyber-security baseline
+    plain: The government code recommends lifecycle cyber-security measures for AI developers and operators, including secure design and supply chains, risk assessment, access controls, documentation, testing, incident response, updates and end-of-life practices. It is voluntary and is not a statutory duty.
+    applies_to:
+      roles: [provider, developer, deployer]
+      uses: [any-ai, generated-media, agent, frontier-model]
+    applies_from: "2025-01-31"
+    status: voluntary
+    controls: [security_testing, risk_management, technical_documentation, human_oversight]
+    evidence:
+      - AI security threat and risk assessment, access-control and supply-chain records
+      - Testing, patching, incident-response and end-of-life plans
+    source_url: https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai
+    confidence: high
+    notes: The voluntary code was published by DSIT with NCSC collaboration. The UK AI Safety Institute was renamed the AI Security Institute on 14 February 2025; it is a research institute, not a regulator or a separate binding code.
+sources:
+  - { title: Data (Use and Access) Act 2025, section 80, UK GDPR and law-enforcement ADM amendments, url: "https://www.legislation.gov.uk/ukpga/2025/18/section/80" }
+  - { title: Data (Use and Access) Act 2025 Commencement No. 6 Regulations 2026, regulation 2, url: "https://www.legislation.gov.uk/uksi/2026/82/regulation/2" }
+  - { title: Online Safety Act 2023, current text, url: "https://www.legislation.gov.uk/ukpga/2023/50" }
+  - { title: Ofcom, AI chatbots and online regulation, url: "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/ai-chatbots-and-online-regulation-what-you-need-to-know" }
+  - { title: Data (Use and Access) Act 2025, sections 138 and 141, url: "https://www.legislation.gov.uk/ukpga/2025/18/section/138" }
+  - { title: Crime and Policing Act 2026, intimate-image generator offence, section 99, url: "https://www.legislation.gov.uk/ukpga/2026/20/section/99" }
+  - { title: Crime and Policing Act 2026, child sexual-abuse image generators, sections 72 and 74, url: "https://www.legislation.gov.uk/ukpga/2026/20/section/72" }
+  - { title: ATRS mandatory scope and exemptions policy, url: "https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy" }
+  - { title: Code of Practice for the Cyber Security of AI, url: "https://www.gov.uk/government/publications/ai-cyber-security-code-of-practice/code-of-practice-for-the-cyber-security-of-ai" }
+  - { title: UK AI Safety Institute renamed AI Security Institute, url: "https://www.gov.uk/government/news/tackling-ai-security-risks-to-unleash-growth-and-deliver-plan-for-change" }
+  - { title: Data Protection Act 2018 Code of Practice Regulations 2026, url: "https://www.legislation.gov.uk/uksi/2026/425/made" }
+  - { title: ICO upcoming codes of practice, AI and ADM code status, url: "https://ico.org.uk/about-the-ico/what-we-do/our-plans-for-new-and-updated-codes-of-practice/upcoming-codes-of-practice/" }
+  - { title: AI Opportunities Action Plan, pro-innovation and regulator-led approach, url: "https://www.gov.uk/government/publications/ai-opportunities-action-plan/ai-opportunities-action-plan" }
+  - { title: King's Speech 2026, Regulating for Growth Bill announcement, url: "https://www.gov.uk/government/speeches/the-kings-speech-2026" }
+  - { title: Digital and Technologies Sector Plan Year One Update, proposed statutory AI Growth Labs, url: "https://www.gov.uk/government/publications/digital-and-technologies-sector-plan-year-one-update/digital-and-technologies-sector-plan-year-one-update" }
+  - { title: Scottish Government consultation on possible new deepfake-intimate-image offences, url: "https://www.gov.scot/publications/improving-protections-justice-system-women-girls/pages/8/" }
+deadlines:
+  - date: "2026-12-31"
+    title: Secretary of State progress report on regulations under Online Safety Act section 216A, unless a draft instrument is laid earlier
+    instrument: gb-osa
+    obligations: []
+    source: https://www.legislation.gov.uk/ukpga/2026/20/section/249

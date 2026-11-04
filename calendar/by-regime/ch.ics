@@ -1,0 +1,228 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: Switzerland (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20230901-QXNzZXNzIGhpZ2gtcmlzayBw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Assess high-risk personal-data processing before deployment (
+ Revised FADP Art. 22(1)–(5) and Art. 23)
+DESCRIPTION:Obligations: AGC-CH-FADP-22. Source: https://www.fedlex.admin.
+ ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-RGF0YSBQcm90ZWN0aW9uIE9y@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Data Protection Ordinance: Data Protection Ordinance enters i
+ nto force
+DESCRIPTION:Source: https://www.fedlex.admin.ch/eli/cc/2022/568/en. Draft 
+ open data from AI Governance Chain. Not legal advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/568/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-S2VlcCBhIHJlY29yZCBvZiBw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Keep a record of processing activities (Revised FADP Art. 12(
+ 1)–(5)\; DPO Art. 24)
+DESCRIPTION:Obligations: AGC-CH-FADP-12. Source: https://www.fedlex.admin.
+ ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-Tm90aWZ5IHBlb3BsZSBhYm91@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Notify people about consequential decisions made solely by au
+ tomation and offer human review (Revised FADP Art. 21(1)–(4))
+DESCRIPTION:Obligations: AGC-CH-FADP-21. Source: https://www.fedlex.admin.
+ ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-UHJvY2VzcyBwZXJzb25hbCBk@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Process personal data transparently and build privacy in by d
+ esign (Revised FADP Art. 6(1)–(5) and Art. 7)
+DESCRIPTION:Obligations: AGC-CH-FADP-6-7. Source: https://www.fedlex.admin
+ .ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not leg
+ al advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-UHJvdmlkZSBhY2Nlc3MgaW5m@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Provide access information\, including about automated decisi
+ ons (Revised FADP Art. 25(1)–(2)(e)–(g))
+DESCRIPTION:Obligations: AGC-CH-FADP-25. Source: https://www.fedlex.admin.
+ ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-UmVwb3J0IGhpZ2gtcmlzayBw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Report high-risk personal-data security breaches (Revised FAD
+ P Art. 24(1)–(4))
+DESCRIPTION:Obligations: AGC-CH-FADP-24. Source: https://www.fedlex.admin.
+ ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-UmV2aXNlZCBGQURQOiBSZXZp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Revised FADP: Revised FADP enters into force
+DESCRIPTION:Source: https://www.fedlex.admin.ch/eli/cc/2022/491/en. Draft 
+ open data from AI Governance Chain. Not legal advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20230901-VGVsbCBwZW9wbGUgaG93IEFJ@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20230901
+DTEND;VALUE=DATE:20230902
+SUMMARY:[CH] Tell people how AI processes their personal data (Revised FAD
+ P Art. 6(3)\, 19(1)–(2)\; FDPIC\, AI and data protection\, Transparent 
+ information)
+DESCRIPTION:Obligations: AGC-CH-FADP-19-6. Source: https://www.fedlex.admi
+ n.ch/eli/cc/2022/491/en. Draft open data from AI Governance Chain. Not le
+ gal advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/491/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250212-UHJvcG9zZWQgU3dpc3MgQUkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250212
+DTEND;VALUE=DATE:20250213
+SUMMARY:[CH] Proposed Swiss AI legislation: Federal Council chooses an app
+ roach to ratify and implement the Council of Europe AI Convention\, with 
+ sector-specific amendments where needed
+DESCRIPTION:Source: https://www.admin.ch/en/nsb?id=104110. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.admin.ch/en/nsb?id=104110
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250327-UHJvcG9zZWQgU3dpc3MgQUkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250327
+DTEND;VALUE=DATE:20250328
+SUMMARY:[CH] Proposed Swiss AI legislation: Switzerland signs the Council 
+ of Europe Framework Convention on AI
+DESCRIPTION:Source: https://www.bakom.admin.ch/en/nsb?id=104646. Draft ope
+ n data from AI Governance Chain. Not legal advice.
+URL:https://www.bakom.admin.ch/en/nsb?id=104646
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20251201-TG9nIHF1YWxpZnlpbmcgYXV0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+SUMMARY:[CH] Log qualifying automated processing and keep logs protected (
+ Data Protection Ordinance Art. 4(1)–(5))
+DESCRIPTION:Obligations: AGC-CH-DPO-4. Source: https://www.fedlex.admin.ch
+ /eli/cc/2022/568/en. Draft open data from AI Governance Chain. Not legal 
+ advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/568/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-T0ZDT00gQUkgQ29kZSBvZiBD@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:[CH] OFCOM AI Code of Conduct guide: OFCOM AI Code of Conduct guid
+ e reported as a toolkit for voluntary guidelines
+DESCRIPTION:Source: https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D. Dra
+ ft open data from AI Governance Chain. Not legal advice.
+URL:https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-UHJvcG9zZWQgU3dpc3MgQUkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:[CH] Proposed Swiss AI legislation: Federal Council update says co
+ nsultation is scheduled for spring 2027\; proposed rules are to address t
+ ransparency\, data protection\, non-discrimination\, supervision and risk
+  assessment
+DESCRIPTION:Source: https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D. Dra
+ ft open data from AI Governance Chain. Not legal advice.
+URL:https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-VXNlIE9GQ09NJ3Mgdm9sdW50@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:[CH] Use OFCOM's voluntary AI Code of Conduct toolkit if adopting 
+ self-regulation (OFCOM AI Code of Conduct guide OFCOM Guide on an AI Code
+  of Conduct\, voluntary toolkit)
+DESCRIPTION:Obligations: AGC-CH-AICG-VOL. Source: https://www.bakom.admin.
+ ch/en/newnsb/s2TQiUUjrA5D. Draft open data from AI Governance Chain. Not 
+ legal advice.
+URL:https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261231-QXNzZXNzIHdoZXRoZXIgbG9n@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:[CH] Assess whether logging is needed for eligible legacy automate
+ d processing under DPO Art. 46(1)
+DESCRIPTION:Obligations: AGC-CH-DPO-46-1. Source: https://www.fedlex.admin
+ .ch/eli/cc/2022/568/en. Draft open data from AI Governance Chain. Not leg
+ al advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/568/en
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20291231-SW1wbGVtZW50IGxvZ2dpbmcg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20291231
+DTEND;VALUE=DATE:20300101
+SUMMARY:[CH] Implement logging for eligible legacy processing if the Art. 
+ 46(1) assessment finds it necessary
+DESCRIPTION:Obligations: AGC-CH-DPO-46-1. Source: https://www.fedlex.admin
+ .ch/eli/cc/2022/568/en. Draft open data from AI Governance Chain. Not leg
+ al advice.
+URL:https://www.fedlex.admin.ch/eli/cc/2022/568/en
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

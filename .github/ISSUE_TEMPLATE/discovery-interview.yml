@@ -1,0 +1,30 @@
+name: Volunteer for a discovery interview
+description: 20 to 30 minutes about how you handle AI rules today. No sales pitch.
+title: "[interview] "
+labels: ["discovery"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you. This issue is public, so share only what you are happy to publish. We will contact you through GitHub to arrange a time. See DISCOVERY.md."
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your role
+      options: [Developer, Agent builder, Product, Compliance / risk / privacy, Legal, SME owner, Public sector, Auditor / consultant, Researcher, Other]
+    validations: { required: true }
+  - type: input
+    id: region
+    attributes: { label: "Country or region" }
+  - type: dropdown
+    id: format
+    attributes: { label: "Preferred format", options: [Video call, Written answers] }
+  - type: textarea
+    id: context
+    attributes: { label: "In one or two sentences, what AI governance question did you face recently?" }
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I agree that anonymised notes from the interview may be published in a public issue after I approve them.
+          required: true

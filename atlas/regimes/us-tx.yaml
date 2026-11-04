@@ -1,0 +1,184 @@
+id: us-tx
+jurisdiction: US-TX
+name: Texas
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Texas Responsible Artificial Intelligence Governance Act
+  one_liner: TRAIGA bans specified intent-based AI conduct and requires AI disclosure only in specified government and health-care interactions, with Attorney General enforcement and an optional regulatory sandbox.
+  who_it_hits: People doing business in Texas, supplying products or services to Texas residents, or developing or deploying AI in Texas; special duties apply to governmental entities, health-care providers, and approved sandbox participants.
+  status_line: Binding and applicable since 2026-01-01. The Attorney General has exclusive enforcement authority (subject to limited state-agency sanctions), with a 60-day notice-and-cure step before suit; no private right of action. Uncurable violations carry up to $200,000. The Texas AI Council makes recommendations and provides training but cannot issue binding rules or guidance.
+instruments:
+  - id: us-tx-traiga
+    code: TRAIGA
+    title: Texas Responsible Artificial Intelligence Governance Act (HB 149), Business & Commerce Code Subtitle D
+    short: Texas TRAIGA
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM"
+    penalties: The Attorney General may sue after the 60-day notice-and-cure period. Civil penalties are $10,000-$12,000 per curable violation (or breach of a cure statement), $80,000-$200,000 per uncurable violation, and $2,000-$40,000 per day for a continuing violation, plus injunctive relief, fees, and costs. After an AG finding and recommendation, a licensing state agency may impose license sanctions and a penalty up to $100,000. No private right of action; no civil-penalty action against a system that has not been deployed.
+    key_dates:
+      - { date: "2026-01-01", event: "TRAIGA and Business & Commerce Code Chapters 551-554 take effect", source: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM" }
+      - { date: "2026-09-01", event: "Statutory deadline for the Attorney General to publish the consumer complaint mechanism", source: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM" }
+obligations:
+  - id: AGC-US-TX-TRAIGA-552-052
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code § 552.052
+    title: Do not intentionally incite self-harm, violence, or crime
+    plain: A person may not develop or deploy an AI system in a manner that intentionally aims to incite or encourage a person to commit physical self-harm (including suicide), harm another person, or engage in criminal activity. The prohibition turns on the specified intent, not merely on a harmful outcome.
+    applies_to:
+      roles: [developer, deployer]
+      uses: [any-ai]
+      conditions: Applies to persons within the Texas scope in § 551.002; the conduct must intentionally aim to incite or encourage one of the listed acts.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [prohibited_practices_screen]
+    evidence:
+      - Use-case and policy screening against the statutory intent-based prohibition
+      - Safety testing and review records for system behavior and reported misuse
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+    notes: The Act does not establish a general duty to assess disparate impact or a general appeal right for consequential decisions.
+  - id: AGC-US-TX-TRAIGA-552-053
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code § 552.053
+    title: Do not use AI for prohibited government social scoring
+    plain: A governmental entity may not use or deploy AI to evaluate or classify people based on known, inferred, or predicted social behavior or personal characteristics with intent to assign a social score that results or may result in specified detrimental or disproportionate treatment, or infringement of rights under the U.S. or Texas Constitution or other law.
+    applies_to:
+      roles: [public-body, deployer]
+      uses: [public-sector-use, profiling, significant-decision]
+      conditions: Only governmental entities; the statute requires intent to assign a score and one of the listed harmful or rights-infringing consequences.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [prohibited_practices_screen]
+    evidence:
+      - Public-sector AI use-case review and written social-scoring prohibition
+      - System-purpose documentation and audit records for categorization or scoring tools
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+  - id: AGC-US-TX-TRAIGA-552-054
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code § 552.054 and § 503.001
+    title: Limit government biometric identification that infringes rights
+    plain: A governmental entity may not develop or deploy AI to uniquely identify a specific individual using biometric data, or targeted or untargeted gathering of publicly available images or other media, without consent when the gathering would infringe a right protected by the U.S. or Texas Constitution or other state or federal law. Section 503.001 also restricts commercial biometric capture, with statutory exceptions for certain AI training and security or fraud-prevention uses.
+    applies_to:
+      roles: [public-body, developer, deployer]
+      uses: [biometric-categorisation, remote-biometric-id, public-sector-use]
+      conditions: Government biometric-identification restriction applies only when the specified gathering would infringe a legal right; statutory definitions and § 503.001 exceptions apply.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [prohibited_practices_screen, privacy_compliance]
+    evidence:
+      - Biometric data inventory, purpose and consent records, and rights-impact review for government uses
+      - Documentation that any relied-on § 503.001 exception applies and that later commercial use is handled under that section
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+    notes: The statute is not a blanket ban on all biometric AI or public-source media; its government-use restriction includes a rights-infringement condition. Section 503.001 has additional definitions and exceptions.
+  - id: AGC-US-TX-TRAIGA-552-055-056
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code §§ 552.055-.056
+    title: Do not target constitutional rights or unlawfully discriminate by intent
+    plain: A person may not develop or deploy AI with the sole intent to infringe, restrict, or impair an individual's U.S. constitutional rights, or with intent to unlawfully discriminate against a protected class in violation of state or federal law. Disparate impact alone is not sufficient to prove the discrimination intent; statutory insurance and federally insured financial-institution provisions apply.
+    applies_to:
+      roles: [developer, deployer]
+      uses: [any-ai, significant-decision, profiling]
+      conditions: The constitutional-rights prohibition uses a sole-intent standard; the discrimination prohibition requires intent and violation of other state or federal law, with express financial and insurance provisions.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [prohibited_practices_screen, bias_testing]
+    evidence:
+      - Documented use-case and policy review against the statutory intent-based prohibitions
+      - Review of insurance or federally insured bank treatment where an exception is claimed
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+    notes: The statute does not make disparate impact alone sufficient to prove intent. The § 552.056 exemptions/constructive-compliance provisions are limited to specified insurance entities and federally insured financial institutions complying with applicable laws.
+  - id: AGC-US-TX-TRAIGA-552-057
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code § 552.057
+    title: Do not develop specified AI sexual-abuse material or child-impersonating chat
+    plain: A person may not develop or distribute an AI system with the sole intent to produce, assist in producing, or distribute visual material that violates the Texas child-pornography statute or deepfake videos/images that violate Penal Code § 21.165. A person also may not intentionally develop or distribute an AI system that has text-based sexual-conduct conversations while impersonating or imitating a child under 18.
+    applies_to:
+      roles: [developer, distributor]
+      uses: [generated-media, deepfake, chatbot, companion, minors]
+      conditions: The visual-material prohibition uses the statute's sole-intent standard and Penal Code references; the child-impersonating chat prohibition uses its separate intentional-development/distribution standard.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [prohibited_practices_screen, content_moderation, minors_protection]
+    evidence:
+      - Model and content-policy tests for the specified statutory content and child-impersonation scenarios
+      - Incident-handling and distribution controls for prohibited outputs or system behavior
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+    notes: This is not a general prohibition on every AI-generated sexual image; the statute ties the visual-material prohibition to specified Texas Penal Code violations and intent.
+  - id: AGC-US-TX-TRAIGA-552-051-GOV
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code § 552.051(b)-(e)
+    title: Disclose government AI interactions to consumers
+    plain: A governmental agency that makes available an AI system intended to interact with consumers must clearly and conspicuously disclose, before or at the time of interaction, that the consumer is interacting with AI. The notice must be in plain language and not use a dark pattern; it is required even when AI use would be obvious, and may be provided through a hyperlink.
+    applies_to:
+      roles: [public-body]
+      uses: [chatbot, agent, any-ai]
+      conditions: Applies to a governmental agency's AI system intended to interact with consumers; the Act does not create a general private-company chatbot disclosure rule.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [ai_disclosure, transparency_notice]
+    evidence:
+      - Screenshots or transcripts showing clear, plain-language disclosure before or at first interaction
+      - Review records showing the disclosure does not use a dark pattern
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+  - id: AGC-US-TX-TRAIGA-552-051-HEALTH
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code § 552.051(f)
+    title: Disclose AI use in health-care services or treatment
+    plain: If an AI system is used in relation to a health-care service or treatment, the provider must disclose the AI interaction to the recipient or personal representative no later than the date the service or treatment is first provided. In an emergency, disclosure must be made as soon as reasonably possible; the disclosure is subject to the section's plain-language, clear-and-conspicuous, and no-dark-pattern requirements.
+    applies_to:
+      roles: [any]
+      uses: [healthcare]
+      conditions: Licensed, registered, or certified provider uses an AI system in relation to health-care service or treatment; emergency timing exception applies.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [ai_disclosure, transparency_notice]
+    evidence:
+      - Patient notice or form documenting AI use, delivery date, and recipient or personal representative
+      - Emergency procedure documenting disclosure as soon as reasonably possible
+    penalty: $10,000-$12,000 per curable violation; $80,000-$200,000 per uncurable violation; $2,000-$40,000 per day for a continuing violation, subject to the statutory cure and enforcement provisions.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm"
+    confidence: high
+  - id: AGC-US-TX-TRAIGA-553-052
+    instrument: us-tx-traiga
+    article: Bus. & Com. Code §§ 553.052, 553.053, 553.102
+    title: Apply and report if participating in the AI regulatory sandbox
+    plain: A sandbox applicant must obtain approval from the Department of Information Resources and each applicable agency before testing and submit the system description and intended use, a benefit assessment addressing consumer, privacy, and public-safety impacts, a mitigation plan, and proof of applicable federal AI-law compliance. Approved participants may test and deploy for up to 36 months (extendable for good cause) and must report quarterly on performance, risk mitigation, and consumer/stakeholder feedback; Chapter 552 duties and prohibitions cannot be waived.
+    applies_to:
+      roles: [developer, deployer]
+      uses: [any-ai]
+      conditions: Only persons who voluntarily apply for and are approved as sandbox participants; approval by DIR and any applicable agency is required before testing under the program.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [impact_assessment, risk_management, incident_reporting]
+    evidence:
+      - Approved sandbox application, benefit assessment, federal-law proof, and mitigation plan
+      - Quarterly reports to DIR covering performance, risks, and consumer or stakeholder feedback
+    penalty: Sandbox relief does not waive Chapter 552 duties or prohibitions; other penalties depend on the law or regulation at issue.
+    source_url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.553.htm"
+    confidence: high
+    notes: The impact/benefit assessment is a condition only for sandbox participation, not a general TRAIGA assessment duty for all developers or deployers.
+deadlines:
+  - { date: "2026-09-01", title: "Attorney General's deadline to post the consumer complaint mechanism", instrument: us-tx-traiga, obligations: [], source: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM" }
+sources:
+  - { title: "Texas HB 149 enrolled act (TRAIGA)", url: "https://capitol.texas.gov/tlodocs/89R/billtext/html/HB00149F.HTM" }
+  - { title: "Texas Business & Commerce Code Chapter 551: scope and definitions", url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.551.htm" }
+  - { title: "Texas Business & Commerce Code Chapter 552: duties, prohibitions, enforcement, and penalties", url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.552.htm" }
+  - { title: "Texas Business & Commerce Code Chapter 553: AI regulatory sandbox", url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.553.htm" }
+  - { title: "Texas Business & Commerce Code Chapter 554: Texas Artificial Intelligence Council", url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.554.htm" }
+  - { title: "Texas Business & Commerce Code § 503.001: Capture or Use of Biometric Identifier", url: "https://statutes.capitol.texas.gov/Docs/BC/htm/BC.503.htm" }

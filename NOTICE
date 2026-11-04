@@ -1,0 +1,20 @@
+AI Governance Chain
+Copyright 2026 Mathieu K. Gouanou and AI Governance Chain contributors
+
+This product includes software developed by the AI Governance Chain project
+(https://github.com/mathieugouanou/aigovernancechain), licensed under the
+Apache License, Version 2.0 (see LICENSE).
+
+Data in atlas/, crosswalks/, calendar/, cards/, govbench/, documentation and
+the AI_GOVERNANCE.md specification are licensed under the Creative Commons
+Attribution 4.0 International licence (see LICENSE-DOCS). Attribution:
+"AI Governance Chain Obligation Atlas, https://github.com/mathieugouanou/aigovernancechain".
+
+Third-party components:
+- js-yaml 5.5.0 (vendor/js-yaml.mjs), Copyright (C) 2011-2015 by Vitaly Puzrin,
+  MIT licence (see vendor/js-yaml.LICENSE).
+
+Legal texts quoted or summarised in the Atlas remain subject to their
+official sources. Official texts are linked, not redistributed.
+
+Nothing in this project is legal advice.

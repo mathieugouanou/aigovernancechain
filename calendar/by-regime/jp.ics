@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: Japan (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20250604-Q29vcGVyYXRlIHdpdGggbmF0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250604
+DTEND;VALUE=DATE:20250605
+SUMMARY:[JP] Cooperate with national and local AI measures (AI Promotion A
+ ct Art. 7)
+DESCRIPTION:Obligations: AGC-JP-AIPA-7. Source: https://www.japaneselawtra
+ nslation.go.jp/en/laws/view/5066/je. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://www.japaneselawtranslation.go.jp/en/laws/view/5066/je
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250901-QUkgUHJvbW90aW9uIEFjdDog@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250902
+SUMMARY:[JP] AI Promotion Act: Remaining provisions\, including the Basic 
+ Plan and Strategic Headquarters chapters\, took effect\; the Act is fully
+  in force
+DESCRIPTION:Source: https://laws.e-gov.go.jp/law/507AC0000000053. Draft op
+ en data from AI Governance Chain. Not legal advice.
+URL:https://laws.e-gov.go.jp/law/507AC0000000053
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-QUkgR3VpZGVsaW5lcyBmb3Ig@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] AI Guidelines for Business Ver1.2: METI and MIC issued AI Gui
+ delines for Business Ver1.2
+DESCRIPTION:Source: https://www.meti.go.jp/shingikai/mono_info_service/ai_
+ shakai_jisso/pdf/20260331_12.pdf. Draft open data from AI Governance Chai
+ n. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-QXNzZXNzIGFuZCBtYW5hZ2Ug@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] Assess and manage AI safety risks (AI Guidelines for Business
+  Ver1.2 Part 2.C.2)
+DESCRIPTION:Obligations: AGC-JP-AIGB-C2. Source: https://www.meti.go.jp/sh
+ ingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf. Draft open
+  data from AI Governance Chain. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-RG9jdW1lbnQgQUkgYWNjb3Vu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] Document AI accountability (AI Guidelines for Business Ver1.2
+  Part 2.C.7)
+DESCRIPTION:Obligations: AGC-JP-AIGB-C7. Source: https://www.meti.go.jp/sh
+ ingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf. Draft open
+  data from AI Governance Chain. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-S2VlcCBBSSBodW1hbi1jZW50@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] Keep AI human-centric (AI Guidelines for Business Ver1.2 Part
+  2.C.1)
+DESCRIPTION:Obligations: AGC-JP-AIGB-C1. Source: https://www.meti.go.jp/sh
+ ingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf. Draft open
+  data from AI Governance Chain. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-UHJvdGVjdCBwcml2YWN5IHRo@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] Protect privacy throughout the AI lifecycle (AI Guidelines fo
+ r Business Ver1.2 Part 2.C.4)
+DESCRIPTION:Obligations: AGC-JP-AIGB-C4. Source: https://www.meti.go.jp/sh
+ ingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf. Draft open
+  data from AI Governance Chain. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-UHJvdmlkZSBwcm9wb3J0aW9u@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] Provide proportionate information about AI (AI Guidelines for
+  Business Ver1.2 Part 2.C.6)
+DESCRIPTION:Obligations: AGC-JP-AIGB-C6. Source: https://www.meti.go.jp/sh
+ ingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf. Draft open
+  data from AI Governance Chain. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260331-U2VjdXJlIEFJIHN5c3RlbXMg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[JP] Secure AI systems and services (AI Guidelines for Business Ve
+ r1.2 Part 2.C.5)
+DESCRIPTION:Obligations: AGC-JP-AIGB-C5. Source: https://www.meti.go.jp/sh
+ ingikai/mono_info_service/ai_shakai_jisso/pdf/20260331_12.pdf. Draft open
+  data from AI Governance Chain. Not legal advice.
+URL:https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf
+ /20260331_12.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-Rm9sbG93IEphcGFuJ3MgY3Vy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:[JP] Follow Japan's current government AI strategy (Second AI Basi
+ c Plan Second AI Basic Plan\, Chapters 1-4)
+DESCRIPTION:Obligations: AGC-JP-AIBP-PLAN. Source: https://www8.cao.go.jp/
+ cstp/ai/ai_plan/aiplan_eng_20260714.pdf. Draft open data from AI Governan
+ ce Chain. Not legal advice.
+URL:https://www8.cao.go.jp/cstp/ai/ai_plan/aiplan_eng_20260714.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260714-U2Vjb25kIEFJIEJhc2ljIFBs@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:[JP] Second AI Basic Plan: Cabinet decided the Second AI Basic Pla
+ n\, replacing the first plan
+DESCRIPTION:Source: https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html. D
+ raft open data from AI Governance Chain. Not legal advice.
+URL:https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

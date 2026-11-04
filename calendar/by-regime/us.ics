@@ -1,0 +1,447 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: United States (federal) (AI Governance Chai
+ n)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:19140926-RG8gbm90IG1ha2UgZGVjZXB0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:19140926
+DTEND;VALUE=DATE:19140927
+SUMMARY:[US] Do not make deceptive AI claims to consumers (FTC Act section
+  5 FTC Act §5(a)\, 15 U.S.C. §45(a))
+DESCRIPTION:Obligations: AGC-US-FTCA-5A. Source: https://uscode.house.gov/
+ us/usc/119-136/t15/s45/. Draft open data from AI Governance Chain. Not le
+ gal advice.
+URL:https://uscode.house.gov/us/usc/119-136/t15/s45/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250403-QXBwbHkgbWluaW11bSByaXNr@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250403
+DTEND;VALUE=DATE:20250404
+SUMMARY:[US] Apply minimum risk practices to high-impact AI (OMB M-25-21 M
+ -25-21 §4(b))
+DESCRIPTION:Obligations: AGC-US-M2521-4B. Source: https://www.whitehouse.g
+ ov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-thro
+ ugh-Innovation-Governance-and-Public-Trust.pdf. Draft open data from AI G
+ overnance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelera
+ ting-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250403-RGVzaWduYXRlIGEgQ2hpZWYg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250403
+DTEND;VALUE=DATE:20250404
+SUMMARY:[US] Designate a Chief AI Officer (OMB M-25-21 M-25-21 §3(a)(i))
+DESCRIPTION:Obligations: AGC-US-M2521-3A-I. Source: https://www.whitehouse
+ .gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-th
+ rough-Innovation-Governance-and-Public-Trust.pdf. Draft open data from AI
+  Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelera
+ ting-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250403-TWFpbnRhaW4gYW5kIHB1Ymxp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250403
+DTEND;VALUE=DATE:20250404
+SUMMARY:[US] Maintain and publish annual AI use-case inventories (OMB M-25
+ -21 M-25-21 §3(b)(v))
+DESCRIPTION:Obligations: AGC-US-M2521-3B-V. Source: https://www.whitehouse
+ .gov/wp-content/uploads/2025/02/M-25-21-Accelerating-Federal-Use-of-AI-th
+ rough-Innovation-Governance-and-Public-Trust.pdf. Draft open data from AI
+  Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelera
+ ting-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250403-T01CIE0tMjUtMjI6IE9NQiBp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250403
+DTEND;VALUE=DATE:20250404
+SUMMARY:[US] OMB M-25-22: OMB issued M-25-22
+DESCRIPTION:Source: https://www.whitehouse.gov/wp-content/uploads/2025/02/
+ M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Gover
+ nment.pdf. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-
+ Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250519-RG8gbm90IGtub3dpbmdseSBw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250519
+DTEND;VALUE=DATE:20250520
+SUMMARY:[US] Do not knowingly publish specified nonconsensual intimate dep
+ ictions (TAKE IT DOWN Act TAKE IT DOWN Act §2\; 47 U.S.C. §223(h))
+DESCRIPTION:Obligations: AGC-US-TIDA-2. Source: https://www.congress.gov/1
+ 19/plaws/publ12/PLAW-119publ12.htm. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250602-T01CIE0tMjUtMjE6IDYwLWRh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250602
+DTEND;VALUE=DATE:20250603
+SUMMARY:[US] OMB M-25-21: 60-day deadline for agency heads to retain or de
+ signate a Chief AI Officer
+DESCRIPTION:Source: https://www.whitehouse.gov/wp-content/uploads/2025/02/
+ M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-
+ Public-Trust.pdf. Draft open data from AI Governance Chain. Not legal adv
+ ice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelera
+ ting-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250723-RU8gMTQzMTk6IEV4ZWN1dGl2@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250723
+DTEND;VALUE=DATE:20250724
+SUMMARY:[US] EO 14319: Executive order signed\; directs agencies to procur
+ e LLMs developed in accordance with its Unbiased AI Principles
+DESCRIPTION:Source: https://www.whitehouse.gov/presidential-actions/2025/0
+ 7/preventing-woke-ai-in-the-federal-government/. Draft open data from AI 
+ Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/presidential-actions/2025/07/preventing-wok
+ e-ai-in-the-federal-government/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250723-UHJvY3VyZSBMTE1zIGRldmVs@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250723
+DTEND;VALUE=DATE:20250724
+SUMMARY:[US] Procure LLMs developed under the Unbiased AI Principles (EO 1
+ 4319 EO 14319 §3(a)-(b))
+DESCRIPTION:Obligations: AGC-US-EO14319-3. Source: https://www.whitehouse.
+ gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-govern
+ ment/. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/presidential-actions/2025/07/preventing-wok
+ e-ai-in-the-federal-government/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250930-UHV0IHJlcXVpcmVkIHNhZmVn@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250930
+DTEND;VALUE=DATE:20251001
+SUMMARY:[US] Put required safeguards into covered AI contracts (OMB M-25-2
+ 2 M-25-22 §§2(c)\, 3(c)-(e)\, 4)
+DESCRIPTION:Obligations: AGC-US-M2522-2C. Source: https://www.whitehouse.g
+ ov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Ar
+ tificial-Intelligence-in-Government.pdf. Draft open data from AI Governan
+ ce Chain. Not legal advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-
+ Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20251211-SW5jbHVkZSBVbmJpYXNlZCBB@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251212
+SUMMARY:[US] Include Unbiased AI Principles in LLM procurement (OMB M-26-0
+ 4 M-26-04 §§3(a)\, 3(c)\, Appendix A)
+DESCRIPTION:Obligations: AGC-US-M2604-3A-C. Source: https://www.whitehouse
+ .gov/wp-content/uploads/2025/12/M-26-04-Increasing-Public-Trust-in-Artifi
+ cial-Intelligence-Through-Unbiased-AI-Principles.pdf. Draft open data fro
+ m AI Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasi
+ ng-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles
+ .pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20251218-RGV2ZWxvcCBEb0QgQUkgc2Vj@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251218
+DTEND;VALUE=DATE:20251219
+SUMMARY:[US] Develop DoD AI security requirements for covered entities (FY
+ 2026 NDAA FY2026 NDAA §1513(a)-(b)\, (f)(3))
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1513. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20251218-RXN0YWJsaXNoIGEgRG9ELXdp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251218
+DTEND;VALUE=DATE:20251219
+SUMMARY:[US] Establish a DoD-wide AI and ML cybersecurity policy (FY2026 N
+ DAA FY2026 NDAA §1512)
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1512. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20251218-RlkyMDI2IE5EQUE6IEZZMjAy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251218
+DTEND;VALUE=DATE:20251219
+SUMMARY:[US] FY2026 NDAA: FY2026 NDAA enacted
+DESCRIPTION:Source: https://www.govinfo.gov/content/pkg/PLAW-119publ60/htm
+ l/PLAW-119publ60.htm. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260117-RlkyMDI2IE5EQUE6IDMwLWRh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY:[US] FY2026 NDAA: 30-day deadline for DoD's DeepSeek-related remov
+ al requirements and DoD-contractor prohibition under section 1532
+DESCRIPTION:Source: https://www.govinfo.gov/content/pkg/PLAW-119publ60/htm
+ l/PLAW-119publ60.htm. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260117-S2VlcCBjb3ZlcmVkIERlZXBT@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+SUMMARY:[US] Keep covered DeepSeek and High Flyer AI out of DoD contract p
+ erformance (FY2026 NDAA FY2026 NDAA §1532(a)(1)\, (a)(3)\, (b)-(c))
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1532. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260216-RlkyMDI2IE5EQUE6IDYwLWRh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:[US] FY2026 NDAA: 60-day deadline for DNI to issue initial standar
+ ds and guidelines under section 6604
+DESCRIPTION:Source: https://www.govinfo.gov/content/pkg/PLAW-119publ60/htm
+ l/PLAW-119publ60.htm. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260216-UmVxdWlyZSByZW1vdmFsIG9m@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+SUMMARY:[US] Require removal of DeepSeek from intelligence-community syste
+ ms (FY2026 NDAA FY2026 NDAA §6604(a)-(e))
+DESCRIPTION:Obligations: AGC-US-NDAA11960-6604. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260311-T01CIE0tMjYtMDQ6IERlYWRs@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260311
+DTEND;VALUE=DATE:20260312
+SUMMARY:[US] OMB M-26-04: Deadline for agencies to update procurement poli
+ cies and user-feedback processes
+DESCRIPTION:Source: https://www.whitehouse.gov/wp-content/uploads/2025/12/
+ M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbias
+ ed-AI-Principles.pdf. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasi
+ ng-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles
+ .pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260403-T01CIE0tMjUtMjE6IDM2NS1k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:[US] OMB M-25-21: 365-day deadline to document implementation of m
+ inimum risk practices for high-impact AI
+DESCRIPTION:Source: https://www.whitehouse.gov/wp-content/uploads/2025/02/
+ M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-
+ Public-Trust.pdf. Draft open data from AI Governance Chain. Not legal adv
+ ice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-21-Accelera
+ ting-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519-UHJvdmlkZSBub3RpY2UgYW5k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:[US] Provide notice and remove validly reported intimate depiction
+ s (TAKE IT DOWN Act TAKE IT DOWN Act §3(a)-(b))
+DESCRIPTION:Obligations: AGC-US-TIDA-3. Source: https://www.congress.gov/1
+ 19/plaws/publ12/PLAW-119publ12.htm. Draft open data from AI Governance Ch
+ ain. Not legal advice.
+URL:https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260519-VEFLRSBJVCBET1dOIEFjdDog@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:[US] TAKE IT DOWN Act: Deadline for covered platforms to establish
+  the section 3 notice-and-removal process
+DESCRIPTION:Source: https://www.congress.gov/119/plaws/publ12/PLAW-119publ
+ 12.htm. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601-QXNzZXNzIGFuZCBvdmVyc2Vl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:[US] Assess and oversee major DoD AI systems (FY2026 NDAA FY2026 N
+ DAA §1533(a)-(d)\, (f)(3))
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1533. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260601-RlkyMDI2IE5EQUE6IERlYWRs@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+SUMMARY:[US] FY2026 NDAA: Deadline to establish the DoD cross-functional A
+ I model assessment and oversight team under section 1533
+DESCRIPTION:Source: https://www.govinfo.gov/content/pkg/PLAW-119publ60/htm
+ l/PLAW-119publ60.htm. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260616-RlkyMDI2IE5EQUE6IDE4MC1k@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:[US] FY2026 NDAA: 180-day deadline for the DoD policies and framew
+ ork-related congressional updates in sections 1512 and 1513
+DESCRIPTION:Source: https://www.govinfo.gov/content/pkg/PLAW-119publ60/htm
+ l/PLAW-119publ60.htm. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929-RU8gMTQ0MzQ6IEV4ZWN1dGl2@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:[US] EO 14434: Executive order signed\; directs terminology change
+ s in non-statutory executive-branch communications and documents
+DESCRIPTION:Source: https://www.whitehouse.gov/presidential-actions/2026/0
+ 9/inaugurating-the-era-of-super-intelligence/. Draft open data from AI Go
+ vernance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-t
+ he-era-of-super-intelligence/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929-VXNlIHRoZSBwcmVzY3JpYmVk@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:[US] Use the prescribed term in future federal AI communications (
+ EO 14434 EO 14434 §2(a)-(b))
+DESCRIPTION:Obligations: AGC-US-EO14434-2A. Source: https://www.whitehouse
+ .gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intellige
+ nce/. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-t
+ he-era-of-super-intelligence/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270101-RG9EIG11c3QgZGVzaWduYXRl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:[US] DoD must designate functional leads for AI applications under
+  NDAA §1533
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1533. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270601-RG9EIG11c3QgY29tcGxldGUg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:[US] DoD must complete the AI assessment framework and governance 
+ structure under NDAA §1533
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1533. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271211-T01CIE0tMjYtMDQ6IE0tMjYt@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20271211
+DTEND;VALUE=DATE:20271212
+SUMMARY:[US] OMB M-26-04: M-26-04 sunsets unless OMB extends it
+DESCRIPTION:Source: https://www.whitehouse.gov/wp-content/uploads/2025/12/
+ M-26-04-Increasing-Public-Trust-in-Artificial-Intelligence-Through-Unbias
+ ed-AI-Principles.pdf. Draft open data from AI Governance Chain. Not legal
+  advice.
+URL:https://www.whitehouse.gov/wp-content/uploads/2025/12/M-26-04-Increasi
+ ng-Public-Trust-in-Artificial-Intelligence-Through-Unbiased-AI-Principles
+ .pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20280101-RG9EIG11c3QgY29tcGxldGUg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280102
+SUMMARY:[US] DoD must complete assessments of major AI systems under NDAA 
+ §1533
+DESCRIPTION:Obligations: AGC-US-NDAA11960-1533. Source: https://www.govinf
+ o.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm. Draft open data
+  from AI Governance Chain. Not legal advice.
+URL:https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60
+ .htm
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

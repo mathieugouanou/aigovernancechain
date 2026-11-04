@@ -1,0 +1,344 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: Singapore (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20140702-RXN0YWJsaXNoIGEgbGF3ZnVs@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20140702
+DTEND;VALUE=DATE:20140703
+SUMMARY:[SG] Establish a lawful basis and notify purposes for personal-dat
+ a use (PDPA PDPA §§ 13-20)
+DESCRIPTION:Obligations: AGC-SG-PDPA-13-18-20. Source: https://sso.agc.gov
+ .sg/Act/PDPA2012. Draft open data from AI Governance Chain. Not legal adv
+ ice.
+URL:https://sso.agc.gov.sg/Act/PDPA2012
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20140702-TWFpbnRhaW4gYWNjb3VudGFi@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20140702
+DTEND;VALUE=DATE:20140703
+SUMMARY:[SG] Maintain accountability\, security and retention controls (PD
+ PA PDPA §§ 11-12\, 24-25)
+DESCRIPTION:Obligations: AGC-SG-PDPA-11-12-24-25. Source: https://sso.agc.
+ gov.sg/Act/PDPA2012. Draft open data from AI Governance Chain. Not legal 
+ advice.
+URL:https://sso.agc.gov.sg/Act/PDPA2012
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20200121-TWFrZSBBSSBkZWNpc2lvbiBw@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20200121
+DTEND;VALUE=DATE:20200122
+SUMMARY:[SG] Make AI decision processes explainable\, fair and human-centr
+ ic (Model AI Governance Framework (2020) § 2.7)
+DESCRIPTION:Obligations: AGC-SG-MGF20-2-7. Source: https://www.imda.gov.sg
+ /-/media/imda/files/infocomm-media-landscape/sg-digital/tech-pillars/arti
+ ficial-intelligence/second-edition-of-the-model-ai-governance-framework.p
+ df. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/sg
+ -digital/tech-pillars/artificial-intelligence/second-edition-of-the-model
+ -ai-governance-framework.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20200121-TW9kZWwgQUkgR292ZXJuYW5j@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20200121
+DTEND;VALUE=DATE:20200122
+SUMMARY:[SG] Model AI Governance Framework (2020): Second edition released
+  as voluntary guidance
+DESCRIPTION:Source: https://www.imda.gov.sg/-/media/imda/files/infocomm-me
+ dia-landscape/sg-digital/tech-pillars/artificial-intelligence/second-edit
+ ion-of-the-model-ai-governance-framework.pdf. Draft open data from AI Gov
+ ernance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/sg
+ -digital/tech-pillars/artificial-intelligence/second-edition-of-the-model
+ -ai-governance-framework.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20220525-QUkgVmVyaWZ5OiBBSSBWZXJp@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20220525
+DTEND;VALUE=DATE:20220526
+SUMMARY:[SG] AI Verify: AI Verify testing framework and toolkit announced 
+ for international pilot
+DESCRIPTION:Source: https://www.imda.gov.sg/resources/press-releases-facts
+ heets-and-speeches/press-releases/2022/sg-launches-worlds-first-ai-testin
+ g-framework-and-toolkit-to-promote-transparency. Draft open data from AI 
+ Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/resources/press-releases-factsheets-and-speech
+ es/press-releases/2022/sg-launches-worlds-first-ai-testing-framework-and-
+ toolkit-to-promote-transparency
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20220525-VGVzdCBBSSBzeXN0ZW1zIGFn@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20220525
+DTEND;VALUE=DATE:20220526
+SUMMARY:[SG] Test AI systems against responsible-AI principles (AI Verify 
+ Testing Framework\, 11 governance principles)
+DESCRIPTION:Obligations: AGC-SG-AIVERIFY-11. Source: https://www.imda.gov.
+ sg/ai-verify. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/ai-verify
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20240301-QXBwbHkgUERQQydzIGFkdmlj@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240301
+DTEND;VALUE=DATE:20240302
+SUMMARY:[SG] Apply PDPC's advice to AI recommendation and decision systems
+  (PDPC AI Recommendation and Decision Guidelines Guidelines §§ 2.2\, 3.
+ 1\, 9.1-9.7 and 10)
+DESCRIPTION:Obligations: AGC-SG-PDPCREC-9. Source: https://www.pdpc.gov.sg
+ /-/media/files/pdpc/pdf-files/advisory-guidelines/advisory-guidelines-on-
+ the-use-of-personal-data-in-ai-recommendation-and-decision-systems.pdf. D
+ raft open data from AI Governance Chain. Not legal advice.
+URL:https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelin
+ es/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-a
+ nd-decision-systems.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20240301-UERQQyBBSSBSZWNvbW1lbmRh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240301
+DTEND;VALUE=DATE:20240302
+SUMMARY:[SG] PDPC AI Recommendation and Decision Guidelines: Final advisor
+ y guidelines issued
+DESCRIPTION:Source: https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/a
+ dvisory-guidelines/advisory-guidelines-on-the-use-of-personal-data-in-ai-
+ recommendation-and-decision-systems.pdf. Draft open data from AI Governan
+ ce Chain. Not legal advice.
+URL:https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/advisory-guidelin
+ es/advisory-guidelines-on-the-use-of-personal-data-in-ai-recommendation-a
+ nd-decision-systems.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20240530-R2VuZXJhdGl2ZSBBSSBHb3Zl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240530
+DTEND;VALUE=DATE:20240531
+SUMMARY:[SG] Generative AI Governance Framework (2024): IMDA introduced th
+ e Generative AI framework as an ecosystem-level voluntary framework
+DESCRIPTION:Source: https://www.imda.gov.sg/resources/press-releases-facts
+ heets-and-speeches/factsheets/2024/gen-ai-and-digital-foss-ai-governance-
+ playbook. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/resources/press-releases-factsheets-and-speech
+ es/factsheets/2024/gen-ai-and-digital-foss-ai-governance-playbook
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20240530-R292ZXJuIEdlbmVyYXRpdmUg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240530
+DTEND;VALUE=DATE:20240531
+SUMMARY:[SG] Govern Generative AI across its lifecycle and ecosystem (Gene
+ rative AI Governance Framework (2024) Framework\, nine dimensions)
+DESCRIPTION:Obligations: AGC-SG-MGFGAI-9D. Source: https://www.imda.gov.sg
+ /About-IMDA/Emerging-Technologies-and-Research/Artificial-Intelligence. D
+ raft open data from AI Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/About-IMDA/Emerging-Technologies-and-Research/
+ Artificial-Intelligence
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20241121-RWxlY3Rpb25zIEludGVncml0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20241121
+DTEND;VALUE=DATE:20241122
+SUMMARY:[SG] Elections Integrity Amendment: Amendment Act published in the
+  Government Gazette
+DESCRIPTION:Source: https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/202
+ 41121?DocDate=20241121. Draft open data from AI Governance Chain. Not leg
+ al advice.
+URL:https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20
+ 241121
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250122-RG8gbm90IHB1Ymxpc2ggcmVh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250122
+DTEND;VALUE=DATE:20250123
+SUMMARY:[SG] Do not publish realistic false candidate representations in o
+ nline election ads (Elections Integrity Amendment PEA § 61MA(1)\; PrEA 
+ § 42LA(1))
+DESCRIPTION:Obligations: AGC-SG-EIOA-PEA-61MA-1. Source: https://sso.agc.g
+ ov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20241121. Draft open d
+ ata from AI Governance Chain. Not legal advice.
+URL:https://sso.agc.gov.sg/Acts-Supp/34-2024/Published/20241121?DocDate=20
+ 241121
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260122-QWdlbnRpYyBBSSBHb3Zlcm5h@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:[SG] Agentic AI Governance Framework: IMDA first published the Age
+ ntic AI framework
+DESCRIPTION:Source: https://www.imda.gov.sg/resources/press-releases-facts
+ heets-and-speeches/press-releases/2026/singapore-launches-new-model-ai-go
+ vernance-framework-for-agentic-ai. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://www.imda.gov.sg/resources/press-releases-factsheets-and-speech
+ es/press-releases/2026/singapore-launches-new-model-ai-governance-framewo
+ rk-for-agentic-ai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260122-QXNzaWduIGFjY291bnRhYmxl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:[SG] Assign accountable humans and approval checkpoints (Agentic A
+ I Governance Framework Framework § 2.2)
+DESCRIPTION:Obligations: AGC-SG-AGENTIC-2-2. Source: https://www.imda.gov.
+ sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelli
+ gence/mgf-for-agentic-ai.pdf. Draft open data from AI Governance Chain. N
+ ot legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-res
+ earch/artificial-intelligence/mgf-for-agentic-ai.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260122-Qm91bmQgYWdlbnQgcmlza3Mg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:[SG] Bound agent risks before deployment (Agentic AI Governance Fr
+ amework Framework § 2.1)
+DESCRIPTION:Obligations: AGC-SG-AGENTIC-2-1. Source: https://www.imda.gov.
+ sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelli
+ gence/mgf-for-agentic-ai.pdf. Draft open data from AI Governance Chain. N
+ ot legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-res
+ earch/artificial-intelligence/mgf-for-agentic-ai.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260122-SW5mb3JtIGFuZCB0cmFpbiBh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:[SG] Inform and train agent end users (Agentic AI Governance Frame
+ work Framework § 2.4)
+DESCRIPTION:Obligations: AGC-SG-AGENTIC-2-4. Source: https://www.imda.gov.
+ sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelli
+ gence/mgf-for-agentic-ai.pdf. Draft open data from AI Governance Chain. N
+ ot legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-res
+ earch/artificial-intelligence/mgf-for-agentic-ai.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260122-VGVzdCwgbW9uaXRvciBhbmQg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260122
+DTEND;VALUE=DATE:20260123
+SUMMARY:[SG] Test\, monitor and log agent behavior (Agentic AI Governance 
+ Framework Framework § 2.3)
+DESCRIPTION:Obligations: AGC-SG-AGENTIC-2-3. Source: https://www.imda.gov.
+ sg/-/media/imda/files/about/emerging-tech-and-research/artificial-intelli
+ gence/mgf-for-agentic-ai.pdf. Draft open data from AI Governance Chain. N
+ ot legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-res
+ earch/artificial-intelligence/mgf-for-agentic-ai.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260520-QWdlbnRpYyBBSSBHb3Zlcm5h@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:[SG] Agentic AI Governance Framework: Version 1.5 published\; the 
+ PDF notes a further update on 5 June 2026
+DESCRIPTION:Source: https://www.imda.gov.sg/-/media/imda/files/about/emerg
+ ing-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf. Dra
+ ft open data from AI Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-res
+ earch/artificial-intelligence/mgf-for-agentic-ai.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260605-QWdlbnRpYyBBSSBHb3Zlcm5h@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:[SG] Agentic AI Governance Framework: Version 1.5 PDF updated
+DESCRIPTION:Source: https://www.imda.gov.sg/-/media/imda/files/about/emerg
+ ing-tech-and-research/artificial-intelligence/mgf-for-agentic-ai.pdf. Dra
+ ft open data from AI Governance Chain. Not legal advice.
+URL:https://www.imda.gov.sg/-/media/imda/files/about/emerging-tech-and-res
+ earch/artificial-intelligence/mgf-for-agentic-ai.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260629-RG8gbm90IGNvbW11bmljYXRl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:[SG] Do not communicate qualifying intimate or child-abuse images 
+ (OSRAA OSRAA §§ 13-14\, 83-84)
+DESCRIPTION:Obligations: AGC-SG-OSRAA-13-14-83-84. Source: https://sso.agc
+ .gov.sg/Act/OSRAA2025. Draft open data from AI Governance Chain. Not lega
+ l advice.
+URL:https://sso.agc.gov.sg/Act/OSRAA2025
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260720-R2l2ZSBBSS1zcGVjaWZpYyBu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:[SG] Give AI-specific notices for large-scale GenAI training data 
+ (PDPC Generative AI Guidelines Guidelines §§ 4.2-4.8\, 5.1 and 7.1)
+DESCRIPTION:Obligations: AGC-SG-PDPCGENAI-4-4. Source: https://www.pdpc.go
+ v.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294. Draft open data from AI
+  Governance Chain. Not legal advice.
+URL:https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260720-UERQQyBHZW5lcmF0aXZlIEFJ@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:[SG] PDPC Generative AI Guidelines: PDPC issued the final Generati
+ ve AI personal-data guidelines
+DESCRIPTION:Source: https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77
+ -bcc0415ca294. Draft open data from AI Governance Chain. Not legal advice
+ .
+URL:https://www.pdpc.gov.sg/assets/143cb9d4-532e-4cca-9a77-bcc0415ca294
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260910-T1NSQUE6IE1EREkgY29uZmly@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:[SG] OSRAA: MDDI confirmed inauthentic material abuse would be pro
+ gressively implemented and no commencement date had been announced
+DESCRIPTION:Source: https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-o
+ n-protecting-against-unauthorised-ai-generated-likeness-in-advertisements
+ -and-operationalising-online-safety-commission-mandate-over-inauthentic-m
+ aterial-abuse/. Draft open data from AI Governance Chain. Not legal advic
+ e.
+URL:https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-protecting-aga
+ inst-unauthorised-ai-generated-likeness-in-advertisements-and-operational
+ ising-online-safety-commission-mandate-over-inauthentic-material-abuse/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

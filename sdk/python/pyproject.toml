@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aigovchain-rails"
+version = "0.1.0"
+description = "Runtime rails for AI agents from AI_GOVERNANCE.md: default deny, limits, human approval, spend limits, kill switch, trust boundaries (AI Governance Chain, alpha)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+authors = [{ name = "AI Governance Chain contributors" }]
+dependencies = ["PyYAML>=6"]
+keywords = ["ai-governance", "agents", "guardrails", "eu-ai-act", "human-oversight"]
+
+[project.urls]
+Homepage = "https://github.com/mathieugouanou/aigovernancechain"
+
+[tool.setuptools]
+packages = ["aigovchain_rails"]

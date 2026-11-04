@@ -1,0 +1,12 @@
+node_modules/
+governance-evidence/
+.governance/
+aigovchain.sarif
+aigovchain-result.json
+agc-ctf-*/
+__pycache__/
+*.egg-info/
+build/
+dist/
+!atlas/dist/
+.DS_Store

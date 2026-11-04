@@ -1,0 +1,394 @@
+id: vn
+jurisdiction: VN
+name: Vietnam
+as_of: "2026-11-04"
+review:
+  status: draft-unreviewed
+  reviewers: []
+card:
+  title: Vietnam AI Law
+  one_liner: Vietnam's AI law assigns duties by risk tier, with high-risk controls and conformity checks, AI-content transparency, and incident reporting.
+  who_it_hits: Vietnamese and foreign developers, providers, deployers and users participating in AI activities in Vietnam; public bodies and personal-data processors have additional duties.
+  status_line: Binding and in force. Existing systems have staged transition deadlines of 1 March 2027 for most sectors and 1 September 2027 for healthcare, education and finance.
+instruments:
+  - id: vn-ai-law
+    code: AILAW
+    title: Law No. 134/2025/QH15 on Artificial Intelligence
+    short: Vietnam AI Law
+    type: statute
+    legal_force: binding
+    status: partially-applicable
+    official_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat134.signed.pdf"
+    penalties: "Article 29 refers violations to administrative sanctions or criminal prosecution and provides for civil compensation; this Law does not state a numerical fine cap here."
+    key_dates:
+      - { date: "2025-12-10", event: "Adopted by the National Assembly", source: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm" }
+      - { date: "2026-03-01", event: "Law enters into force", source: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm" }
+      - { date: "2027-03-01", event: "End of the 12-month transition for pre-existing systems outside healthcare, education and finance; most other listed legacy systems must also complete compliance by this date", source: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm" }
+      - { date: "2027-09-01", event: "End of the 18-month transition for pre-existing healthcare, education and finance AI systems", source: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm" }
+    notes: >-
+      Article 33 repeals Chapter IV and specified AI-related provisions of the Law
+      on Digital Technology Industry No. 71/2025/QH15. That Law's separate AI
+      chapter is therefore not treated as a current source of AI obligations;
+      the remainder of the 2025 statute is not stated to be repealed. The
+      Government's English translation is marked "For reference only"; the
+      signed Vietnamese law is the controlling text.
+  - id: vn-ai-decree-142
+    code: D142
+    title: Decree No. 142/2026/ND-CP detailing provisions and implementation measures for the Law on Artificial Intelligence
+    short: AI Law Implementing Decree
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.signed.pdf"
+    penalties: null
+    key_dates:
+      - { date: "2026-04-30", event: "Decree issued", source: "https://vanban.chinhphu.vn/?pageid=27160&docid=218029" }
+      - { date: "2026-05-01", event: "Decree enters into force", source: "https://vanban.chinhphu.vn/?pageid=27160&docid=218029" }
+    notes: >-
+      If the National Single-Window AI Portal has not been officially announced
+      as operational, Article 46 allows notifications and reports through an
+      electronic information system, online public service or other channel
+      announced by the Ministry of Science and Technology; that filing has
+      equivalent legal effect.
+  - id: vn-high-risk-list-33
+    code: QD33
+    title: Decision No. 33/2026/QD-TTg promulgating the List of High-Risk AI Systems
+    short: High-Risk AI List
+    type: regulation
+    legal_force: binding
+    status: in-force
+    official_url: "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-1784024086_v1_1784024564_signed.pdf"
+    penalties: null
+    key_dates:
+      - { date: "2026-06-30", event: "Decision issued", source: "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-1784024086_v1_1784024564_signed.pdf" }
+      - { date: "2026-08-15", event: "High-risk list and criteria take effect", source: "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-1784024086_v1_1784024564_signed.pdf" }
+      - { date: "2027-03-01", event: "Listed legacy systems outside healthcare, education and finance must complete compliance; also applies to systems entering operation during the first six months after the Decision takes effect", source: "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-1784024086_v1_1784024564_signed.pdf" }
+      - { date: "2027-09-01", event: "Listed legacy systems in healthcare, education and finance must complete compliance", source: "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-1784024086_v1_1784024564_signed.pdf" }
+    notes: >-
+      The list covers specified systems in education, ethnic and religious
+      administration, healthcare, banking, judicial proceedings and transport;
+      classification turns on the listed system and conditions, not merely the
+      sector label. Article 4 permits continued operation during transition
+      unless authorities identify a risk of serious harm and require suspension
+      or termination.
+  - id: vn-personal-data-law
+    code: PDPL
+    title: Law No. 91/2025/QH15 on Personal Data Protection
+    short: Personal Data Protection Law
+    type: statute
+    legal_force: binding
+    status: in-force
+    official_url: "https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm"
+    penalties: null
+    key_dates:
+      - { date: "2026-01-01", event: "Personal Data Protection Law enters into force", source: "https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm" }
+    notes: >-
+      Article 30 expressly addresses personal data processing in AI and other
+      digital environments. The limited five-year choice for certain small and
+      startup enterprises in Article 38(2) concerns specified provisions, not
+      the Article 30 AI safeguards.
+obligations:
+  - id: AGC-VN-AILAW-7
+    instrument: vn-ai-law
+    article: Art. 7(1)-(6)
+    title: Do not use AI for prohibited or unlawful purposes
+    plain: >-
+      The Law prohibits using AI to commit illegal acts or violate others'
+      lawful interests; to systematically deceive or manipulate people through
+      synthetic simulations of real persons or events where serious harm
+      results; to exploit vulnerable groups to cause harm; or to create or
+      spread falsified content capable of seriously harming national security,
+      public order or social safety. It also prohibits unlawful data use,
+      disabling required human oversight, and concealing or falsifying mandatory
+      transparency information, labels or warnings.
+    applies_to:
+      roles: [any]
+      uses: [any-ai]
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [prohibited_practices_screen, privacy_compliance]
+    evidence:
+      - Documented use-case screening against the prohibited purposes in Article 7
+      - Controls and review records for required human oversight, labels and warnings
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+  - id: AGC-VN-AILAW-9-10
+    instrument: vn-ai-law
+    article: Art. 9-10; Decree 142, Arts. 5-6, 11-12 and 14
+    title: Classify AI by risk and notify medium- and high-risk systems
+    plain: >-
+      Providers must classify each AI system before putting it into use. The
+      Law distinguishes high-, medium- and low-risk systems; providers must
+      prepare classification dossiers and notify the Ministry of Science and
+      Technology before service for medium- and high-risk systems. Deployers
+      take over the provider's classification and must cooperate in
+      reclassification when a deployment change, integration or modified
+      function or purpose creates new or higher risk.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Providers classify all systems; dossiers and advance notification apply to medium- and high-risk systems only.
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [risk_management, technical_documentation, registration]
+    evidence:
+      - Risk-classification rationale and dossier for each medium- or high-risk system
+      - Ministry notification confirmation or system identifier, plus reclassification records where needed
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+    notes: >-
+      Decree 142 supplies dossier and filing details. It defines high-risk
+      systems by the Prime Minister's list and sets medium-risk criteria; the
+      system, rather than a model alone, is classified. Article 46 of the
+      Decree provides an alternative official reporting channel if the
+      national portal is not yet operational.
+  - id: AGC-VN-AILAW-11-1-2
+    instrument: vn-ai-law
+    article: Art. 11(1)-(2); Decree 142, Art. 17
+    title: Disclose AI interactions and machine-mark generated audio, images and video
+    plain: >-
+      Providers must ensure that people interacting directly with an AI system
+      are informed they are interacting with AI. Providers must also apply
+      machine-readable technical marks to AI-generated or edited audio, image
+      and video outputs, using a method permitted by the Decree and maintaining
+      the marking through generation and export within the system's control.
+    applies_to:
+      roles: [provider]
+      uses: [chatbot, agent, generated-media, deepfake]
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [ai_disclosure, content_marking]
+    evidence:
+      - First-interaction disclosure screenshot or transcript
+      - Technical description and detection tests for machine-readable marking on audio, image and video outputs
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+    notes: >-
+      Decree 142, effective 1 May 2026, specifies that machine-readable marking
+      is not required for text output unless another law provides otherwise.
+      It permits file-structure or metadata marks, digital/electronic
+      signatures, or another machine-recognizable technical method.
+  - id: AGC-VN-AILAW-11-3-4
+    instrument: vn-ai-law
+    article: Art. 11(3)-(5); Decree 142, Art. 18
+    title: Notify the public and visibly label potentially misleading AI content
+    plain: >-
+      Deployers must clearly notify the public when releasing AI-generated or
+      edited text, audio, images or video that could confuse people about the
+      authenticity of an event or person. They must visibly label AI audio,
+      image or video that simulates a real person's appearance or voice, or
+      recreates a real event, so it can be distinguished from authentic
+      content.
+    applies_to:
+      roles: [deployer]
+      uses: [generated-media, deepfake]
+      conditions: Public release; notification is required for content capable of causing confusion, and visible labels are required for the specified synthetic or recreated audio, image and video.
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [transparency_notice, deepfake_label]
+    evidence:
+      - Published content examples showing a clear notice or label at or before first access
+      - Publishing workflow identifying the responsible deployer and permitted exceptions
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+    notes: >-
+      Decree 142 allows exclusions from visible labeling for technical edits
+      that do not change substance or context, specified text proofreading,
+      summaries, paraphrases or translations that do not distort the original,
+      internal-only content, and controlled research/testing not released
+      publicly. Creative works may use an appropriate label in credits or
+      accompanying material, provided the AI origin remains clear.
+  - id: AGC-VN-D142-19
+    instrument: vn-ai-decree-142
+    article: Art. 12 of the AI Law; Decree 142, Art. 19(2)-(8)
+    title: Contain and report serious AI incidents on time
+    plain: >-
+      Developers and providers must promptly take technical measures to
+      correct, suspend or recall a system and notify the competent authority;
+      deployers and users must record incidents, limit harm and notify the
+      provider. A provider, or a deployer unable to contact the provider, must
+      make a preliminary report within 72 hours after confirming an urgent
+      serious incident (including death or serious health harm, serious public
+      service disruption or national-security effects, and uncontrolled rights
+      harm); other serious incidents are due within five working days. A final
+      remediation report is due within 15 days after the preliminary report.
+    applies_to:
+      roles: [provider, deployer, any]
+      uses: [any-ai]
+      conditions: Only serious incidents as defined in the AI Law and Decree; the 72-hour deadline is not the deadline for every incident.
+    applies_from: "2026-05-01"
+    status: applicable
+    controls: [incident_reporting, audit_log, post_market_monitoring]
+    evidence:
+      - Incident runbook with confirmation triggers, 72-hour and five-working-day clocks, and 15-day follow-up
+      - Incident logs and copies of preliminary and final reports or escalation notices
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.signed.pdf"
+    confidence: high
+  - id: AGC-VN-AILAW-13
+    instrument: vn-ai-law
+    article: Art. 13; Decree 142, Art. 13; Decision 33/2026/QD-TTg
+    title: Assess conformity of high-risk AI before use and after significant changes
+    plain: >-
+      Providers of high-risk systems must complete conformity assessment before
+      putting the system into service and reassess after significant changes
+      that affect the original result. Systems on the Prime Minister's list
+      requiring mandatory certification need assessment by a registered or
+      recognized conformity-assessment organization; other high-risk systems
+      may be self-assessed by the provider or assessed by such an organization.
+      Providers must maintain conformity and disclose assessment results as
+      required by the Decree.
+    applies_to:
+      roles: [provider]
+      uses: [any-ai]
+      conditions: Systems on the high-risk list; third-party certification is required only for systems specifically listed for mandatory certification.
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [conformity_assessment, technical_documentation]
+    evidence:
+      - Conformity-assessment report or certificate, change-trigger reassessment and maintained technical dossier
+      - Public disclosure/portal record of the result, or the officially announced alternative channel
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+    notes: >-
+      Decision 33's high-risk list took effect on 15 August 2026. Existing
+      systems and listed systems subject to transition have the staged dates
+      recorded under the Law and Decision instruments; systems on the mandatory
+      certification list require third-party assessment rather than self-assessment.
+  - id: AGC-VN-AILAW-14
+    instrument: vn-ai-law
+    article: Art. 14(1)-(5); Decree 142, Art. 15
+    title: Manage high-risk systems with documented controls and human oversight
+    plain: >-
+      Providers of high-risk systems must maintain risk-management measures,
+      govern training, testing and operational data, keep technical dossiers
+      and logs, design for human oversight and intervention, meet transparency
+      and incident duties, and give deployers and affected people functional
+      information, operating guidance and risk warnings without disclosing
+      source code or protected business secrets. Deployers must use systems
+      within their classified purpose and risk, monitor operation, protect
+      data, enable human intervention, control emerging risks and cooperate
+      with providers and authorities.
+    applies_to:
+      roles: [provider, deployer]
+      uses: [any-ai]
+      conditions: Only systems classified as high-risk; users must also follow operating procedures and promptly notify deployers of incidents under Art. 14(3).
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [risk_management, data_governance, technical_documentation, audit_log, human_oversight, transparency_notice, privacy_compliance]
+    evidence:
+      - Risk-management file, data-governance records, system dossier and operating logs
+      - Human-oversight procedures, deployer instructions, user warnings and monitoring records
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+    notes: >-
+      Existing systems may continue operating during their statutory transition
+      unless authorities identify a risk of serious harm and require suspension
+      or termination. See the 1 March 2027 and 1 September 2027 deadlines.
+  - id: AGC-VN-AILAW-14-6
+    instrument: vn-ai-law
+    article: Art. 14(6)
+    title: Foreign high-risk providers must maintain a Vietnam contact point
+    plain: >-
+      A foreign provider whose high-risk AI system is provided in Vietnam must
+      have a legal contact point in Vietnam. If the system is subject to
+      mandatory conformity certification before it is put into service, the
+      provider must also have a commercial presence or an authorized
+      representative in Vietnam.
+    applies_to:
+      roles: [provider]
+      uses: [any-ai]
+      conditions: Foreign providers of high-risk systems provided in Vietnam; the additional commercial-presence or authorized-representative requirement applies when mandatory pre-use certification is required.
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [local_representative]
+    evidence:
+      - Vietnam legal-contact details and evidence the contact point is maintained
+      - Commercial-presence records or written authorized-representative mandate where certification is mandatory
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+    confidence: high
+    notes: >-
+      Article 2 applies to foreign organizations and individuals participating
+      in AI activities in Vietnam. The exact reach to foreign services provided
+      entirely offshore without other Vietnam activities is not expressly
+      resolved by that wording.
+  - id: AGC-VN-D142-20
+    instrument: vn-ai-decree-142
+    article: Art. 27(3)-(4) of the AI Law; Decree 142, Art. 20
+    title: Assess public-sector AI impacts before qualifying use
+    plain: >-
+      State agencies must prepare an impact-assessment report before using a
+      high-risk AI system or a system whose output is directly used as the
+      basis for an administrative decision. The report must identify and
+      assess risks, state control and mitigation measures, and explain human
+      oversight and intervention; agencies must publish it except for state
+      secrets, business secrets and personal data, and reassess after relevant
+      changes create new or changed risks.
+    applies_to:
+      roles: [public-body]
+      uses: [public-sector-use, justice, essential-services]
+      conditions: High-risk systems, or systems whose output directly supports an administrative decision; other public-sector systems may be covered if they significantly affect human rights, social equality or public interests under Art. 27(3).
+    applies_from: "2026-03-01"
+    status: applicable
+    controls: [impact_assessment, human_oversight, transparency_notice, risk_management]
+    evidence:
+      - Approved impact-assessment report identifying risks, controls and human-oversight measures
+      - Public disclosure record and supplemental assessment where a relevant system change occurs
+    penalty: Administrative or criminal sanctions and civil compensation may apply under Article 29 and other laws; no AI-law fine cap is specified here.
+    source_url: "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/142-2026-ndcp.signed.pdf"
+    confidence: high
+  - id: AGC-VN-PDPL-30
+    instrument: vn-personal-data-law
+    article: Art. 30(1)-(5)
+    title: Protect personal data processed using AI
+    plain: >-
+      Personal data in AI processing must be used for the stated purpose and
+      limited to what is necessary, with appropriate security measures,
+      authentication and access controls. Personal-data processing by AI must
+      be classified by risk level so appropriate protections can be applied;
+      the Law prohibits using or developing AI systems involving personal data
+      to harm national defense, security, public order or safety, or another
+      person's life, health, dignity, reputation or property.
+    applies_to:
+      roles: [provider, deployer, any]
+      uses: [any-ai, profiling, significant-decision]
+      conditions: Applies when personal data are processed in AI systems or services, regardless of whether the system is otherwise classified high, medium or low risk.
+    applies_from: "2026-01-01"
+    status: applicable
+    controls: [privacy_compliance, risk_management, data_governance, prohibited_practices_screen]
+    evidence:
+      - AI personal-data risk classification and corresponding safeguards
+      - Purpose/necessity records, security measures and authentication/access-control configuration
+    penalty: null
+    source_url: "https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm"
+    confidence: high
+    notes: >-
+      Article 30 is AI-specific; other PDPL requirements, including data-subject
+      rights and impact-assessment duties, may also apply depending on the
+      processing. The separate five-year provisions for some smaller entities
+      do not disapply Article 30.
+deadlines:
+  - date: "2027-03-01"
+    title: Complete transition compliance for pre-existing AI systems outside healthcare, education and finance, and qualifying legacy systems under Decision 33
+    instrument: vn-ai-law
+    obligations: [AGC-VN-AILAW-9-10, AGC-VN-AILAW-13, AGC-VN-AILAW-14, AGC-VN-AILAW-14-6]
+    source: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+  - date: "2027-09-01"
+    title: Complete transition compliance for pre-existing AI systems in healthcare, education and finance
+    instrument: vn-ai-law
+    obligations: [AGC-VN-AILAW-9-10, AGC-VN-AILAW-13, AGC-VN-AILAW-14, AGC-VN-AILAW-14-6]
+    source: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm"
+sources:
+  - { title: "Law No. 134/2025/QH15 on Artificial Intelligence — official English translation", url: "https://en.baochinhphu.vn/viet-nams-law-on-artificial-intelligence-111260715113551787.htm" }
+  - { title: "Law No. 134/2025/QH15 — official signed text and metadata", url: "https://vanban.chinhphu.vn/?docid=216334&pageid=27160" }
+  - { title: "Decree No. 142/2026/ND-CP — official signed text and metadata", url: "https://vanban.chinhphu.vn/?pageid=27160&docid=218029" }
+  - { title: "Decision No. 33/2026/QD-TTg — official signed text", url: "https://congbaocdn.chinhphu.vn/180507251028987904/2026/7/14/469951-1784024086_v1_1784024564_signed.pdf" }
+  - { title: "Law No. 91/2025/QH15 on Personal Data Protection — official gazette record", url: "https://congbao.chinhphu.vn/van-ban/luat-so-91-2025-qh15-45578.htm" }
+  - { title: "Law No. 71/2025/QH15 on Digital Technology Industry — official gazette record", url: "https://congbao.chinhphu.vn/van-ban/luat-so-71-2025-qh15-45555.htm" }

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: Council of Europe (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20240905-Q291bmNpbCBvZiBFdXJvcGUg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240905
+DTEND;VALUE=DATE:20240906
+SUMMARY:[COE] Council of Europe AI Framework Convention: Convention opened
+  for signature in Vilnius
+DESCRIPTION:Source: https://www.coe.int/en/web/portal/-/council-of-europe-
+ opens-first-ever-global-treaty-on-ai-for-signature. Draft open data from 
+ AI Governance Chain. Not legal advice.
+URL:https://www.coe.int/en/web/portal/-/council-of-europe-opens-first-ever
+ -global-treaty-on-ai-for-signature
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260515-Q291bmNpbCBvZiBFdXJvcGUg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:[COE] Council of Europe AI Framework Convention: European Union ra
+ tifies the Convention
+DESCRIPTION:Source: https://www.coe.int/en/web/artificial-intelligence/-/e
+ uropean-union-ratifies-the-council-of-europe-framework-convention-on-arti
+ ficial-intelligence. Draft open data from AI Governance Chain. Not legal 
+ advice.
+URL:https://www.coe.int/en/web/artificial-intelligence/-/european-union-ra
+ tifies-the-council-of-europe-framework-convention-on-artificial-intellige
+ nce
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261028-Q291bmNpbCBvZiBFdXJvcGUg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:[COE] Council of Europe AI Framework Convention: Treaty Office rep
+ orts Bosnia and Herzegovina's ratification\; this is the second ratificat
+ ion recorded
+DESCRIPTION:Source: https://www.coe.int/en/web/conventions/. Draft open da
+ ta from AI Governance Chain. Not legal advice.
+URL:https://www.coe.int/en/web/conventions/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

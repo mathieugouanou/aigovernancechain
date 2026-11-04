@@ -1,0 +1,238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Governance Chain//Deadline Calendar 0.1//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AI-law deadlines: European Union (AI Governance Chain)
+X-WR-CALDESC:Dates when AI-governance obligations start to apply. Draft op
+ en data. Not legal advice.
+BEGIN:VEVENT
+UID:20240801-RVUgQUkgQWN0OiBBSSBBY3Qg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240802
+SUMMARY:[EU] EU AI Act: AI Act enters into force
+DESCRIPTION:Source: https://ai-act-service-desk.ec.europa.eu/en/ai-act/art
+ icle-113. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250202-RG8gbm90IGJ1aWxkIG9yIHVz@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250203
+SUMMARY:[EU] Do not build or use banned AI practices (EU AI Act Art. 5(1))
+DESCRIPTION:Obligations: AGC-EU-AIA-5. Source: https://ai-act-service-desk
+ .ec.europa.eu/en/ai-act/article-5. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250202-U3VwcG9ydCBBSSBsaXRlcmFj@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250203
+SUMMARY:[EU] Support AI literacy of staff who run or use AI (EU AI Act Art
+ . 4(1))
+DESCRIPTION:Obligations: AGC-EU-AIA-4. Source: https://ai-act-service-desk
+ .ec.europa.eu/en/ai-act/article-4. Draft open data from AI Governance Cha
+ in. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250802-QXBwb2ludCBhbiBFVSBhdXRo@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:[EU] Appoint an EU authorised representative if you are outside th
+ e EU (EU AI Act Art. 22 and 54)
+DESCRIPTION:Obligations: AGC-EU-AIA-22. Source: https://ai-act-service-des
+ k.ec.europa.eu/en/ai-act/article-22. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-22
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250802-RG9jdW1lbnQgZ2VuZXJhbC1w@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:[EU] Document general-purpose AI models\, respect copyright and pu
+ blish a training-data summary (EU AI Act Art. 53(1))
+DESCRIPTION:Obligations: AGC-EU-AIA-53. Source: https://ai-act-service-des
+ k.ec.europa.eu/en/ai-act/article-53. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20250802-RXZhbHVhdGUgYW5kIHNlY3Vy@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:[EU] Evaluate and secure general-purpose AI models with systemic r
+ isk (EU AI Act Art. 55(1))
+DESCRIPTION:Obligations: AGC-EU-AIA-55. Source: https://ai-act-service-des
+ k.ec.europa.eu/en/ai-act/article-55. Draft open data from AI Governance C
+ hain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260610-RVUgQ29kZSBvZiBQcmFjdGlj@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:[EU] EU Code of Practice on AI-generated content: Final Code of Pr
+ actice published
+DESCRIPTION:Source: https://digital-strategy.ec.europa.eu/en/policies/code
+ -practice-ai-generated-content. Draft open data from AI Governance Chain.
+  Not legal advice.
+URL:https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-gen
+ erated-content
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260727-RVUgQUkgQWN0OiBEaWdpdGFs@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:[EU] EU AI Act: Digital Omnibus on AI (Reg. (EU) 2026/1744) enters
+  into force\; Arts. 102 to 110 apply
+DESCRIPTION:Source: https://digital-strategy.ec.europa.eu/en/news/ai-omnib
+ us-enters-force. Draft open data from AI Governance Chain. Not legal advi
+ ce.
+URL:https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260802-SW5mb3JtIHBlb3BsZSBleHBv@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:[EU] Inform people exposed to emotion recognition or biometric cat
+ egorisation (EU AI Act Art. 50(3))
+DESCRIPTION:Obligations: AGC-EU-AIA-50-3. Source: https://ai-act-service-d
+ esk.ec.europa.eu/en/ai-act/article-50. Draft open data from AI Governance
+  Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260802-TGFiZWwgZGVlcGZha2VzIGFu@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:[EU] Label deepfakes and AI-written public-interest text (EU AI Ac
+ t Art. 50(4))
+DESCRIPTION:Obligations: AGC-EU-AIA-50-4. Source: https://ai-act-service-d
+ esk.ec.europa.eu/en/ai-act/article-50. Draft open data from AI Governance
+  Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260802-TWFyayBBSS1nZW5lcmF0ZWQg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:[EU] Mark AI-generated content in a machine-readable way (EU AI Ac
+ t Art. 50(2) and Art. 111(4))
+DESCRIPTION:Obligations: AGC-EU-AIA-50-2. Source: https://ai-act-service-d
+ esk.ec.europa.eu/en/ai-act/article-50. Draft open data from AI Governance
+  Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20260802-VGVsbCBwZW9wbGUgdGhleSBh@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:[EU] Tell people they are interacting with an AI system (EU AI Act
+  Art. 50(1))
+DESCRIPTION:Obligations: AGC-EU-AIA-50-1. Source: https://ai-act-service-d
+ esk.ec.europa.eu/en/ai-act/article-50. Draft open data from AI Governance
+  Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-QmFucyBvbiBBSS1nZW5lcmF0@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:[EU] Bans on AI-generated non-consensual intimate content and CSAM
+  apply
+DESCRIPTION:Obligations: AGC-EU-AIA-5-1-BA. Source: https://ai-act-service
+ -desk.ec.europa.eu/en/ai-act/article-113. Draft open data from AI Governa
+ nce Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20261202-TWFyayBvdXRwdXRzIG9mIGdl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:[EU] Mark outputs of generative systems placed on the market befor
+ e 2 Aug 2026
+DESCRIPTION:Obligations: AGC-EU-AIA-50-2. Source: https://ai-act-service-d
+ esk.ec.europa.eu/en/ai-act/article-111. Draft open data from AI Governanc
+ e Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20270802-TGVnYWN5IEdQQUkgbW9kZWxz@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:[EU] Legacy GPAI models (placed before 2 Aug 2025) must comply
+DESCRIPTION:Obligations: AGC-EU-AIA-53\, AGC-EU-AIA-55. Source: https://ai
+ -act-service-desk.ec.europa.eu/en/ai-act/article-111. Draft open data fro
+ m AI Governance Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20271202-QW5uZXggSUlJIGhpZ2gtcmlz@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:[EU] Annex III high-risk rules apply
+DESCRIPTION:Obligations: AGC-EU-AIA-6\, AGC-EU-AIA-9\, AGC-EU-AIA-17\, AGC
+ -EU-AIA-49\, AGC-EU-AIA-72\, AGC-EU-AIA-26\, AGC-EU-AIA-27\, AGC-EU-AIA-8
+ 6. Source: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113
+ . Draft open data from AI Governance Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20280802-QW5uZXggSSAocHJvZHVjdCkg@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20280802
+DTEND;VALUE=DATE:20280803
+SUMMARY:[EU] Annex I (product) high-risk rules apply
+DESCRIPTION:Obligations: AGC-EU-AIA-6\, AGC-EU-AIA-9\, AGC-EU-AIA-17. Sour
+ ce: https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113. Draft
+  open data from AI Governance Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:20300802-RVUgQUkgQWN0OiBQcm92aWRl@aigovernancechain
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20300802
+DTEND;VALUE=DATE:20300803
+SUMMARY:[EU] EU AI Act: Providers and deployers of high-risk systems used 
+ by public authorities and already on the market must comply
+DESCRIPTION:Source: https://ai-act-service-desk.ec.europa.eu/en/ai-act/art
+ icle-111. Draft open data from AI Governance Chain. Not legal advice.
+URL:https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
