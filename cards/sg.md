@@ -37,7 +37,7 @@
 - **2026-01-22** (passed) Test, monitor and log agent behavior (Agentic AI Governance Framework Framework § 2.3)
 - **2026-05-20** (passed) Agentic AI Governance Framework: Version 1.5 published; the PDF notes a further update on 5 June 2026
 - **2026-06-05** (passed) Agentic AI Governance Framework: Version 1.5 PDF updated
-- **2026-06-29** (passed) Do not communicate qualifying intimate or child-abuse images (OSRAA OSRAA §§ 13-14, 83-84)
+- **2026-06-29** (passed) Do not communicate qualifying intimate or child-abuse images (OSRAA §§ 13-14, 83-84)
 - **2026-07-20** (passed) Give AI-specific notices for large-scale GenAI training data (PDPC Generative AI Guidelines Guidelines §§ 4.2-4.8, 5.1 and 7.1)
 - **2026-07-20** (passed) PDPC Generative AI Guidelines: PDPC issued the final Generative AI personal-data guidelines
 - **2026-09-10** (passed) OSRAA: MDDI confirmed inauthentic material abuse would be progressively implemented and no commencement date had been announced

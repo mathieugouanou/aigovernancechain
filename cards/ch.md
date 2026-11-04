@@ -24,7 +24,7 @@
 - **2025-12-01** (passed) Log qualifying automated processing and keep logs protected (Data Protection Ordinance Art. 4(1)–(5))
 - **2026-10-28** (passed) OFCOM AI Code of Conduct guide: OFCOM AI Code of Conduct guide reported as a toolkit for voluntary guidelines
 - **2026-10-28** (passed) Proposed Swiss AI legislation: Federal Council update says consultation is scheduled for spring 2027; proposed rules are to address transparency, data protection, non-discrimination, supervision and risk assessment
-- **2026-10-28** (passed) Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM AI Code of Conduct guide OFCOM Guide on an AI Code of Conduct, voluntary toolkit)
+- **2026-10-28** (passed) Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM Guide on an AI Code of Conduct, voluntary toolkit)
 - **2026-12-31** Assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1)
 - **2029-12-31** Implement logging for eligible legacy processing if the Art. 46(1) assessment finds it necessary
 

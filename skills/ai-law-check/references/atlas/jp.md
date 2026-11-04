@@ -10,7 +10,7 @@ As of 2026-11-04. Review: draft-unreviewed. The Act is fully in force; Article 7
 - Source: https://www.japaneselawtranslation.go.jp/en/laws/view/5066/je
 
 ## AGC-JP-AIBP-PLAN: Follow Japan's current government AI strategy
-- Rule: Second AI Basic Plan Second AI Basic Plan, Chapters 1-4 · status voluntary · applies from 2026-07-14 · confidence high
+- Rule: Second AI Basic Plan, Chapters 1-4 · status voluntary · applies from 2026-07-14 · confidence high
 - Who: roles public-body; uses public-sector-use; conditions: Government policy commitment under Article 18 of the AI Promotion Act; no direct private-sector obligation.
 - What: The Cabinet's second plan sets government policy across AI adoption, development capabilities, AI governance and an AI-powered society, with implementation and follow-up arrangements. It is a government strategy, not a direct compliance duty for private AI operators.
 - Controls: risk_management

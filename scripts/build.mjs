@@ -120,7 +120,7 @@ for (const r of atlas.regimes) {
     idx.push(`| references/atlas/${r.id}.md | ${r.jurisdiction} | ${cell(r.card?.title || r.name)} | ${obsOf(r.id).length} |`);
     const L = [`# ${r.card?.title || r.name} (${r.jurisdiction})`, '', `As of ${r.as_of}. Review: ${r.review?.status}. ${r.card?.status_line || ''}`, ''];
     for (const o of obsOf(r.id)) {
-      L.push(`## ${o.id}: ${o.title}`, `- Rule: ${o.instrument_short} ${o.article} · status ${o.status} · applies from ${o.applies_from || 'n/a'} · confidence ${o.confidence}`, `- Who: roles ${o.applies_to.roles.join(', ')}; uses ${o.applies_to.uses.join(', ')}${o.applies_to.conditions ? `; conditions: ${o.applies_to.conditions}` : ''}`, `- What: ${o.plain}`, `- Controls: ${(o.controls || []).join(', ')}`, `- Source: ${o.source_url}`, '');
+      L.push(`## ${o.id}: ${o.title}`, `- Rule: ${o.cite} · status ${o.status} · applies from ${o.applies_from || 'n/a'} · confidence ${o.confidence}`, `- Who: roles ${o.applies_to.roles.join(', ')}; uses ${o.applies_to.uses.join(', ')}${o.applies_to.conditions ? `; conditions: ${o.applies_to.conditions}` : ''}`, `- What: ${o.plain}`, `- Controls: ${(o.controls || []).join(', ')}`, `- Source: ${o.source_url}`, '');
     }
     put(`skills/ai-law-check/references/atlas/${r.id}.md`, L.join('\n'));
   }

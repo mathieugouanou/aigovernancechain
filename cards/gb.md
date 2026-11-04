@@ -26,18 +26,18 @@
 ## Key dates
 
 - **2024-02-06** (passed) ATRS: ATRS was mandated across government departments; the policy defines the covered central-government bodies and tools
-- **2024-02-06** (passed) Publish transparency records for in-scope central-government tools (ATRS ATRS mandatory scope and exemptions policy)
+- **2024-02-06** (passed) Publish transparency records for in-scope central-government tools (ATRS mandatory scope and exemptions policy)
 - **2025-01-17** (passed) Age-gate provider-published pornography (Online Safety Act OSA 2023 ss. 79–81)
 - **2025-01-31** (passed) AI Cyber Security Code of Practice: Voluntary AI cyber-security code published
-- **2025-01-31** (passed) Use the voluntary AI cyber-security baseline (AI Cyber Security Code of Practice AI Cyber Security Code of Practice, Principles 1–13)
+- **2025-01-31** (passed) Use the voluntary AI cyber-security baseline (AI Cyber Security Code of Practice, Principles 1–13)
 - **2025-02-14** (passed) AI Cyber Security Code of Practice: UK AI Safety Institute renamed AI Security Institute
 - **2025-03-17** (passed) Assess and reduce illegal-content risks on in-scope services (Online Safety Act OSA 2023 ss. 9–10, 26–27)
 - **2025-03-17** (passed) Online Safety Act: Ofcom began enforcing the illegal-content duties
 - **2025-06-19** (passed) UK GDPR automated decision-making: Data (Use and Access) Act 2025 received Royal Assent
 - **2025-07-25** (passed) Assess and mitigate risks to children (Online Safety Act OSA 2023 ss. 11–12, 28–29)
-- **2026-02-05** (passed) Give people safeguards for significant automated decisions (UK GDPR automated decision-making UK GDPR Art. 22C)
+- **2026-02-05** (passed) Give people safeguards for significant automated decisions (UK GDPR Art. 22C)
 - **2026-02-05** (passed) Law-enforcement automated decision-making: New Part 3 law-enforcement automated-decision provisions came into force
-- **2026-02-05** (passed) Restrict significant automated decisions using special-category data (UK GDPR automated decision-making UK GDPR Arts. 22A–22B)
+- **2026-02-05** (passed) Restrict significant automated decisions using special-category data (UK GDPR Arts. 22A–22B)
 - **2026-02-05** (passed) Safeguard automated law-enforcement decisions (Law-enforcement automated decision-making DPA 2018 ss. 50A–50C)
 - **2026-02-05** (passed) UK GDPR automated decision-making: Section 80 automated decision-making amendments came into force
 - **2026-02-06** (passed) Do not create or request non-consensual purported intimate images (Non-consensual purported intimate images DUAA 2025 s. 138 (SOA 2003 ss. 66E–66F))

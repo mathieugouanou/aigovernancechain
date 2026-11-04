@@ -2959,6 +2959,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 6(1)–(5) and Art. 7",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -2992,6 +2993,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 12(1)–(5); DPO Art. 24",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3031,6 +3033,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 6(3), 19(1)–(2); FDPIC, AI and data protection, Transparent information",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3073,6 +3076,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 21(1)–(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3114,6 +3118,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 22(1)–(5) and Art. 23",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3150,6 +3155,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 24(1)–(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3189,6 +3195,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Revised FADP",
+      "cite": "Revised FADP Art. 25(1)–(2)(e)–(g)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3228,6 +3235,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Data Protection Ordinance",
+      "cite": "Data Protection Ordinance Art. 4(1)–(5)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3266,6 +3274,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Data Protection Ordinance",
+      "cite": "Data Protection Ordinance Art. 46(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3299,6 +3308,7 @@
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "OFCOM AI Code of Conduct guide",
+      "cite": "OFCOM Guide on an AI Code of Conduct, voluntary toolkit",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3334,6 +3344,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Algorithmic Recommendation Provisions",
+      "cite": "Algorithmic Recommendation Provisions Arts. 16–17",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3369,6 +3380,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Algorithmic Recommendation Provisions",
+      "cite": "Algorithmic Recommendation Provisions Arts. 24–27, 31, 33",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3406,6 +3418,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Deep Synthesis Provisions",
+      "cite": "Deep Synthesis Provisions Arts. 9, 16–18",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3441,6 +3454,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Deep Synthesis Provisions",
+      "cite": "Deep Synthesis Provisions Arts. 15, 19–20",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3478,6 +3492,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Interim GenAI Measures",
+      "cite": "Interim GenAI Measures Arts. 7–8",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3516,6 +3531,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Interim GenAI Measures",
+      "cite": "Interim GenAI Measures Arts. 4, 10, 14–15",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3552,6 +3568,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Interim GenAI Measures",
+      "cite": "Interim GenAI Measures Art. 17",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3592,6 +3609,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "AI Content Labelling Measures",
+      "cite": "AI Content Labelling Measures Arts. 4–12",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3628,6 +3646,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "GB 45438-2025",
+      "cite": "GB 45438-2025 Clauses 4–6 and normative Annex E",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3661,6 +3680,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Amended Cybersecurity Law",
+      "cite": "Amended Cybersecurity Law Art. 20",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3699,6 +3719,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Anthropomorphic Interactive Services Measures",
+      "cite": "Anthropomorphic Interactive Services Measures Arts. 8–11",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3736,6 +3757,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Anthropomorphic Interactive Services Measures",
+      "cite": "Anthropomorphic Interactive Services Measures Arts. 16–17",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3772,6 +3794,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Anthropomorphic Interactive Services Measures",
+      "cite": "Anthropomorphic Interactive Services Measures Arts. 13–15",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3810,6 +3833,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Anthropomorphic Interactive Services Measures",
+      "cite": "Anthropomorphic Interactive Services Measures Arts. 18–19",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3848,6 +3872,7 @@
       "regime": "cn",
       "jurisdiction": "CN",
       "instrument_short": "Anthropomorphic Interactive Services Measures",
+      "cite": "Anthropomorphic Interactive Services Measures Arts. 22–27",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3883,6 +3908,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Art. 3(1)(a)–(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3918,6 +3944,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Arts. 7, 9–13",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3955,6 +3982,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Art. 8",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -3990,6 +4018,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Art. 14(1)–(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4027,6 +4056,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Art. 15(1)–(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4063,6 +4093,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Art. 16(1)–(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4097,6 +4128,7 @@
       "regime": "coe",
       "jurisdiction": "COE",
       "instrument_short": "Council of Europe AI Framework Convention",
+      "cite": "Council of Europe AI Framework Convention Art. 26(1)–(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4128,6 +4160,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 5(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4163,6 +4196,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 5(1)(ba) and (bb)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4195,6 +4229,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 4(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4228,6 +4263,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 50(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4262,6 +4298,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 50(2) and Art. 111(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4295,6 +4332,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 50(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4327,6 +4365,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 50(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4361,6 +4400,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 53(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4394,6 +4434,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 55(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4439,6 +4480,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 6 and Annex III",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4493,6 +4535,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 9 to 15",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4538,6 +4581,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 16, 17, 43, 47, 48",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4580,6 +4624,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 49",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4624,6 +4669,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 72 and 73",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4668,6 +4714,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 22 and 54",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4714,6 +4761,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 26",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4753,6 +4801,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 27",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4792,6 +4841,7 @@
       "regime": "eu",
       "jurisdiction": "EU",
       "instrument_short": "EU AI Act",
+      "cite": "EU AI Act Art. 86",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4827,6 +4877,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "UK GDPR automated decision-making",
+      "cite": "UK GDPR Arts. 22A–22B",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4862,6 +4913,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "UK GDPR automated decision-making",
+      "cite": "UK GDPR Art. 22C",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4899,6 +4951,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Law-enforcement automated decision-making",
+      "cite": "Law-enforcement automated decision-making DPA 2018 ss. 50A–50C",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4939,6 +4992,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Online Safety Act",
+      "cite": "Online Safety Act OSA 2023 ss. 9–10, 26–27",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -4977,6 +5031,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Online Safety Act",
+      "cite": "Online Safety Act OSA 2023 ss. 11–12, 28–29",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5014,6 +5069,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Online Safety Act",
+      "cite": "Online Safety Act OSA 2023 ss. 79–81",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5049,6 +5105,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Non-consensual purported intimate images",
+      "cite": "Non-consensual purported intimate images DUAA 2025 s. 138 (SOA 2003 ss. 66E–66F)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5086,6 +5143,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Intimate-image and child-abuse-image generator offences",
+      "cite": "Intimate-image and child-abuse-image generator offences CPA 2026 s. 99 (SOA 2003 s. 66I)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5124,6 +5182,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "Intimate-image and child-abuse-image generator offences",
+      "cite": "Intimate-image and child-abuse-image generator offences CPA 2026 ss. 72 and 74 (SOA 2003 s. 46A; Civic Government (Scotland) Act 1982 s. 52D)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5160,6 +5219,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "ATRS",
+      "cite": "ATRS mandatory scope and exemptions policy",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5200,6 +5260,7 @@
       "regime": "gb",
       "jurisdiction": "GB",
       "instrument_short": "AI Cyber Security Code of Practice",
+      "cite": "AI Cyber Security Code of Practice, Principles 1–13",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5238,6 +5299,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "India AI Governance Guidelines",
+      "cite": "India AI Governance Guidelines, Parts 1–4",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5274,6 +5336,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "IT Intermediary Rules",
+      "cite": "IT Intermediary Rules Rule 3(3)(a)(i)–(ii) and Rule 3(3)(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5309,6 +5372,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "IT Intermediary Rules",
+      "cite": "IT Intermediary Rules Rule 4(1A)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5344,6 +5408,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "IT Intermediary Rules",
+      "cite": "IT Intermediary Rules Rule 3(1)(d)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5377,6 +5442,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "IT Intermediary Rules",
+      "cite": "IT Intermediary Rules Rule 3(2)(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5412,6 +5478,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "IT Intermediary Rules",
+      "cite": "IT Intermediary Rules Rule 3(2)(a)(i)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5447,6 +5514,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "DPDP Act",
+      "cite": "DPDP Act Sections 4, 5 and 6",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5482,6 +5550,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "DPDP Act",
+      "cite": "DPDP Act Section 8(1)–(7); DPDP Rules 6 and 7",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5518,6 +5587,7 @@
       "regime": "in",
       "jurisdiction": "IN",
       "instrument_short": "DPDP Rules",
+      "cite": "DPDP Act section 10(2); DPDP Rules 13(1)–(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5553,6 +5623,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Promotion Act",
+      "cite": "AI Promotion Act Art. 7",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5585,6 +5656,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "Second AI Basic Plan",
+      "cite": "Second AI Basic Plan, Chapters 1-4",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5621,6 +5693,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Guidelines for Business Ver1.2",
+      "cite": "AI Guidelines for Business Ver1.2 Part 2.C.1",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5658,6 +5731,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Guidelines for Business Ver1.2",
+      "cite": "AI Guidelines for Business Ver1.2 Part 2.C.2",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5694,6 +5768,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Guidelines for Business Ver1.2",
+      "cite": "AI Guidelines for Business Ver1.2 Part 2.C.4",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5729,6 +5804,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Guidelines for Business Ver1.2",
+      "cite": "AI Guidelines for Business Ver1.2 Part 2.C.5",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5765,6 +5841,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Guidelines for Business Ver1.2",
+      "cite": "AI Guidelines for Business Ver1.2 Part 2.C.6",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5802,6 +5879,7 @@
       "regime": "jp",
       "jurisdiction": "JP",
       "instrument_short": "AI Guidelines for Business Ver1.2",
+      "cite": "AI Guidelines for Business Ver1.2 Part 2.C.7",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5837,6 +5915,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 31(1); Enforcement Decree Art. 23(1), (4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5873,6 +5952,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 31(2); Enforcement Decree Art. 23(2), (4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5909,6 +5989,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 31(3); Enforcement Decree Art. 23(3), (4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5945,6 +6026,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 32(1)-(3); Enforcement Decree Art. 24",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -5980,6 +6062,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 33(1)-(4); Enforcement Decree Art. 25",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6018,6 +6101,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 34(1)-(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6056,6 +6140,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act Enforcement Decree",
+      "cite": "AI Basic Act Enforcement Decree Enforcement Decree Art. 27(1)-(2); Act Art. 34(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6090,6 +6175,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 35(1); Enforcement Decree Art. 28",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6124,6 +6210,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 35(1) second sentence; Enforcement Decree Art. 28(1)(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6155,6 +6242,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 35(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6192,6 +6280,7 @@
       "regime": "kr",
       "jurisdiction": "KR",
       "instrument_short": "AI Basic Act",
+      "cite": "AI Basic Act Art. 36(1)-(3); Enforcement Decree Art. 29",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6226,6 +6315,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Model AI Governance Framework (2020)",
+      "cite": "Model AI Governance Framework (2020) § 2.7",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6265,6 +6355,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Generative AI Governance Framework (2024)",
+      "cite": "Generative AI Governance Framework (2024) Framework, nine dimensions",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6299,6 +6390,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Agentic AI Governance Framework",
+      "cite": "Agentic AI Governance Framework Framework § 2.1",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6334,6 +6426,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Agentic AI Governance Framework",
+      "cite": "Agentic AI Governance Framework Framework § 2.2",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6370,6 +6463,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Agentic AI Governance Framework",
+      "cite": "Agentic AI Governance Framework Framework § 2.3",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6403,6 +6497,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Agentic AI Governance Framework",
+      "cite": "Agentic AI Governance Framework Framework § 2.4",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6438,6 +6533,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "AI Verify",
+      "cite": "AI Verify Testing Framework, 11 governance principles",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6472,6 +6568,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "Elections Integrity Amendment",
+      "cite": "Elections Integrity Amendment PEA § 61MA(1); PrEA § 42LA(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6508,6 +6605,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "PDPA",
+      "cite": "PDPA §§ 13-20",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6543,6 +6641,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "PDPA",
+      "cite": "PDPA §§ 11-12, 24-25",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6581,6 +6680,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "PDPC AI Recommendation and Decision Guidelines",
+      "cite": "PDPC AI Recommendation and Decision Guidelines Guidelines §§ 2.2, 3.1, 9.1-9.7 and 10",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6619,6 +6719,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "PDPC Generative AI Guidelines",
+      "cite": "PDPC Generative AI Guidelines Guidelines §§ 4.2-4.8, 5.1 and 7.1",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6654,6 +6755,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "OSRAA",
+      "cite": "OSRAA §§ 13-14, 83-84",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6688,6 +6790,7 @@
       "regime": "sg",
       "jurisdiction": "SG",
       "instrument_short": "OSRAA",
+      "cite": "OSRAA §§ 16, 86",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6725,6 +6828,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "TFAIA / SB 53",
+      "cite": "TFAIA / SB 53 BPC § 22757.12(a)–(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6763,6 +6867,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "TFAIA / SB 53",
+      "cite": "TFAIA / SB 53 BPC §§ 22757.12(c)–(d), 22757.13(c)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6799,6 +6904,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "California AI Transparency Act",
+      "cite": "California AI Transparency Act BPC § 22757.2",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6834,6 +6940,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "California AI Transparency Act",
+      "cite": "California AI Transparency Act BPC § 22757.3",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6870,6 +6977,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "California AI Transparency Act",
+      "cite": "California AI Transparency Act BPC §§ 22757.3.1–22757.3.2",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6904,6 +7012,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "California AI Transparency Act",
+      "cite": "California AI Transparency Act BPC § 22757.3.3",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6940,6 +7049,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "GenAI training-data documentation",
+      "cite": "GenAI training-data documentation Civil Code § 3111",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -6981,6 +7091,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "Companion chatbot safeguards",
+      "cite": "Companion chatbot safeguards BPC §§ 22602(a)–(c), 22604",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7019,6 +7130,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "Companion chatbot safeguards",
+      "cite": "Companion chatbot safeguards BPC § 22603",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7062,6 +7174,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "Child-accessible chatbot safety",
+      "cite": "Child-accessible chatbot safety BPC §§ 21811–21814",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7098,6 +7211,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "BOT Act",
+      "cite": "BOT Act BPC § 17941",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7142,6 +7256,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "CPPA ADMT and risk assessments",
+      "cite": "CPPA ADMT and risk assessments 11 CCR § 7150 and related risk-assessment provisions",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7184,6 +7299,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "CPPA ADMT and risk assessments",
+      "cite": "CPPA ADMT and risk assessments 11 CCR §§ 7200–7222",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7220,6 +7336,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "Employment ADS regulations",
+      "cite": "Employment ADS regulations 2 CCR §§ 11009(f), 11013(c)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7258,6 +7375,7 @@
       "regime": "us-ca",
       "jurisdiction": "US-CA",
       "instrument_short": "Worker protections for automated decisions",
+      "cite": "Worker protections for automated decisions Labor Code §§ 1522, 1524 and 1526.7",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7304,6 +7422,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado AI Act (2024)",
+      "cite": "Colorado AI Act (2024) C.R.S. § 6-1-1702 (SB 24-205 version)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7349,6 +7468,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado AI Act (2024)",
+      "cite": "Colorado AI Act (2024) C.R.S. § 6-1-1703 (SB 24-205 version)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7391,6 +7511,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado AI Act (2024)",
+      "cite": "Colorado AI Act (2024) C.R.S. §§ 6-1-1703(5), 6-1-1704 (SB 24-205 version)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7428,6 +7549,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado AI Act (2024)",
+      "cite": "Colorado AI Act (2024) C.R.S. § 6-1-1705 (SB 24-205 version)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7471,6 +7593,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado ADMT Act",
+      "cite": "Colorado ADMT Act C.R.S. § 6-1-1702(1)-(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7505,6 +7628,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado ADMT Act",
+      "cite": "Colorado ADMT Act C.R.S. §§ 6-1-1702(4), 6-1-1703",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7544,6 +7668,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado ADMT Act",
+      "cite": "Colorado ADMT Act C.R.S. § 6-1-1704(1)-(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7585,6 +7710,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado ADMT Act",
+      "cite": "Colorado ADMT Act C.R.S. § 6-1-1704(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7627,6 +7753,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado ADMT Act",
+      "cite": "Colorado ADMT Act C.R.S. § 6-1-1705(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7667,6 +7794,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado Chatbot Safety Act",
+      "cite": "Colorado Chatbot Safety Act C.R.S. § 6-1-1708(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7701,6 +7829,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado Chatbot Safety Act",
+      "cite": "Colorado Chatbot Safety Act C.R.S. § 6-1-1708(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7738,6 +7867,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado Chatbot Safety Act",
+      "cite": "Colorado Chatbot Safety Act C.R.S. § 6-1-1708(4), (6)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7771,6 +7901,7 @@
       "regime": "us-co",
       "jurisdiction": "US-CO",
       "instrument_short": "Colorado Chatbot Safety Act",
+      "cite": "Colorado Chatbot Safety Act C.R.S. § 6-1-1708(5)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7805,6 +7936,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "IHRA AI employment provisions",
+      "cite": "IHRA AI employment provisions 775 ILCS 5/2-102(L)(1)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7838,6 +7970,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "IHRA AI employment provisions",
+      "cite": "IHRA AI employment provisions 775 ILCS 5/2-102(L)(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7873,6 +8006,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "AI Video Interview Act",
+      "cite": "AI Video Interview Act 820 ILCS 42/5",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7907,6 +8041,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "AI Video Interview Act",
+      "cite": "AI Video Interview Act 820 ILCS 42/10, 42/15",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7940,6 +8075,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "AI Video Interview Act",
+      "cite": "AI Video Interview Act 820 ILCS 42/20(a)-(c)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -7977,6 +8113,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "WORP Act",
+      "cite": "WORP Act 225 ILCS 155/15(a)-(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8012,6 +8149,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "WORP Act",
+      "cite": "WORP Act 225 ILCS 155/20(a)-(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8052,6 +8190,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois BIPA",
+      "cite": "Illinois BIPA 740 ILCS 14/15(a)-(e)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8089,6 +8228,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois Artificial Intelligence Safety Measures Act",
+      "cite": "Illinois Artificial Intelligence Safety Measures Act Artificial Intelligence Safety Measures Act §§5, 10(a)-(b), 10(d)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8124,6 +8264,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois Artificial Intelligence Safety Measures Act",
+      "cite": "Illinois Artificial Intelligence Safety Measures Act Artificial Intelligence Safety Measures Act §10(c)(1)-(4)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8159,6 +8300,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois Artificial Intelligence Safety Measures Act",
+      "cite": "Illinois Artificial Intelligence Safety Measures Act Artificial Intelligence Safety Measures Act §10(e)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8193,6 +8335,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois Artificial Intelligence Safety Measures Act",
+      "cite": "Illinois Artificial Intelligence Safety Measures Act Artificial Intelligence Safety Measures Act §15(c)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8228,6 +8371,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois Artificial Intelligence Safety Measures Act",
+      "cite": "Illinois Artificial Intelligence Safety Measures Act Artificial Intelligence Safety Measures Act §18(a)-(f)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8264,6 +8408,7 @@
       "regime": "us-il",
       "jurisdiction": "US-IL",
       "instrument_short": "Illinois Artificial Intelligence Safety Measures Act",
+      "cite": "Illinois Artificial Intelligence Safety Measures Act Artificial Intelligence Safety Measures Act §20(a)-(e)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8297,6 +8442,7 @@
       "regime": "us-ny-nyc",
       "jurisdiction": "US-NY-NYC",
       "instrument_short": "NYC AEDT Law",
+      "cite": "NYC Admin. Code §20-871(a)(1); 6 RCNY §5-301(a)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8331,6 +8477,7 @@
       "regime": "us-ny-nyc",
       "jurisdiction": "US-NY-NYC",
       "instrument_short": "NYC AEDT Law",
+      "cite": "NYC AEDT Law 6 RCNY §5-301(b)-(d); §5-302(a)-(c)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8365,6 +8512,7 @@
       "regime": "us-ny-nyc",
       "jurisdiction": "US-NY-NYC",
       "instrument_short": "NYC AEDT Law",
+      "cite": "NYC Admin. Code §20-871(a)(1)-(2); 6 RCNY §5-301(e)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8398,6 +8546,7 @@
       "regime": "us-ny-nyc",
       "jurisdiction": "US-NY-NYC",
       "instrument_short": "NYC AEDT Law",
+      "cite": "NYC Admin. Code §20-871(b)(2); 6 RCNY §5-303",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8432,6 +8581,7 @@
       "regime": "us-ny-nyc",
       "jurisdiction": "US-NY-NYC",
       "instrument_short": "NYC AEDT Law",
+      "cite": "NYC Admin. Code §20-871(b)(2)(i)-(ii); 6 RCNY §5-303",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8466,6 +8616,7 @@
       "regime": "us-ny-nyc",
       "jurisdiction": "US-NY-NYC",
       "instrument_short": "NYC AEDT Law",
+      "cite": "NYC Admin. Code §20-871(b)(3); 6 RCNY §5-302(d)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8504,6 +8655,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "RAISE Act",
+      "cite": "RAISE Act GBL §1421(1)-(2), as enacted by Chapter 96 of 2026",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8539,6 +8691,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "RAISE Act",
+      "cite": "RAISE Act GBL §1421(3), (5)-(6), as enacted by Chapter 96 of 2026",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8574,6 +8727,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "RAISE Act",
+      "cite": "RAISE Act GBL §1422(2), as enacted by Chapter 96 of 2026",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8608,6 +8762,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "RAISE Act",
+      "cite": "RAISE Act GBL §1422(3), as enacted by Chapter 96 of 2026",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8643,6 +8798,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "RAISE Act",
+      "cite": "RAISE Act GBL §1428(1)-(4), as enacted by Chapter 96 of 2026",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8678,6 +8834,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "AI Companion Models Law",
+      "cite": "AI Companion Models Law GBL §1701",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8713,6 +8870,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "AI Companion Models Law",
+      "cite": "AI Companion Models Law GBL §1702",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8748,6 +8906,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "Algorithmic Pricing Disclosure Act",
+      "cite": "Algorithmic Pricing Disclosure Act GBL §349-a(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8782,6 +8941,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "LOADinG Act",
+      "cite": "LOADinG Act State Technology Law §103-e(1)-(5)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8818,6 +8978,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "LOADinG Act",
+      "cite": "LOADinG Act State Technology Law §§401-402",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8854,6 +9015,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "LOADinG Act",
+      "cite": "LOADinG Act State Technology Law §§401(3), 402-a",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8891,6 +9053,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "LOADinG Act",
+      "cite": "LOADinG Act Civil Service Law §80(10), as amended by Chapter 86 of 2026",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8929,6 +9092,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "Unsafe AI Companion Features for Minors",
+      "cite": "Unsafe AI Companion Features for Minors GBL §§1800(5), 1800(8)-(12), 1801(1)-(2)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -8967,6 +9131,7 @@
       "regime": "us-ny",
       "jurisdiction": "US-NY",
       "instrument_short": "Unsafe AI Companion Features for Minors",
+      "cite": "Unsafe AI Companion Features for Minors GBL §1804(1)-(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9002,6 +9167,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code § 552.052",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9038,6 +9204,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code § 552.053",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9077,6 +9244,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code § 552.054 and § 503.001",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9115,6 +9283,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code §§ 552.055-.056",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9156,6 +9325,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code § 552.057",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9192,6 +9362,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code § 552.051(b)-(e)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9226,6 +9397,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code § 552.051(f)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9263,6 +9435,7 @@
       "regime": "us-tx",
       "jurisdiction": "US-TX",
       "instrument_short": "Texas TRAIGA",
+      "cite": "Texas TRAIGA Bus. & Com. Code §§ 553.052, 553.053, 553.102",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9295,6 +9468,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "OMB M-25-21",
+      "cite": "OMB M-25-21 M-25-21 §3(a)(i)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9328,6 +9502,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "OMB M-25-21",
+      "cite": "OMB M-25-21 M-25-21 §3(b)(v)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9365,6 +9540,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "OMB M-25-21",
+      "cite": "OMB M-25-21 M-25-21 §4(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9401,6 +9577,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "OMB M-25-22",
+      "cite": "OMB M-25-22 M-25-22 §§2(c), 3(c)-(e), 4",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9435,6 +9612,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "EO 14319",
+      "cite": "EO 14319 §3(a)-(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9471,6 +9649,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "OMB M-26-04",
+      "cite": "OMB M-26-04 M-26-04 §§3(a), 3(c), Appendix A",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9501,6 +9680,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "EO 14434",
+      "cite": "EO 14434 §2(a)-(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9534,6 +9714,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "TAKE IT DOWN Act",
+      "cite": "TAKE IT DOWN Act §2; 47 U.S.C. §223(h)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9570,6 +9751,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "TAKE IT DOWN Act",
+      "cite": "TAKE IT DOWN Act §3(a)-(b)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9604,6 +9786,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "FTC Act section 5",
+      "cite": "FTC Act §5(a), 15 U.S.C. §45(a)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9641,6 +9824,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "FY2026 NDAA",
+      "cite": "FY2026 NDAA §1512",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9677,6 +9861,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "FY2026 NDAA",
+      "cite": "FY2026 NDAA §1513(a)-(b), (f)(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9711,6 +9896,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "FY2026 NDAA",
+      "cite": "FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9748,6 +9934,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "FY2026 NDAA",
+      "cite": "FY2026 NDAA §1533(a)-(d), (f)(3)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9783,6 +9970,7 @@
       "regime": "us",
       "jurisdiction": "US",
       "instrument_short": "FY2026 NDAA",
+      "cite": "FY2026 NDAA §6604(a)-(e)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9816,6 +10004,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 7(1)-(6)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9853,6 +10042,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 9-10; Decree 142, Arts. 5-6, 11-12 and 14",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9890,6 +10080,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 11(1)-(2); Decree 142, Art. 17",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9926,6 +10117,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 11(3)-(5); Decree 142, Art. 18",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9963,6 +10155,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "AI Law Implementing Decree",
+      "cite": "AI Law Implementing Decree Art. 12 of the AI Law; Decree 142, Art. 19(2)-(8)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -9998,6 +10191,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 13; Decree 142, Art. 13; Decision 33/2026/QD-TTg",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -10039,6 +10233,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 14(1)-(5); Decree 142, Art. 15",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -10073,6 +10268,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Vietnam AI Law",
+      "cite": "Vietnam AI Law Art. 14(6)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -10111,6 +10307,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "AI Law Implementing Decree",
+      "cite": "AI Law Implementing Decree Art. 27(3)-(4) of the AI Law; Decree 142, Art. 20",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     },
@@ -10152,6 +10349,7 @@
       "regime": "vn",
       "jurisdiction": "VN",
       "instrument_short": "Personal Data Protection Law",
+      "cite": "Personal Data Protection Law Art. 30(1)-(5)",
       "review_status": "draft-unreviewed",
       "as_of": "2026-11-04"
     }
@@ -10159,7 +10357,7 @@
   "deadlines": [
     {
       "date": "1914-09-26",
-      "title": "Do not make deceptive AI claims to consumers (FTC Act section 5 FTC Act §5(a), 15 U.S.C. §45(a))",
+      "title": "Do not make deceptive AI claims to consumers (FTC Act §5(a), 15 U.S.C. §45(a))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-ftc-act",
@@ -10183,7 +10381,7 @@
     },
     {
       "date": "2014-07-02",
-      "title": "Establish a lawful basis and notify purposes for personal-data use (PDPA PDPA §§ 13-20)",
+      "title": "Establish a lawful basis and notify purposes for personal-data use (PDPA §§ 13-20)",
       "jurisdiction": "SG",
       "regime": "sg",
       "instrument": "sg-pdpa",
@@ -10195,7 +10393,7 @@
     },
     {
       "date": "2014-07-02",
-      "title": "Maintain accountability, security and retention controls (PDPA PDPA §§ 11-12, 24-25)",
+      "title": "Maintain accountability, security and retention controls (PDPA §§ 11-12, 24-25)",
       "jurisdiction": "SG",
       "regime": "sg",
       "instrument": "sg-pdpa",
@@ -10363,7 +10561,7 @@
     },
     {
       "date": "2023-01-01",
-      "title": "Complete an independent bias audit before use (NYC AEDT Law NYC Admin. Code §20-871(a)(1); 6 RCNY §5-301(a))",
+      "title": "Complete an independent bias audit before use (NYC Admin. Code §20-871(a)(1); 6 RCNY §5-301(a))",
       "jurisdiction": "US-NY-NYC",
       "regime": "us-ny-nyc",
       "instrument": "nyc-ll144",
@@ -10375,7 +10573,7 @@
     },
     {
       "date": "2023-01-01",
-      "title": "Disclose AEDT data sources and retention policy (NYC AEDT Law NYC Admin. Code §20-871(b)(3); 6 RCNY §5-302(d))",
+      "title": "Disclose AEDT data sources and retention policy (NYC Admin. Code §20-871(b)(3); 6 RCNY §5-302(d))",
       "jurisdiction": "US-NY-NYC",
       "regime": "us-ny-nyc",
       "instrument": "nyc-ll144",
@@ -10387,7 +10585,7 @@
     },
     {
       "date": "2023-01-01",
-      "title": "Explain what the tool assesses and available options (NYC AEDT Law NYC Admin. Code §20-871(b)(2)(i)-(ii); 6 RCNY §5-303)",
+      "title": "Explain what the tool assesses and available options (NYC Admin. Code §20-871(b)(2)(i)-(ii); 6 RCNY §5-303)",
       "jurisdiction": "US-NY-NYC",
       "regime": "us-ny-nyc",
       "instrument": "nyc-ll144",
@@ -10399,7 +10597,7 @@
     },
     {
       "date": "2023-01-01",
-      "title": "Give advance notice before using an AEDT (NYC AEDT Law NYC Admin. Code §20-871(b)(2); 6 RCNY §5-303)",
+      "title": "Give advance notice before using an AEDT (NYC Admin. Code §20-871(b)(2); 6 RCNY §5-303)",
       "jurisdiction": "US-NY-NYC",
       "regime": "us-ny-nyc",
       "instrument": "nyc-ll144",
@@ -10411,7 +10609,7 @@
     },
     {
       "date": "2023-01-01",
-      "title": "Publish the audit summary and tool distribution date (NYC AEDT Law NYC Admin. Code §20-871(a)(1)-(2); 6 RCNY §5-301(e))",
+      "title": "Publish the audit summary and tool distribution date (NYC Admin. Code §20-871(a)(1)-(2); 6 RCNY §5-301(e))",
       "jurisdiction": "US-NY-NYC",
       "regime": "us-ny-nyc",
       "instrument": "nyc-ll144",
@@ -10629,7 +10827,7 @@
     },
     {
       "date": "2024-02-06",
-      "title": "Publish transparency records for in-scope central-government tools (ATRS ATRS mandatory scope and exemptions policy)",
+      "title": "Publish transparency records for in-scope central-government tools (ATRS mandatory scope and exemptions policy)",
       "jurisdiction": "GB",
       "regime": "gb",
       "instrument": "gb-atrs",
@@ -10789,7 +10987,7 @@
     },
     {
       "date": "2025-01-31",
-      "title": "Use the voluntary AI cyber-security baseline (AI Cyber Security Code of Practice AI Cyber Security Code of Practice, Principles 1–13)",
+      "title": "Use the voluntary AI cyber-security baseline (AI Cyber Security Code of Practice, Principles 1–13)",
       "jurisdiction": "GB",
       "regime": "gb",
       "instrument": "gb-ai-cyber-code",
@@ -10963,7 +11161,7 @@
     },
     {
       "date": "2025-05-19",
-      "title": "Do not knowingly publish specified nonconsensual intimate depictions (TAKE IT DOWN Act TAKE IT DOWN Act §2; 47 U.S.C. §223(h))",
+      "title": "Do not knowingly publish specified nonconsensual intimate depictions (TAKE IT DOWN Act §2; 47 U.S.C. §223(h))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-tida",
@@ -11053,7 +11251,7 @@
     },
     {
       "date": "2025-07-23",
-      "title": "Procure LLMs developed under the Unbiased AI Principles (EO 14319 EO 14319 §3(a)-(b))",
+      "title": "Procure LLMs developed under the Unbiased AI Principles (EO 14319 §3(a)-(b))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-eo14319",
@@ -11225,7 +11423,7 @@
     },
     {
       "date": "2025-11-05",
-      "title": "Use the voluntary India AI governance principles and practices (India AI Governance Guidelines India AI Governance Guidelines, Parts 1–4)",
+      "title": "Use the voluntary India AI governance principles and practices (India AI Governance Guidelines, Parts 1–4)",
       "jurisdiction": "IN",
       "regime": "in",
       "instrument": "in-ai-guidelines",
@@ -11345,7 +11543,7 @@
     },
     {
       "date": "2025-12-18",
-      "title": "Develop DoD AI security requirements for covered entities (FY2026 NDAA FY2026 NDAA §1513(a)-(b), (f)(3))",
+      "title": "Develop DoD AI security requirements for covered entities (FY2026 NDAA §1513(a)-(b), (f)(3))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-ndaa26",
@@ -11357,7 +11555,7 @@
     },
     {
       "date": "2025-12-18",
-      "title": "Establish a DoD-wide AI and ML cybersecurity policy (FY2026 NDAA FY2026 NDAA §1512)",
+      "title": "Establish a DoD-wide AI and ML cybersecurity policy (FY2026 NDAA §1512)",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-ndaa26",
@@ -11653,7 +11851,7 @@
     },
     {
       "date": "2026-01-17",
-      "title": "Keep covered DeepSeek and High Flyer AI out of DoD contract performance (FY2026 NDAA FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c))",
+      "title": "Keep covered DeepSeek and High Flyer AI out of DoD contract performance (FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-ndaa26",
@@ -11883,7 +12081,7 @@
     },
     {
       "date": "2026-02-05",
-      "title": "Give people safeguards for significant automated decisions (UK GDPR automated decision-making UK GDPR Art. 22C)",
+      "title": "Give people safeguards for significant automated decisions (UK GDPR Art. 22C)",
       "jurisdiction": "GB",
       "regime": "gb",
       "instrument": "gb-ukgdpr-adm",
@@ -11905,7 +12103,7 @@
     },
     {
       "date": "2026-02-05",
-      "title": "Restrict significant automated decisions using special-category data (UK GDPR automated decision-making UK GDPR Arts. 22A–22B)",
+      "title": "Restrict significant automated decisions using special-category data (UK GDPR Arts. 22A–22B)",
       "jurisdiction": "GB",
       "regime": "gb",
       "instrument": "gb-ukgdpr-adm",
@@ -12015,7 +12213,7 @@
     },
     {
       "date": "2026-02-16",
-      "title": "Require removal of DeepSeek from intelligence-community systems (FY2026 NDAA FY2026 NDAA §6604(a)-(e))",
+      "title": "Require removal of DeepSeek from intelligence-community systems (FY2026 NDAA §6604(a)-(e))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-ndaa26",
@@ -12439,7 +12637,7 @@
     },
     {
       "date": "2026-05-19",
-      "title": "Provide notice and remove validly reported intimate depictions (TAKE IT DOWN Act TAKE IT DOWN Act §3(a)-(b))",
+      "title": "Provide notice and remove validly reported intimate depictions (TAKE IT DOWN Act §3(a)-(b))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-tida",
@@ -12471,7 +12669,7 @@
     },
     {
       "date": "2026-06-01",
-      "title": "Assess and oversee major DoD AI systems (FY2026 NDAA FY2026 NDAA §1533(a)-(d), (f)(3))",
+      "title": "Assess and oversee major DoD AI systems (FY2026 NDAA §1533(a)-(d), (f)(3))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-ndaa26",
@@ -12565,7 +12763,7 @@
     },
     {
       "date": "2026-06-29",
-      "title": "Do not communicate qualifying intimate or child-abuse images (OSRAA OSRAA §§ 13-14, 83-84)",
+      "title": "Do not communicate qualifying intimate or child-abuse images (OSRAA §§ 13-14, 83-84)",
       "jurisdiction": "SG",
       "regime": "sg",
       "instrument": "sg-osraa",
@@ -12655,7 +12853,7 @@
     },
     {
       "date": "2026-07-14",
-      "title": "Follow Japan's current government AI strategy (Second AI Basic Plan Second AI Basic Plan, Chapters 1-4)",
+      "title": "Follow Japan's current government AI strategy (Second AI Basic Plan, Chapters 1-4)",
       "jurisdiction": "JP",
       "regime": "jp",
       "instrument": "jp-ai-plan",
@@ -12953,7 +13151,7 @@
     },
     {
       "date": "2026-09-29",
-      "title": "Use the prescribed term in future federal AI communications (EO 14434 EO 14434 §2(a)-(b))",
+      "title": "Use the prescribed term in future federal AI communications (EO 14434 §2(a)-(b))",
       "jurisdiction": "US",
       "regime": "us",
       "instrument": "us-eo14434",
@@ -13015,7 +13213,7 @@
     },
     {
       "date": "2026-10-28",
-      "title": "Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM AI Code of Conduct guide OFCOM Guide on an AI Code of Conduct, voluntary toolkit)",
+      "title": "Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM Guide on an AI Code of Conduct, voluntary toolkit)",
       "jurisdiction": "CH",
       "regime": "ch",
       "instrument": "ch-aicg",

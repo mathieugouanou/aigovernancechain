@@ -42,7 +42,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 
 | Date | Where | What |
 |---|---|---|
-| 1914-09-26 | US | Do not make deceptive AI claims to consumers (FTC Act section 5 FTC Act §5(a), 15 U.S.C. §45(a)) |
+| 1914-09-26 | US | Do not make deceptive AI claims to consumers (FTC Act §5(a), 15 U.S.C. §45(a)) |
 
 </details>
 
@@ -58,8 +58,8 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 
 | Date | Where | What |
 |---|---|---|
-| 2014-07-02 | SG | Establish a lawful basis and notify purposes for personal-data use (PDPA PDPA §§ 13-20) |
-| 2014-07-02 | SG | Maintain accountability, security and retention controls (PDPA PDPA §§ 11-12, 24-25) |
+| 2014-07-02 | SG | Establish a lawful basis and notify purposes for personal-data use (PDPA §§ 13-20) |
+| 2014-07-02 | SG | Maintain accountability, security and retention controls (PDPA §§ 11-12, 24-25) |
 
 </details>
 
@@ -109,11 +109,11 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 
 | Date | Where | What |
 |---|---|---|
-| 2023-01-01 | US-NY-NYC | Complete an independent bias audit before use (NYC AEDT Law NYC Admin. Code §20-871(a)(1); 6 RCNY §5-301(a)) |
-| 2023-01-01 | US-NY-NYC | Disclose AEDT data sources and retention policy (NYC AEDT Law NYC Admin. Code §20-871(b)(3); 6 RCNY §5-302(d)) |
-| 2023-01-01 | US-NY-NYC | Explain what the tool assesses and available options (NYC AEDT Law NYC Admin. Code §20-871(b)(2)(i)-(ii); 6 RCNY §5-303) |
-| 2023-01-01 | US-NY-NYC | Give advance notice before using an AEDT (NYC AEDT Law NYC Admin. Code §20-871(b)(2); 6 RCNY §5-303) |
-| 2023-01-01 | US-NY-NYC | Publish the audit summary and tool distribution date (NYC AEDT Law NYC Admin. Code §20-871(a)(1)-(2); 6 RCNY §5-301(e)) |
+| 2023-01-01 | US-NY-NYC | Complete an independent bias audit before use (NYC Admin. Code §20-871(a)(1); 6 RCNY §5-301(a)) |
+| 2023-01-01 | US-NY-NYC | Disclose AEDT data sources and retention policy (NYC Admin. Code §20-871(b)(3); 6 RCNY §5-302(d)) |
+| 2023-01-01 | US-NY-NYC | Explain what the tool assesses and available options (NYC Admin. Code §20-871(b)(2)(i)-(ii); 6 RCNY §5-303) |
+| 2023-01-01 | US-NY-NYC | Give advance notice before using an AEDT (NYC Admin. Code §20-871(b)(2); 6 RCNY §5-303) |
+| 2023-01-01 | US-NY-NYC | Publish the audit summary and tool distribution date (NYC Admin. Code §20-871(a)(1)-(2); 6 RCNY §5-301(e)) |
 | 2023-01-10 | CN | Assess and file specified deep-synthesis services (Deep Synthesis Provisions Arts. 15, 19–20) |
 | 2023-01-10 | CN | Deep Synthesis Provisions: Provisions enter into force |
 | 2023-01-10 | CN | Verify identity for posting and label deep-synthesis output (Deep Synthesis Provisions Arts. 9, 16–18) |
@@ -139,7 +139,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | Date | Where | What |
 |---|---|---|
 | 2024-02-06 | GB | ATRS: ATRS was mandated across government departments; the policy defines the covered central-government bodies and tools |
-| 2024-02-06 | GB | Publish transparency records for in-scope central-government tools (ATRS ATRS mandatory scope and exemptions policy) |
+| 2024-02-06 | GB | Publish transparency records for in-scope central-government tools (ATRS mandatory scope and exemptions policy) |
 | 2024-03-01 | SG | Apply PDPC's advice to AI recommendation and decision systems (PDPC AI Recommendation and Decision Guidelines Guidelines §§ 2.2, 3.1, 9.1-9.7 and 10) |
 | 2024-03-01 | SG | PDPC AI Recommendation and Decision Guidelines: Final advisory guidelines issued |
 | 2024-05-17 | US-CO | Colorado AI Act (2024): SB 24-205 was signed; its high-risk AI duties were initially scheduled for 2026-02-01 |
@@ -161,7 +161,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2025-01-21 | KR | AI Basic Act: Act No. 20676 promulgated |
 | 2025-01-22 | SG | Do not publish realistic false candidate representations in online election ads (Elections Integrity Amendment PEA § 61MA(1); PrEA § 42LA(1)) |
 | 2025-01-31 | GB | AI Cyber Security Code of Practice: Voluntary AI cyber-security code published |
-| 2025-01-31 | GB | Use the voluntary AI cyber-security baseline (AI Cyber Security Code of Practice AI Cyber Security Code of Practice, Principles 1–13) |
+| 2025-01-31 | GB | Use the voluntary AI cyber-security baseline (AI Cyber Security Code of Practice, Principles 1–13) |
 | 2025-02-02 | EU | Do not build or use banned AI practices (EU AI Act Art. 5(1)) |
 | 2025-02-02 | EU | Support AI literacy of staff who run or use AI (EU AI Act Art. 4(1)) |
 | 2025-02-12 | CH | Proposed Swiss AI legislation: Federal Council chooses an approach to ratify and implement the Council of Europe AI Convention, with sector-specific amendments where needed |
@@ -177,7 +177,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2025-04-03 | US | OMB M-25-22: OMB issued M-25-22 |
 | 2025-05-09 | US-NY | AI Companion Models Law: Chapter 58 signed; Article 47 added |
 | 2025-05-09 | US-NY | Algorithmic Pricing Disclosure Act: Chapter 58 signed |
-| 2025-05-19 | US | Do not knowingly publish specified nonconsensual intimate depictions (TAKE IT DOWN Act TAKE IT DOWN Act §2; 47 U.S.C. §223(h)) |
+| 2025-05-19 | US | Do not knowingly publish specified nonconsensual intimate depictions (TAKE IT DOWN Act §2; 47 U.S.C. §223(h)) |
 | 2025-06-02 | US | OMB M-25-21: 60-day deadline for agency heads to retain or designate a Chief AI Officer |
 | 2025-06-04 | JP | Cooperate with national and local AI measures (AI Promotion Act Art. 7) |
 | 2025-06-19 | GB | UK GDPR automated decision-making: Data (Use and Access) Act 2025 received Royal Assent |
@@ -185,7 +185,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2025-07-01 | US-NY | Publish State-agency employment-tool lists (LOADinG Act State Technology Law §§401-402) |
 | 2025-07-08 | US-NY | Disclose personalized algorithmic prices (Algorithmic Pricing Disclosure Act GBL §349-a(2)) |
 | 2025-07-23 | US | EO 14319: Executive order signed; directs agencies to procure LLMs developed in accordance with its Unbiased AI Principles |
-| 2025-07-23 | US | Procure LLMs developed under the Unbiased AI Principles (EO 14319 EO 14319 §3(a)-(b)) |
+| 2025-07-23 | US | Procure LLMs developed under the Unbiased AI Principles (EO 14319 §3(a)-(b)) |
 | 2025-07-25 | GB | Assess and mitigate risks to children (Online Safety Act OSA 2023 ss. 11–12, 28–29) |
 | 2025-08-01 | US-IL | Do not let AI provide independent therapy (WORP Act 225 ILCS 155/20(a)-(b)) |
 | 2025-08-01 | US-IL | Keep licensed professionals responsible for AI-assisted therapy (WORP Act 225 ILCS 155/15(a)-(b)) |
@@ -200,7 +200,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2025-10-01 | US-CA | Prevent discriminatory employment use of automated decision systems (Employment ADS regulations 2 CCR §§ 11009(f), 11013(c)) |
 | 2025-10-28 | CN | Amended Cybersecurity Law: Amendment adopted by the NPC Standing Committee |
 | 2025-11-05 | IN | India AI Governance Guidelines: MeitY releases the India AI Governance Guidelines |
-| 2025-11-05 | IN | Use the voluntary India AI governance principles and practices (India AI Governance Guidelines India AI Governance Guidelines, Parts 1–4) |
+| 2025-11-05 | IN | Use the voluntary India AI governance principles and practices (India AI Governance Guidelines, Parts 1–4) |
 | 2025-11-05 | US-NY | Detect and respond to self-harm signals (AI Companion Models Law GBL §1701) |
 | 2025-11-05 | US-NY | Remind users that a companion is not human (AI Companion Models Law GBL §1702) |
 | 2025-11-10 | US-NY | Algorithmic Pricing Disclosure Act: Attorney General announced enforcement would begin after the litigation-related pause |
@@ -211,8 +211,8 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2025-12-10 | IN | DPDP Rules: G.S.R. 892(E) makes textual corrections to the Rules notification |
 | 2025-12-10 | VN | Vietnam AI Law: Adopted by the National Assembly |
 | 2025-12-11 | US | Include Unbiased AI Principles in LLM procurement (OMB M-26-04 M-26-04 §§3(a), 3(c), Appendix A) |
-| 2025-12-18 | US | Develop DoD AI security requirements for covered entities (FY2026 NDAA FY2026 NDAA §1513(a)-(b), (f)(3)) |
-| 2025-12-18 | US | Establish a DoD-wide AI and ML cybersecurity policy (FY2026 NDAA FY2026 NDAA §1512) |
+| 2025-12-18 | US | Develop DoD AI security requirements for covered entities (FY2026 NDAA §1513(a)-(b), (f)(3)) |
+| 2025-12-18 | US | Establish a DoD-wide AI and ML cybersecurity policy (FY2026 NDAA §1512) |
 | 2025-12-18 | US | FY2026 NDAA: FY2026 NDAA enacted |
 | 2025-12-19 | US-NY | RAISE Act: Original RAISE Act enacted as Chapter 699; its original start clause was later amended |
 
@@ -245,7 +245,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-01-01 | VN | Personal Data Protection Law: Personal Data Protection Law enters into force |
 | 2026-01-01 | VN | Protect personal data processed using AI (Personal Data Protection Law Art. 30(1)-(5)) |
 | 2026-01-17 | US | FY2026 NDAA: 30-day deadline for DoD's DeepSeek-related removal requirements and DoD-contractor prohibition under section 1532 |
-| 2026-01-17 | US | Keep covered DeepSeek and High Flyer AI out of DoD contract performance (FY2026 NDAA FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c)) |
+| 2026-01-17 | US | Keep covered DeepSeek and High Flyer AI out of DoD contract performance (FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c)) |
 | 2026-01-21 | KR | AI Basic Act Enforcement Decree: Presidential Decree No. 36053 promulgated |
 | 2026-01-22 | KR | AI Basic Act Enforcement Decree: Enforcement Decree enters into force with the AI Basic Act |
 | 2026-01-22 | KR | AI Basic Act: AI Basic Act enters into force |
@@ -265,9 +265,9 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-01-22 | SG | Inform and train agent end users (Agentic AI Governance Framework Framework § 2.4) |
 | 2026-01-22 | SG | Test, monitor and log agent behavior (Agentic AI Governance Framework Framework § 2.3) |
 | 2026-01-24 | KR | AI Basic Act: The high-impact AI definition covering the specified digital-medical-device provisions takes effect |
-| 2026-02-05 | GB | Give people safeguards for significant automated decisions (UK GDPR automated decision-making UK GDPR Art. 22C) |
+| 2026-02-05 | GB | Give people safeguards for significant automated decisions (UK GDPR Art. 22C) |
 | 2026-02-05 | GB | Law-enforcement automated decision-making: New Part 3 law-enforcement automated-decision provisions came into force |
-| 2026-02-05 | GB | Restrict significant automated decisions using special-category data (UK GDPR automated decision-making UK GDPR Arts. 22A–22B) |
+| 2026-02-05 | GB | Restrict significant automated decisions using special-category data (UK GDPR Arts. 22A–22B) |
 | 2026-02-05 | GB | Safeguard automated law-enforcement decisions (Law-enforcement automated decision-making DPA 2018 ss. 50A–50C) |
 | 2026-02-05 | GB | UK GDPR automated decision-making: Section 80 automated decision-making amendments came into force |
 | 2026-02-06 | GB | Do not create or request non-consensual purported intimate images (Non-consensual purported intimate images DUAA 2025 s. 138 (SOA 2003 ss. 66E–66F)) |
@@ -277,7 +277,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-02-13 | US-NY | Preserve public employees' existing rights and duties (LOADinG Act Civil Service Law §80(10), as amended by Chapter 86 of 2026) |
 | 2026-02-13 | US-NY | Publish covered-entity employment-tool lists (LOADinG Act State Technology Law §§401(3), 402-a) |
 | 2026-02-16 | US | FY2026 NDAA: 60-day deadline for DNI to issue initial standards and guidelines under section 6604 |
-| 2026-02-16 | US | Require removal of DeepSeek from intelligence-community systems (FY2026 NDAA FY2026 NDAA §6604(a)-(e)) |
+| 2026-02-16 | US | Require removal of DeepSeek from intelligence-community systems (FY2026 NDAA §6604(a)-(e)) |
 | 2026-02-20 | IN | Act on specified unlawful-content orders within three hours (IT Intermediary Rules Rule 3(1)(d)) |
 | 2026-02-20 | IN | IT Intermediary Rules: 2026 IT Rules amendments enter into force |
 | 2026-02-20 | IN | Prevent unlawful synthetic media and label other synthetic information (IT Intermediary Rules Rule 3(3)(a)(i)–(ii) and Rule 3(3)(b)) |
@@ -315,10 +315,10 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-05-13 | GB | Regulating for Growth Bill: King's Speech announced the proposed Regulating for Growth Bill |
 | 2026-05-14 | US-CO | Colorado ADMT Act: SB 26-189 was signed; specified rulemaking and procedural provisions took effect upon passage |
 | 2026-05-15 | COE | Council of Europe AI Framework Convention: European Union ratifies the Convention |
-| 2026-05-19 | US | Provide notice and remove validly reported intimate depictions (TAKE IT DOWN Act TAKE IT DOWN Act §3(a)-(b)) |
+| 2026-05-19 | US | Provide notice and remove validly reported intimate depictions (TAKE IT DOWN Act §3(a)-(b)) |
 | 2026-05-19 | US | TAKE IT DOWN Act: Deadline for covered platforms to establish the section 3 notice-and-removal process |
 | 2026-05-20 | SG | Agentic AI Governance Framework: Version 1.5 published; the PDF notes a further update on 5 June 2026 |
-| 2026-06-01 | US | Assess and oversee major DoD AI systems (FY2026 NDAA FY2026 NDAA §1533(a)-(d), (f)(3)) |
+| 2026-06-01 | US | Assess and oversee major DoD AI systems (FY2026 NDAA §1533(a)-(d), (f)(3)) |
 | 2026-06-01 | US | FY2026 NDAA: Deadline to establish the DoD cross-functional AI model assessment and oversight team under section 1533 |
 | 2026-06-05 | SG | Agentic AI Governance Framework: Version 1.5 PDF updated |
 | 2026-06-10 | EU | EU Code of Practice on AI-generated content: Final Code of Practice published |
@@ -327,7 +327,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-06-26 | US-IL | IHRA AI employment provisions: IDHR proposed AI-employment rule amendments were officially withdrawn |
 | 2026-06-29 | GB | Do not make or supply purported intimate-image generators (Intimate-image and child-abuse-image generator offences CPA 2026 s. 99 (SOA 2003 s. 66I)) |
 | 2026-06-29 | GB | Intimate-image and child-abuse-image generator offences: Section 99 came into force in England and Wales |
-| 2026-06-29 | SG | Do not communicate qualifying intimate or child-abuse images (OSRAA OSRAA §§ 13-14, 83-84) |
+| 2026-06-29 | SG | Do not communicate qualifying intimate or child-abuse images (OSRAA §§ 13-14, 83-84) |
 | 2026-06-30 | US-CO | Mark and disclose synthetic content (Colorado AI Act (2024) C.R.S. § 6-1-1705 (SB 24-205 version)) |
 | 2026-06-30 | US-CO | Notify consumers and publish high-risk system information (Colorado AI Act (2024) C.R.S. §§ 6-1-1703(5), 6-1-1704 (SB 24-205 version)) |
 | 2026-06-30 | US-CO | Run risk management and impact assessments for high-risk AI (Colorado AI Act (2024) C.R.S. § 6-1-1703 (SB 24-205 version)) |
@@ -335,7 +335,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-06-30 | VN | High-Risk AI List: Decision issued |
 | 2026-07-06 | US-IL | Illinois Artificial Intelligence Safety Measures Act: Public Act 104-0538 approved |
 | 2026-07-08 | GB | ICO AI and ADM code: ICO listed the code as in drafting and forecast publication in Q1/Q2 2028; the code is not yet published |
-| 2026-07-14 | JP | Follow Japan's current government AI strategy (Second AI Basic Plan Second AI Basic Plan, Chapters 1-4) |
+| 2026-07-14 | JP | Follow Japan's current government AI strategy (Second AI Basic Plan, Chapters 1-4) |
 | 2026-07-14 | JP | Second AI Basic Plan: Cabinet decided the Second AI Basic Plan, replacing the first plan |
 | 2026-07-15 | CN | Anthropomorphic Interactive Services Measures: Measures enter into force |
 | 2026-07-15 | CN | Assess and file human-like interactive services (Anthropomorphic Interactive Services Measures Arts. 22–27) |
@@ -362,13 +362,13 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-09-01 | US-TX | Attorney General's deadline to post the consumer complaint mechanism |
 | 2026-09-10 | SG | OSRAA: MDDI confirmed inauthentic material abuse would be progressively implemented and no commencement date had been announced |
 | 2026-09-29 | US | EO 14434: Executive order signed; directs terminology changes in non-statutory executive-branch communications and documents |
-| 2026-09-29 | US | Use the prescribed term in future federal AI communications (EO 14434 EO 14434 §2(a)-(b)) |
+| 2026-09-29 | US | Use the prescribed term in future federal AI communications (EO 14434 §2(a)-(b)) |
 | 2026-09-30 | US-CA | California AI Transparency Act: SB 1000 immediately amended CATA |
 | 2026-10-06 | US-CO | Colorado ADMT Act: Interim draft rules were released |
 | 2026-10-26 | US-CO | Colorado ADMT Act: Formal rulemaking hearing on proposed 4 CCR 904-6 rules |
 | 2026-10-28 | CH | OFCOM AI Code of Conduct guide: OFCOM AI Code of Conduct guide reported as a toolkit for voluntary guidelines |
 | 2026-10-28 | CH | Proposed Swiss AI legislation: Federal Council update says consultation is scheduled for spring 2027; proposed rules are to address transparency, data protection, non-discrimination, supervision and risk assessment |
-| 2026-10-28 | CH | Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM AI Code of Conduct guide OFCOM Guide on an AI Code of Conduct, voluntary toolkit) |
+| 2026-10-28 | CH | Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM Guide on an AI Code of Conduct, voluntary toolkit) |
 | 2026-10-28 | COE | Council of Europe AI Framework Convention: Treaty Office reports Bosnia and Herzegovina's ratification; this is the second ratification recorded |
 | 2026-10-28 | US-NY | Unsafe AI Companion Features for Minors: Signed as Chapter 368 of the Laws of 2026 |
 | 2026-10-31 | US-NY | State agencies submit data at least 60 days before first December 30 AI-inventory publication |

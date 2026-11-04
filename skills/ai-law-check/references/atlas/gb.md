@@ -3,14 +3,14 @@
 As of 2026-11-04. Review: draft-unreviewed. Binding UK GDPR ADM safeguards apply from 5 February 2026. Online-safety duties cover specified services, not every standalone chatbot. England-and-Wales intimate-image offences are in force; Scotland child-image-generator provisions are enacted but not commenced. The ATRS is a mandatory government policy for specified central bodies, not a statute.
 
 ## AGC-GB-UKGDPR-22B: Restrict significant automated decisions using special-category data
-- Rule: UK GDPR automated decision-making UK GDPR Arts. 22A–22B · status applicable · applies from 2026-02-05 · confidence high
+- Rule: UK GDPR Arts. 22A–22B · status applicable · applies from 2026-02-05 · confidence high
 - Who: roles any; uses significant-decision, profiling; conditions: Controllers making a significant decision based solely on automated processing of personal data; Article 22A defines the decision and meaningful-human-involvement threshold.
 - What: A significant decision with legal or similarly significant effects that is based solely on automated processing and uses special-category data is barred unless the decision relies entirely on explicit consent, or is necessary for a contract or required/authorised by law and the substantial-public-interest condition in Article 9(2)(g) applies. A significant decision relying in whole or part on the recognised legitimate-interests basis in Article 6(1)(ea) also cannot be made solely by automated processing.
 - Controls: privacy_compliance, risk_management
 - Source: https://www.legislation.gov.uk/ukpga/2025/18/section/80
 
 ## AGC-GB-UKGDPR-22C: Give people safeguards for significant automated decisions
-- Rule: UK GDPR automated decision-making UK GDPR Art. 22C · status applicable · applies from 2026-02-05 · confidence high
+- Rule: UK GDPR Art. 22C · status applicable · applies from 2026-02-05 · confidence high
 - Who: roles any; uses significant-decision, profiling; conditions: Applies to controllers making significant decisions solely by automated processing, including profiling; Article 22D allows regulations to supplement or specify safeguards.
 - What: For a significant decision based at least partly on personal data and solely on automated processing, the controller must provide safeguards that give the person information about the decision, let them make representations, obtain human intervention by the controller, and contest the decision.
 - Controls: transparency_notice, human_oversight, contest_and_appeal
@@ -66,14 +66,14 @@ As of 2026-11-04. Review: draft-unreviewed. Binding UK GDPR ADM safeguards apply
 - Source: https://www.legislation.gov.uk/ukpga/2026/20/section/72
 
 ## AGC-GB-ATRS-SCOPE: Publish transparency records for in-scope central-government tools
-- Rule: ATRS ATRS mandatory scope and exemptions policy · status applicable · applies from 2024-02-06 · confidence high
+- Rule: ATRS mandatory scope and exemptions policy · status applicable · applies from 2024-02-06 · confidence high
 - Who: roles public-body; uses public-sector-use, chatbot, significant-decision; conditions: Mandatory only for ministerial and non-ministerial departments and ALBs providing public/frontline services or routinely interacting with the public; sensitive information may be withheld under the policy.
 - What: Central-government departments and specified arm’s-length bodies must publish an ATRS record for algorithmic tools in beta/pilot or production that significantly influence public-effect decisions or directly interact with the public. The policy is broader than AI and is not a statute; other public-sector bodies are encouraged, not required, to use ATRS.
 - Controls: transparency_notice, audit_log
 - Source: https://www.gov.uk/government/publications/algorithmic-transparency-recording-standard-mandatory-scope-and-exemptions-policy/algorithmic-transparency-recording-standard-atrs-mandatory-scope-and-exemptions-policy
 
 ## AGC-GB-AICSCOP-BASELINE: Use the voluntary AI cyber-security baseline
-- Rule: AI Cyber Security Code of Practice AI Cyber Security Code of Practice, Principles 1–13 · status voluntary · applies from 2025-01-31 · confidence high
+- Rule: AI Cyber Security Code of Practice, Principles 1–13 · status voluntary · applies from 2025-01-31 · confidence high
 - Who: roles provider, developer, deployer; uses any-ai, generated-media, agent, frontier-model
 - What: The government code recommends lifecycle cyber-security measures for AI developers and operators, including secure design and supply chains, risk assessment, access controls, documentation, testing, incident response, updates and end-of-life practices. It is voluntary and is not a statutory duty.
 - Controls: security_testing, risk_management, technical_documentation, human_oversight

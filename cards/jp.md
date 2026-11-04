@@ -27,7 +27,7 @@
 - **2026-03-31** (passed) Protect privacy throughout the AI lifecycle (AI Guidelines for Business Ver1.2 Part 2.C.4)
 - **2026-03-31** (passed) Provide proportionate information about AI (AI Guidelines for Business Ver1.2 Part 2.C.6)
 - **2026-03-31** (passed) Secure AI systems and services (AI Guidelines for Business Ver1.2 Part 2.C.5)
-- **2026-07-14** (passed) Follow Japan's current government AI strategy (Second AI Basic Plan Second AI Basic Plan, Chapters 1-4)
+- **2026-07-14** (passed) Follow Japan's current government AI strategy (Second AI Basic Plan, Chapters 1-4)
 - **2026-07-14** (passed) Second AI Basic Plan: Cabinet decided the Second AI Basic Plan, replacing the first plan
 
 ## Obligations (8)

@@ -20,7 +20,7 @@
 ## Key dates
 
 - **2025-11-05** (passed) India AI Governance Guidelines: MeitY releases the India AI Governance Guidelines
-- **2025-11-05** (passed) Use the voluntary India AI governance principles and practices (India AI Governance Guidelines India AI Governance Guidelines, Parts 1–4)
+- **2025-11-05** (passed) Use the voluntary India AI governance principles and practices (India AI Governance Guidelines, Parts 1–4)
 - **2025-11-13** (passed) DPDP Act: Initial institutional and procedural provisions commence under G.S.R. 843(E)
 - **2025-11-13** (passed) DPDP Rules: Rules 1, 2 and 17 to 21 commence on Gazette publication
 - **2025-12-10** (passed) DPDP Rules: G.S.R. 892(E) makes textual corrections to the Rules notification

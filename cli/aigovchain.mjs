@@ -83,7 +83,7 @@ function printObligations(obs) {
   for (const [j, arr] of Object.entries(byJ)) {
     console.log(bold(`\n${j} · ${V.JURISDICTIONS[j] || j}`));
     for (const o of arr.sort((a, b) => String(a.applies_from).localeCompare(String(b.applies_from)))) {
-      console.log(`  ${o.id.padEnd(26)} ${String(o.applies_from || 'n/a').padEnd(10)} ${o.status.padEnd(18)} ${o.instrument_short} ${o.article}: ${o.title}`);
+      console.log(`  ${o.id.padEnd(26)} ${String(o.applies_from || 'n/a').padEnd(10)} ${o.status.padEnd(18)} ${o.cite}: ${o.title}`);
     }
   }
 }
@@ -150,7 +150,7 @@ const commands = {
       const q = args._.slice(2).join(' ');
       const res = search(atlas, q, Number(args.limit || 20));
       if (args.json) return console.log(JSON.stringify(res, null, 2));
-      for (const o of res) console.log(`  ${o.id.padEnd(26)} ${o.instrument_short} ${o.article}: ${o.title}`);
+      for (const o of res) console.log(`  ${o.id.padEnd(26)} ${o.cite}: ${o.title}`);
       if (!res.length) console.log('No match.');
       return;
     }

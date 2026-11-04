@@ -121,8 +121,8 @@ UID:20230101-Q29tcGxldGUgYW4gaW5kZXBl@aigovernancechain
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20230101
 DTEND;VALUE=DATE:20230102
-SUMMARY:[US-NY-NYC] Complete an independent bias audit before use (NYC AED
- T Law NYC Admin. Code §20-871(a)(1)\; 6 RCNY §5-301(a))
+SUMMARY:[US-NY-NYC] Complete an independent bias audit before use (NYC Adm
+ in. Code §20-871(a)(1)\; 6 RCNY §5-301(a))
 DESCRIPTION:Obligations: AGC-US-NY-NYC-LL144-20-871-A1. Source: https://le
  gistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F
  8-6596032FA3F9&ID=4344524. Draft open data from AI Governance Chain. Not 
@@ -137,7 +137,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20230101
 DTEND;VALUE=DATE:20230102
 SUMMARY:[US-NY-NYC] Disclose AEDT data sources and retention policy (NYC A
- EDT Law NYC Admin. Code §20-871(b)(3)\; 6 RCNY §5-302(d))
+ dmin. Code §20-871(b)(3)\; 6 RCNY §5-302(d))
 DESCRIPTION:Obligations: AGC-US-NY-NYC-LL144-20-871-B3. Source: https://ru
  les.cityofnewyork.us/rule/automated-employment-decision-tools-updated/. D
  raft open data from AI Governance Chain. Not legal advice.
@@ -151,7 +151,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20230101
 DTEND;VALUE=DATE:20230102
 SUMMARY:[US-NY-NYC] Explain what the tool assesses and available options (
- NYC AEDT Law NYC Admin. Code §20-871(b)(2)(i)-(ii)\; 6 RCNY §5-303)
+ NYC Admin. Code §20-871(b)(2)(i)-(ii)\; 6 RCNY §5-303)
 DESCRIPTION:Obligations: AGC-US-NY-NYC-LL144-20-871-B2-CONTENT. Source: ht
  tps://home4.nyc.gov/site/dca/businesses/faq-automated-employment-decision
  -tools.page. Draft open data from AI Governance Chain. Not legal advice.
@@ -164,8 +164,8 @@ UID:20230101-R2l2ZSBhZHZhbmNlIG5vdGlj@aigovernancechain
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20230101
 DTEND;VALUE=DATE:20230102
-SUMMARY:[US-NY-NYC] Give advance notice before using an AEDT (NYC AEDT Law
-  NYC Admin. Code §20-871(b)(2)\; 6 RCNY §5-303)
+SUMMARY:[US-NY-NYC] Give advance notice before using an AEDT (NYC Admin. C
+ ode §20-871(b)(2)\; 6 RCNY §5-303)
 DESCRIPTION:Obligations: AGC-US-NY-NYC-LL144-20-871-B2-TIMING. Source: htt
  ps://home4.nyc.gov/site/dca/businesses/faq-automated-employment-decision-
  tools.page. Draft open data from AI Governance Chain. Not legal advice.
@@ -179,7 +179,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20230101
 DTEND;VALUE=DATE:20230102
 SUMMARY:[US-NY-NYC] Publish the audit summary and tool distribution date (
- NYC AEDT Law NYC Admin. Code §20-871(a)(1)-(2)\; 6 RCNY §5-301(e))
+ NYC Admin. Code §20-871(a)(1)-(2)\; 6 RCNY §5-301(e))
 DESCRIPTION:Obligations: AGC-US-NY-NYC-LL144-20-871-A1-PUBLIC. Source: htt
  ps://home4.nyc.gov/site/dca/businesses/faq-automated-employment-decision-
  tools.page. Draft open data from AI Governance Chain. Not legal advice.

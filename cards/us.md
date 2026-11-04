@@ -27,28 +27,28 @@
 - **2025-04-03** (passed) Designate a Chief AI Officer (OMB M-25-21 M-25-21 §3(a)(i))
 - **2025-04-03** (passed) Maintain and publish annual AI use-case inventories (OMB M-25-21 M-25-21 §3(b)(v))
 - **2025-04-03** (passed) OMB M-25-22: OMB issued M-25-22
-- **2025-05-19** (passed) Do not knowingly publish specified nonconsensual intimate depictions (TAKE IT DOWN Act TAKE IT DOWN Act §2; 47 U.S.C. §223(h))
+- **2025-05-19** (passed) Do not knowingly publish specified nonconsensual intimate depictions (TAKE IT DOWN Act §2; 47 U.S.C. §223(h))
 - **2025-06-02** (passed) OMB M-25-21: 60-day deadline for agency heads to retain or designate a Chief AI Officer
 - **2025-07-23** (passed) EO 14319: Executive order signed; directs agencies to procure LLMs developed in accordance with its Unbiased AI Principles
-- **2025-07-23** (passed) Procure LLMs developed under the Unbiased AI Principles (EO 14319 EO 14319 §3(a)-(b))
+- **2025-07-23** (passed) Procure LLMs developed under the Unbiased AI Principles (EO 14319 §3(a)-(b))
 - **2025-09-30** (passed) Put required safeguards into covered AI contracts (OMB M-25-22 M-25-22 §§2(c), 3(c)-(e), 4)
 - **2025-12-11** (passed) Include Unbiased AI Principles in LLM procurement (OMB M-26-04 M-26-04 §§3(a), 3(c), Appendix A)
-- **2025-12-18** (passed) Develop DoD AI security requirements for covered entities (FY2026 NDAA FY2026 NDAA §1513(a)-(b), (f)(3))
-- **2025-12-18** (passed) Establish a DoD-wide AI and ML cybersecurity policy (FY2026 NDAA FY2026 NDAA §1512)
+- **2025-12-18** (passed) Develop DoD AI security requirements for covered entities (FY2026 NDAA §1513(a)-(b), (f)(3))
+- **2025-12-18** (passed) Establish a DoD-wide AI and ML cybersecurity policy (FY2026 NDAA §1512)
 - **2025-12-18** (passed) FY2026 NDAA: FY2026 NDAA enacted
 - **2026-01-17** (passed) FY2026 NDAA: 30-day deadline for DoD's DeepSeek-related removal requirements and DoD-contractor prohibition under section 1532
-- **2026-01-17** (passed) Keep covered DeepSeek and High Flyer AI out of DoD contract performance (FY2026 NDAA FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c))
+- **2026-01-17** (passed) Keep covered DeepSeek and High Flyer AI out of DoD contract performance (FY2026 NDAA §1532(a)(1), (a)(3), (b)-(c))
 - **2026-02-16** (passed) FY2026 NDAA: 60-day deadline for DNI to issue initial standards and guidelines under section 6604
-- **2026-02-16** (passed) Require removal of DeepSeek from intelligence-community systems (FY2026 NDAA FY2026 NDAA §6604(a)-(e))
+- **2026-02-16** (passed) Require removal of DeepSeek from intelligence-community systems (FY2026 NDAA §6604(a)-(e))
 - **2026-03-11** (passed) OMB M-26-04: Deadline for agencies to update procurement policies and user-feedback processes
 - **2026-04-03** (passed) OMB M-25-21: 365-day deadline to document implementation of minimum risk practices for high-impact AI
-- **2026-05-19** (passed) Provide notice and remove validly reported intimate depictions (TAKE IT DOWN Act TAKE IT DOWN Act §3(a)-(b))
+- **2026-05-19** (passed) Provide notice and remove validly reported intimate depictions (TAKE IT DOWN Act §3(a)-(b))
 - **2026-05-19** (passed) TAKE IT DOWN Act: Deadline for covered platforms to establish the section 3 notice-and-removal process
-- **2026-06-01** (passed) Assess and oversee major DoD AI systems (FY2026 NDAA FY2026 NDAA §1533(a)-(d), (f)(3))
+- **2026-06-01** (passed) Assess and oversee major DoD AI systems (FY2026 NDAA §1533(a)-(d), (f)(3))
 - **2026-06-01** (passed) FY2026 NDAA: Deadline to establish the DoD cross-functional AI model assessment and oversight team under section 1533
 - **2026-06-16** (passed) FY2026 NDAA: 180-day deadline for the DoD policies and framework-related congressional updates in sections 1512 and 1513
 - **2026-09-29** (passed) EO 14434: Executive order signed; directs terminology changes in non-statutory executive-branch communications and documents
-- **2026-09-29** (passed) Use the prescribed term in future federal AI communications (EO 14434 EO 14434 §2(a)-(b))
+- **2026-09-29** (passed) Use the prescribed term in future federal AI communications (EO 14434 §2(a)-(b))
 - **2027-01-01** DoD must designate functional leads for AI applications under NDAA §1533
 - **2027-06-01** DoD must complete the AI assessment framework and governance structure under NDAA §1533
 - **2027-12-11** OMB M-26-04: M-26-04 sunsets unless OMB extends it

@@ -28,7 +28,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20240206
 DTEND;VALUE=DATE:20240207
 SUMMARY:[GB] Publish transparency records for in-scope central-government 
- tools (ATRS ATRS mandatory scope and exemptions policy)
+ tools (ATRS mandatory scope and exemptions policy)
 DESCRIPTION:Obligations: AGC-GB-ATRS-SCOPE. Source: https://www.gov.uk/gov
  ernment/publications/algorithmic-transparency-recording-standard-mandator
  y-scope-and-exemptions-policy/algorithmic-transparency-recording-standard
@@ -72,8 +72,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20250131
 DTEND;VALUE=DATE:20250201
 SUMMARY:[GB] Use the voluntary AI cyber-security baseline (AI Cyber Securi
- ty Code of Practice AI Cyber Security Code of Practice\, Principles 1–1
- 3)
+ ty Code of Practice\, Principles 1–13)
 DESCRIPTION:Obligations: AGC-GB-AICSCOP-BASELINE. Source: https://www.gov.
  uk/government/publications/ai-cyber-security-code-of-practice/code-of-pra
  ctice-for-the-cyber-security-of-ai. Draft open data from AI Governance Ch
@@ -152,7 +151,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20260205
 DTEND;VALUE=DATE:20260206
 SUMMARY:[GB] Give people safeguards for significant automated decisions (U
- K GDPR automated decision-making UK GDPR Art. 22C)
+ K GDPR Art. 22C)
 DESCRIPTION:Obligations: AGC-GB-UKGDPR-22C. Source: https://www.legislatio
  n.gov.uk/ukpga/2025/18/section/80. Draft open data from AI Governance Cha
  in. Not legal advice.
@@ -177,7 +176,7 @@ DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20260205
 DTEND;VALUE=DATE:20260206
 SUMMARY:[GB] Restrict significant automated decisions using special-catego
- ry data (UK GDPR automated decision-making UK GDPR Arts. 22A–22B)
+ ry data (UK GDPR Arts. 22A–22B)
 DESCRIPTION:Obligations: AGC-GB-UKGDPR-22B. Source: https://www.legislatio
  n.gov.uk/ukpga/2025/18/section/80. Draft open data from AI Governance Cha
  in. Not legal advice.

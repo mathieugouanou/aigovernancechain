@@ -2,6 +2,14 @@
 
 All notable changes. Atlas changes list the obligation ids affected. Dates are in ISO format.
 
+## [Unreleased]
+
+### Fixed
+- Citations no longer repeat the instrument name (for example "FTC Act §5(a)" instead of "FTC Act section 5 FTC Act §5(a)") in the CLI, calendar, cards, generated AI_GOVERNANCE.md tables, MCP results and the website. Compiled obligations now carry a `cite` field.
+
+### Changed
+- README links the scope finder at aigovernancechain.com.
+
 ## [0.1.0] - 2026-11-04
 
 First public release under the new open-source scope. The previous content of this repository (instrument library, storefront, PDFs) moved to [aigovernancechain-library](https://github.com/mathieugouanou/aigovernancechain-library).

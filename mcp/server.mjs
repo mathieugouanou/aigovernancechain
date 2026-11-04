@@ -8,7 +8,7 @@ import * as V from '../lib/vocab.mjs';
 
 const SUPPORTED_PROTOCOLS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
 const DISCLAIMER = 'Source: AI Governance Chain Obligation Atlas (open data, draft unless a regime says otherwise). Not legal advice. Cite the source_url for each obligation.';
-const slim = o => ({ id: o.id, jurisdiction: o.jurisdiction, instrument: o.instrument_short, article: o.article, title: o.title, plain: o.plain, status: o.status, applies_from: o.applies_from ?? null, applies_to: o.applies_to, controls: o.controls, penalty: o.penalty, source_url: o.source_url, confidence: o.confidence, review_status: o.review_status, as_of: o.as_of });
+const slim = o => ({ id: o.id, jurisdiction: o.jurisdiction, instrument: o.instrument_short, article: o.article, cite: o.cite, title: o.title, plain: o.plain, status: o.status, applies_from: o.applies_from ?? null, applies_to: o.applies_to, controls: o.controls, penalty: o.penalty, source_url: o.source_url, confidence: o.confidence, review_status: o.review_status, as_of: o.as_of });
 const strArr = d => ({ type: 'array', items: { type: 'string' }, description: d });
 
 export const TOOLS = [

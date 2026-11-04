@@ -66,7 +66,7 @@ As of 2026-11-04. Review: draft-unreviewed. Binding FADP and Data Protection Ord
 - Source: https://www.fedlex.admin.ch/eli/cc/2022/568/en
 
 ## AGC-CH-AICG-VOL: Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation
-- Rule: OFCOM AI Code of Conduct guide OFCOM Guide on an AI Code of Conduct, voluntary toolkit · status voluntary · applies from 2026-10-28 · confidence high
+- Rule: OFCOM Guide on an AI Code of Conduct, voluntary toolkit · status voluntary · applies from 2026-10-28 · confidence high
 - Who: roles provider, deployer, public-body; uses any-ai
 - What: OFCOM's toolkit helps associations and businesses create voluntary AI guidelines, with suggested texts on 10 topics and a process for developing and improving commitments. It is not legislation and creates no mandatory duty to adopt a code.
 - Controls: risk_management

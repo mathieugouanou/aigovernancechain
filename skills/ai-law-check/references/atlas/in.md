@@ -3,7 +3,7 @@
 As of 2026-11-04. Review: draft-unreviewed. Binding synthetic-media intermediary rules apply from 20 Feb 2026. DPDP institutional provisions began 13 Nov 2025; the Consent Manager phase starts 13 Nov 2026 and most substantive data duties start 13 May 2027. India AI Governance Guidelines remain voluntary.
 
 ## AGC-IN-AIGG-1: Use the voluntary India AI governance principles and practices
-- Rule: India AI Governance Guidelines India AI Governance Guidelines, Parts 1–4 · status voluntary · applies from 2025-11-05 · confidence high
+- Rule: India AI Governance Guidelines, Parts 1–4 · status voluntary · applies from 2025-11-05 · confidence high
 - Who: roles provider, deployer, developer, public-body; uses any-ai; conditions: Guidance for people and organisations developing or deploying AI in India; the recommendations are voluntary.
 - What: The Guidelines set out seven principles, recommendations across six governance pillars, an action plan and proposed institutional coordination and technical-support arrangements. They recommend that AI developers and deployers comply with existing Indian laws and voluntarily adopt measures such as risk mitigation, transparency, grievance redressal and responsible-AI practices; they do not create binding duties or a new horizontal AI law.
 - Controls: risk_management, impact_assessment, transparency_notice
@@ -59,7 +59,7 @@ As of 2026-11-04. Review: draft-unreviewed. Binding synthetic-media intermediary
 - Source: https://www.meity.gov.in/static/uploads/2024/06/2bf1f0e9f04e6fb4f8fef35e82c42aa5.pdf
 
 ## AGC-IN-DPR-13: Significant Data Fiduciaries must assess and audit data and algorithms
-- Rule: DPDP Rules DPDP Act section 10(2); DPDP Rules 13(1)–(4) · status not-yet-applicable · applies from 2027-05-13 · confidence high
+- Rule: DPDP Act section 10(2); DPDP Rules 13(1)–(4) · status not-yet-applicable · applies from 2027-05-13 · confidence high
 - Who: roles any; uses any-ai; conditions: Only a Data Fiduciary or class of Data Fiduciaries formally notified as significant under section 10 and processing digital personal data.
 - What: A notified Significant Data Fiduciary must appoint an India-based Data Protection Officer and an independent data auditor; Rule 13 requires a Data Protection Impact Assessment and audit at least every 12 months, with significant observations reported to the Board. It must also use due diligence to verify that its technical measures, including algorithmic software used for the listed personal-data operations, are not likely to risk Data Principals’ rights; any localisation condition applies only to personal data specified by the Central Government.
 - Controls: impact_assessment, privacy_compliance, risk_management
