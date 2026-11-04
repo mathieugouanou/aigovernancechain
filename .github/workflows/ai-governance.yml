@@ -1,0 +1,18 @@
+# This repository checks its own AI_GOVERNANCE.md with its own Action.
+name: AI governance
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  shield:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./action
+        with:
+          file: AI_GOVERNANCE.md
+          fail-on: fail
+          evidence: true

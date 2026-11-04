@@ -1,0 +1,38 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [20, 22, 24]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Validate the Obligation Atlas
+        run: node scripts/validate-atlas.mjs
+      - name: Generated files are up to date
+        run: node scripts/build.mjs --check
+      - name: Unit tests
+        run: node --test tests/*.test.mjs
+      - name: CLI smoke test
+        run: |
+          node cli/aigovchain.mjs scope -j EU,US-CA -r deployer -u chatbot,agent
+          node cli/aigovchain.mjs jail --fast
+          node cli/aigovchain.mjs check
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - run: python -m unittest discover -s sdk/python/tests -v
