@@ -1,0 +1,39 @@
+# One-time import of the v0.1.0 files from bootstrap.tar.gz.
+# It checks the archive hash, unpacks it, commits once and does nothing afterwards.
+# Safe to delete after the import commit appears.
+name: One-time import (v0.1.0)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/bootstrap.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Unpack the archive and commit
+        env:
+          EXPECTED_SHA256: 32fe169ec9b12690e5ffee234c4b48d089585e2a310933e582662361cd80317e
+          GIT_AUTHOR_NAME: Mathieu K. Gouanou
+          GIT_AUTHOR_EMAIL: 296217519+mathieugouanou@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          set -euo pipefail
+          if [ ! -f bootstrap.tar.gz ]; then echo "Nothing to import."; exit 0; fi
+          echo "${EXPECTED_SHA256}  bootstrap.tar.gz" | sha256sum -c -
+          tar -xzf bootstrap.tar.gz
+          rm bootstrap.tar.gz
+          git add -A
+          echo "$(git status --short | wc -l) files changed"
+          git commit -q -F - <<'MSG'
+          Clean up citations and link the website
+
+          Citations no longer repeat the instrument name (new `cite` field in the
+          compiled Atlas, used by the CLI, calendar, cards, MCP and website).
+          README links the scope finder at aigovernancechain.com.
+          MSG
+          git push origin HEAD:main
