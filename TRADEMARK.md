@@ -17,4 +17,8 @@
 
 Forks are welcome under the licences; please give a substantially modified fork its own name.
 
-Questions: open an issue or contact [@mathieugouanou](https://github.com/mathieugouanou). Marks related to the former instrument library are covered in [aigovernancechain-library](https://github.com/mathieugouanou/aigovernancechain-library).
+## Written licences
+
+Any other commercial use of the name or logo, for example in the name of a product, service, course or event, needs a written licence: contact@aigovernancechain.com. A licence covers the name and logo only. It never means the project certifies, endorses or approves anyone, and it does not change the open licences of the code, data or specification.
+
+Questions: open an issue, write to contact@aigovernancechain.com or contact [@mathieugouanou](https://github.com/mathieugouanou). Marks related to the former instrument library are covered in [aigovernancechain-library](https://github.com/mathieugouanou/aigovernancechain-library).
