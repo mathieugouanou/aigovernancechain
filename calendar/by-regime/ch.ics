@@ -200,12 +200,12 @@ URL:https://www.bakom.admin.ch/en/newnsb/s2TQiUUjrA5D
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:20261231-QXNzZXNzIHdoZXRoZXIgbG9n@aigovernancechain
+UID:20261231-RmVkZXJhbCBib2RpZXMgYXNz@aigovernancechain
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-SUMMARY:[CH] Assess whether logging is needed for eligible legacy automate
- d processing under DPO Art. 46(1)
+SUMMARY:[CH] Federal bodies assess whether logging is needed for eligible 
+ legacy automated processing under DPO Art. 46(1)
 DESCRIPTION:Obligations: AGC-CH-DPO-46-1. Source: https://www.fedlex.admin
  .ch/eli/cc/2022/568/en. Draft open data from AI Governance Chain. Not leg
  al advice.
@@ -213,12 +213,12 @@ URL:https://www.fedlex.admin.ch/eli/cc/2022/568/en
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:20291231-SW1wbGVtZW50IGxvZ2dpbmcg@aigovernancechain
+UID:20291231-RmVkZXJhbCBib2RpZXMgaW1w@aigovernancechain
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20291231
 DTEND;VALUE=DATE:20300101
-SUMMARY:[CH] Implement logging for eligible legacy processing if the Art. 
- 46(1) assessment finds it necessary
+SUMMARY:[CH] Federal bodies implement logging for eligible legacy processi
+ ng if the Art. 46(1) assessment finds it necessary
 DESCRIPTION:Obligations: AGC-CH-DPO-46-1. Source: https://www.fedlex.admin
  .ch/eli/cc/2022/568/en. Draft open data from AI Governance Chain. Not leg
  al advice.
