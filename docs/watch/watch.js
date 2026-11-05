@@ -49,7 +49,7 @@
       const published = new Date(Date.parse(v.publishAt || ep.publishAt)).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Zurich' });
       status.innerHTML = '';
       const a = document.createElement('strong');
-      a.textContent = `Premiered on YouTube, ${published}`;
+      a.textContent = `${ep.liveLabel || 'Premiered on YouTube'}, ${published}`;
       const link = document.createElement('a');
       link.href = `https://www.youtube.com/watch?v=${id}`;
       link.rel = 'noopener';
