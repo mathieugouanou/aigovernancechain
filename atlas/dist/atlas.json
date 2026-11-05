@@ -3243,19 +3243,16 @@
       "id": "AGC-CH-DPO-46-1",
       "instrument": "ch-dpo",
       "article": "Art. 46(1)",
-      "title": "Assess logging needs for legacy automated processing by the transition deadline",
-      "plain": "For automated personal-data processing planned or started before 1 December 2025, the controller must assess the need for logging by 31 December 2026; if logging is needed, it must be implemented by 31 December 2029. This transition does not cover automated processing of sensitive personal data, profiling, or processing within the law-enforcement data-protection directive.",
+      "title": "Federal bodies: assess logging needs for legacy automated processing by the transition deadline",
+      "plain": "Federal bodies and their processors must assess in writing, by 31 December 2026, whether automated personal-data processing planned or started before 1 December 2025 needs logging (the Art. 4(2) assessment); if logging is needed, it must be implemented by 31 December 2029. This transition does not cover automated processing of sensitive personal data, profiling, or processing within the law-enforcement data-protection directive, which must be logged without it. Private controllers are not covered; their logging duty is in Art. 4(1).",
       "applies_to": {
         "roles": [
-          "provider",
-          "deployer",
-          "public-body",
-          "any"
+          "public-body"
         ],
         "uses": [
           "any-ai"
         ],
-        "conditions": "Only legacy automated processing begun or planned before the 29 October 2025 amendment; excluded categories remain subject to Art. 4 without this transition."
+        "conditions": "Federal bodies and their processors only (Art. 4(2) and 2bis). Only legacy automated processing begun or planned before the 29 October 2025 amendment came into force on 1 December 2025; excluded categories remain subject to Art. 4(2) without this transition."
       },
       "applies_from": "2026-12-31",
       "status": "not-yet-applicable",
@@ -3270,7 +3267,7 @@
       ],
       "source_url": "https://www.fedlex.admin.ch/eli/cc/2022/568/en",
       "confidence": "high",
-      "notes": "Art. 46(1) sets two separate deadlines; the second applies only if the logging assessment finds logging necessary.",
+      "notes": "Art. 46(1) sets two separate deadlines; the second applies only if the logging assessment finds logging necessary. It refers to the Art. 4(2) assessment, which binds federal bodies and their processors, so it does not apply to private controllers (corrected 5 November 2026; earlier versions tagged all roles).",
       "regime": "ch",
       "jurisdiction": "CH",
       "instrument_short": "Data Protection Ordinance",
@@ -13304,7 +13301,7 @@
     },
     {
       "date": "2026-12-31",
-      "title": "Assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1)",
+      "title": "Federal bodies assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1)",
       "jurisdiction": "CH",
       "regime": "ch",
       "instrument": "ch-dpo",
@@ -13732,7 +13729,7 @@
     },
     {
       "date": "2029-12-31",
-      "title": "Implement logging for eligible legacy processing if the Art. 46(1) assessment finds it necessary",
+      "title": "Federal bodies implement logging for eligible legacy processing if the Art. 46(1) assessment finds it necessary",
       "jurisdiction": "CH",
       "regime": "ch",
       "instrument": "ch-dpo",
