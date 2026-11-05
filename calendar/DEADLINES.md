@@ -14,7 +14,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-12-02 | EU | Bans on AI-generated non-consensual intimate content and CSAM apply ([source](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113)) | `AGC-EU-AIA-5-1-BA` |
 | 2026-12-02 | EU | Mark outputs of generative systems placed on the market before 2 Aug 2026 ([source](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111)) | `AGC-EU-AIA-50-2` |
 | 2026-12-30 | US-NY | First annual State AI inventory and State-agency AEDT list publication ([source](https://www.nysenate.gov/legislation/laws/STT/103-E)) | `AGC-US-NY-LOAD-103E` `AGC-US-NY-LOAD-402` |
-| 2026-12-31 | CH | Assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1) ([source](https://www.fedlex.admin.ch/eli/cc/2022/568/en)) | `AGC-CH-DPO-46-1` |
+| 2026-12-31 | CH | Federal bodies assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1) ([source](https://www.fedlex.admin.ch/eli/cc/2022/568/en)) | `AGC-CH-DPO-46-1` |
 | 2026-12-31 | GB | Secretary of State progress report on regulations under Online Safety Act section 216A, unless a draft instrument is laid earlier ([source](https://www.legislation.gov.uk/ukpga/2026/20/section/249)) |  |
 | 2026-12-31 | US-IL | Annual AIVIA demographic report due for the 12-month period ending November 30 ([source](https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True)) | `AGC-US-IL-AIVIA-42-20` |
 | 2027-01-01 | US | DoD must designate functional leads for AI applications under NDAA §1533 ([source](https://www.govinfo.gov/content/pkg/PLAW-119publ60/html/PLAW-119publ60.htm)) | `AGC-US-NDAA11960-1533` |
@@ -376,7 +376,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-12-02 | EU | Bans on AI-generated non-consensual intimate content and CSAM apply |
 | 2026-12-02 | EU | Mark outputs of generative systems placed on the market before 2 Aug 2026 |
 | 2026-12-30 | US-NY | First annual State AI inventory and State-agency AEDT list publication |
-| 2026-12-31 | CH | Assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1) |
+| 2026-12-31 | CH | Federal bodies assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1) |
 | 2026-12-31 | GB | Secretary of State progress report on regulations under Online Safety Act section 216A, unless a draft instrument is laid earlier |
 | 2026-12-31 | US-IL | Annual AIVIA demographic report due for the 12-month period ending November 30 |
 
@@ -430,7 +430,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | Date | Where | What |
 |---|---|---|
 | 2029-01-01 | US-CA | Initial child-safety audit deadline for covered operators |
-| 2029-12-31 | CH | Implement logging for eligible legacy processing if the Art. 46(1) assessment finds it necessary |
+| 2029-12-31 | CH | Federal bodies implement logging for eligible legacy processing if the Art. 46(1) assessment finds it necessary |
 
 </details>
 
