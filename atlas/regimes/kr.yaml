@@ -253,10 +253,10 @@ deadlines:
     obligations: [AGC-KR-AIBA-31-1, AGC-KR-AIBA-31-2, AGC-KR-AIBA-31-3, AGC-KR-AIBA-32, AGC-KR-AIBA-34, AGC-KR-AIBAD-27-1-2, AGC-KR-AIBA-36-1]
     source: https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214
 sources:
-  - { title: Current consolidated AI Basic Act (Korean; Act No. 21311 version), url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282791 }
-  - { title: Official English translation of AI Basic Act (translation is non-authoritative and may not reflect later amendments), url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543 }
-  - { title: Current consolidated AI Basic Act Enforcement Decree (Korean), url: https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781 }
-  - { title: Official English Enforcement Decree translation, url: https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=282879 }
-  - { title: MSIT announcement on entry into force, implementing decree, and enforcement grace period, url: https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214 }
-  - { title: MSIT Guidelines on Ensuring AI Transparency, url: https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1215 }
-  - { title: Official October 2026 Cabinet announcement for further AI Basic Act amendment (proposal not yet enacted at cutoff), url: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784979 }
+  - { title: Current consolidated AI Basic Act (Korean; Act No. 21311 version), url: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=282791" }
+  - { title: Official English translation of AI Basic Act (translation is non-authoritative and may not reflect later amendments), url: "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=268543" }
+  - { title: Current consolidated AI Basic Act Enforcement Decree (Korean), url: "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288781" }
+  - { title: Official English Enforcement Decree translation, url: "https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=282879" }
+  - { title: MSIT announcement on entry into force, implementing decree, and enforcement grace period, url: "https://www.msit.go.kr/eng/bbs/view.do?sCode=eng&mPid=2&mId=4&bbsSeqNo=42&nttSeqNo=1214" }
+  - { title: MSIT Guidelines on Ensuring AI Transparency, url: "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1215" }
+  - { title: Official October 2026 Cabinet announcement for further AI Basic Act amendment (proposal not yet enacted at cutoff), url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784979" }

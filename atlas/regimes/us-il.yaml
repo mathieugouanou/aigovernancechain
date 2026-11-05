@@ -21,8 +21,8 @@ instruments:
     official_url: https://www.ilga.gov/Legislation/PublicActs/View/103-0804
     penalties: Enforced through the Illinois Human Rights Act's civil-rights charge and remedy framework.
     key_dates:
-      - { date: "2024-08-09", event: Public Act 103-0804 approved, source: https://www.ilga.gov/Legislation/PublicActs/View/103-0804 }
-      - { date: "2026-01-01", event: AI employment provisions effective, source: https://www.ilga.gov/Legislation/PublicActs/View/103-0804 }
+      - { date: "2024-08-09", event: Public Act 103-0804 approved, source: "https://www.ilga.gov/Legislation/PublicActs/View/103-0804" }
+      - { date: "2026-01-01", event: AI employment provisions effective, source: "https://www.ilga.gov/Legislation/PublicActs/View/103-0804" }
       - { date: "2026-06-26", event: IDHR proposed AI-employment rule amendments were officially withdrawn, source: "https://ilga.gov/documents/commission/jcar/flinn/20260626_June%2026,%202026%20-%20Issue%2026.pdf" }
   - id: il-aivia
     code: AIVIA
@@ -34,8 +34,8 @@ instruments:
     official_url: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True
     penalties: The Act provides for enforcement under its statutory provisions; no separate fixed AI-specific civil-penalty amount is encoded here.
     key_dates:
-      - { date: "2020-01-01", event: Core notice, explanation, consent, sharing, and deletion duties effective, source: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True }
-      - { date: "2022-01-01", event: Narrow demographic-reporting requirement effective, source: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True }
+      - { date: "2020-01-01", event: Core notice, explanation, consent, sharing, and deletion duties effective, source: "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True" }
+      - { date: "2022-01-01", event: Narrow demographic-reporting requirement effective, source: "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True" }
   - id: il-worp
     code: WORP
     title: Wellness and Oversight for Psychological Resources Act, 225 ILCS 155
@@ -46,7 +46,7 @@ instruments:
     official_url: https://www.ilga.gov/Legislation/ILCS/details?ActID=4608&ChapAct=FullText
     penalties: A violation may incur a civil penalty up to $10,000 per violation, determined after a Department hearing based on harm and circumstances; payment is due within 60 days of the order.
     key_dates:
-      - { date: "2025-08-01", event: Public Act 104-0054 effective, source: https://www.ilga.gov/Legislation/PublicActs/View/104-0054 }
+      - { date: "2025-08-01", event: Public Act 104-0054 effective, source: "https://www.ilga.gov/Legislation/PublicActs/View/104-0054" }
   - id: il-bipa
     code: BIPA
     title: Biometric Information Privacy Act, 740 ILCS 14, including amendments in Public Act 103-769
@@ -57,8 +57,8 @@ instruments:
     official_url: https://www.ilga.gov/documents/legislation/ilcs/documents/074000140K15.htm
     penalties: A person aggrieved may sue for statutory damages of $1,000 for each negligent violation or $5,000 for each intentional or reckless violation, or actual damages if greater, plus fees and costs; the 2024 amendment limits repeated collection/disclosure recoveries as specified in §20.
     key_dates:
-      - { date: "2008-10-03", event: Original BIPA effective, source: https://www.ilga.gov/documents/legislation/ilcs/documents/074000140K15.htm }
-      - { date: "2024-08-02", event: Public Act 103-769 amendments to written release and repeated-collection recoveries effective, source: https://www.ilga.gov/Legislation/ILCS/Details?ActID=3004 }
+      - { date: "2008-10-03", event: Original BIPA effective, source: "https://www.ilga.gov/documents/legislation/ilcs/documents/074000140K15.htm" }
+      - { date: "2024-08-02", event: Public Act 103-769 amendments to written release and repeated-collection recoveries effective, source: "https://www.ilga.gov/Legislation/ILCS/Details?ActID=3004" }
   - id: il-frontier-ai
     code: AIMSA
     title: Artificial Intelligence Safety Measures Act, Public Act 104-0538 (SB 315)
@@ -69,9 +69,9 @@ instruments:
     official_url: https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm
     penalties: Large-frontier-developer civil penalties may reach $1 million for a first violation and $3 million for a later violation; separate $1,000-per-day and unpaid-assessment penalties apply to specified disclosure failures.
     key_dates:
-      - { date: "2026-07-06", event: Public Act 104-0538 approved, source: https://witnessslips.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB0315.html }
-      - { date: "2027-01-01", event: Act effective; frontier transparency, critical-incident reporting, registration, internal-use reporting, and whistleblower provisions begin, source: https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm }
-      - { date: "2028-01-01", event: Large-frontier-developer framework and annual independent-audit phase-in begins, source: https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm }
+      - { date: "2026-07-06", event: Public Act 104-0538 approved, source: "https://witnessslips.ilga.gov/ftp/legislation/104/BillStatus/HTML/10400SB0315.html" }
+      - { date: "2027-01-01", event: Act effective; frontier transparency, critical-incident reporting, registration, internal-use reporting, and whistleblower provisions begin, source: "https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm" }
+      - { date: "2028-01-01", event: Large-frontier-developer framework and annual independent-audit phase-in begins, source: "https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm" }
 obligations:
   - id: AGC-US-IL-IHRA-2-102-L1
     instrument: il-ihra-ai
@@ -317,13 +317,13 @@ obligations:
     confidence: high
     notes: The Section 20 duties are effective on the Act's general January 1, 2027 date; do not treat the separately enacted IDHR employment rule proposal as operative.
 deadlines:
-  - { date: "2026-12-31", title: "Annual AIVIA demographic report due for the 12-month period ending November 30", instrument: il-aivia, obligations: [AGC-US-IL-AIVIA-42-20], source: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True }
-  - { date: "2027-01-01", title: "Artificial Intelligence Safety Measures Act takes effect", instrument: il-frontier-ai, obligations: [AGC-US-IL-AIMSA-10-C, AGC-US-IL-AIMSA-10-E, AGC-US-IL-AIMSA-15-C, AGC-US-IL-AIMSA-18, AGC-US-IL-AIMSA-20], source: https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm }
-  - { date: "2028-01-01", title: "Large-frontier-developer framework and annual independent-audit phase-in begins", instrument: il-frontier-ai, obligations: [AGC-US-IL-AIMSA-10-AB-D], source: https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm }
+  - { date: "2026-12-31", title: "Annual AIVIA demographic report due for the 12-month period ending November 30", instrument: il-aivia, obligations: [AGC-US-IL-AIVIA-42-20], source: "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True" }
+  - { date: "2027-01-01", title: "Artificial Intelligence Safety Measures Act takes effect", instrument: il-frontier-ai, obligations: [AGC-US-IL-AIMSA-10-C, AGC-US-IL-AIMSA-10-E, AGC-US-IL-AIMSA-15-C, AGC-US-IL-AIMSA-18, AGC-US-IL-AIMSA-20], source: "https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm" }
+  - { date: "2028-01-01", title: "Large-frontier-developer framework and annual independent-audit phase-in begins", instrument: il-frontier-ai, obligations: [AGC-US-IL-AIMSA-10-AB-D], source: "https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm" }
 sources:
-  - { title: "Illinois Public Act 103-0804 (HB 3773), IHRA AI employment amendment", url: https://www.ilga.gov/Legislation/PublicActs/View/103-0804 }
-  - { title: "Illinois Artificial Intelligence Video Interview Act, 820 ILCS 42", url: https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True }
-  - { title: "Illinois Public Act 104-0054 (WORP Act)", url: https://www.ilga.gov/Legislation/PublicActs/View/104-0054 }
-  - { title: "Illinois BIPA §15 and compiled statute notes", url: https://www.ilga.gov/documents/legislation/ilcs/documents/074000140K15.htm }
-  - { title: "Illinois Public Act 104-0538, Artificial Intelligence Safety Measures Act", url: https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm }
+  - { title: "Illinois Public Act 103-0804 (HB 3773), IHRA AI employment amendment", url: "https://www.ilga.gov/Legislation/PublicActs/View/103-0804" }
+  - { title: "Illinois Artificial Intelligence Video Interview Act, 820 ILCS 42", url: "https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True" }
+  - { title: "Illinois Public Act 104-0054 (WORP Act)", url: "https://www.ilga.gov/Legislation/PublicActs/View/104-0054" }
+  - { title: "Illinois BIPA §15 and compiled statute notes", url: "https://www.ilga.gov/documents/legislation/ilcs/documents/074000140K15.htm" }
+  - { title: "Illinois Public Act 104-0538, Artificial Intelligence Safety Measures Act", url: "https://www.ilga.gov/ftp/Public%20Acts/104/104-0538.htm" }
   - { title: "JCAR Flinn Report recording withdrawal of IDHR proposed AI-employment rules", url: "https://ilga.gov/documents/commission/jcar/flinn/20260626_June%2026,%202026%20-%20Issue%2026.pdf" }

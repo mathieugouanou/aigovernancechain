@@ -21,8 +21,8 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53
     penalties: Civil penalties may reach $1,000,000 per violation for specified violations by a large frontier developer; the Act also provides other enforcement remedies.
     key_dates:
-      - { date: "2026-01-01", event: SB 53's core frontier-developer duties became operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53 }
-      - { date: "2027-01-01", event: California's technology department begins the statutory review of frontier-model thresholds and OES begins annual public reporting, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53 }
+      - { date: "2026-01-01", event: SB 53's core frontier-developer duties became operative, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53" }
+      - { date: "2027-01-01", event: California's technology department begins the statutory review of frontier-model thresholds and OES begins annual public reporting, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53" }
   - id: us-ca-cata
     code: CATA
     title: California AI Transparency Act (SB 942), as amended by AB 853, SB 1000 and AB 2713, Business and Professions Code §§ 22757.1–22757.5
@@ -33,11 +33,11 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000
     penalties: Generally $5,000 per violation, with each day treated as a separate violation; specified false claims of assistive-technology exemption carry a $50,000-per-violation penalty until 2029-01-01.
     key_dates:
-      - { date: "2026-08-02", event: CATA's provider tool and latent-disclosure requirements became operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
-      - { date: "2026-09-30", event: SB 1000 immediately amended CATA, including removing the former monthly-user threshold and manifest-disclosure option, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000 }
-      - { date: "2027-01-01", event: GenAI hosting-platform and large-online-platform duties begin, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
-      - { date: "2028-01-01", event: Capture-device provenance duties begin, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
-      - { date: "2029-01-01", event: Temporary assistive-technology exemption ends, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000 }
+      - { date: "2026-08-02", event: CATA's provider tool and latent-disclosure requirements became operative, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853" }
+      - { date: "2026-09-30", event: SB 1000 immediately amended CATA, including removing the former monthly-user threshold and manifest-disclosure option, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000" }
+      - { date: "2027-01-01", event: GenAI hosting-platform and large-online-platform duties begin, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853" }
+      - { date: "2028-01-01", event: Capture-device provenance duties begin, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853" }
+      - { date: "2029-01-01", event: Temporary assistive-technology exemption ends, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000" }
   - id: us-ca-ab2013
     code: AB2013
     title: Generative artificial intelligence training-data transparency, Civil Code § 3111
@@ -48,7 +48,7 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111.
     penalties: No standalone dollar penalty is specified in § 3111; other applicable enforcement may apply.
     key_dates:
-      - { date: "2026-01-01", event: Initial public training-data documentation deadline, source: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111. }
+      - { date: "2026-01-01", event: Initial public training-data documentation deadline, source: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111." }
   - id: us-ca-sb243
     code: SB243
     title: Companion chatbots, Business and Professions Code §§ 22601–22606, as amended by SB 1119
@@ -59,8 +59,8 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243
     penalties: Civil penalties and other remedies are available under the Act; penalties vary with the violation and conduct.
     key_dates:
-      - { date: "2026-01-01", event: Companion-chatbot disclosure, crisis-protocol and minor-specific duties became operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
-      - { date: "2027-07-01", event: Annual reporting under § 22603 begins for the preceding calendar year, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
+      - { date: "2026-01-01", event: Companion-chatbot disclosure, crisis-protocol and minor-specific duties became operative, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243" }
+      - { date: "2027-07-01", event: Annual reporting under § 22603 begins for the preceding calendar year, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243" }
   - id: us-ca-sb1119
     code: SB1119
     title: Adam's Law / child-safety requirements for AI chatbots, Business and Professions Code §§ 21810–21819 and amendments to § 22602
@@ -71,10 +71,10 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119
     penalties: Civil penalties may be imposed per affected child for negligent or intentional violations; the statute also provides enforcement remedies.
     key_dates:
-      - { date: "2027-01-01", event: Age-assurance requirements begin and SB 1119's amendment removing SB 243 § 22602(c) takes effect, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
-      - { date: "2027-01-01", event: AB 1405's ordinary effective date triggers SB 1119's alternate § 21814 audit text, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405 }
-      - { date: "2027-07-01", event: Child-safety risk assessments, mitigation and policies under §§ 21812–21813 become operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
-      - { date: "2029-01-01", event: Initial independent child-safety audit deadline for operators subject to § 21814, subject to the statute's first-release and small-operator rules, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+      - { date: "2027-01-01", event: Age-assurance requirements begin and SB 1119's amendment removing SB 243 § 22602(c) takes effect, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
+      - { date: "2027-01-01", event: AB 1405's ordinary effective date triggers SB 1119's alternate § 21814 audit text, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405" }
+      - { date: "2027-07-01", event: Child-safety risk assessments, mitigation and policies under §§ 21812–21813 become operative, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
+      - { date: "2029-01-01", event: Initial independent child-safety audit deadline for operators subject to § 21814, subject to the statute's first-release and small-operator rules, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
   - id: us-ca-bot-act
     code: BOT
     title: BOT Act, Business and Professions Code §§ 17940–17943
@@ -85,7 +85,7 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941.
     penalties: Civil penalties may be sought by the Attorney General or local prosecutors under the Act.
     key_dates:
-      - { date: "2019-07-01", event: BOT Act disclosure provisions became operative, source: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941. }
+      - { date: "2019-07-01", event: BOT Act disclosure provisions became operative, source: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941." }
   - id: us-ca-cppa-admt
     code: CPPA
     title: CCPA regulations on risk assessments and automated decisionmaking technology, 11 CCR §§ 7000–7222
@@ -96,10 +96,10 @@ instruments:
     official_url: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf
     penalties: CCPA administrative fines and statutory remedies may apply; amounts depend on the violation and circumstances.
     key_dates:
-      - { date: "2026-01-01", event: Risk-assessment regulations apply, source: https://cppa.ca.gov/announcements/2025/20250923.html }
-      - { date: "2027-01-01", event: Covered ADMT consumer-rights provisions become applicable, source: https://cppa.ca.gov/announcements/2025/20250923.html }
-      - { date: "2027-12-31", event: Last date to complete risk assessments for certain covered processing already underway before 2026 and continuing thereafter, source: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
-      - { date: "2028-04-01", event: First risk-assessment information submission and attestation deadline for 2026–2027 assessments, source: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
+      - { date: "2026-01-01", event: Risk-assessment regulations apply, source: "https://cppa.ca.gov/announcements/2025/20250923.html" }
+      - { date: "2027-01-01", event: Covered ADMT consumer-rights provisions become applicable, source: "https://cppa.ca.gov/announcements/2025/20250923.html" }
+      - { date: "2027-12-31", event: Last date to complete risk assessments for certain covered processing already underway before 2026 and continuing thereafter, source: "https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf" }
+      - { date: "2028-04-01", event: First risk-assessment information submission and attestation deadline for 2026–2027 assessments, source: "https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf" }
   - id: us-ca-crc-ads
     code: CRCADS
     title: Civil Rights Council employment discrimination regulations for automated-decision systems, 2 CCR §§ 11008.1, 11009(f), 11013(c)
@@ -110,7 +110,7 @@ instruments:
     official_url: https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/06/Final-Text-regulations-automated-employment-decision-systems.pdf
     penalties: Enforced through the Fair Employment and Housing Act; remedies depend on the case.
     key_dates:
-      - { date: "2025-10-01", event: Employment ADS regulations took effect, source: https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/ }
+      - { date: "2025-10-01", event: Employment ADS regulations took effect, source: "https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/" }
   - id: us-ca-sb947
     code: SB947
     title: Workplace automated decision systems, Labor Code §§ 1522, 1524 and 1526.7
@@ -121,7 +121,7 @@ instruments:
     official_url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947
     penalties: $500 per violation, with additional statutory enforcement and remedies.
     key_dates:
-      - { date: "2027-07-01", event: SB 947 workplace ADS prohibitions, notice and corroboration duties become operative, source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947 }
+      - { date: "2027-07-01", event: SB 947 workplace ADS prohibitions, notice and corroboration duties become operative, source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947" }
 obligations:
   - id: AGC-US-CA-SB53-22757-12-A
     instrument: us-ca-sb53
@@ -409,27 +409,27 @@ obligations:
     confidence: high
     notes: These duties are enacted but not operative on the 2026-11-04 as-of date.
 deadlines:
-  - { date: "2027-01-01", title: CATA large-online-platform and GenAI-hosting duties begin, instrument: us-ca-cata, obligations: [AGC-US-CA-CATA-22757-3-1-3-2], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
-  - { date: "2027-01-01", title: CCPA covered ADMT notice, opt-out and access rights begin, instrument: us-ca-cppa-admt, obligations: [AGC-US-CA-CCPA-7200-7222], source: https://cppa.ca.gov/announcements/2025/20250923.html }
-  - { date: "2027-01-01", title: SB 1119 age-assurance requirements begin and SB 243 § 22602(c) minor-specific requirements are repealed, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13, AGC-US-CA-SB243-22602], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
-  - { date: "2027-07-01", title: SB 1119 child-safety risk assessment and mitigation requirements begin, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
-  - { date: "2027-07-01", title: First SB 243 annual companion-chatbot safety report is due, instrument: us-ca-sb243, obligations: [AGC-US-CA-SB243-22603], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
-  - { date: "2027-07-01", title: SB 947 workplace ADS duties become operative, instrument: us-ca-sb947, obligations: [AGC-US-CA-SB947-1522-1524], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947 }
-  - { date: "2028-01-01", title: CATA capture-device provenance duties begin, instrument: us-ca-cata, obligations: [AGC-US-CA-CATA-22757-3-3], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
-  - { date: "2028-04-01", title: First CPPA submission and attestation for 2026–2027 risk assessments, instrument: us-ca-cppa-admt, obligations: [AGC-US-CA-CCPA-7150], source: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
-  - { date: "2029-01-01", title: Initial child-safety audit deadline for covered operators, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13], source: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
+  - { date: "2027-01-01", title: CATA large-online-platform and GenAI-hosting duties begin, instrument: us-ca-cata, obligations: [AGC-US-CA-CATA-22757-3-1-3-2], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853" }
+  - { date: "2027-01-01", title: CCPA covered ADMT notice, opt-out and access rights begin, instrument: us-ca-cppa-admt, obligations: [AGC-US-CA-CCPA-7200-7222], source: "https://cppa.ca.gov/announcements/2025/20250923.html" }
+  - { date: "2027-01-01", title: SB 1119 age-assurance requirements begin and SB 243 § 22602(c) minor-specific requirements are repealed, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13, AGC-US-CA-SB243-22602], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
+  - { date: "2027-07-01", title: SB 1119 child-safety risk assessment and mitigation requirements begin, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
+  - { date: "2027-07-01", title: First SB 243 annual companion-chatbot safety report is due, instrument: us-ca-sb243, obligations: [AGC-US-CA-SB243-22603], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243" }
+  - { date: "2027-07-01", title: SB 947 workplace ADS duties become operative, instrument: us-ca-sb947, obligations: [AGC-US-CA-SB947-1522-1524], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947" }
+  - { date: "2028-01-01", title: CATA capture-device provenance duties begin, instrument: us-ca-cata, obligations: [AGC-US-CA-CATA-22757-3-3], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853" }
+  - { date: "2028-04-01", title: First CPPA submission and attestation for 2026–2027 risk assessments, instrument: us-ca-cppa-admt, obligations: [AGC-US-CA-CCPA-7150], source: "https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf" }
+  - { date: "2029-01-01", title: Initial child-safety audit deadline for covered operators, instrument: us-ca-sb1119, obligations: [AGC-US-CA-SB1119-21811-13], source: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
 sources:
-  - { title: SB 53, Transparency in Frontier Artificial Intelligence Act, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53 }
-  - { title: AB 853, CATA implementation and later platform/capture-device phase-ins, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853 }
-  - { title: SB 1000, amendments to California AI Transparency Act, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000 }
-  - { title: AB 2713, platform provenance amendments, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2713 }
-  - { title: Civil Code § 3111, generative-AI training-data documentation, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111. }
-  - { title: SB 243, companion chatbot requirements, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243 }
-  - { title: SB 1119, Adam's Law and amendments to SB 243, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119 }
-  - { title: Business and Professions Code § 17941, BOT Act disclosure rule, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941. }
-  - { title: CCPA updates, cybersecurity audits and ADMT adopted text, California Privacy Protection Agency, url: https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf }
-  - { title: CPPA implementation timeline, California Privacy Protection Agency, url: https://cppa.ca.gov/announcements/2025/20250923.html }
-  - { title: Final employment ADS regulations, California Civil Rights Department, url: https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/06/Final-Text-regulations-automated-employment-decision-systems.pdf }
-  - { title: Employment ADS regulation effective-date announcement, California Civil Rights Department, url: https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/ }
-  - { title: SB 947, workplace automated decision systems, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947 }
-  - { title: AB 1405, California AI auditor registration and related provisions, California Legislative Information, url: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405 }
+  - { title: SB 53, Transparency in Frontier Artificial Intelligence Act, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53" }
+  - { title: AB 853, CATA implementation and later platform/capture-device phase-ins, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB853" }
+  - { title: SB 1000, amendments to California AI Transparency Act, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1000" }
+  - { title: AB 2713, platform provenance amendments, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB2713" }
+  - { title: Civil Code § 3111, generative-AI training-data documentation, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=3111." }
+  - { title: SB 243, companion chatbot requirements, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB243" }
+  - { title: SB 1119, Adam's Law and amendments to SB 243, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB1119" }
+  - { title: Business and Professions Code § 17941, BOT Act disclosure rule, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17941." }
+  - { title: CCPA updates, cybersecurity audits and ADMT adopted text, California Privacy Protection Agency, url: "https://cppa.ca.gov/regulations/pdf/ccpa_updates_cyber_risk_admt_appr_text.pdf" }
+  - { title: CPPA implementation timeline, California Privacy Protection Agency, url: "https://cppa.ca.gov/announcements/2025/20250923.html" }
+  - { title: Final employment ADS regulations, California Civil Rights Department, url: "https://calcivilrights.ca.gov/wp-content/uploads/sites/32/2025/06/Final-Text-regulations-automated-employment-decision-systems.pdf" }
+  - { title: Employment ADS regulation effective-date announcement, California Civil Rights Department, url: "https://calcivilrights.ca.gov/2025/06/30/civil-rights-council-secures-approval-for-regulations-to-protect-against-employment-discrimination-related-to-artificial-intelligence/" }
+  - { title: SB 947, workplace automated decision systems, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB947" }
+  - { title: AB 1405, California AI auditor registration and related provisions, California Legislative Information, url: "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1405" }

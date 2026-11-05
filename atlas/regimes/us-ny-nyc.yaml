@@ -21,9 +21,9 @@ instruments:
     official_url: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524
     penalties: $500 for a first violation and $500 to $1,500 for each subsequent violation; each day of use may be a separate violation.
     key_dates:
-      - { date: "2021-12-11", event: Local Law 144 enacted, source: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524 }
-      - { date: "2023-01-01", event: Local Law 144 took effect, source: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524 }
-      - { date: "2023-07-05", event: DCWP's adopted AEDT rule became effective and enforcement began, source: https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/ }
+      - { date: "2021-12-11", event: Local Law 144 enacted, source: "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524" }
+      - { date: "2023-01-01", event: Local Law 144 took effect, source: "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524" }
+      - { date: "2023-07-05", event: DCWP's adopted AEDT rule became effective and enforcement began, source: "https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/" }
 obligations:
   - id: AGC-US-NY-NYC-LL144-20-871-A1
     instrument: nyc-ll144
@@ -128,8 +128,8 @@ obligations:
     source_url: https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/
     confidence: high
 sources:
-  - { title: "NYC Council record and enacted Local Law 144 of 2021", url: https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524 }
-  - { title: "NYC DCWP AEDT Frequently Asked Questions", url: https://home4.nyc.gov/site/dca/businesses/faq-automated-employment-decision-tools.page }
-  - { title: "DCWP adopted AEDT rule record", url: https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/ }
-  - { title: "DCWP AEDT overview and enforcement date", url: https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page }
-  - { title: "DCWP New Laws & Rules page, checked for 2025-2026 AEDT amendments", url: https://www.nyc.gov/site/dca/about/new-laws-rules.page }
+  - { title: "NYC Council record and enacted Local Law 144 of 2021", url: "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=B051915D-A9AC-451E-81F8-6596032FA3F9&ID=4344524" }
+  - { title: "NYC DCWP AEDT Frequently Asked Questions", url: "https://home4.nyc.gov/site/dca/businesses/faq-automated-employment-decision-tools.page" }
+  - { title: "DCWP adopted AEDT rule record", url: "https://rules.cityofnewyork.us/rule/automated-employment-decision-tools-updated/" }
+  - { title: "DCWP AEDT overview and enforcement date", url: "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page" }
+  - { title: "DCWP New Laws & Rules page, checked for 2025-2026 AEDT amendments", url: "https://www.nyc.gov/site/dca/about/new-laws-rules.page" }
