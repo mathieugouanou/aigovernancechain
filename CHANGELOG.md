@@ -5,6 +5,7 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 ## [Unreleased]
 
 ### Fixed
+- Atlas: `AGC-CH-DPO-46-1` (Swiss Data Protection Ordinance Art. 46(1), logging assessment by 31 December 2026) now applies to federal bodies and their processors only (role `public-body`). Art. 46(1) refers to the Art. 4(2) assessment, which binds federal bodies; private controllers fall under Art. 4(1). It was tagged for every role, so `scope` and `check` showed it, with a 180-day warning, to private deployers. The two calendar events now start with "Federal bodies" (their calendar UIDs change).
 - Citations no longer repeat the instrument name (for example "FTC Act §5(a)" instead of "FTC Act section 5 FTC Act §5(a)") in the CLI, calendar, cards, generated AI_GOVERNANCE.md tables, MCP results and the website. Compiled obligations now carry a `cite` field.
 
 ### Changed
