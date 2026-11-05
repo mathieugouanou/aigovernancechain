@@ -58,10 +58,10 @@ As of 2026-11-04. Review: draft-unreviewed. Binding FADP and Data Protection Ord
 - Controls: audit_log, privacy_compliance, risk_management
 - Source: https://www.fedlex.admin.ch/eli/cc/2022/568/en
 
-## AGC-CH-DPO-46-1: Assess logging needs for legacy automated processing by the transition deadline
+## AGC-CH-DPO-46-1: Federal bodies: assess logging needs for legacy automated processing by the transition deadline
 - Rule: Data Protection Ordinance Art. 46(1) · status not-yet-applicable · applies from 2026-12-31 · confidence high
-- Who: roles provider, deployer, public-body, any; uses any-ai; conditions: Only legacy automated processing begun or planned before the 29 October 2025 amendment; excluded categories remain subject to Art. 4 without this transition.
-- What: For automated personal-data processing planned or started before 1 December 2025, the controller must assess the need for logging by 31 December 2026; if logging is needed, it must be implemented by 31 December 2029. This transition does not cover automated processing of sensitive personal data, profiling, or processing within the law-enforcement data-protection directive.
+- Who: roles public-body; uses any-ai; conditions: Federal bodies and their processors only (Art. 4(2) and 2bis). Only legacy automated processing begun or planned before the 29 October 2025 amendment came into force on 1 December 2025; excluded categories remain subject to Art. 4(2) without this transition.
+- What: Federal bodies and their processors must assess in writing, by 31 December 2026, whether automated personal-data processing planned or started before 1 December 2025 needs logging (the Art. 4(2) assessment); if logging is needed, it must be implemented by 31 December 2029. This transition does not cover automated processing of sensitive personal data, profiling, or processing within the law-enforcement data-protection directive, which must be logged without it. Private controllers are not covered; their logging duty is in Art. 4(1).
 - Controls: audit_log, risk_management, privacy_compliance
 - Source: https://www.fedlex.admin.ch/eli/cc/2022/568/en
 
