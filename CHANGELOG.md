@@ -4,6 +4,9 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+### Added
+- Privacy notice at https://aigovernancechain.com/privacy/ covering the professional networking list built from public sources, the LinkedIn newsletter and website hosting (Swiss FADP and EU GDPR), with a separate right-to-object box. Linked from the homepage footer and listed in `sitemap.xml`.
+
 ### Fixed
 - Atlas: URLs inside inline YAML maps are now quoted in 6 regime files (cn, kr, us-ca, us-il, us-ny-nyc, us-ny), so YAML 1.1 parsers such as Python's PyYAML can load every regime file. Parsed values are unchanged; `atlas.json`, the calendars and the cards are unaffected.
 - Website footer: the Harvard Business Review Advisory Council line now uses the wording HBR's membership terms allow; the trademark line links to TRADEMARK.md and says "licence"; the third-party note on episode pages matches what they load once a video is live.
