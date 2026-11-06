@@ -14,6 +14,7 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 - Citations no longer repeat the instrument name (for example "FTC Act §5(a)" instead of "FTC Act section 5 FTC Act §5(a)") in the CLI, calendar, cards, generated AI_GOVERNANCE.md tables, MCP results and the website. Compiled obligations now carry a `cite` field.
 
 ### Changed
+- Watch pages label premiere times as Geneva time (CET). The times themselves are unchanged.
 - README links the scope finder at aigovernancechain.com.
 - TRADEMARK.md explains how to ask for a written licence to use the name or logo, matching the website footer.
 
