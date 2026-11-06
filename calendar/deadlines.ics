@@ -3479,8 +3479,8 @@ UID:20261031-U3RhdGUgYWdlbmNpZXMgc3Vi@aigovernancechain
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
-SUMMARY:[US-NY] State agencies submit data at least 60 days before first D
- ecember 30 AI-inventory publication
+SUMMARY:[US-NY] State agencies submit data at least 60 days before the De
+ cember 30 AI-inventory publication
 DESCRIPTION:Obligations: AGC-US-NY-LOAD-103E. Source: https://www.nysenate
  .gov/legislation/laws/STT/103-E. Draft open data from AI Governance Chain
  . Not legal advice.
@@ -3532,7 +3532,7 @@ UID:20261230-Rmlyc3QgYW5udWFsIFN0YXRl@aigovernancechain
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
-SUMMARY:[US-NY] First annual State AI inventory and State-agency AEDT list
+SUMMARY:[US-NY] Annual State AI inventory and State-agency AEDT list
   publication
 DESCRIPTION:Obligations: AGC-US-NY-LOAD-103E\, AGC-US-NY-LOAD-402. Source:
   https://www.nysenate.gov/legislation/laws/STT/103-E. Draft open data fro

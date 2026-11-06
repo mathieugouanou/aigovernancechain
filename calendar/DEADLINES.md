@@ -13,7 +13,7 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-11-13 | IN | DPDP Consent Manager phase begins (Act sections 6(9), 27(1)(d) and Rule 4) ([source](https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf)) |  |
 | 2026-12-02 | EU | Bans on AI-generated non-consensual intimate content and CSAM apply ([source](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113)) | `AGC-EU-AIA-5-1-BA` |
 | 2026-12-02 | EU | Mark outputs of generative systems placed on the market before 2 Aug 2026 ([source](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111)) | `AGC-EU-AIA-50-2` |
-| 2026-12-30 | US-NY | First annual State AI inventory and State-agency AEDT list publication ([source](https://www.nysenate.gov/legislation/laws/STT/103-E)) | `AGC-US-NY-LOAD-103E` `AGC-US-NY-LOAD-402` |
+| 2026-12-30 | US-NY | Annual State AI inventory and State-agency AEDT list publication ([source](https://www.nysenate.gov/legislation/laws/STT/103-E)) | `AGC-US-NY-LOAD-103E` `AGC-US-NY-LOAD-402` |
 | 2026-12-31 | CH | Federal bodies assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1) ([source](https://www.fedlex.admin.ch/eli/cc/2022/568/en)) | `AGC-CH-DPO-46-1` |
 | 2026-12-31 | GB | Secretary of State progress report on regulations under Online Safety Act section 216A, unless a draft instrument is laid earlier ([source](https://www.legislation.gov.uk/ukpga/2026/20/section/249)) |  |
 | 2026-12-31 | US-IL | Annual AIVIA demographic report due for the 12-month period ending November 30 ([source](https://www.ilga.gov/Legislation/ILCS/Articles?ActID=4015&ChapterID=68&Print=True)) | `AGC-US-IL-AIVIA-42-20` |
@@ -371,11 +371,11 @@ Spotted a date that moved? [Open a correction](https://github.com/mathieugouanou
 | 2026-10-28 | CH | Use OFCOM's voluntary AI Code of Conduct toolkit if adopting self-regulation (OFCOM Guide on an AI Code of Conduct, voluntary toolkit) |
 | 2026-10-28 | COE | Council of Europe AI Framework Convention: Treaty Office reports Bosnia and Herzegovina's ratification; this is the second ratification recorded |
 | 2026-10-28 | US-NY | Unsafe AI Companion Features for Minors: Signed as Chapter 368 of the Laws of 2026 |
-| 2026-10-31 | US-NY | State agencies submit data at least 60 days before first December 30 AI-inventory publication |
+| 2026-10-31 | US-NY | State agencies submit data at least 60 days before the December 30 AI-inventory publication |
 | 2026-11-13 | IN | DPDP Consent Manager phase begins (Act sections 6(9), 27(1)(d) and Rule 4) |
 | 2026-12-02 | EU | Bans on AI-generated non-consensual intimate content and CSAM apply |
 | 2026-12-02 | EU | Mark outputs of generative systems placed on the market before 2 Aug 2026 |
-| 2026-12-30 | US-NY | First annual State AI inventory and State-agency AEDT list publication |
+| 2026-12-30 | US-NY | Annual State AI inventory and State-agency AEDT list publication |
 | 2026-12-31 | CH | Federal bodies assess whether logging is needed for eligible legacy automated processing under DPO Art. 46(1) |
 | 2026-12-31 | GB | Secretary of State progress report on regulations under Online Safety Act section 216A, unless a draft instrument is laid earlier |
 | 2026-12-31 | US-IL | Annual AIVIA demographic report due for the 12-month period ending November 30 |
