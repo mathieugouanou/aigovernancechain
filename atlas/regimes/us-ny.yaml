@@ -63,7 +63,7 @@ instruments:
       - { date: "2025-07-01", event: State AI inventory and state-agency AEDT disclosure provisions take effect, source: "https://www.nysenate.gov/legislation/bills/2025/S822" }
       - { date: "2026-02-13", event: Chapter 86 narrows the framework, expands public-sector employment protections, and adds covered-entity AEDT disclosure, source: "https://www.nysenate.gov/legislation/bills/2025/S8831" }
       - { date: "2026-10-31", event: State agencies' information for the December 30, 2026 AI inventory is due at least 60 days before publication, source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
-      - { date: "2026-12-30", event: First annual State AI inventory and state-agency AEDT list publication date, source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
+      - { date: "2026-12-30", event: Annual State AI inventory and state-agency AEDT list publication date, source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
       - { date: "2027-12-30", event: First annual AEDT disclosure deadline for covered entities added by Chapter 86, source: "https://www.nysenate.gov/legislation/laws/STT/402-A" }
       - { date: "2028-07-01", event: Chapter 86 framework expires and is deemed repealed, source: "https://www.nysenate.gov/legislation/bills/2025/S8831" }
   - id: ny-companion-minors
@@ -327,8 +327,8 @@ obligations:
     confidence: medium
     notes: The Article 48 effective-date conflict described in the §1801 obligation also affects this phase-in.
 deadlines:
-  - { date: "2026-10-31", title: "State agencies submit data at least 60 days before first December 30 AI-inventory publication", instrument: ny-loading, obligations: [AGC-US-NY-LOAD-103E], source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
-  - { date: "2026-12-30", title: "First annual State AI inventory and State-agency AEDT list publication", instrument: ny-loading, obligations: [AGC-US-NY-LOAD-103E, AGC-US-NY-LOAD-402], source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
+  - { date: "2026-10-31", title: "State agencies submit data at least 60 days before the December 30 AI-inventory publication", instrument: ny-loading, obligations: [AGC-US-NY-LOAD-103E], source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
+  - { date: "2026-12-30", title: "Annual State AI inventory and State-agency AEDT list publication", instrument: ny-loading, obligations: [AGC-US-NY-LOAD-103E, AGC-US-NY-LOAD-402], source: "https://www.nysenate.gov/legislation/laws/STT/103-E" }
   - { date: "2027-01-01", title: "Amended RAISE Act and Article 48 scheduled effective date under available statutory text", instrument: ny-raise, obligations: [AGC-US-NY-RAISE-1421-1, AGC-US-NY-RAISE-1421-3, AGC-US-NY-RAISE-1422-2, AGC-US-NY-RAISE-1422-3, AGC-US-NY-RAISE-1428, AGC-US-NY-GBL48-1801, AGC-US-NY-GBL48-1804], source: "https://legislation.nysenate.gov/pdf/bills/2025/S8828" }
   - { date: "2027-12-30", title: "First annual AEDT disclosure publication for covered public entities added by Chapter 86", instrument: ny-loading, obligations: [AGC-US-NY-LOAD-402A], source: "https://www.nysenate.gov/legislation/laws/STT/402-A" }
 sources:
