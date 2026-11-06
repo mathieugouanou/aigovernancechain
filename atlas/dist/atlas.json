@@ -2325,7 +2325,7 @@
             },
             {
               "date": "2026-12-30",
-              "event": "First annual State AI inventory and state-agency AEDT list publication date",
+              "event": "Annual State AI inventory and state-agency AEDT list publication date",
               "source": "https://www.nysenate.gov/legislation/laws/STT/103-E"
             },
             {
@@ -13242,7 +13242,7 @@
     },
     {
       "date": "2026-10-31",
-      "title": "State agencies submit data at least 60 days before first December 30 AI-inventory publication",
+      "title": "State agencies submit data at least 60 days before the December 30 AI-inventory publication",
       "jurisdiction": "US-NY",
       "regime": "us-ny",
       "instrument": "ny-loading",
@@ -13288,7 +13288,7 @@
     },
     {
       "date": "2026-12-30",
-      "title": "First annual State AI inventory and State-agency AEDT list publication",
+      "title": "Annual State AI inventory and State-agency AEDT list publication",
       "jurisdiction": "US-NY",
       "regime": "us-ny",
       "instrument": "ny-loading",
