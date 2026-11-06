@@ -34,8 +34,8 @@
 - **2026-02-13** (passed) Publish covered-entity employment-tool lists (LOADinG Act State Technology Law §§401(3), 402-a)
 - **2026-03-27** (passed) RAISE Act: Chapter 96 replaces Article 44-B and moves the start date to January 1
 - **2026-10-28** (passed) Unsafe AI Companion Features for Minors: Signed as Chapter 368 of the Laws of 2026
-- **2026-10-31** (passed) State agencies submit data at least 60 days before first December 30 AI-inventory publication
-- **2026-12-30** First annual State AI inventory and State-agency AEDT list publication
+- **2026-10-31** (passed) State agencies submit data at least 60 days before the December 30 AI-inventory publication
+- **2026-12-30** Annual State AI inventory and State-agency AEDT list publication
 - **2027-01-01** Amended RAISE Act and Article 48 scheduled effective date under available statutory text
 - **2027-12-30** First annual AEDT disclosure publication for covered public entities added by Chapter 86
 - **2028-01-01** RAISE Act: First annual public frontier-safety report by the Office is due; this is an agency duty
