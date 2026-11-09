@@ -1,34 +1,82 @@
 {
   "_help": "For each episode, paste the YouTube link (or the 11-character video ID) into \"youtube\" and commit. The player and Google video markup switch on automatically at publishAt. Optional: \"duration\" as m:ss and \"chapters\" as [[\"0:00\", \"Title\"], ...] copied from the final YouTube description (at least 3, first at 0:00).",
   "S1E1": {
-    "youtube": "",
+    "youtube": "iP3PAgUNgak",
     "publishAt": "2026-11-09T15:00:00+01:00",
-    "duration": "",
-    "chapters": []
+    "duration": "4:45",
+    "chapters": [
+      ["0:00", "Can a coding agent check AI law?"],
+      ["0:37", "The problem: agents don't know the law"],
+      ["1:17", "What are Agent Skills?"],
+      ["1:50", "The 3 governance skills, step by step"],
+      ["2:46", "A real answer, with sources"],
+      ["3:36", "Who governance skills are for"],
+      ["4:03", "Limits: what the skills don't do"],
+      ["4:26", "Your next step"]
+    ]
   },
   "S1E2": {
-    "youtube": "",
+    "youtube": "9d0xJ2R2tcQ",
     "publishAt": "2026-11-09T15:00:00+01:00",
-    "duration": "",
-    "chapters": []
+    "duration": "4:29",
+    "chapters": [
+      ["0:00", "What is AI_GOVERNANCE.md?"],
+      ["0:37", "The problem: governance far from code"],
+      ["1:16", "The definition and what's inside"],
+      ["2:02", "Generate and check it in 3 steps"],
+      ["2:46", "A real check result: 14/16"],
+      ["3:29", "Who AI_GOVERNANCE.md is for"],
+      ["3:50", "Limits: what the file is not"],
+      ["4:10", "Your next step"]
+    ]
   },
   "S1E3": {
-    "youtube": "",
+    "youtube": "zW9BzXDvKSk",
     "publishAt": "2026-11-09T15:00:00+01:00",
-    "duration": "",
-    "chapters": []
+    "duration": "4:28",
+    "chapters": [
+      ["0:00", "What should an AI badge prove?"],
+      ["0:35", "The problem with AI trust seals"],
+      ["1:06", "Definition: a fact-based badge"],
+      ["1:30", "How to add the badge in 3 steps"],
+      ["2:09", "The wording rules: never certified"],
+      ["2:37", "Why badges spread, honestly"],
+      ["2:57", "Read any AI badge in 10 seconds"],
+      ["3:28", "Who it's for, and the limits"],
+      ["4:07", "Your next step"]
+    ]
   },
   "S1E4": {
-    "youtube": "",
+    "youtube": "b2VVKhYhG1w",
     "publishAt": "2026-11-09T15:00:00+01:00",
-    "duration": "",
-    "chapters": []
+    "duration": "4:51",
+    "chapters": [
+      ["0:00", "Why AI law deadlines keep moving"],
+      ["0:38", "The Digital Omnibus moved the dates"],
+      ["1:18", "What the deadline calendar is"],
+      ["1:41", "Subscribe in 3 steps"],
+      ["2:19", "Dates to watch: 2026 and 2027"],
+      ["3:30", "Turn a date into an action"],
+      ["3:53", "Who the calendar is for"],
+      ["4:12", "Limits: draft dates, real sources"],
+      ["4:33", "Your next step"]
+    ]
   },
   "S1E5": {
-    "youtube": "",
+    "youtube": "tQy0Ud7WJVI",
     "publishAt": "2026-11-09T15:00:00+01:00",
-    "duration": "",
-    "chapters": []
+    "duration": "4:59",
+    "chapters": [
+      ["0:00", "One source of AI law for every agent"],
+      ["0:38", "The problem: AI law pasted into prompts"],
+      ["1:07", "What is MCP?"],
+      ["1:51", "The 8 tools, step by step"],
+      ["2:50", "A real question, end to end"],
+      ["3:35", "Agent Skills or MCP: which one?"],
+      ["3:57", "Who the MCP server is for"],
+      ["4:16", "Limits: read-only, draft data"],
+      ["4:38", "Your next step and Season 2"]
+    ]
   },
   "DT01": {
     "youtube": "",
