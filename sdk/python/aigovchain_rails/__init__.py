@@ -18,7 +18,7 @@ import re
 from typing import Any, Callable, Dict, List, Optional
 
 __all__ = ["Rails", "RailsBlocked", "parse_front_matter", "__version__"]
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 SCOPES_NEEDING_BOUNDS = {"write", "payment", "delete", "admin", "execute", "send"}
 
@@ -44,6 +44,22 @@ def _now() -> str:
     return _dt.datetime.now(_dt.timezone.utc).isoformat()
 
 
+MEMORY_TOOL = "memory.write"
+_SQL_WRITES = re.compile(r"\b(insert|update|delete|drop|alter|truncate|create|grant|revoke|merge|replace)\b", re.I)
+_SQL_TABLES = re.compile(r"\b(?:from|join|into|update|table)\s+([A-Za-z_][A-Za-z0-9_.]*)", re.I)
+
+
+def sql_facts(query: str = "") -> Dict[str, Any]:
+    """Same rule as sqlFacts in lib/policy.mjs: does the query change data, and which tables does it touch."""
+    s = str(query or "")
+    tables: List[str] = []
+    for m in _SQL_TABLES.finditer(s):
+        t = m.group(1).lower()
+        if t not in tables:
+            tables.append(t)
+    return {"sql_writes": bool(_SQL_WRITES.search(s)), "sql_tables": tables}
+
+
 class Rails:
     def __init__(self, config: Dict[str, Any], approver: Optional[Callable[[Dict[str, Any]], bool]] = None,
                  on_decision: Optional[Callable[[Dict[str, Any]], None]] = None, clock: Callable[[], str] = _now):
@@ -60,6 +76,11 @@ class Rails:
         self.killed = False
         self.spent = 0.0
         self.calls: Dict[str, int] = {}
+        self.errors = 0
+        cb = agent.get("circuit_breaker") or {}
+        self.breaker = cb.get("max_consecutive_errors") if isinstance(cb.get("max_consecutive_errors"), int) else None
+        mem = agent.get("memory") or {}
+        self.memory_sources = [str(x) for x in mem["write_sources"]] if isinstance(mem.get("write_sources"), list) else None
         ctrl = (self.config.get("controls") or {}).get("ai_disclosure")
         status = ctrl.get("status") if isinstance(ctrl, dict) else ctrl
         self._disclosure_on = status in ("implemented", "partial")
@@ -85,11 +106,21 @@ class Rails:
         return bool(source) and any(b.get("source") == source and b.get("treat_as") == "data" for b in self.boundaries)
 
     def decide(self, tool: str, args: Optional[Dict[str, Any]] = None, amount: Optional[float] = None,
-               instruction_source: Optional[str] = None) -> Dict[str, Any]:
+               instruction_source: Optional[str] = None, identity: Optional[str] = None,
+               memory_source: Optional[str] = None) -> Dict[str, Any]:
         args = args or {}
         base = {"tool": tool, "args": args}
         if self.killed:
             return self._record(**base, decision="block", rule="kill_switch", reason="kill switch engaged")
+        if self.breaker is not None and self.errors >= self.breaker:
+            return self._record(**base, decision="block", rule="circuit_breaker",
+                                reason=f"circuit breaker open: {self.errors} failed calls in a row (max_consecutive_errors {self.breaker})")
+        if tool == MEMORY_TOOL:
+            src = memory_source if memory_source is not None else instruction_source
+            if self.memory_sources is not None and str(src) not in self.memory_sources:
+                return self._record(**base, decision="block", rule="memory_isolation",
+                                    reason=f'memory write from "{src if src is not None else "unknown"}" is not allowed by agent.memory.write_sources')
+            return self._record(**base, decision="allow", rule="memory", reason="memory write allowed")
         t = self.tools.get(tool)
         if t is None:
             if self.default_deny:
@@ -98,6 +129,9 @@ class Rails:
         if self._untrusted(instruction_source):
             return self._record(**base, decision="block", rule="trust_boundary",
                                 reason=f'action was requested by content from "{instruction_source}", which this system treats as data, not instructions')
+        if t.get("run_as") and identity != t.get("run_as"):
+            return self._record(**base, decision="block", rule="least_privilege",
+                                reason=f"call runs as {identity or 'an unknown identity'}, but this tool may only run as {t.get('run_as')}")
         limits = t.get("limits") or {}
         if amount is None and isinstance(args.get("amount"), (int, float)):
             amount = args["amount"]
@@ -108,6 +142,16 @@ class Rails:
             dom = str(args["to"]).split("@")[-1].lower()
             if dom not in [str(x).lower() for x in limits["allowed_recipient_domains"]]:
                 return self._record(**base, decision="block", rule="tool_scope", reason=f"recipient domain {dom} is not in allowed_recipient_domains")
+        if limits.get("read_only") is True or isinstance(limits.get("allowed_tables"), list):
+            q = args.get("query") if isinstance(args.get("query"), str) else args.get("sql") if isinstance(args.get("sql"), str) else ""
+            facts = sql_facts(q)
+            if limits.get("read_only") is True and facts["sql_writes"]:
+                return self._record(**base, decision="block", rule="tool_scope", reason="query changes data, but the tool is read_only")
+            if isinstance(limits.get("allowed_tables"), list):
+                ok = [str(x).lower() for x in limits["allowed_tables"]]
+                bad = next((x for x in facts["sql_tables"] if x not in ok), None)
+                if bad:
+                    return self._record(**base, decision="block", rule="tool_scope", reason=f"table {bad} is not in allowed_tables")
         max_amount = limits.get("max_amount")
         over = amount is not None and isinstance(max_amount, (int, float)) and amount > max_amount
         needs_approval = t.get("approval") in ("human", "two-person")
@@ -131,14 +175,32 @@ class Rails:
         """Decorator: the wrapped function receives one dict of arguments."""
         def wrap(fn: Callable[..., Any]):
             @functools.wraps(fn)
-            def inner(args: Optional[Dict[str, Any]] = None, *, instruction_source: Optional[str] = None):
+            def inner(args: Optional[Dict[str, Any]] = None, *, instruction_source: Optional[str] = None,
+                      identity: Optional[str] = None):
                 args = args or {}
-                d = self.decide(tool, args, amount=amount(args) if amount else None, instruction_source=instruction_source)
+                d = self.decide(tool, args, amount=amount(args) if amount else None,
+                                instruction_source=instruction_source, identity=identity)
                 if d["decision"] == "block":
                     raise RailsBlocked(d)
-                return fn(args)
+                try:
+                    out = fn(args)
+                except Exception as e:
+                    self.errors += 1
+                    self._record(tool=tool, args=args, decision="error", rule="circuit_breaker",
+                                 reason=f"tool failed ({self.errors} in a row): {e}")
+                    raise
+                self.errors = 0
+                return out
             return inner
         return wrap
+
+    def remember(self, store: List[Dict[str, Any]], note: str, source: Optional[str] = None) -> bool:
+        """Store a note in long-term memory, subject to agent.memory.write_sources."""
+        d = self.decide(MEMORY_TOOL, {"note": note}, memory_source=source)
+        if d["decision"] == "block":
+            return False
+        store.append({"note": note, "source": source, "ts": self.clock()})
+        return True
 
     def accepts_instructions_from(self, source: str) -> bool:
         return not self._untrusted(source)
