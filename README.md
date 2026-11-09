@@ -40,16 +40,18 @@ npx github:mathieugouanou/aigovernancechain check
 | **Regime cards** | One page per regime: who it hits, dates, every obligation with its source | [cards/](cards/README.md) |
 | **Deadline calendar** | 300 dated events. Subscribe once, get updates when dates move | [DEADLINES.md](calendar/DEADLINES.md) · `https://aigovernancechain.com/deadlines.ics` |
 | **AI_GOVERNANCE.md standard** | One file that tells people, agents and CI how an AI system is governed. Draft spec, JSON schema, generator | [spec/](spec/AI_GOVERNANCE-spec.md) |
-| **`aigovchain` CLI** | `scope`, `deadlines`, `init`, `check`, `badge`, `evidence`, `atlas`, `ctf`, `jail`, `bench`, `mcp` | `npx github:mathieugouanou/aigovernancechain help` |
+| **`aigovchain` CLI** | `scope`, `deadlines`, `init`, `check`, `badge`, `evidence`, `atlas`, `ctf`, `jail`, `bench`, `mcp`, `policy`, `aibom` | `npx github:mathieugouanou/aigovernancechain help` |
 | **Shield GitHub Action** | 16 checks on every PR, job summary, SARIF in code scanning, Evidence Pack artifact | [action/](action/README.md) |
 | **MCP server** | Lets any MCP-capable agent query the Atlas and check files | [below](#mcp-server) |
 | **Agent Skills** | `ai-law-check`, `ai-governance-md`, `agent-oversight` in the open Agent Skills format | [skills/](skills/README.md) |
-| **Agent rails** | Zero-dependency runtime guard for agents in JavaScript and Python: default deny, limits, human approval, spend limit, kill switch, prompt-injection boundaries, decision log | [rails/](rails/rails.mjs) · [sdk/python](sdk/python/README.md) |
+| **Agent rails** | Zero-dependency runtime guard for agents in JavaScript and Python: default deny, limits, human approval, spend limit, kill switch, prompt-injection boundaries, least-privilege identities, read-only SQL, circuit breaker, memory write sources, decision log. JavaScript also screens manipulative messages and marks generated content | [rails/](rails/rails.mjs) · [sdk/python](sdk/python/README.md) |
+| **Policy packs (OPA and Cedar)** | Compile the agent rules to Open Policy Agent Rego or Cedar. CI checks that rails, OPA and Cedar decide the same on 600 requests | `aigovchain policy --target rego` · [spec section 3.1](spec/AI_GOVERNANCE-spec.md#31-compiled-policies-opa-and-cedar) |
+| **AI-BOM generator** | Inventory of declared models, datasets and dependencies as CycloneDX 1.6 or SPDX 3.0.1 (AI and Dataset profiles) | `aigovchain aibom --format cyclonedx` · [spec section 3.2](spec/AI_GOVERNANCE-spec.md#32-ai-bill-of-materials-ai-bom) |
 | **Fact-based badges** | `AI_GOVERNANCE.md 16/16 checks`. States checked facts, never "certified" | [spec section 6](spec/AI_GOVERNANCE-spec.md#6-badges) |
 | **Evidence Pack** | Dated, hashed bundle of what was declared and checked, ready to attest | `aigovchain evidence` |
 | **Crosswalks** | 32 controls mapped to the EU AI Act, NIST AI RMF, ISO/IEC 42001 Annex A and the OWASP Agentic Top 10 | [crosswalks/](crosswalks/README.md) |
 | **GovBench** | 549 questions testing whether AI models know when AI rules apply and where they are written | [govbench/](govbench/README.md) |
-| **AI Governance CTF** | Break a toy agent, fix it with `AI_GOVERNANCE.md`. Levels 01 to 03 live | [ctf/](ctf/README.md) |
+| **AI Governance CTF** | Break a toy agent, fix it with `AI_GOVERNANCE.md`. Levels 01 to 10 live | [ctf/](ctf/README.md) |
 | **Public-sector edition** | Obligations for public bodies, procurement clauses, transparency record template | [editions/public-sector/](editions/public-sector/README.md) |
 | **Translations** | Quickstart in French, German, Italian, Spanish and Brazilian Portuguese | [i18n/](i18n/README.md) |
 
@@ -74,7 +76,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: mathieugouanou/aigovernancechain/action@v0.1.0
+      - uses: mathieugouanou/aigovernancechain/action@v0.2.0
 ```
 
 **Badge** (after `aigovchain badge` writes `.governance/badge.json` and you commit it):
@@ -120,8 +122,9 @@ rails = Rails.from_file("AI_GOVERNANCE.md", approver=ask_human)
 
 | Release | Date | Focus |
 |---|---|---|
-| v0.1 | 4 Nov 2026 | Everything above |
-| v1 | 30 Nov 2026 | Neutral charter in force, GitHub organisation, foundation application, policy packs (OPA/Cedar), AI-BOM generator, attestation recipe (Sigstore), CTF levels 04 to 10, first Tier-2 regimes, weekly Law Diff releases |
+| v0.1 | 4 Nov 2026 | Atlas, cards, calendar, standard, CLI, Shield Action, MCP server, rails, skills, CTF 01 to 03 |
+| v0.2 | 9 Nov 2026 | Shipped early from v1: policy packs (OPA/Cedar), AI-BOM generator, CTF levels 04 to 10, new agent rules |
+| v1 | 30 Nov 2026 | Neutral charter in force, GitHub organisation, foundation application, attestation recipe (Sigstore), first Tier-2 regimes, weekly Law Diff releases |
 | v2 | 18 Jan 2027 | Signed badges backed by attestations, OpenTelemetry governance events, red-team runner, Annex IV and NIST exporters, CTF levels 11 to 20, 15 languages |
 
 All 37 planned ideas and their dates: [ROADMAP.md](ROADMAP.md).

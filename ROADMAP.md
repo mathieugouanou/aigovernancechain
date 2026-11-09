@@ -26,21 +26,30 @@ The project brainstormed and scored 40 ideas (method: score on 7 criteria, rank,
 | I18 | Translations | 69.3 | Quickstart in fr, de, it, es, pt-BR |
 | I10 | Universal crosswalk | 63.6 | Draft: 32 controls to EU AI Act, NIST AI RMF, ISO/IEC 42001, OWASP Agentic |
 
+## v0.2: shipped 9 Nov 2026 (early from v1)
+
+| # | Idea | Score | What shipped |
+|---|---|---|---|
+| I09 | Agent oversight policy packs (OPA/Cedar) | 76.4 | `aigovchain policy --target rego\|cedar`; CI checks rails, OPA and Cedar give the same decision on 600 requests |
+| I36 | AI-BOM generator (CycloneDX / SPDX 3.0 AI) | 72.9 | `aigovchain aibom`: CycloneDX 1.6 and SPDX 3.0.1 (AI and Dataset profiles) from `models:` and dependency files |
+| I31 | CTF arena (continued) | 74.3 | Levels 04 to 10 live |
+| I32 | Agent rails SDK (continued) | 75.0 | `run_as`, `read_only`, `allowed_tables`, circuit breaker and memory write sources in JavaScript and Python; manipulation guard and content marking in JavaScript |
+
 ## v1: 30 Nov 2026
 
 | # | Idea | Score | Deliverable |
 |---|---|---|---|
 | I30 | Neutral foundation stewardship | 62.1 | Charter in force, GitHub organisation, Technical Steering Committee seats opened, foundation application filed. Trademark transfer decided only if accepted |
 | I26 | Country maintainer and expert-reviewer network | 71.4 | First named reviewers seated; all 12 Tier-1 seats targeted by 31 Dec 2026 |
-| I09 | Agent oversight policy packs (OPA/Cedar) | 76.4 | `AI_GOVERNANCE.md` agent rules compiled to OPA Rego and Cedar policies |
+| I09 | Agent oversight policy packs (OPA/Cedar) | 76.4 | Shipped early in v0.2 (9 Nov 2026) |
 | I20 | SME 1-day starter | 76.4 | A one-day path for small teams: scope, file, Action, evidence |
 | I15 | Awesome AI Governance curated list | 76.4 | Curated, cited list with inclusion rules and no paid placements |
 | I21 | 30-day Governance Speedrun | 75.7 | Daily tasks with issue templates; opt-in, no rewards for stars |
 | I11 | Law Diff changelog + weekly releases | 75.0 | Weekly tagged Atlas releases with a human-readable diff |
 | I16 | World map SVG + shareable social cards | 75.0 | Generated map and per-regime cards for posts |
 | I37 | Signed governance attestations (Sigstore) | 72.1 | Evidence Pack attestation recipe and verification command |
-| I36 | AI-BOM generator (CycloneDX / SPDX 3.0 AI) | 72.9 | `aigovchain aibom` from `models:` and dependencies |
-| I31 | CTF arena (continued) | 74.3 | Levels 04 to 10 |
+| I36 | AI-BOM generator (CycloneDX / SPDX 3.0 AI) | 72.9 | Shipped early in v0.2 (9 Nov 2026) |
+| I31 | CTF arena (continued) | 74.3 | Levels 04 to 10 shipped early in v0.2 (9 Nov 2026) |
 | I22 | GovBench (continued) | 70.0 | Public leaderboard with method and limits |
 | I01 | Atlas (continued) | 72.1 | First Tier-2 regimes (for example Canada, Brazil, Australia, UAE) |
 
