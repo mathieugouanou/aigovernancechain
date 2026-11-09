@@ -144,6 +144,45 @@
           },
           "model_card": {
             "type": "string"
+          },
+          "license": {
+            "type": "string",
+            "description": "SPDX licence ID (for example Apache-2.0) or licence name."
+          },
+          "task": {
+            "type": "string",
+            "description": "What the model does in this system, for example text-generation or classification."
+          },
+          "datasets": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "required": [
+                    "name"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "contains_personal_data": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              ]
+            },
+            "description": "Datasets used to train, fine-tune or evaluate the model (feeds aigovchain aibom)."
           }
         }
       }
@@ -196,6 +235,17 @@
                     "items": {
                       "type": "string"
                     }
+                  },
+                  "read_only": {
+                    "type": "boolean",
+                    "description": "Block queries that change data (INSERT, UPDATE, DELETE, DROP and similar)."
+                  },
+                  "allowed_tables": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    },
+                    "description": "Tables a query may touch. Any other table is blocked."
                   }
                 },
                 "additionalProperties": true
@@ -206,6 +256,10 @@
                   "human",
                   "two-person"
                 ]
+              },
+              "run_as": {
+                "type": "string",
+                "description": "The only identity this tool may run under (least privilege). Calls under any other identity are blocked."
               }
             }
           }
@@ -261,6 +315,56 @@
         "disclosure": {
           "type": "string",
           "description": "Fallback disclosure text; prefer controls.ai_disclosure.message."
+        },
+        "circuit_breaker": {
+          "type": "object",
+          "required": [
+            "max_consecutive_errors"
+          ],
+          "properties": {
+            "max_consecutive_errors": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Open the breaker (block all tool calls) after this many failed calls in a row."
+            }
+          },
+          "description": "Stops retry loops and cascading failures."
+        },
+        "memory": {
+          "type": "object",
+          "properties": {
+            "write_sources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Sources allowed to write to long-term memory, for example [user]. Writes from any other source are blocked."
+            },
+            "retention_days": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "How long memory entries are kept."
+            }
+          },
+          "description": "Long-term memory isolation and retention."
+        },
+        "manipulation_guard": {
+          "type": "object",
+          "properties": {
+            "block": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "false_urgency",
+                  "confirmshaming",
+                  "exploit_vulnerability",
+                  "false_scarcity"
+                ]
+              },
+              "description": "Pressure tactics that outgoing messages may not use."
+            }
+          },
+          "description": "Screens outgoing messages for manipulative tactics (see EU AI Act Art. 5(1)(a) and (b))."
         }
       }
     },
@@ -355,6 +459,22 @@
               },
               "message": {
                 "type": "string"
+              },
+              "methods": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "metadata",
+                    "watermark",
+                    "fingerprint",
+                    "visible_label"
+                  ]
+                },
+                "description": "Marking layers for content_marking."
+              },
+              "label": {
+                "type": "string",
+                "description": "Visible label text, used with the visible_label method."
               }
             }
           }
