@@ -27,6 +27,35 @@ jobs:
           node cli/aigovchain.mjs scope -j EU,US-CA -r deployer -u chatbot,agent
           node cli/aigovchain.mjs jail --fast
           node cli/aigovchain.mjs check
+          node cli/aigovchain.mjs aibom --no-deps --stdout > /dev/null
+          node cli/aigovchain.mjs ctf list
+  policy-engines:
+    # The compiled OPA (Rego) and Cedar policies must decide exactly like the runtime rails on 600 requests.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Install OPA and Cedar
+        run: |
+          curl -sSL -o opa https://openpolicyagent.org/downloads/v1.22.2/opa_linux_amd64_static
+          chmod +x opa
+          ./opa version
+          npm i --no-save --no-audit --no-fund @cedar-policy/cedar-wasm@4.14.0
+      - name: Compiled policies are valid
+        run: |
+          node cli/aigovchain.mjs policy --target rego --file ctf/levels/02-refund-runaway/AI_GOVERNANCE.md --out build/policy
+          ./opa check build/policy/policy.rego
+          node cli/aigovchain.mjs policy --target cedar --file ctf/levels/02-refund-runaway/AI_GOVERNANCE.md --out build/policy
+      - name: Policy tests (OPA and Cedar)
+        run: node --test tests/policy.test.mjs
+        env:
+          OPA: ./opa
+      - name: Rails, OPA and Cedar decide the same on 600 requests
+        run: node scripts/policy-equivalence.mjs
+        env:
+          OPA: ./opa
   python:
     runs-on: ubuntu-latest
     steps:
