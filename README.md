@@ -121,8 +121,8 @@ rails = Rails.from_file("AI_GOVERNANCE.md", approver=ask_human)
 | Release | Date | Focus |
 |---|---|---|
 | v0.1 | 4 Nov 2026 | Everything above |
-| v1 | 30 Nov 2026 | Neutral charter in force, GitHub organisation, foundation application, policy packs (OPA/Cedar), CTF levels 04 to 10, first Tier-2 regimes, weekly Law Diff releases |
-| v2 | 18 Jan 2027 | Signed badges and attestations, AI-BOM, OpenTelemetry governance events, red-team runner, Annex IV and NIST exporters, CTF levels 11 to 20, 15 languages |
+| v1 | 30 Nov 2026 | Neutral charter in force, GitHub organisation, foundation application, policy packs (OPA/Cedar), AI-BOM generator, attestation recipe (Sigstore), CTF levels 04 to 10, first Tier-2 regimes, weekly Law Diff releases |
+| v2 | 18 Jan 2027 | Signed badges backed by attestations, OpenTelemetry governance events, red-team runner, Annex IV and NIST exporters, CTF levels 11 to 20, 15 languages |
 
 All 37 planned ideas and their dates: [ROADMAP.md](ROADMAP.md).
 
