@@ -11,6 +11,8 @@ import { buildEvidencePack } from '../lib/evidence.mjs';
 import { toIcs } from '../lib/ics.mjs';
 import { LEVELS, startLevel, runLevel, formatRun } from '../lib/ctf.mjs';
 import { runJail } from '../lib/jail.mjs';
+import { compilePolicy } from '../lib/policy.mjs';
+import { buildAibom } from '../lib/aibom.mjs';
 import * as V from '../lib/vocab.mjs';
 process.stdout.on('error', e => { if (e.code === 'EPIPE') process.exit(0); throw e; });
 
@@ -29,6 +31,8 @@ Write and check your AI_GOVERNANCE.md
   check      [--file AI_GOVERNANCE.md] [--format text|md|json|sarif] [--sarif out.sarif] [--summary] [--fail-on fail|warn|never]
   badge      [--file AI_GOVERNANCE.md] [--out .governance]      writes badge.json (shields endpoint) and badge.svg
   evidence   [--file AI_GOVERNANCE.md] [--out governance-evidence]
+  policy     --target rego|cedar [--file AI_GOVERNANCE.md] [--out dir]   compile agent rules for OPA or Cedar
+  aibom      [--format cyclonedx|spdx] [--file AI_GOVERNANCE.md] [--out file] [--no-deps]   AI bill of materials
 
 Learn and demo
   jail       30-second demo of rules stopping a misbehaving agent [--fast]
@@ -245,6 +249,32 @@ const commands = {
     const r = buildEvidencePack({ res, text, file, atlas, outDir: args.out && args.out !== true ? args.out : 'governance-evidence' });
     console.log(`Evidence Pack written to ${r.dir}/ (evidence.json sha256 ${r.sha256.slice(0, 16)}...)`);
     console.log(dim('Tip: in GitHub Actions, attest it with actions/attest-build-provenance to make it tamper-evident.'));
+  },
+
+  async policy(args) {
+    const file = args.file && args.file !== true ? args.file : 'AI_GOVERNANCE.md';
+    const target = String(args.target && args.target !== true ? args.target : (args._[1] || 'rego')).toLowerCase();
+    const files = compilePolicy(readGovernanceFile(file), target);
+    if (args.out && args.out !== true) {
+      fs.mkdirSync(args.out, { recursive: true });
+      for (const [name, body] of Object.entries(files)) fs.writeFileSync(path.join(args.out, name), body);
+      console.log(`Wrote ${Object.keys(files).map(f => path.join(args.out, f)).join(', ')} from ${file}.`);
+      console.log(dim(target === 'cedar' ? 'Validate: cedar validate --schema policy.cedarschema --policies policy.cedar' : 'Check: opa check policy.rego   Query: data.aigovernancechain.agent.decision'));
+      return;
+    }
+    for (const [name, body] of Object.entries(files)) { if (Object.keys(files).length > 1) console.log(`// ----- ${name} -----`); console.log(body); }
+  },
+
+  async aibom(args) {
+    const file = args.file && args.file !== true ? args.file : 'AI_GOVERNANCE.md';
+    const format = String(args.format && args.format !== true ? args.format : 'cyclonedx').toLowerCase();
+    const r = buildAibom({ text: readGovernanceFile(file), dir: path.dirname(path.resolve(file)), format, includeDeps: args.deps !== false && !args['no-deps'] });
+    const out = args.out && args.out !== true ? args.out : (args.stdout ? null : r.file);
+    if (!out) return console.log(JSON.stringify(r.bom, null, 2));
+    fs.writeFileSync(out, JSON.stringify(r.bom, null, 2) + '\n');
+    console.log(`AI-BOM written to ${bold(out)} (${format === 'spdx' || format === 'spdx3' ? 'SPDX 3.0.1' : 'CycloneDX 1.6'}): ${r.summary.models} model(s), ${r.summary.datasets} dataset(s), ${r.summary.dependencies} dependenc${r.summary.dependencies === 1 ? 'y' : 'ies'}.`);
+    if (!r.summary.models) console.log(dim('No models declared. Add them to the models section of AI_GOVERNANCE.md.'));
+    console.log(dim('An AI-BOM lists declared components. It does not prove which model runs in production.'));
   },
 
   async jail(args) { await runJail({ fast: !!args.fast || !process.stdout.isTTY, color }); },

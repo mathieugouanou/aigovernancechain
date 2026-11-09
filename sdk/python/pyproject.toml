@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aigovchain-rails"
-version = "0.1.0"
+version = "0.2.0"
 description = "Runtime rails for AI agents from AI_GOVERNANCE.md: default deny, limits, human approval, spend limits, kill switch, trust boundaries (AI Governance Chain, alpha)."
 readme = "README.md"
 requires-python = ">=3.9"

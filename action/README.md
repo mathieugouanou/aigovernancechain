@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: mathieugouanou/aigovernancechain/action@v0.1.0
+      - uses: mathieugouanou/aigovernancechain/action@v0.2.0
         with:
           file: AI_GOVERNANCE.md
           fail-on: fail        # fail | warn | never
@@ -33,7 +33,7 @@ permissions:
   attestations: write
 steps:
   - uses: actions/checkout@v7
-  - uses: mathieugouanou/aigovernancechain/action@v0.1.0
+  - uses: mathieugouanou/aigovernancechain/action@v0.2.0
   - uses: actions/attest-build-provenance@v4
     with:
       subject-path: governance-evidence/evidence.json

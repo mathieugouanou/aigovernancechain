@@ -4,7 +4,17 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-09
+
+Ships three v1 items early, before the Season 3 episodes that show them.
+
 ### Added
+- `aigovchain policy --target rego|cedar [--file] [--out]`: compiles the agent section of `AI_GOVERNANCE.md` to an Open Policy Agent (OPA) Rego policy, or to a Cedar policy set with its schema ([`lib/policy.mjs`](lib/policy.mjs)). New CI job `policy-engines` runs [`scripts/policy-equivalence.mjs`](scripts/policy-equivalence.mjs): the runtime rails, OPA and Cedar must give the same allow or block decision on 600 generated requests.
+- `aigovchain aibom [--format cyclonedx|spdx] [--file] [--out] [--no-deps]`: AI bill of materials from `models[]` plus `package.json`, `package-lock.json` and `requirements.txt`, as CycloneDX 1.6 JSON or SPDX 3.0.1 JSON-LD with the AI and Dataset profiles ([`lib/aibom.mjs`](lib/aibom.mjs)). Lists declared components only.
+- AI Governance CTF levels 04 to 10: Borrowed badge, SQL free-for-all, Sticky memory, Loan desk, Deepfake desk, Dark-pattern bot, Runaway loop. Each ships with a vulnerable starter file and a tested fix.
+- Agent rules (optional fields, spec id unchanged): `tools[].run_as`, `limits.read_only`, `limits.allowed_tables`, `agent.circuit_breaker`, `agent.memory`, `agent.manipulation_guard`; `models[].license`, `models[].task`, `models[].datasets`; `content_marking.methods` and `label`. JSON schema and [spec section 3](spec/AI_GOVERNANCE-spec.md#3-agent-section-runtime-rails) updated, with the full evaluation order.
+- Rails (JavaScript and Python): least-privilege identities, read-only SQL and table allowlists, circuit breaker, memory write sources (`remember()`). JavaScript only for now: `screen()` for manipulative messages and `mark()` for generated content.
+- Tests for the policy compiler, the AI-BOM, the new rails rules and levels 04 to 10.
 - Privacy notice at https://aigovernancechain.com/privacy/ covering the professional networking list built from public sources, the LinkedIn newsletter and website hosting (Swiss FADP and EU GDPR), with a separate right-to-object box. Linked from the homepage footer and listed in `sitemap.xml`.
 
 ### Fixed
