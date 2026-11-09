@@ -1,7 +1,7 @@
 {
   "_help": "For each episode, paste the YouTube link (or the 11-character video ID) into \"youtube\" and commit. The player and Google video markup switch on automatically at publishAt. Optional: \"duration\" as m:ss and \"chapters\" as [[\"0:00\", \"Title\"], ...] copied from the final YouTube description (at least 3, first at 0:00).",
   "S1E1": {
-    "youtube": "iP3PAgUNgak",
+    "youtube": "DrtQo7XJmjI",
     "publishAt": "2026-11-09T15:00:00+01:00",
     "duration": "4:45",
     "chapters": [
@@ -16,7 +16,7 @@
     ]
   },
   "S1E2": {
-    "youtube": "9d0xJ2R2tcQ",
+    "youtube": "wIHjJ63sKtw",
     "publishAt": "2026-11-09T15:00:00+01:00",
     "duration": "4:29",
     "chapters": [
@@ -31,7 +31,7 @@
     ]
   },
   "S1E3": {
-    "youtube": "zW9BzXDvKSk",
+    "youtube": "1XPmwUe2dt0",
     "publishAt": "2026-11-09T15:00:00+01:00",
     "duration": "4:28",
     "chapters": [
@@ -47,7 +47,7 @@
     ]
   },
   "S1E4": {
-    "youtube": "b2VVKhYhG1w",
+    "youtube": "duzibZw8CJQ",
     "publishAt": "2026-11-09T15:00:00+01:00",
     "duration": "4:51",
     "chapters": [
