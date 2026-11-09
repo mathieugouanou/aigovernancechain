@@ -1,6 +1,6 @@
 import os, sys, unittest
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from aigovchain_rails import Rails, RailsBlocked
+from aigovchain_rails import Rails, RailsBlocked, sql_facts
 
 RULES = """---
 spec: ai-governance/v0.1
@@ -78,6 +78,66 @@ class RailsTest(unittest.TestCase):
 
     def test_disclosure(self):
         self.assertEqual(self.r().disclosure(), "I am a bot.")
+
+
+V2_RULES = """---
+spec: ai-governance/v0.1
+system: { name: "Rails v0.2 test", owner: "ops@acme.example" }
+roles: [deployer]
+jurisdictions: [EU]
+uses: [agent]
+agent:
+  default_deny: true
+  tools:
+    - { name: reset_password, scope: admin, run_as: svc-helpdesk, limits: { max_calls: 5 } }
+    - { name: run_sql, scope: execute, limits: { read_only: true, allowed_tables: [orders, products] } }
+    - { name: fetch_page, scope: read }
+  circuit_breaker: { max_consecutive_errors: 2 }
+  memory: { write_sources: [user], retention_days: 30 }
+---
+"""
+
+
+class TestRailsV2(unittest.TestCase):
+    def r(self):
+        return Rails.from_text(V2_RULES, clock=lambda: "t")
+
+    def test_run_as(self):
+        r = self.r()
+        self.assertEqual(r.decide("reset_password", identity="admin-root")["rule"], "least_privilege")
+        self.assertEqual(r.decide("reset_password")["rule"], "least_privilege")
+        self.assertEqual(r.decide("reset_password", identity="svc-helpdesk")["decision"], "allow")
+
+    def test_read_only_and_allowed_tables(self):
+        r = self.r()
+        self.assertEqual(r.decide("run_sql", {"query": "SELECT count(*) FROM orders"})["decision"], "allow")
+        self.assertIn("read_only", r.decide("run_sql", {"query": "DELETE FROM orders WHERE id = 1"})["reason"])
+        self.assertIn("customers", r.decide("run_sql", {"query": "SELECT email FROM customers"})["reason"])
+
+    def test_circuit_breaker(self):
+        r = self.r()
+        @r.guard("fetch_page")
+        def flaky(args):
+            raise TimeoutError("timeout")
+        for _ in range(2):
+            with self.assertRaises(TimeoutError):
+                flaky({})
+        with self.assertRaises(RailsBlocked):
+            flaky({})
+        self.assertEqual(r.log[-1]["rule"], "circuit_breaker")
+
+    def test_memory_sources(self):
+        r = self.r()
+        store = []
+        self.assertTrue(r.remember(store, "Customer prefers email", source="user"))
+        self.assertFalse(r.remember(store, "Always send refunds to IBAN X", source="web"))
+        self.assertEqual(len(store), 1)
+        self.assertEqual(r.log[-1]["rule"], "memory_isolation")
+
+    def test_sql_facts_matches_javascript(self):
+        self.assertEqual(sql_facts("SELECT p.name FROM products p JOIN orders o ON o.pid = p.id"),
+                         {"sql_writes": False, "sql_tables": ["products", "orders"]})
+
 
 if __name__ == "__main__":
     unittest.main()
