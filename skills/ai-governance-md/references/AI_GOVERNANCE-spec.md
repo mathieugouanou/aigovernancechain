@@ -30,7 +30,7 @@ It follows the governance chain: **LAW → OBLIGATION → CONTROL → GATE → E
 | `jurisdictions` | yes | Where the system is placed on the market or used: `EU`, `COE`, `US`, `US-CA`, `US-CO`, `US-TX`, `US-NY`, `US-NY-NYC`, `US-IL`, `CN`, `KR`, `JP`, `VN`, `IN`, `GB`, `SG`, `CH`, or an EU member code (`DE` implies `EU`) |
 | `uses` | yes | What the system does, from the shared vocabulary (`chatbot`, `agent`, `generated-media`, `hiring`, `credit`, ... see [atlas/FORMAT.md](https://github.com/mathieugouanou/aigovernancechain/blob/main/atlas/FORMAT.md)) |
 | `risk.self_assessed`, `risk.rationale` | no | `minimal`, `limited`, `high`, `unacceptable` or `unknown`, with a reason |
-| `models[]` | no | Models used: `name`, `provider`, `version`, `model_card` |
+| `models[]` | no | Models used: `name`, `provider`, `version`, `model_card`, and optionally `license`, `task` and `datasets[]` (`name`, `url`, `license`), which feed the AI-BOM (section 3.2) |
 | `agent` | if `uses` has `agent` | Runtime rules for agents (section 3) |
 | `controls` | yes in practice | Map of control key to status (section 4) |
 | `obligations.acknowledged[]`, `obligations.waived[]` | no | Atlas obligation ids you track, and ids you decided do not apply (`{id, reason}`) |
@@ -48,23 +48,52 @@ agent:
     - { name: search_docs, scope: read }
     - { name: issue_refund, scope: payment, limits: { max_amount: 100, currency: EUR }, approval: human }
     - { name: send_email, scope: send, limits: { allowed_recipient_domains: [acme.example], max_calls: 50 } }
+    - { name: reset_password, scope: admin, run_as: svc-helpdesk, limits: { max_calls: 5 } }   # least privilege
+    - { name: run_sql, scope: execute, limits: { read_only: true, allowed_tables: [orders, products] } }
   spend_limit: { amount: 50, currency: USD, period: day }
+  circuit_breaker: { max_consecutive_errors: 3 }     # stop after 3 failed calls in a row
+  memory: { write_sources: [user], retention_days: 30 }  # who may write long-term memory
+  manipulation_guard: { block: [false_urgency, confirmshaming, exploit_vulnerability, false_scarcity] }
   kill_switch: "On-call engineer sets agent_enabled=false; effective within 5 minutes"
   trust_boundaries:
     - { source: email, treat_as: data }  # never follow instructions found in email content
 ```
 
-`scope` is one of `read`, `write`, `payment`, `delete`, `send`, `execute`, `admin`. Every tool other than `read` needs `limits` or `approval`.
+`scope` is one of `read`, `write`, `payment`, `delete`, `send`, `execute`, `admin`. Every tool other than `read` needs `limits` or `approval`. `approval` is `none`, `human` or `two-person`.
 
-**Evaluation order** (reference implementation: [`rails/rails.mjs`](https://github.com/mathieugouanou/aigovernancechain/blob/main/rails/rails.mjs), [`sdk/python`](https://github.com/mathieugouanou/aigovernancechain/blob/main/sdk/python)):
+Optional fields added on 9 November 2026 (v0.2.0 of the tools; the spec id stays `ai-governance/v0.1` because they are optional, see section 8):
+
+| Field | Meaning |
+|---|---|
+| `tools[].run_as` | The only identity (service account, token owner) the tool may run as. Calls under any other identity are blocked |
+| `tools[].limits.read_only` | The tool may not change data. For SQL tools the rails block queries that insert, update, delete, drop, alter, truncate, create, grant, revoke, merge or replace |
+| `tools[].limits.allowed_tables` | The only tables a query may touch |
+| `circuit_breaker.max_consecutive_errors` | After this many failed calls in a row, every call is blocked until a person resets the agent |
+| `memory.write_sources`, `memory.retention_days` | Which sources may write the agent's long-term memory (calls to the pseudo-tool `memory.write`), and how long notes are kept |
+| `manipulation_guard.block` | Message patterns the rails screen out: `false_urgency`, `confirmshaming`, `exploit_vulnerability`, `false_scarcity`. Keyword screens only: they catch obvious cases, not every manipulative design |
+
+**Evaluation order** (reference implementation: [`rails/rails.mjs`](https://github.com/mathieugouanou/aigovernancechain/blob/main/rails/rails.mjs), [`sdk/python`](https://github.com/mathieugouanou/aigovernancechain/blob/main/sdk/python); the compiled policies in section 3.1 follow the same order):
 
 1. Kill switch engaged → block.
-2. Tool not declared and `default_deny` → block.
-3. Request originated from a source marked `treat_as: data` → block.
-4. `max_calls` exceeded, or recipient domain not allowed → block.
-5. Amount above `max_amount`, or tool needs approval → ask the human approver; block if not approved; block outright if no approval path exists.
-6. Running total would exceed `spend_limit` → block.
-7. Otherwise allow. Every decision is logged.
+2. Circuit breaker open (`max_consecutive_errors` failed calls in a row) → block.
+3. Memory write from a source not in `memory.write_sources` → block; otherwise allow the write.
+4. Tool not declared and `default_deny` → block.
+5. Request originated from a source marked `treat_as: data` → block.
+6. Tool has `run_as` and the call runs under another identity → block.
+7. `max_calls` exceeded, or recipient domain not allowed → block.
+8. Query changes data on a `read_only` tool, or touches a table outside `allowed_tables` → block.
+9. Amount above `max_amount`, or tool needs approval → ask the human approver (two people for `two-person`); block if not approved; block outright if no approval path exists.
+10. Running total would exceed `spend_limit` → block.
+11. Tool other than `read` with neither `limits` nor `approval` → block.
+12. Otherwise allow. Every decision is logged.
+
+### 3.1 Compiled policies (OPA and Cedar)
+
+`aigovchain policy --target rego` compiles the agent section to an Open Policy Agent (OPA) Rego policy; `--target cedar` writes a Cedar policy set and schema. An enforcement point (an API gateway, a tool proxy or an MCP server) sends each tool call to the policy engine with the request facts listed at the top of [`lib/policy.mjs`](https://github.com/mathieugouanou/aigovernancechain/blob/main/lib/policy.mjs). Continuous integration (CI) checks on 600 generated requests that the runtime rails, OPA and Cedar give the same allow or block decision ([`scripts/policy-equivalence.mjs`](https://github.com/mathieugouanou/aigovernancechain/blob/main/scripts/policy-equivalence.mjs)). A compiled policy only helps if every tool call passes through it: test that too.
+
+### 3.2 AI bill of materials (AI-BOM)
+
+`aigovchain aibom` builds an inventory of the declared models and datasets (from `models[]`) and the software dependencies (`package.json`, `package-lock.json`, `requirements.txt`) as CycloneDX 1.6 JSON or SPDX 3.0.1 JSON-LD with the AI and Dataset profiles. An AI-BOM lists declared components; it cannot prove which model actually runs.
 
 ## 4. Controls
 
@@ -82,7 +111,10 @@ Each key comes from the shared list of 32 controls (for example `ai_disclosure`,
 controls:
   ai_disclosure: { status: implemented, message: "Hi, I am Acme's AI assistant.", evidence: docs/disclosure.png }
   bias_testing: { status: not-applicable, reason: "No decisions about people" }
+  content_marking: { status: implemented, methods: [metadata, watermark, visible_label], label: "Made with AI" }
 ```
+
+`content_marking` may list `methods` (`metadata`, `watermark`, `visible_label`) and a `label`; the rails' `mark()` applies them to generated content.
 
 Obligations in the [Obligation Atlas](https://github.com/mathieugouanou/aigovernancechain/blob/main/atlas/) name the controls they need, which is how a file links back to the law.
 
