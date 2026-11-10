@@ -41,7 +41,7 @@ npx github:mathieugouanou/aigovernancechain check
 | **Deadline calendar** | 300 dated events. Subscribe once, get updates when dates move | [DEADLINES.md](calendar/DEADLINES.md) · `https://aigovernancechain.com/deadlines.ics` |
 | **AI_GOVERNANCE.md standard** | One file that tells people, agents and CI how an AI system is governed. Draft spec, JSON schema, generator | [spec/](spec/AI_GOVERNANCE-spec.md) |
 | **`aigovchain` CLI** | `scope`, `deadlines`, `init`, `check`, `badge`, `evidence`, `atlas`, `ctf`, `jail`, `bench`, `mcp`, `policy`, `aibom` | `npx github:mathieugouanou/aigovernancechain help` |
-| **Shield GitHub Action** | 16 checks on every PR, job summary, SARIF in code scanning, Evidence Pack artifact | [action/](action/README.md) |
+| **Shield GitHub Action** | 17 checks on every PR, including a drift check of the agent config in the repository (check 17), job summary, SARIF in code scanning, Evidence Pack artifact | [action/](action/README.md) |
 | **MCP server** | Lets any MCP-capable agent query the Atlas and check files | [below](#mcp-server) |
 | **Agent Skills** | `ai-law-check`, `ai-governance-md`, `agent-oversight` in the open Agent Skills format | [skills/](skills/README.md) |
 | **Agent rails** | Zero-dependency runtime guard for agents in JavaScript and Python: default deny, limits, human approval, spend limit, kill switch, prompt-injection boundaries, least-privilege identities, read-only SQL, circuit breaker, memory write sources, decision log. JavaScript also screens manipulative messages and marks generated content | [rails/](rails/rails.mjs) · [sdk/python](sdk/python/README.md) |
