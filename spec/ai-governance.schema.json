@@ -365,6 +365,46 @@
             }
           },
           "description": "Screens outgoing messages for manipulative tactics (see EU AI Act Art. 5(1)(a) and (b))."
+        },
+        "ci": {
+          "type": "object",
+          "required": [
+            "workflows",
+            "max_permissions"
+          ],
+          "properties": {
+            "workflows": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Paths of the GitHub Actions workflows that run the agent, relative to the repository root."
+            },
+            "max_permissions": {
+              "description": "The most the GITHUB_TOKEN may hold in those workflows, in GitHub's permissions syntax: read-all, or a map such as { contents: read, pull-requests: write }. Check 17 fails when a job grants more.",
+              "oneOf": [
+                {
+                  "type": "string",
+                  "enum": [
+                    "read-all",
+                    "write-all"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string",
+                    "enum": [
+                      "read",
+                      "write",
+                      "none"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "description": "CI permissions the agent may use (optional, added 10 Nov 2026). Compared by check 17 with the workflow files."
         }
       }
     },

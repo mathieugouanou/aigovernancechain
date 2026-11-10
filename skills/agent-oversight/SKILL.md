@@ -68,7 +68,7 @@ Register the wrapped functions with your agent framework instead of the raw ones
 
 - Write a test that tries a risky call (large refund, unknown tool, email to an outside domain, a call requested by email content) and asserts `RailsBlocked`.
 - Run `npx -y github:mathieugouanou/aigovernancechain jail` to see the pattern, and `ctf run 02` / `ctf run 03` to practise.
-- Run `npx -y github:mathieugouanou/aigovernancechain check`. Checks AGC-CHK-10 to 13 cover agents.
+- Run `npx -y github:mathieugouanou/aigovernancechain check`. Checks AGC-CHK-10 to 13 and 17 cover agents. Check 17 compares the file with the agent config committed in the repository (MCP client files and workflow token permissions), so declare every tool the config exposes or auto-approves.
 
 ## Rules
 
