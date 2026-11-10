@@ -55,6 +55,7 @@ agent:
   memory: { write_sources: [user], retention_days: 30 }  # who may write long-term memory
   manipulation_guard: { block: [false_urgency, confirmshaming, exploit_vulnerability, false_scarcity] }
   kill_switch: "On-call engineer sets agent_enabled=false; effective within 5 minutes"
+  ci: { workflows: [.github/workflows/agent.yml], max_permissions: { contents: read, pull-requests: write } }  # check 17
   trust_boundaries:
     - { source: email, treat_as: data }  # never follow instructions found in email content
 ```
@@ -71,6 +72,12 @@ Optional fields added on 9 November 2026 (v0.2.0 of the tools; the spec id stays
 | `circuit_breaker.max_consecutive_errors` | After this many failed calls in a row, every call is blocked until a person resets the agent |
 | `memory.write_sources`, `memory.retention_days` | Which sources may write the agent's long-term memory (calls to the pseudo-tool `memory.write`), and how long notes are kept |
 | `manipulation_guard.block` | Message patterns the rails screen out: `false_urgency`, `confirmshaming`, `exploit_vulnerability`, `false_scarcity`. Keyword screens only: they catch obvious cases, not every manipulative design |
+
+Optional field added on 10 November 2026 (spec id unchanged):
+
+| Field | Meaning |
+|---|---|
+| `ci.workflows`, `ci.max_permissions` | The GitHub Actions workflows that run the agent, and the most their `GITHUB_TOKEN` may hold (`read-all`, or a map such as `{ contents: read, pull-requests: write }`). Check 17 compares them with the workflow files |
 
 **Evaluation order** (reference implementation: [`rails/rails.mjs`](https://github.com/mathieugouanou/aigovernancechain/blob/main/rails/rails.mjs), [`sdk/python`](https://github.com/mathieugouanou/aigovernancechain/blob/main/sdk/python); the compiled policies in section 3.1 follow the same order):
 
@@ -122,7 +129,7 @@ Obligations in the [Obligation Atlas](https://github.com/mathieugouanou/aigovern
 
 ## 5. Checks
 
-Tools implementing this spec run these 16 checks. Results are `pass`, `warn`, `fail` or `skip`.
+Tools implementing this spec run these 17 checks. Results are `pass`, `warn`, `fail` or `skip`.
 
 | ID | Link | Check | Fails when |
 |---|---|---|---|
@@ -142,12 +149,31 @@ Tools implementing this spec run these 16 checks. Results are `pass`, `warn`, `f
 | AGC-CHK-14 | LAW | No deadline in the next 180 days is unprepared | Warns when an in-scope obligation starts within 180 days and its controls are missing |
 | AGC-CHK-15 | OVERSIGHT | A human reviewed the file in the last 12 months | No `review.last_reviewed`, or older than 365 days |
 | AGC-CHK-16 | EVIDENCE | Claims are honest and a contact is listed | Warns on "fully compliant"-style claims or a missing `contacts.governance` |
+| AGC-CHK-17 | OVERSIGHT | Live agent config stays within the file | A config file in the repository exposes or auto-approves a tool that `agent.tools` does not declare, auto-approves a tool the file says needs `approval: human` or `two-person`, or a workflow in `agent.ci.workflows` grants token permissions wider than `agent.ci.max_permissions`. Warns on servers without a tool allowlist, wildcard approvals and workflow jobs with no `permissions` |
 
-Checks 10 to 13 are skipped when `uses` does not include `agent`.
+Checks 10 to 13 and 17 are skipped when `uses` does not include `agent`. Check 17 is also skipped when the repository holds nothing to compare, or when a tool receives only the file text (for example the MCP server).
+
+### 5.1 Check 17: the file versus the live config
+
+Checks 01 to 16 read what the file declares. Check 17 reads what is configured next to it, so a repository cannot pass while the agent's real permissions drift. Added on 10 November 2026 after public feedback; open for review until v1.
+
+| File in the repository | Client | Compared with `agent.tools` |
+|---|---|---|
+| `.mcp.json` | Claude Code | Servers connected (rejected servers in `disabledMcpjsonServers` are ignored) |
+| `.claude/settings.json`, `.claude/settings.local.json` | Claude Code | `permissions.allow` rules for MCP tools (`mcp__server__tool`, `mcp__server__*`), minus `permissions.deny`; `defaultMode: bypassPermissions` |
+| `.vscode/mcp.json` | VS Code | Servers connected |
+| `.cursor/mcp.json` | Cursor | Servers connected |
+| `.gemini/settings.json` | Gemini CLI | `includeTools` minus `excludeTools`, `trust: true`, `mcp.allowed` and `mcp.excluded` |
+| `.roo/mcp.json` | Roo Code | `alwaysAllow` minus `disabledTools`; `disabled` servers are ignored |
+| Workflows listed in `agent.ci.workflows` | GitHub Actions | Each job's `permissions` (or the workflow's) against `agent.ci.max_permissions` |
+
+A declared name matches a live tool when it is the tool name (`create_issue`) or a server-qualified form (`github.create_issue`, `github/create_issue`, `mcp__github__create_issue`). With `default_deny: false`, undeclared tools are warnings instead of failures.
+
+Limits, stated plainly: check 17 reads committed files only. It cannot see settings in a user's home folder, organisation or managed policies, cloud IAM roles, OAuth grants or tokens issued at runtime, and it does not compare built-in client tools such as shell or file edits. A server without a tool allowlist can only be flagged, not compared. Runtime enforcement stays with the rails and the compiled policies (section 3.1).
 
 ## 6. Badges
 
-A badge may state only checked facts about the file, for example `AI_GOVERNANCE.md | 16/16 checks`. It must not say "certified", "compliant" or "approved", and it must link to the file. Generate one with `aigovchain badge` or the Shield Action, and serve it as a [shields.io endpoint badge](https://shields.io/badges/endpoint-badge). Signed badges (Sigstore attestations of the check run) are planned for v2.
+A badge may state only checked facts about the file, for example `AI_GOVERNANCE.md | 16/16 checks`. It must not say "certified", "compliant" or "approved", and it must link to the file. Skipped checks are not counted, so a file that declares no agent shows, for example, `12/12 checks`. Generate one with `aigovchain badge` or the Shield Action, and serve it as a [shields.io endpoint badge](https://shields.io/badges/endpoint-badge). Signed badges (Sigstore attestations of the check run) are planned for v2.
 
 ## 7. Privacy and security
 
