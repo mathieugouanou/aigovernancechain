@@ -2,6 +2,8 @@
 
 Checks your `AI_GOVERNANCE.md` on every pull request: 17 checks across the chain (law, obligation, control, gate, evidence, oversight), a summary table in the job, optional SARIF alerts in code scanning, an optional badge and an Evidence Pack artifact.
 
+Check 17, the drift check of the agent config in the repository, is on `main` and ships with v1 (30 Nov 2026). The `@v0.2.0` release used below runs checks 01 to 16.
+
 ```yaml
 # .github/workflows/ai-governance.yml
 name: AI governance
