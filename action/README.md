@@ -1,6 +1,6 @@
 # AI Governance Chain Shield (GitHub Action)
 
-Checks your `AI_GOVERNANCE.md` on every pull request: 16 checks across the chain (law, obligation, control, gate, evidence, oversight), a summary table in the job, optional SARIF alerts in code scanning, an optional badge and an Evidence Pack artifact.
+Checks your `AI_GOVERNANCE.md` on every pull request: 17 checks across the chain (law, obligation, control, gate, evidence, oversight), a summary table in the job, optional SARIF alerts in code scanning, an optional badge and an Evidence Pack artifact.
 
 ```yaml
 # .github/workflows/ai-governance.yml
