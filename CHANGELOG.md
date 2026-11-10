@@ -4,6 +4,13 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+### Fixed
+- Our own `AI_GOVERNANCE.md` made a claim the history did not support: "Every change is a reviewed pull request" (`human_oversight: implemented`, 4 to 10 Nov 2026). Before this correction on 10 Nov 2026 the history held 168 commits across this repository and the library, 1 pull request and 0 reviews. `human_oversight` is now `partial` (due 18 Jan 2027), `ai_literacy` is `partial` (no dated training record by role yet, due 31 Dec 2026), and `audit_log` no longer cites reviews. Found by our own gap analysis of 6 Nov 2026 (gaps G-K1 and G-H3).
+- `GOVERNANCE.md` now says what happens today next to the review rule: one maintainer, no second reviewer yet, pull requests for every change from 20 Nov 2026.
+
+### Added
+- Our own `AI_GOVERNANCE.md` now declares the AI agent that helps maintain the repository: an `agent` block (default deny, 6 declared actions with human approval for every one that changes or publishes anything, a CHF 0 spend limit, a kill switch, web, email and issues treated as data) and `x-agent-identity`. The file states the limits plainly: the agent runs in the project lead's GitHub session, and the rails do not run inside it. `uses` now includes `agent`, so checks 10 to 13 apply; 16 of 16 pass (gap G-A5).
+
 ## [0.2.0] - 2026-11-09
 
 Ships three v1 items early, before the Season 3 episodes that show them.
