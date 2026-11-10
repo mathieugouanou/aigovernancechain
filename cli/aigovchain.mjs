@@ -12,6 +12,7 @@ import { toIcs } from '../lib/ics.mjs';
 import { LEVELS, startLevel, runLevel, formatRun } from '../lib/ctf.mjs';
 import { runJail } from '../lib/jail.mjs';
 import { compilePolicy } from '../lib/policy.mjs';
+import { collectLiveConfig } from '../lib/drift.mjs';
 import { buildAibom } from '../lib/aibom.mjs';
 import * as V from '../lib/vocab.mjs';
 process.stdout.on('error', e => { if (e.code === 'EPIPE') process.exit(0); throw e; });
@@ -29,6 +30,7 @@ Find what applies
 Write and check your AI_GOVERNANCE.md
   init       [--name ..] [--owner ..] [-j ..] [-r ..] [-u ..] [--out AI_GOVERNANCE.md] [--force] [--yes] [--example]
   check      [--file AI_GOVERNANCE.md] [--format text|md|json|sarif] [--sarif out.sarif] [--summary] [--fail-on fail|warn|never]
+             [--root dir] [--no-live]   check 17 compares the file with the agent config in the repository
   badge      [--file AI_GOVERNANCE.md] [--out .governance]      writes badge.json (shields endpoint) and badge.svg
   evidence   [--file AI_GOVERNANCE.md] [--out governance-evidence]
   policy     --target rego|cedar [--file AI_GOVERNANCE.md] [--out dir]   compile agent rules for OPA or Cedar
@@ -44,6 +46,18 @@ Integrations
   version    print the version
 
 Docs: https://github.com/mathieugouanou/aigovernancechain`;
+
+// Check 17 reads the agent client config and workflows of the repository that holds the file
+// (the nearest folder with .git, else the file's folder), or of --root.
+function liveFor(args, file) {
+  if (args.live === false) return null;
+  if (args.root && args.root !== true) return collectLiveConfig(args.root);
+  const start = path.dirname(path.resolve(file));
+  for (let d = start; ; d = path.dirname(d)) {
+    if (fs.existsSync(path.join(d, '.git'))) return collectLiveConfig(d);
+    if (path.dirname(d) === d) return collectLiveConfig(start);
+  }
+}
 
 function parseArgs(argv) {
   const out = { _: [] };
@@ -216,7 +230,7 @@ const commands = {
     const file = args.file && args.file !== true ? args.file : 'AI_GOVERNANCE.md';
     const atlas = loadAtlas();
     const text = readGovernanceFile(file);
-    const res = runChecks({ text, atlas, file, today: args.today && args.today !== true ? args.today : today() });
+    const res = runChecks({ text, atlas, file, today: args.today && args.today !== true ? args.today : today(), live: liveFor(args, file) });
     const fmt = args.format || 'text';
     if (fmt === 'json') console.log(JSON.stringify({ summary: res.summary, results: res.results, profile: res.profile, obligations: res.applicable.map(o => o.id) }, null, 2));
     else if (fmt === 'md') console.log(toMarkdown(res));
@@ -232,7 +246,7 @@ const commands = {
   async badge(args) {
     const file = args.file && args.file !== true ? args.file : 'AI_GOVERNANCE.md';
     const outDir = args.out && args.out !== true ? args.out : '.governance';
-    const res = runChecks({ text: readGovernanceFile(file), atlas: loadAtlas(), file, today: today() });
+    const res = runChecks({ text: readGovernanceFile(file), atlas: loadAtlas(), file, today: today(), live: liveFor(args, file) });
     const b = toBadgeJson(res);
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(path.join(outDir, 'badge.json'), JSON.stringify(b) + '\n');
@@ -245,7 +259,7 @@ const commands = {
     const file = args.file && args.file !== true ? args.file : 'AI_GOVERNANCE.md';
     const atlas = loadAtlas();
     const text = readGovernanceFile(file);
-    const res = runChecks({ text, atlas, file, today: today() });
+    const res = runChecks({ text, atlas, file, today: today(), live: liveFor(args, file) });
     const r = buildEvidencePack({ res, text, file, atlas, outDir: args.out && args.out !== true ? args.out : 'governance-evidence' });
     console.log(`Evidence Pack written to ${r.dir}/ (evidence.json sha256 ${r.sha256.slice(0, 16)}...)`);
     console.log(dim('Tip: in GitHub Actions, attest it with actions/attest-build-provenance to make it tamper-evident.'));
