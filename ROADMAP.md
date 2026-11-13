@@ -35,6 +35,14 @@ The project brainstormed and scored 40 ideas (method: score on 7 criteria, rank,
 | I31 | CTF arena (continued) | 74.3 | Levels 04 to 10 live |
 | I32 | Agent rails SDK (continued) | 75.0 | `run_as`, `read_only`, `allowed_tables`, circuit breaker and memory write sources in JavaScript and Python; manipulation guard and content marking in JavaScript |
 
+## v0.3: shipped 13 Nov 2026 (early from v1)
+
+| # | Idea | Score | What shipped |
+|---|---|---|---|
+| New | Drift check: the file versus the live agent config (`AGC-CHK-17`) | n/a | Check 17 in the CLI and in the Shield Action from `@v0.3.0`; open for review until v1 |
+| I08 | Shield Action (continued) | 76.4 | Root `action.yml`, so the Action can be listed on GitHub Marketplace |
+| I05 | MCP server (continued) | 77.9 | `server.json` and `mcpName` for the official MCP Registry |
+
 ## v1: 30 Nov 2026
 
 | # | Idea | Score | Deliverable |
@@ -42,7 +50,7 @@ The project brainstormed and scored 40 ideas (method: score on 7 criteria, rank,
 | I30 | Neutral foundation stewardship | 62.1 | Charter in force, GitHub organisation, Technical Steering Committee seats opened, foundation application filed. Trademark transfer decided only if accepted |
 | I26 | Country maintainer and expert-reviewer network | 71.4 | First named reviewers seated; all 12 Tier-1 seats targeted by 31 Dec 2026 |
 | I09 | Agent oversight policy packs (OPA/Cedar) | 76.4 | Shipped early in v0.2 (9 Nov 2026) |
-| New | Drift check: the file versus the live agent config (`AGC-CHK-17`) | n/a | Raised in public feedback on 10 Nov 2026. Drafted the same day; open for review, ships in v1 |
+| New | Drift check: the file versus the live agent config (`AGC-CHK-17`) | n/a | Raised in public feedback on 10 Nov 2026. Drafted the same day; shipped early in v0.3 (13 Nov 2026), open for review until v1 |
 | I20 | SME 1-day starter | 76.4 | A one-day path for small teams: scope, file, Action, evidence |
 | I15 | Awesome AI Governance curated list | 76.4 | Curated, cited list with inclusion rules and no paid placements |
 | I21 | 30-day Governance Speedrun | 75.7 | Daily tasks with issue templates; opt-in, no rewards for stars |

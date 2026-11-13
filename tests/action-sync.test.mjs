@@ -24,3 +24,10 @@ test('server.json and package.json agree for the MCP Registry', () => {
   assert.equal(server.packages[0].version, pkg.version);
   assert.ok(server.description.length <= 100);
 });
+
+test('CLI version and CITATION.cff match package.json', async () => {
+  const pkg = JSON.parse(read('package.json'));
+  const { TOOL_VERSION } = await import('../lib/governance-md.mjs');
+  assert.equal(TOOL_VERSION, pkg.version);
+  assert.match(read('CITATION.cff'), new RegExp(`^version: "${pkg.version}"$`, 'm'));
+});
