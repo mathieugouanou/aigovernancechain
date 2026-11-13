@@ -2,7 +2,7 @@
 
 Checks your `AI_GOVERNANCE.md` on every pull request: 17 checks across the chain (law, obligation, control, gate, evidence, oversight), a summary table in the job, optional SARIF alerts in code scanning, an optional badge and an Evidence Pack artifact.
 
-Check 17, the drift check of the agent config in the repository, is on `main` and ships with v1 (30 Nov 2026). The `@v0.2.0` release used below runs checks 01 to 16.
+Check 17, the drift check of the agent config in the repository, ships from `@v0.3.0` (13 Nov 2026), the release used below. The older `@v0.2.0` runs checks 01 to 16.
 
 ```yaml
 # .github/workflows/ai-governance.yml
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: mathieugouanou/aigovernancechain/action@v0.2.0
+      - uses: mathieugouanou/aigovernancechain/action@v0.3.0
         with:
           file: AI_GOVERNANCE.md
           fail-on: fail        # fail | warn | never
@@ -35,7 +35,7 @@ permissions:
   attestations: write
 steps:
   - uses: actions/checkout@v7
-  - uses: mathieugouanou/aigovernancechain/action@v0.2.0
+  - uses: mathieugouanou/aigovernancechain/action@v0.3.0
   - uses: actions/attest-build-provenance@v4
     with:
       subject-path: governance-evidence/evidence.json
