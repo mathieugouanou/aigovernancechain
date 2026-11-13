@@ -4,6 +4,16 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-11-13
+
+Patch release so the Shield can be listed on GitHub Marketplace. Checks, data and outputs are unchanged.
+
+### Fixed
+- The Action description in `action.yml` and `action/action.yml` is now 120 characters, under the 125 that GitHub Marketplace allows.
+
+### Changed
+- Version 0.3.1 in `package.json`, `server.json`, `CITATION.cff`, the CLI and our own `AI_GOVERNANCE.md`. Workflow examples and docs now pin the Shield at `@v0.3.1`; `@v0.3.0` runs the same 17 checks. The npm package `aigovernancechain` starts at 0.3.1.
+
 ## [0.3.0] - 2026-11-13
 
 Ships check 17 in the Shield Action early from v1, adds a first screen and a page for leaders, and adds the files needed to list the project on GitHub Marketplace and the MCP Registry.

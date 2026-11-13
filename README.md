@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: mathieugouanou/aigovernancechain/action@v0.3.0
+      - uses: mathieugouanou/aigovernancechain/action@v0.3.1
 ```
 
 **Badge** (after `aigovchain badge` writes `.governance/badge.json` and you commit it):
