@@ -1,7 +1,7 @@
 # Root copy of action/action.yml so the Shield can be listed on GitHub Marketplace.
 # Keep both files in sync: tests/action-sync.test.mjs fails if they differ apart from the CLI path.
 name: 'AI Governance Chain Shield'
-description: 'Check AI_GOVERNANCE.md against the open Obligation Atlas: 17 checks, PR summary, SARIF, badge and Evidence Pack. Not legal advice.'
+description: 'Check AI_GOVERNANCE.md against the open Obligation Atlas: 17 checks, PR summary, SARIF, Evidence Pack. Not legal advice.'
 author: 'AI Governance Chain contributors'
 branding:
   icon: 'shield'
