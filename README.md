@@ -50,7 +50,7 @@ npx github:mathieugouanou/aigovernancechain check
 | **Deadline calendar** | 300 dated events. Subscribe once, get updates when dates move | [DEADLINES.md](calendar/DEADLINES.md) · `https://aigovernancechain.com/deadlines.ics` |
 | **AI_GOVERNANCE.md standard** | One file that tells people, agents and CI how an AI system is governed. Draft spec, JSON schema, generator | [spec/](spec/AI_GOVERNANCE-spec.md) |
 | **`aigovchain` CLI** | `scope`, `deadlines`, `init`, `check`, `badge`, `evidence`, `atlas`, `ctf`, `jail`, `bench`, `mcp`, `policy`, `aibom` | `npx github:mathieugouanou/aigovernancechain help` |
-| **Shield GitHub Action** | 17 checks on every PR, including a drift check of the agent config in the repository (check 17, on `main`, ships with v1; `@v0.2.0` runs 16), job summary, SARIF in code scanning, Evidence Pack artifact | [action/](action/README.md) |
+| **Shield GitHub Action** | 17 checks on every PR from `@v0.3.0`, including a drift check of the agent config in the repository (check 17; `@v0.2.0` runs 16), job summary, SARIF in code scanning, Evidence Pack artifact | [action/](action/README.md) |
 | **MCP server** | Lets any MCP-capable agent query the Atlas and check files | [below](#mcp-server) |
 | **Agent Skills** | `ai-law-check`, `ai-governance-md`, `agent-oversight` in the open Agent Skills format | [skills/](skills/README.md) |
 | **Agent rails** | Zero-dependency runtime guard for agents in JavaScript and Python: default deny, limits, human approval, spend limit, kill switch, prompt-injection boundaries, least-privilege identities, read-only SQL, circuit breaker, memory write sources, decision log. JavaScript also screens manipulative messages and marks generated content | [rails/](rails/rails.mjs) · [sdk/python](sdk/python/README.md) |
@@ -86,7 +86,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: mathieugouanou/aigovernancechain/action@v0.2.0
+      - uses: mathieugouanou/aigovernancechain/action@v0.3.0
 ```
 
 **Badge** (after `aigovchain badge` writes `.governance/badge.json` and you commit it):
@@ -134,6 +134,7 @@ rails = Rails.from_file("AI_GOVERNANCE.md", approver=ask_human)
 |---|---|---|
 | v0.1 | 4 Nov 2026 | Atlas, cards, calendar, standard, CLI, Shield Action, MCP server, rails, skills, CTF 01 to 03 |
 | v0.2 | 9 Nov 2026 | Shipped early from v1: policy packs (OPA/Cedar), AI-BOM generator, CTF levels 04 to 10, new agent rules |
+| v0.3 | 13 Nov 2026 | Shipped early from v1: check 17 in the Shield Action. Also the Ask your team page for leaders and the files to list the project on GitHub Marketplace and the MCP Registry |
 | v1 | 30 Nov 2026 | Neutral charter in force, GitHub organisation, foundation application, attestation recipe (Sigstore), first Tier-2 regimes, weekly Law Diff releases |
 | v2 | 18 Jan 2027 | Signed badges backed by attestations, OpenTelemetry governance events, red-team runner, Annex IV and NIST exporters, CTF levels 11 to 20, 15 languages |
 

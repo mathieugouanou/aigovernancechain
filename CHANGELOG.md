@@ -4,6 +4,10 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-13
+
+Ships check 17 in the Shield Action early from v1, adds a first screen and a page for leaders, and adds the files needed to list the project on GitHub Marketplace and the MCP Registry.
+
 ### Fixed
 - Our own `AI_GOVERNANCE.md` made a claim the history did not support: "Every change is a reviewed pull request" (`human_oversight: implemented`, 4 to 10 Nov 2026). Before this correction on 10 Nov 2026 the history held 168 commits across this repository and the library, 1 pull request and 0 reviews. `human_oversight` is now `partial` (due 18 Jan 2027), `ai_literacy` is `partial` (no dated training record by role yet, due 31 Dec 2026), and `audit_log` no longer cites reviews. Found by our own gap analysis of 6 Nov 2026 (gaps G-K1 and G-H3).
 - `GOVERNANCE.md` now says what happens today next to the review rule: one maintainer, no second reviewer yet, pull requests for every change from 20 Nov 2026.
@@ -12,12 +16,13 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 - Check 17, `AGC-CHK-17` "Live agent config stays within the file" ([`lib/drift.mjs`](lib/drift.mjs), [spec section 5.1](spec/AI_GOVERNANCE-spec.md#51-check-17-the-file-versus-the-live-config)). Checks 01 to 16 read only what the file declares; check 17 compares the `agent` section with the config committed next to it: MCP client files for Claude Code, VS Code, Cursor, Gemini CLI and Roo Code, and the token permissions of the workflows listed in the new optional field `agent.ci` (`workflows`, `max_permissions`). It fails when a tool is exposed or auto-approved without being declared, when a tool the file says needs human approval is auto-approved, or when a workflow job grants wider permissions than declared. It warns on servers without a tool allowlist, wildcard approvals and jobs with no `permissions`. Skipped for files that declare no agent and when there is nothing to compare, so those files keep their badge counts. New `check` options `--root` and `--no-live`. 13 tests. Raised in public feedback on 10 Nov 2026; open for review until v1.
 - Our own `AI_GOVERNANCE.md` now declares the AI agent that helps maintain the repository: an `agent` block (default deny, 6 declared actions with human approval for every one that changes or publishes anything, a CHF 0 spend limit, a kill switch, web, email and issues treated as data) and `x-agent-identity`. The file states the limits plainly: the agent runs in the project lead's GitHub session, and the rails do not run inside it. `uses` now includes `agent`, so checks 10 to 13 apply; 16 of 16 pass (gap G-A5).
 - [Ask your team](leaders/README.md): five questions for leaders who do not write code (can we stop our agents, who owns the stop, which rules hit us and by when, what do we tell the board, what do we ask vendors), each answered by a file or a command.
-- Listing files, not yet published: a root `action.yml` so the Shield can be listed on GitHub Marketplace (`action/action.yml` keeps working; a new test keeps the two in sync), `server.json` plus `mcpName` in `package.json` for the official MCP Registry (needs the npm package first), and `glama.json`.
+- Listing files: a root `action.yml` so the Shield can be listed on GitHub Marketplace (`action/action.yml` keeps working; a new test keeps the two in sync), `server.json` plus `mcpName` in `package.json` for the official MCP Registry (needs the npm package first), and `glama.json`.
 - `.github/dependabot.yml` (weekly updates of the GitHub Actions used here) and an OpenSSF Scorecard workflow on `main`, with actions pinned to full commit SHAs.
 
 ### Changed
 - README first screen: one working command, the Agent Jail result and three doors (Developers, Leaders, Public bodies). "What is in v0.1" is now "What is in the repository", and the audience line reads "Risk, legal and audit teams".
 - Keywords in `package.json` and `CITATION.cff`: "policy as code" replaces a claim word the project does not use.
+- Version 0.3.0 in `package.json`, `server.json`, `CITATION.cff`, the CLI and our own `AI_GOVERNANCE.md`. Workflow examples and docs now pin the Shield at `@v0.3.0`, which runs 17 checks; `@v0.2.0` keeps running 16.
 
 ## [0.2.0] - 2026-11-09
 

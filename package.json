@@ -1,6 +1,6 @@
 {
   "name": "aigovernancechain",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "mcpName": "io.github.mathieugouanou/aigovernancechain",
   "description": "Open AI-governance data and tools: Obligation Atlas, AI_GOVERNANCE.md standard, CLI, MCP server, GitHub Action and agent rails. Law -> obligation -> control -> gate -> evidence -> oversight.",
   "type": "module",
