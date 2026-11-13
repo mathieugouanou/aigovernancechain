@@ -1,6 +1,7 @@
 {
   "name": "aigovernancechain",
   "version": "0.2.0",
+  "mcpName": "io.github.mathieugouanou/aigovernancechain",
   "description": "Open AI-governance data and tools: Obligation Atlas, AI_GOVERNANCE.md standard, CLI, MCP server, GitHub Action and agent rails. Law -> obligation -> control -> gate -> evidence -> oversight.",
   "type": "module",
   "bin": { "aigovchain": "cli/aigovchain.mjs" },
@@ -19,7 +20,7 @@
     "demo": "node cli/aigovchain.mjs jail"
   },
   "engines": { "node": ">=18" },
-  "keywords": ["ai-governance", "ai-act", "eu-ai-act", "compliance", "agents", "mcp", "agent-skills", "responsible-ai", "ai-regulation", "nist-ai-rmf", "iso-42001", "owasp"],
+  "keywords": ["ai-governance", "ai-act", "eu-ai-act", "policy-as-code", "agents", "mcp", "agent-skills", "responsible-ai", "ai-regulation", "nist-ai-rmf", "iso-42001", "owasp"],
   "homepage": "https://aigovernancechain.com",
   "repository": { "type": "git", "url": "git+https://github.com/mathieugouanou/aigovernancechain.git" },
   "bugs": { "url": "https://github.com/mathieugouanou/aigovernancechain/issues" },
