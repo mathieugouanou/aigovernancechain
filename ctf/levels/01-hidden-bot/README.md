@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so the rails force an AI disclosure at the first reply, without touching the bot's prompt.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 01   # copies this level to ./agc-ctf-01
-npx github:mathieugouanou/aigovernancechain ctf run 01     # run the attack against your rules
+npx aigovernancechain ctf start 01   # copies this level to ./agc-ctf-01
+npx aigovernancechain ctf run 01     # run the attack against your rules
 ```
 
 **Why it matters.** EU AI Act Art. 50(1) (`AGC-EU-AIA-50-1`, applies since 2 Aug 2026) requires providers to design chatbots so people know they are interacting with an AI. California's BOT Act (Bus. & Prof. Code 17941) bans undisclosed bots that try to influence a sale. A prompt is not a control: the rule has to live outside the model.
