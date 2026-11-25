@@ -10,14 +10,14 @@ Serve Node 18 o versione successiva. Niente da installare, nessun account, nessu
 
 ```bash
 # Guardate le regole fermare un agente che sbaglia (30 secondi)
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 
 # Quali regole sull'IA si applicano a un agente chatbot che utilizzate nell'UE e in California?
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
 
 # Scrivete un AI_GOVERNANCE.md per il vostro repository, poi verificatelo
-npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain init
+npx aigovernancechain check
 ```
 
 ## Cosa ottenete
