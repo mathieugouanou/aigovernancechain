@@ -11,9 +11,9 @@ Does an AI model know **when** AI-governance rules apply and **where** they are 
 ## Run it
 
 ```bash
-npx github:mathieugouanou/aigovernancechain bench --questions > questions.jsonl
+npx aigovernancechain bench --questions > questions.jsonl
 # ask your model each question; write one line per answer: {"id": "...", "answer": "B"}
-npx github:mathieugouanou/aigovernancechain bench --answers answers.jsonl
+npx aigovernancechain bench --answers answers.jsonl
 ```
 
 Answers may be a letter or the exact choice text. Prompt suggestion: "Answer with the letter only. If unsure, answer anyway."
