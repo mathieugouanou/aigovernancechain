@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so the bot cannot send messages that use false urgency, confirmshaming or a person's vulnerability, and the cancellation is honoured.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 09
-npx github:mathieugouanou/aigovernancechain ctf run 09
+npx aigovernancechain ctf start 09
+npx aigovernancechain ctf run 09
 ```
 
 **Why it matters.** EU AI Act Art. 5(1)(a) bans AI that uses manipulative or deceptive techniques to materially distort behaviour in ways that cause significant harm. Art. 5(1)(b) bans exploiting vulnerabilities due to age, disability or a specific social or economic situation. Both have applied since 2 February 2025, with the highest fines in the Act. Consumer law in many countries also treats pressure selling and obstructed cancellation as unfair practices. The rails here use keyword screens that catch this toy scenario; a real deployment also needs design review, testing and monitoring.
