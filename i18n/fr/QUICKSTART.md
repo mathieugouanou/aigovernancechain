@@ -10,14 +10,14 @@ Il vous faut Node 18 ou plus récent. Rien à installer, pas de compte, pas de c
 
 ```bash
 # Regardez des règles arrêter un agent qui dérape (30 secondes)
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 
 # Quelles règles s'appliquent à un agent conversationnel que vous déployez dans l'UE et en Californie ?
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
 
 # Rédigez un AI_GOVERNANCE.md pour votre dépôt, puis vérifiez-le
-npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain init
+npx aigovernancechain check
 ```
 
 ## Ce que vous obtenez
