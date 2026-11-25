@@ -10,14 +10,14 @@ Sie brauchen Node 18 oder neuer. Keine Installation, kein Konto, kein API-Schlü
 
 ```bash
 # Sehen Sie zu, wie Regeln einen fehlgeleiteten Agenten stoppen (30 Sekunden)
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 
 # Welche KI-Regeln gelten für einen Chatbot-Agenten, den Sie in der EU und in Kalifornien betreiben?
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
 
 # Ein AI_GOVERNANCE.md für Ihr Repository erstellen und prüfen
-npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain init
+npx aigovernancechain check
 ```
 
 ## Was Sie bekommen
