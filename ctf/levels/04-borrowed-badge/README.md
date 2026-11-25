@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so `reset_password` can only run as the agent's own service account `svc-helpdesk`. A normal reset for a locked-out user must still work.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 04
-npx github:mathieugouanou/aigovernancechain ctf run 04
+npx aigovernancechain ctf start 04
+npx aigovernancechain ctf run 04
 ```
 
 **Why it matters.** OWASP Top 10 for Agentic Applications 2026, ASI03 Identity and Privilege Abuse: agents that inherit or borrow credentials act with more power than anyone intended. Least privilege is the oldest rule in security, and it applies to agents exactly as it applies to people. A declared `run_as` identity also gives your audit log a clear answer to "who did this?".
