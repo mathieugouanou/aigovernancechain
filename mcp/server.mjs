@@ -1,5 +1,5 @@
 // AI Governance Chain MCP server (stdio, JSON-RPC 2.0, newline-delimited). Zero dependencies.
-// Client config:  { "command": "npx", "args": ["-y", "github:mathieugouanou/aigovernancechain", "mcp"] }
+// Client config:  { "command": "npx", "args": ["-y", "aigovernancechain", "mcp"] }
 import readline from 'node:readline';
 import { loadAtlas, scope, upcoming, search } from '../lib/atlas.mjs';
 import { runChecks, generateGovernanceMd, TOOL_VERSION } from '../lib/governance-md.mjs';
