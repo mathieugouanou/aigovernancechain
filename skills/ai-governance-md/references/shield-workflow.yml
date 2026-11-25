@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: mathieugouanou/aigovernancechain/action@v0.3.2
+      - uses: mathieugouanou/aigovernancechain/action@v0.3.3
         with:
           file: AI_GOVERNANCE.md
           fail-on: fail        # fail | warn | never
