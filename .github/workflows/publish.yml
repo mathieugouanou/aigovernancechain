@@ -1,0 +1,28 @@
+name: Publish to npm
+# Runs when a GitHub release is published. npm trusted publishing: no token is stored.
+# One-time setup on npmjs.com: package settings, Trusted Publisher, GitHub Actions,
+# owner mathieugouanou, repository aigovernancechain, workflow publish.yml.
+on:
+  release:
+    types: [published]
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+          package-manager-cache: false
+      - name: Tag must match package.json
+        run: |
+          v="$(node -p "require('./package.json').version")"
+          test "v$v" = "${GITHUB_REF_NAME}" || { echo "Tag ${GITHUB_REF_NAME} does not match package.json version $v"; exit 1; }
+      - run: node --test tests/*.test.mjs
+      - run: npm publish --provenance --access public
