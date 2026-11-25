@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so only the user can write to long-term memory, and memory has a declared retention period. The user's own preference (invoices in EUR) must still be remembered.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 06
-npx github:mathieugouanou/aigovernancechain ctf run 06
+npx aigovernancechain ctf start 06
+npx aigovernancechain ctf run 06
 ```
 
 **Why it matters.** OWASP Top 10 for Agentic Applications 2026, ASI06 Memory and Context Poisoning: a single poisoned note can steer every later session, long after the page is gone. Memory that is kept forever also holds personal data longer than needed, which conflicts with storage limitation under GDPR Art. 5(1)(e).
