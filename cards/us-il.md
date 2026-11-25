@@ -64,8 +64,8 @@ The controls this regime asks for most often. Declare them in your `AI_GOVERNANC
 ## Check your system
 
 ```bash
-npx github:mathieugouanou/aigovernancechain scope -j US-IL -r deployer -u chatbot
-npx github:mathieugouanou/aigovernancechain deadlines -j US-IL --days 365
+npx aigovernancechain scope -j US-IL -r deployer -u chatbot
+npx aigovernancechain deadlines -j US-IL --days 365
 ```
 
 ## Sources
