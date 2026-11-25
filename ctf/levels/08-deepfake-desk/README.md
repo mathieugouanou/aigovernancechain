@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so generated images carry two marking layers (metadata and a watermark) and deepfake video shows a visible label.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 08
-npx github:mathieugouanou/aigovernancechain ctf run 08
+npx aigovernancechain ctf start 08
+npx aigovernancechain ctf run 08
 ```
 
 **Why it matters.** EU AI Act Art. 50(2): providers of generative AI must mark outputs in a machine-readable, detectable way. It applies from 2 August 2026, and from 2 December 2026 for systems already on the market before that date (Art. 111(4)). Art. 50(4): deployers who publish deepfakes must disclose that the content was generated or manipulated, from 2 August 2026. The voluntary EU Code of Practice on marking and labelling describes a layered approach, because any single mark can be removed.
