@@ -10,14 +10,14 @@ You need Node 18 or newer. Nothing to install, no account, no API key.
 
 ```bash
 # Watch rules stop a misbehaving agent (30 seconds)
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 
 # Which AI rules apply to a chatbot agent you run in the EU and California?
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
 
 # Write an AI_GOVERNANCE.md for your repository, then check it
-npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain init
+npx aigovernancechain check
 ```
 
 ## What you get
