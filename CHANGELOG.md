@@ -4,7 +4,11 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+## [0.3.2] - 2026-11-25
+
 ### Changed
+- Commands and hints in the README, docs page, skills, cards, CLI output, MCP comment, GovBench, leaders and the English quickstart now use `npx aigovernancechain` instead of the `github:` form. The generated cards were rebuilt. The CTF level pages and the other language quickstarts follow in the next release.
+- First release published to npm from GitHub with provenance.
 - README commands now use the npm package: `npx aigovernancechain` replaces `npx github:mathieugouanou/aigovernancechain`, in the MCP server config and the rails install line too. npm and OpenSSF Scorecard badges added.
 
 ### Added
