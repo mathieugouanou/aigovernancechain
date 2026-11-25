@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so the loop stops after at most 5 failed calls, a circuit breaker is declared, and a spend limit caps what any loop can cost.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 10
-npx github:mathieugouanou/aigovernancechain ctf run 10
+npx aigovernancechain ctf start 10
+npx aigovernancechain ctf run 10
 ```
 
 **Why it matters.** OWASP Top 10 for Agentic Applications 2026, ASI08 Cascading Failures: one failing dependency can trigger retry storms, runaway costs and failures in the systems around the agent. A circuit breaker turns "retry forever" into "stop and tell a person". A spend limit is the backstop for every loop you did not foresee.
