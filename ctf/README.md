@@ -16,9 +16,9 @@ Break deliberately vulnerable AI agents, then fix them by writing `AI_GOVERNANCE
 | 10 | Runaway loop | Circuit breaker and spend limit | OWASP ASI08 | Live |
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf list
-npx github:mathieugouanou/aigovernancechain ctf start 01
-npx github:mathieugouanou/aigovernancechain ctf run 01
+npx aigovernancechain ctf list
+npx aigovernancechain ctf start 01
+npx aigovernancechain ctf run 01
 ```
 
 Levels 04 to 10 shipped on 9 November 2026 (v0.2.0). Levels 11 to 20 are planned for v2 (18 January 2027).
