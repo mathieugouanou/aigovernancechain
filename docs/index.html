@@ -93,7 +93,7 @@ footer p{margin:6px 0;max-width:80ch}
       <div class="link" id="L6"><span class="n" id="n6">–</span><span class="k">OVERSIGHT</span><span class="d" id="d6">next date</span></div>
     </div>
 
-    <div class="cmd"><pre id="cmd">npx github:mathieugouanou/aigovernancechain scope</pre><button class="copy" data-copy="cmd">Copy</button></div>
+    <div class="cmd"><pre id="cmd">npx aigovernancechain scope</pre><button class="copy" data-copy="cmd">Copy</button></div>
     <div class="results" id="results" aria-live="polite"></div>
     <p class="note">Draft open data, not yet expert-reviewed. Not legal advice. Check each source before you act.</p>
   </div>
@@ -110,12 +110,12 @@ footer p{margin:6px 0;max-width:80ch}
   <h2>Put the chain in your repo</h2>
   <p class="sub">One file describes your system. CI checks it on every pull request. Agents can query the same data and are held to the same rules at runtime.</p>
   <div class="three">
-    <div class="box"><h3>Write and check</h3><p>Generate an AI_GOVERNANCE.md from your profile, then run the 17 checks.</p><pre>npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check</pre></div>
+    <div class="box"><h3>Write and check</h3><p>Generate an AI_GOVERNANCE.md from your profile, then run the 17 checks.</p><pre>npx aigovernancechain init
+npx aigovernancechain check</pre></div>
     <div class="box"><h3>Gate every pull request</h3><p>The Shield Action adds a summary, code-scanning alerts and an Evidence Pack.</p><pre>- uses: actions/checkout@v7
-- uses: mathieugouanou/aigovernancechain/action@v0.3.1</pre></div>
+- uses: mathieugouanou/aigovernancechain/action@v0.3.2</pre></div>
     <div class="box"><h3>Give your agent the law</h3><p>MCP server and Agent Skills. Runtime rails stop risky tool calls.</p><pre>{"command": "npx", "args": ["-y",
- "github:mathieugouanou/aigovernancechain", "mcp"]}</pre></div>
+ "aigovernancechain", "mcp"]}</pre></div>
   </div>
   <a class="btn" href="https://github.com/mathieugouanou/aigovernancechain#try-it-in-60-seconds">Start in 60 seconds</a><a class="btn alt" href="https://github.com/mathieugouanou/aigovernancechain/tree/main/ctf">Play the CTF</a>
 </section>
@@ -178,7 +178,7 @@ function render() {
   document.getElementById('d6').textContent = next ? `next date, ${next.applies_from.slice(0, 4)}` : 'no new date';
   ['L1', 'L2', 'L3'].forEach((id, i) => document.getElementById(id).classList.toggle('on', [regimes.size, obs.length, controls.size][i] > 0));
   ['L4', 'L5', 'L6'].forEach(id => document.getElementById(id).classList.toggle('on', obs.length > 0));
-  document.getElementById('cmd').textContent = `npx github:mathieugouanou/aigovernancechain scope -j ${[...sel.j].join(',') || 'EU'} -r ${[...sel.r].join(',') || 'deployer'} -u ${[...sel.u].join(',') || 'any-ai'}`;
+  document.getElementById('cmd').textContent = `npx aigovernancechain scope -j ${[...sel.j].join(',') || 'EU'} -r ${[...sel.r].join(',') || 'deployer'} -u ${[...sel.u].join(',') || 'any-ai'}`;
   document.getElementById('results').innerHTML = obs.length ? obs.map(o => `<div class="ob"><div class="j">${esc(o.jurisdiction)}<br><span style="color:var(--muted);font-weight:400">${esc(o.id)}</span></div><div><div class="t">${esc(o.title)}</div><div class="p">${esc(o.plain)}</div><div class="p"><a href="${esc(o.source_url)}" rel="noopener">${esc(o.cite || (o.instrument_short + ' ' + o.article))}</a> · controls: ${esc((o.controls || []).join(', ') || 'none')} · confidence ${esc(o.confidence)}</div></div><div class="w">${esc(o.applies_from || 'n/a')}<br><span class="tag ${esc(o.status)}">${esc(o.status.replace(/-/g, ' '))}</span></div></div>`).join('') : '<p class="note">Nothing matched. Try adding a role or a use.</p>';
 }
 document.addEventListener('click', e => {
