@@ -29,8 +29,8 @@ Codebase hints: model SDK imports (OpenAI, Anthropic, Google, Mistral, Hugging F
 Preferred, when Node and network are available:
 
 ```bash
-npx -y github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent --json
-npx -y github:mathieugouanou/aigovernancechain deadlines -j EU,US-CA --days 365 --json
+npx -y aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent --json
+npx -y aigovernancechain deadlines -j EU,US-CA --days 365 --json
 ```
 
 Offline: open [references/atlas/INDEX.md](references/atlas/INDEX.md), then load only the files for the jurisdictions in the profile. Keep an obligation when its roles include one of the profile roles (or `any`) and its uses include one of the profile uses (or `any-ai`). An EU member code implies `EU`; any US state implies `US`.
