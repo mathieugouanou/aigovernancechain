@@ -24,7 +24,7 @@ Write an honest, checkable `AI_GOVERNANCE.md` at the repository root. The spec i
 ## Step 2: Generate a draft
 
 ```bash
-npx -y github:mathieugouanou/aigovernancechain init --name "My app" --owner "owner@example.com" -j EU,US-CA -r deployer -u chatbot,agent --yes
+npx -y aigovernancechain init --name "My app" --owner "owner@example.com" -j EU,US-CA -r deployer -u chatbot,agent --yes
 ```
 
 Without Node, copy the closest example from `references/examples/` and edit it.
@@ -41,7 +41,7 @@ Without Node, copy the closest example from `references/examples/` and edit it.
 ## Step 4: Check and fix
 
 ```bash
-npx -y github:mathieugouanou/aigovernancechain check
+npx -y aigovernancechain check
 ```
 
 Fix each FAIL. Explain remaining WARNs to the user. Offer to add the Shield workflow (`.github/workflows/ai-governance.yml`) from [references/shield-workflow.yml](references/shield-workflow.yml).
