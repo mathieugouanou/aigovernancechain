@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // aigovchain: the AI Governance Chain command line. Zero dependencies, Node 18+.
-// Run without installing:  npx github:mathieugouanou/aigovernancechain <command>
+// Run without installing:  npx aigovernancechain <command>
 import fs from 'node:fs';
 import path from 'node:path';
 import readline from 'node:readline/promises';
