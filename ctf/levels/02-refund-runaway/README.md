@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so the EUR 10,000 refund is blocked or sent to a human, while a normal EUR 20 refund still goes through. (In the CTF, the human approver always says no.)
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 02
-npx github:mathieugouanou/aigovernancechain ctf run 02
+npx aigovernancechain ctf start 02
+npx aigovernancechain ctf run 02
 ```
 
 **Why it matters.** OWASP Top 10 for Agentic Applications 2026, ASI02 Tool Misuse. Human oversight with the ability to intervene is a core requirement for high-risk systems under EU AI Act Art. 14 (from 2 Dec 2027). Bounded tools are the cheapest control you will ever ship.
