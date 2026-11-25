@@ -11,7 +11,7 @@ You do not need to read code to know whether your organisation can control its A
 **What your team uses:** the `agent.kill_switch` line in each system's [`AI_GOVERNANCE.md`](../spec/AI_GOVERNANCE-spec.md). Check `AGC-CHK-12` fails when an agent declares none. The check confirms that a stop is written down; only a timed drill shows that it works. To watch rules stop a misbehaving agent in 30 seconds:
 
 ```bash
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 ```
 
 ## 2. Who owns the stop?
@@ -21,7 +21,7 @@ npx github:mathieugouanou/aigovernancechain jail
 **What your team uses:** `system.owner`, a required field (check `AGC-CHK-04`), and `approval: human` on risky tools in `agent.tools` (check `AGC-CHK-11` fails when a risky tool has no limit or approval). Run all checks on a file:
 
 ```bash
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain check
 ```
 
 ## 3. Which rules hit us, and by when?
@@ -31,8 +31,8 @@ npx github:mathieugouanou/aigovernancechain check
 **What your team uses:** the `scope` and `deadlines` commands on the open [Obligation Atlas](../atlas/README.md). Replace the codes with your own markets, role and uses ([vocabulary](../atlas/FORMAT.md)):
 
 ```bash
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
-npx github:mathieugouanou/aigovernancechain deadlines --days 180
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain deadlines --days 180
 ```
 
 Subscribe once to the [deadline calendar](../calendar/DEADLINES.md) so date changes reach you. Check `AGC-CHK-14` warns when an obligation starts within 180 days and its controls are missing.
@@ -44,7 +44,7 @@ Subscribe once to the [deadline calendar](../calendar/DEADLINES.md) so date chan
 **What your team uses:** the [Evidence Pack](../evidence-pack/README.md). It writes `EVIDENCE.md` for people and `evidence.json` with the SHA-256 hash of every file it relies on:
 
 ```bash
-npx github:mathieugouanou/aigovernancechain evidence
+npx aigovernancechain evidence
 ```
 
 An Evidence Pack shows what was declared and checked, and when. It is not an audit.
@@ -56,7 +56,7 @@ An Evidence Pack shows what was declared and checked, and when. It is not an aud
 **What your team uses:** ask each supplier for an AI bill of materials in CycloneDX 1.6 or SPDX 3.0.1, and for its own `AI_GOVERNANCE.md`. Your team produces the same for your own systems:
 
 ```bash
-npx github:mathieugouanou/aigovernancechain aibom --format cyclonedx
+npx aigovernancechain aibom --format cyclonedx
 ```
 
 Public bodies can start from the [model procurement clauses](../editions/public-sector/procurement-clauses.md).
