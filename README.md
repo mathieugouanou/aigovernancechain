@@ -2,12 +2,12 @@
 
 **Can you stop your AI agent, and prove it? Open data and tools that turn the world's AI laws into checks your code, your agents and your CI can run.**
 
-[![Licence: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue)](LICENSE) [![Data: CC BY 4.0](https://img.shields.io/badge/data%20%26%20docs-CC%20BY%204.0-lightgrey)](LICENSE-DOCS) [![Spec: ai-governance/v0.1](https://img.shields.io/badge/spec-ai--governance%2Fv0.1-6f42c1)](spec/AI_GOVERNANCE-spec.md) [![Atlas as of 4 Nov 2026](https://img.shields.io/badge/atlas-as%20of%204%20Nov%202026-green)](cards/README.md) [![Status: alpha](https://img.shields.io/badge/status-alpha%2C%20draft%20data-orange)](#status-and-trust)
+[![Licence: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue)](LICENSE) [![Data: CC BY 4.0](https://img.shields.io/badge/data%20%26%20docs-CC%20BY%204.0-lightgrey)](LICENSE-DOCS) [![Spec: ai-governance/v0.1](https://img.shields.io/badge/spec-ai--governance%2Fv0.1-6f42c1)](spec/AI_GOVERNANCE-spec.md) [![Atlas as of 4 Nov 2026](https://img.shields.io/badge/atlas-as%20of%204%20Nov%202026-green)](cards/README.md) [![npm](https://img.shields.io/npm/v/aigovernancechain)](https://www.npmjs.com/package/aigovernancechain) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/mathieugouanou/aigovernancechain/badge)](https://scorecard.dev/viewer/?uri=github.com/mathieugouanou/aigovernancechain) [![Status: alpha](https://img.shields.io/badge/status-alpha%2C%20draft%20data-orange)](#status-and-trust)
 
 **Run it now.** Needs Node 18 or newer. Nothing to install, no account, no API key.
 
 ```bash
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 ```
 
 In 30 seconds you watch the rules in an `AI_GOVERNANCE.md` file stop a misbehaving agent:
@@ -34,11 +34,11 @@ applies   must do          built        checks     can prove     the system
 
 ```bash
 # Which AI rules apply to a chatbot agent you run in the EU and California?
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
 
 # Write an AI_GOVERNANCE.md for your repo, then check it
-npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain init
+npx aigovernancechain check
 ```
 
 ## What is in the repository
@@ -49,7 +49,7 @@ npx github:mathieugouanou/aigovernancechain check
 | **Regime cards** | One page per regime: who it hits, dates, every obligation with its source | [cards/](cards/README.md) |
 | **Deadline calendar** | 300 dated events. Subscribe once, get updates when dates move | [DEADLINES.md](calendar/DEADLINES.md) · `https://aigovernancechain.com/deadlines.ics` |
 | **AI_GOVERNANCE.md standard** | One file that tells people, agents and CI how an AI system is governed. Draft spec, JSON schema, generator | [spec/](spec/AI_GOVERNANCE-spec.md) |
-| **`aigovchain` CLI** | `scope`, `deadlines`, `init`, `check`, `badge`, `evidence`, `atlas`, `ctf`, `jail`, `bench`, `mcp`, `policy`, `aibom` | `npx github:mathieugouanou/aigovernancechain help` |
+| **`aigovchain` CLI** | `scope`, `deadlines`, `init`, `check`, `badge`, `evidence`, `atlas`, `ctf`, `jail`, `bench`, `mcp`, `policy`, `aibom` | `npx aigovernancechain help` |
 | **Shield GitHub Action** | 17 checks on every PR from `@v0.3.0`, including a drift check of the agent config in the repository (check 17; `@v0.2.0` runs 16), job summary, SARIF in code scanning, Evidence Pack artifact | [action/](action/README.md) |
 | **MCP server** | Lets any MCP-capable agent query the Atlas and check files | [below](#mcp-server) |
 | **Agent Skills** | `ai-law-check`, `ai-governance-md`, `agent-oversight` in the open Agent Skills format | [skills/](skills/README.md) |
@@ -100,7 +100,7 @@ jobs:
 ```json
 {
   "mcpServers": {
-    "aigovernancechain": { "command": "npx", "args": ["-y", "github:mathieugouanou/aigovernancechain", "mcp"] }
+    "aigovernancechain": { "command": "npx", "args": ["-y", "aigovernancechain", "mcp"] }
   }
 }
 ```
@@ -110,7 +110,7 @@ Tools: `scope_check`, `upcoming_deadlines`, `atlas_search`, `atlas_get_obligatio
 ### Agent rails
 
 ```js
-import { createRails } from 'aigovernancechain/rails';   // npm install github:mathieugouanou/aigovernancechain
+import { createRails } from 'aigovernancechain/rails';   // npm install aigovernancechain
 const rails = createRails({ file: 'AI_GOVERNANCE.md', approver: askHuman });
 const refund = rails.guard('issue_refund', issueRefund, { amount: a => a.amount });
 ```

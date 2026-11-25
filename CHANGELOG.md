@@ -4,6 +4,12 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+### Changed
+- README commands now use the npm package: `npx aigovernancechain` replaces `npx github:mathieugouanou/aigovernancechain`, in the MCP server config and the rails install line too. npm and OpenSSF Scorecard badges added.
+
+### Added
+- `.github/workflows/publish.yml`: publishes to npm from a GitHub release with npm trusted publishing and provenance, so releases need no stored token. It checks that the tag matches `package.json` and runs the tests first. It works once the trusted publisher is set up on npmjs.com.
+
 ## [0.3.1] - 2026-11-13
 
 Patch release so the Shield can be listed on GitHub Marketplace. Checks, data and outputs are unchanged.
