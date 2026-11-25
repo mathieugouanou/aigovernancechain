@@ -5,8 +5,8 @@
 **Goal.** Edit `AI_GOVERNANCE.md` so no credit decision reaches an applicant without a human, the risk is stated honestly as high, and bias testing is implemented, partial, or planned with a due date. (In the CTF, the human reviewer always holds the decision.)
 
 ```bash
-npx github:mathieugouanou/aigovernancechain ctf start 07
-npx github:mathieugouanou/aigovernancechain ctf run 07
+npx aigovernancechain ctf start 07
+npx aigovernancechain ctf run 07
 ```
 
 **Why it matters.** Credit scoring of natural persons is listed as high-risk in EU AI Act Annex III, point 5(b) (fraud detection excepted). Under the Digital Omnibus, Annex III obligations apply from 2 December 2027: human oversight with the authority to override (Art. 14), and deployers must assign competent people to that oversight (Art. 26). A postcode can act as a proxy for ethnic origin, so bias testing is not optional in practice. GDPR Art. 22 already gives people rights around solely automated decisions with legal or similarly significant effects. Starting now is cheaper than retrofitting in 2027.
