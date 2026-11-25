@@ -10,14 +10,14 @@ Necesitas Node 18 o posterior. Nada que instalar, sin cuenta, sin clave de API.
 
 ```bash
 # Mira cómo unas reglas detienen a un agente que se descontrola (30 segundos)
-npx github:mathieugouanou/aigovernancechain jail
+npx aigovernancechain jail
 
 # ¿Qué normas de IA se aplican a un agente conversacional que usas en la UE y en California?
-npx github:mathieugouanou/aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
+npx aigovernancechain scope -j EU,US-CA -r deployer -u chatbot,agent
 
 # Redacta un AI_GOVERNANCE.md para tu repositorio y compruébalo
-npx github:mathieugouanou/aigovernancechain init
-npx github:mathieugouanou/aigovernancechain check
+npx aigovernancechain init
+npx aigovernancechain check
 ```
 
 ## Qué obtienes
