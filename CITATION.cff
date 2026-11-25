@@ -7,7 +7,7 @@ authors:
   - family-names: Gouanou
     given-names: Mathieu K.
   - name: "AI Governance Chain contributors"
-version: "0.3.2"
+version: "0.3.3"
 date-released: "2026-11-25"
 license: Apache-2.0
 repository-code: "https://github.com/mathieugouanou/aigovernancechain"

@@ -5,7 +5,7 @@ system:
   description: "Open dataset and deterministic tools for AI governance. The tools contain no AI model. The content was drafted with AI assistance, and an AI agent helps the project lead maintain the repository."
   owner: "Mathieu K. Gouanou (@mathieugouanou), interim project lead"
   repository: "https://github.com/mathieugouanou/aigovernancechain"
-  version: "0.3.2"
+  version: "0.3.3"
 roles: [provider]
 jurisdictions: [CH, EU]
 uses: [any-ai, agent]
@@ -58,8 +58,8 @@ contacts:
   governance: "https://github.com/mathieugouanou/aigovernancechain/issues"
   security: "https://github.com/mathieugouanou/aigovernancechain/security/advisories/new"
 review:
-  last_reviewed: "2026-11-04"
-  next_review: "2026-11-20"
+  last_reviewed: "2026-11-25"
+  next_review: "2027-02-25"
   reviewed_by: ["Mathieu K. Gouanou"]
 disclaimer: Self-declared. Not a conformity assessment or legal advice.
 ---

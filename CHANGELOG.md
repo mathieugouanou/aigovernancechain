@@ -4,6 +4,14 @@ All notable changes. Atlas changes list the obligation ids affected. Dates are i
 
 ## [Unreleased]
 
+## [0.3.3] - 2026-11-25
+
+Patch release. Checks, data and outputs are unchanged.
+
+### Changed
+- The CTF level pages, the German, Spanish, French, Italian and Portuguese quickstarts and the watch pages now use `npx aigovernancechain` instead of the `github:` form.
+- Review date of this repository's own `AI_GOVERNANCE.md` refreshed (last reviewed 2026-11-25, next review 2027-02-25), so the repository's own check no longer warns.
+
 ## [0.3.2] - 2026-11-25
 
 ### Changed
