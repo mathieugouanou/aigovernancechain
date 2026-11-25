@@ -97,7 +97,7 @@ for (const r of atlas.regimes) {
     L.push('', '## Start here', '', 'The controls this regime asks for most often. Declare them in your `AI_GOVERNANCE.md`:', '');
     for (const [c, n] of top) L.push(`- \`${c}\`: ${CONTROLS[c]} (${n} obligation${n > 1 ? 's' : ''})`);
   }
-  L.push('', '## Check your system', '', '```bash', `npx github:mathieugouanou/aigovernancechain scope -j ${r.jurisdiction} -r deployer -u chatbot`, `npx github:mathieugouanou/aigovernancechain deadlines -j ${r.jurisdiction} --days 365`, '```', '');
+  L.push('', '## Check your system', '', '```bash', `npx aigovernancechain scope -j ${r.jurisdiction} -r deployer -u chatbot`, `npx aigovernancechain deadlines -j ${r.jurisdiction} --days 365`, '```', '');
   if (r.sources?.length) { L.push('## Sources', ''); for (const s of r.sources) L.push(`- [${cell(s.title)}](${s.url})`); L.push(''); }
   L.push('---', '', `Generated from [\`atlas/regimes/${r.id}.yaml\`](../atlas/regimes/${r.id}.yaml). Edit the YAML, not this card. Draft open data under CC BY 4.0, not legal advice. [Report an error](https://github.com/mathieugouanou/aigovernancechain/issues/new?template=obligation-correction.yml).`);
   put(`cards/${r.id}.md`, L.join('\n'));
