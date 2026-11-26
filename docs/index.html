@@ -88,9 +88,9 @@ footer p{margin:6px 0;max-width:80ch}
       <div class="link" id="L1"><span class="n" id="n1">0</span><span class="k">LAW</span><span class="d">regimes that apply</span></div>
       <div class="link" id="L2"><span class="n" id="n2">0</span><span class="k">OBLIGATION</span><span class="d">duties in scope</span></div>
       <div class="link" id="L3"><span class="n" id="n3">0</span><span class="k">CONTROL</span><span class="d">controls to declare</span></div>
-      <div class="link" id="L4"><span class="n">16</span><span class="k">GATE</span><span class="d">checks in CI</span></div>
+      <div class="link" id="L4"><span class="n">17</span><span class="k">GATE</span><span class="d">checks in CI</span></div>
       <div class="link" id="L5"><span class="n">#</span><span class="k">EVIDENCE</span><span class="d">hashed pack</span></div>
-      <div class="link" id="L6"><span class="n" id="n6">–</span><span class="k">OVERSIGHT</span><span class="d" id="d6">next date</span></div>
+      <div class="link" id="L6"><span class="n" id="n6">-</span><span class="k">OVERSIGHT</span><span class="d" id="d6">next date</span></div>
     </div>
 
     <div class="cmd"><pre id="cmd">npx aigovernancechain scope</pre><button class="copy" data-copy="cmd">Copy</button></div>
@@ -174,7 +174,7 @@ function render() {
   document.getElementById('n1').textContent = regimes.size;
   document.getElementById('n2').textContent = obs.length;
   document.getElementById('n3').textContent = controls.size;
-  document.getElementById('n6').textContent = next ? new Date(next.applies_from + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }) : '–';
+  document.getElementById('n6').textContent = next ? new Date(next.applies_from + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' }) : '-';
   document.getElementById('d6').textContent = next ? `next date, ${next.applies_from.slice(0, 4)}` : 'no new date';
   ['L1', 'L2', 'L3'].forEach((id, i) => document.getElementById(id).classList.toggle('on', [regimes.size, obs.length, controls.size][i] > 0));
   ['L4', 'L5', 'L6'].forEach(id => document.getElementById(id).classList.toggle('on', obs.length > 0));
