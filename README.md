@@ -56,7 +56,7 @@ npx aigovernancechain check
 | **Agent rails** | Zero-dependency runtime guard for agents in JavaScript and Python: default deny, limits, human approval, spend limit, kill switch, prompt-injection boundaries, least-privilege identities, read-only SQL, circuit breaker, memory write sources, decision log. JavaScript also screens manipulative messages and marks generated content | [rails/](rails/rails.mjs) · [sdk/python](sdk/python/README.md) |
 | **Policy packs (OPA and Cedar)** | Compile the agent rules to Open Policy Agent Rego or Cedar. CI checks that rails, OPA and Cedar decide the same on 600 requests | `aigovchain policy --target rego` · [spec section 3.1](spec/AI_GOVERNANCE-spec.md#31-compiled-policies-opa-and-cedar) |
 | **AI-BOM generator** | Inventory of declared models, datasets and dependencies as CycloneDX 1.6 or SPDX 3.0.1 (AI and Dataset profiles) | `aigovchain aibom --format cyclonedx` · [spec section 3.2](spec/AI_GOVERNANCE-spec.md#32-ai-bill-of-materials-ai-bom) |
-| **Fact-based badges** | `AI_GOVERNANCE.md 16/16 checks`. States checked facts, never "certified" | [spec section 6](spec/AI_GOVERNANCE-spec.md#6-badges) |
+| **Fact-based badges** | `AI_GOVERNANCE.md 16/16 checks`. States checked facts, never a certification | [spec section 6](spec/AI_GOVERNANCE-spec.md#6-badges) |
 | **Evidence Pack** | Dated, hashed bundle of what was declared and checked, ready to attest | `aigovchain evidence` |
 | **Crosswalks** | 32 controls mapped to the EU AI Act, NIST AI RMF, ISO/IEC 42001 Annex A and the OWASP Agentic Top 10 | [crosswalks/](crosswalks/README.md) |
 | **GovBench** | 549 questions testing whether AI models know when AI rules apply and where they are written | [govbench/](govbench/README.md) |
